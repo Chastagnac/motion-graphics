@@ -1,0 +1,110 @@
+{
+  "id": "F14-telepathie",
+  "titre": "Télépathie",
+  "serie": "vecu",
+  "fond": "#FFB3A7",
+  "T": 9.2,
+  "version": 1791280939872,
+  "video": null,
+  "planche": "F14-telepathie-planche.png",
+  "carrousel": [
+    {
+      "image": "carrousel/F14-telepathie-1.png",
+      "cases": [
+        1,
+        2
+      ]
+    },
+    {
+      "image": "carrousel/F14-telepathie-2.png",
+      "cases": [
+        3,
+        4
+      ]
+    }
+  ],
+  "legende": "Identifiez votre binôme qui lit dans vos pensées.",
+  "source": "../../series/cote-fauteuil/F14-telepathie.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 2.6,
+      "texte": "Tu me passes la…",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 2.6,
+      "duree": 1.8,
+      "texte": "Tiens.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 4.4,
+      "duree": 2.7,
+      "texte": "Et le miroir, il est où ?",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.1,
+      "duree": 2.1,
+      "texte": "Dans ta main.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "F11-l-avis",
+  "serie": "IRRITANT",
+  "titre": "L'avis",
+  "decor": "accueil",
+  "slides": [
+    {
+      "texte": "On a un nouvel avis en ligne.",
+      "voix": "incisive",
+      "duree": 3,
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propD": "telephone"
+        },
+        {
+          "dent": "docteure",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Celui à qui j'ai sauvé la dent ?",
+      "voix": "docteure",
+      "duree": 2.8,
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propD": "telephone"
+        },
+        {
+          "dent": "docteure",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "propD": null,
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Oui. Une étoile.",
+      "voix": "incisive",
+      "duree": 2.2,
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "propD": "telephone"
+        },
+        {
+          "dent": "docteure",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "propD": null,
+          "expression": "choque",
+          "depart": {
+            "expression": "content"
+          },
+          "animations": [
+            "expression:choque à 0.9s"
+          ]
+        }
+      ]
+    },
+    {
+      "texte": "Dix minutes d'attente.",
+      "voix": "incisive",
+      "duree": 2.4,
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "juge",
+          "propD": "telephone"
+        },
+        {
+          "dent": "docteure",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "blase",
+          "animations": [
+            "clignement à 1.7s"
+          ]
+        }
+      ]
+    }
+  ],
+  "legende": "L'avis le plus injuste que vous ayez reçu ?"
+}

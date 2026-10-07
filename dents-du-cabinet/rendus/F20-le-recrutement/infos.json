@@ -1,0 +1,110 @@
+{
+  "id": "F20-le-recrutement",
+  "titre": "Le recrutement",
+  "serie": "irritant",
+  "fond": "#B9C8FF",
+  "T": 9.1,
+  "version": 1791280951377,
+  "video": null,
+  "planche": "F20-le-recrutement-planche.png",
+  "carrousel": [
+    {
+      "image": "carrousel/F20-le-recrutement-1.png",
+      "cases": [
+        1,
+        2
+      ]
+    },
+    {
+      "image": "carrousel/F20-le-recrutement-2.png",
+      "cases": [
+        3,
+        4
+      ]
+    }
+  ],
+  "legende": "Depuis combien de temps votre annonce est en ligne ?",
+  "source": "../../series/cote-fauteuil/F20-le-recrutement.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 2.6,
+      "texte": "Des réponses à l'annonce ?",
+      "voix": "docteur",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 2.6,
+      "duree": 1.9,
+      "texte": "Une candidate.",
+      "voix": "molaire",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 4.5,
+      "duree": 2.1,
+      "texte": "Elle commence quand ?",
+      "voix": "docteur",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 6.6,
+      "duree": 2.5,
+      "texte": "Elle a vu le planning.",
+      "voix": "molaire",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "F16-la-panne",
+  "serie": "IRRITANT",
+  "titre": "La panne",
+  "decor": "cabinet",
+  "carrousel": [
+    1,
+    3
+  ],
+  "slides": [
+    {
+      "texte": "Lundi matin. Agenda complet.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "assistante",
+          "brasG": "bas",
+          "brasD": "tient",
+          "propD": "aspiration",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "L'aspiration ne marche plus.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "choque"
+        },
+        {
+          "dent": "assistante",
+          "brasG": "bas",
+          "brasD": "tient",
+          "propD": "aspiration",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Depuis quand ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste"
+        },
+        {
+          "dent": "assistante",
+          "brasG": "bas",
+          "brasD": "tient",
+          "propD": "aspiration",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Depuis que l'agenda est complet.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "assistante",
+          "brasG": "bas",
+          "brasD": "tient",
+          "propD": "aspiration",
+          "expression": "blase"
+        }
+      ]
+    }
+  ],
+  "legende": "Quelle panne tombe toujours le mauvais jour ?"
+}

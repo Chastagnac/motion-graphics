@@ -1,0 +1,94 @@
+{
+  "id": "F22-les-vacances",
+  "serie": "VECU",
+  "titre": "Les vacances",
+  "decor": "cabinet",
+  "carrousel": [
+    1,
+    2,
+    1
+  ],
+  "slides": [
+    {
+      "texte": "Je pose une semaine en août.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "content"
+        },
+        {
+          "dent": "docteure",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Toute une semaine ?",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "content"
+        },
+        {
+          "dent": "docteure",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "choque"
+        }
+      ]
+    },
+    {
+      "texte": "Tu sauras trouver le matériel.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "malin"
+        },
+        {
+          "dent": "docteure",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "panique"
+        }
+      ]
+    },
+    {
+      "texte": "Il est rangé où, le matériel ?",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "docteure",
+          "brasG": "haussement",
+          "brasD": "haussement",
+          "propD": null,
+          "expression": "triste"
+        }
+      ]
+    }
+  ],
+  "legende": "Docteurs, vous tenez combien de jours sans votre assistante ?"
+}

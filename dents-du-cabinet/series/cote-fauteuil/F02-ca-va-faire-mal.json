@@ -1,0 +1,86 @@
+{
+  "id": "F02-ca-va-faire-mal",
+  "serie": "VECU",
+  "titre": "Ça va faire mal ?",
+  "decor": "cabinet",
+  "carrousel": [
+    2,
+    2
+  ],
+  "slides": [
+    {
+      "texte": "Ça va faire mal ?",
+      "voix": "lait",
+      "duree": 2.6,
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "lait"
+        }
+      ]
+    },
+    {
+      "texte": "C'est juste un contrôle.",
+      "voix": "docteur",
+      "duree": 2.4,
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas"
+        }
+      ]
+    },
+    {
+      "texte": "AÏE !",
+      "voix": "lait",
+      "duree": 1.8,
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "depart": {
+            "expression": "content"
+          },
+          "animations": [
+            "expression:regard_camera à 0.35s"
+          ]
+        },
+        {
+          "dent": "lait",
+          "expression": "choque"
+        }
+      ]
+    },
+    {
+      "texte": "Je n'ai pas encore commencé.",
+      "voix": "docteur",
+      "duree": 2.8,
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase"
+        },
+        {
+          "dent": "lait",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "expression": "regard_camera",
+          "animations": [
+            "clignement à 1.8s"
+          ]
+        }
+      ]
+    }
+  ],
+  "legende": "Qui a déjà fait mal sans même toucher ?"
+}

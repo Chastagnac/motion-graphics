@@ -1,0 +1,124 @@
+{
+  "id": "F08-la-pause-dejeuner",
+  "titre": "La pause déjeuner",
+  "serie": "vecu",
+  "fond": "#FFB3A7",
+  "T": 10.4,
+  "version": 1791280926660,
+  "video": null,
+  "planche": "F08-la-pause-dejeuner-planche.png",
+  "carrousel": [
+    {
+      "image": "carrousel/F08-la-pause-dejeuner-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/F08-la-pause-dejeuner-2.png",
+      "cases": [
+        2
+      ]
+    },
+    {
+      "image": "carrousel/F08-la-pause-dejeuner-3.png",
+      "cases": [
+        3
+      ]
+    },
+    {
+      "image": "carrousel/F08-la-pause-dejeuner-4.png",
+      "cases": [
+        4
+      ]
+    }
+  ],
+  "legende": "Votre déjeuner d'aujourd'hui, c'était quoi ?",
+  "source": "../../series/cote-fauteuil/F08-la-pause-dejeuner.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 3,
+      "texte": "Docteur, il est 13h. On mange ?",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 3,
+      "duree": 2.6,
+      "texte": "J'ai vingt minutes de retard.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.6,
+      "duree": 1.8,
+      "texte": "Donc ?",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.4,
+      "duree": 3,
+      "texte": "Donc voilà mon déjeuner.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "regard_camera",
+          "animations": [
+            "clignement à 2.2s"
+          ]
+        },
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "animations": [
+            "brasD:salut à 0.6s"
+          ]
+        }
+      ]
+    }
+  ]
+}

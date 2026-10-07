@@ -1,0 +1,90 @@
+{
+  "id": "F15-les-papiers",
+  "serie": "IRRITANT",
+  "titre": "Les papiers",
+  "decor": "accueil",
+  "carrousel": [
+    1,
+    2,
+    1
+  ],
+  "slides": [
+    {
+      "texte": "Dernier patient. Bonne soirée !",
+      "voix": "docteur",
+      "places": 2,
+      "personnages": [
+        {
+          "dent": "docteur",
+          "place": 1,
+          "expression": "content",
+          "brasG": "salut",
+          "brasD": "bas",
+          "propD": null,
+          "masque": null
+        }
+      ]
+    },
+    {
+      "texte": "Il reste les papiers.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propD": null,
+          "masque": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "brasD": "tient",
+          "propD": "bloc"
+        }
+      ]
+    },
+    {
+      "texte": "Il y en a beaucoup ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propD": null,
+          "masque": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "brasD": "tient",
+          "propD": "bloc"
+        }
+      ]
+    },
+    {
+      "texte": "Tu as mangé ?",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "panique",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propD": null,
+          "masque": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "brasD": "tient",
+          "propD": "bloc"
+        }
+      ]
+    }
+  ],
+  "legende": "À quelle heure vous quittez vraiment le cabinet ?"
+}

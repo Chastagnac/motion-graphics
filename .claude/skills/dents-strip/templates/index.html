@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tous les strips</title>
+<style>
+:root{--encre:#141413;--papier:#F6F4EF;--gris:#6B6860}
+*{box-sizing:border-box}
+body{margin:0;background:var(--papier);color:var(--encre);font:16px/1.45 system-ui,-apple-system,'Segoe UI',sans-serif}
+header{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 20px;padding:14px 24px;background:#fff;border-bottom:3px solid var(--encre)}
+h1{margin:0;font-size:22px;font-weight:900;letter-spacing:-.02em}
+.meta{font-size:14px;color:var(--gris)}
+.etat{margin-left:auto;font-size:14px;font-weight:700}
+main{max-width:1600px;margin:0 auto;padding:24px}
+.grille{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px;align-items:start}
+.carte{background:#fff;border:3px solid var(--encre);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+video{display:block;width:100%;aspect-ratio:9/16;cursor:pointer}
+.carte>a img{display:block;width:100%;height:auto}
+.corps{padding:12px 14px 14px;display:flex;flex-direction:column;gap:8px;flex:1}
+h2{margin:0;font-size:17px;font-weight:800;line-height:1.25}
+.num{font-size:13px;font-weight:700;color:var(--gris)}
+label{font-size:13px;font-weight:700}
+textarea{width:100%;min-height:84px;resize:vertical;padding:10px;border:2px solid var(--encre);border-radius:8px;font:inherit;background:var(--papier)}
+textarea:focus{outline:3px solid #B9C8FF;background:#fff}
+a{color:inherit;font-weight:700;font-size:14px}
+.detail{margin-top:auto;display:flex;flex-wrap:wrap;gap:6px 16px}
+@media (max-width:600px){main{padding:16px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Les Dents du Cabinet</h1>
+  <span class="meta" id="meta"></span>
+  <span class="etat" id="etat" role="status"></span>
+</header>
+<main><section class="grille" id="grille"></section></main>
+<script>
+const S = __DONNEES__;
+const $ = (id) => document.getElementById(id);
+$('meta').textContent = `${S.length} strips · clique sur une planche pour l'ouvrir en grand`;
+const etat = (t) => { $('etat').textContent = t; };
+const api = (id) => '/api/commentaires/' + encodeURIComponent(id);
+const lire = async (id) => { try { const r = await fetch(api(id)); return r.ok ? await r.json() : null; } catch (e) { return null; } };
+
+S.forEach((s) => {
+  const carte = document.createElement('article'); carte.className = 'carte';
+  const url = (f) => `/${s.id}/${f}?v=${s.version}`;
+  let v;
+  if (s.planche) {
+    v = document.createElement('a'); v.href = url(s.planche); v.target = '_blank';
+    const im = document.createElement('img'); im.src = url(s.planche); im.alt = 'Planche ' + s.titre; im.loading = 'lazy'; v.appendChild(im);
+  } else {
+    v = document.createElement('video');
+    Object.assign(v, { muted: true, loop: true, playsInline: true, preload: 'none', src: url(s.video), poster: url('apercus/case1.png') });
+    v.style.background = s.fond;
+    v.addEventListener('click', () => (v.paused ? v.play() : v.pause()));
+  }
+  const corps = document.createElement('div'); corps.className = 'corps';
+  const num = document.createElement('div'); num.className = 'num'; num.textContent = `${s.id} · série ${s.serie} · ${s.T} s`;
+  const h2 = document.createElement('h2'); h2.textContent = s.titre;
+  const lab = document.createElement('label'); lab.textContent = 'Commentaire'; lab.htmlFor = 'g-' + s.id;
+  const ta = document.createElement('textarea'); ta.id = 'g-' + s.id; ta.placeholder = 'Ton avis sur ce strip';
+  const lien = document.createElement('div'); lien.className = 'detail';
+  [[`/${s.id}/viewer.html`, 'Commenter case par case'], [s.planche && s.video ? url(s.video) : null, 'Vidéo']].forEach(([h, t]) => {
+    if (!h) return;
+    const a = document.createElement('a'); a.href = h; a.textContent = t; if (t === 'Vidéo') a.target = '_blank'; lien.appendChild(a);
+  });
+  corps.append(num, h2, lab, ta, lien); carte.append(v, corps); $('grille').appendChild(carte);
+  lire(s.id).then((d) => { if (d && d.general) ta.value = d.general; });
+
+  // le commentaire d'ici va dans le champ « general » du strip, sans toucher aux commentaires par case
+  let minuteur = null;
+  ta.addEventListener('input', () => {
+    etat('…'); clearTimeout(minuteur);
+    minuteur = setTimeout(async () => {
+      const d = (await lire(s.id)) || { id: s.id, source: s.source, cases: s.cases.map((c) => ({ case: c.index, texte: c.texte, commentaire: '' })) };
+      Object.assign(d, { general: ta.value.trim(), maj: new Date().toISOString() });
+      try {
+        const r = await fetch(api(s.id), { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(d, null, 2) });
+        etat(r.ok ? 'Enregistré à ' + new Date().toLocaleTimeString('fr-FR') : 'Échec de l’enregistrement');
+      } catch (e) { etat('Serveur injoignable'); }
+    }, 500);
+  });
+});
+</script>
+</body>
+</html>

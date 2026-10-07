@@ -1,0 +1,115 @@
+{
+  "id": "F18-l-autocollant",
+  "titre": "L'autocollant",
+  "serie": "vecu",
+  "fond": "#FFB3A7",
+  "T": 8.5,
+  "version": 1791280947688,
+  "video": null,
+  "planche": "F18-l-autocollant-planche.png",
+  "carrousel": [
+    {
+      "image": "carrousel/F18-l-autocollant-1.png",
+      "cases": [
+        1,
+        2
+      ]
+    },
+    {
+      "image": "carrousel/F18-l-autocollant-2.png",
+      "cases": [
+        3
+      ]
+    },
+    {
+      "image": "carrousel/F18-l-autocollant-3.png",
+      "cases": [
+        4
+      ]
+    }
+  ],
+  "legende": "Votre meilleure négociation avec un patient de six ans ?",
+  "source": "../../series/cote-fauteuil/F18-l-autocollant.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 2.6,
+      "texte": "Tu ouvres la bouche ?",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "fache",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 2.6,
+      "duree": 1.8,
+      "texte": "Non.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "fache",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 4.4,
+      "duree": 2.3,
+      "texte": "Tu auras un autocollant.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "malin",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 6.7,
+      "duree": 1.8,
+      "texte": "Deux.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "F24-le-rappel",
+  "titre": "Le rappel",
+  "serie": "irritant",
+  "fond": "#B9C8FF",
+  "T": 10.3,
+  "version": 1791280959686,
+  "video": null,
+  "planche": "F24-le-rappel-planche.png",
+  "carrousel": [
+    {
+      "image": "carrousel/F24-le-rappel-1.png",
+      "cases": [
+        1,
+        2
+      ]
+    },
+    {
+      "image": "carrousel/F24-le-rappel-2.png",
+      "cases": [
+        3,
+        4
+      ]
+    }
+  ],
+  "legende": "Le plus long « j’ai pas eu le temps » de votre fichier ?",
+  "source": "../../series/cote-fauteuil/F24-le-rappel.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 3.2,
+      "texte": "Votre dernier contrôle date de sept ans.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 3.2,
+      "duree": 2.5,
+      "texte": "J'ai pas eu le temps.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.7,
+      "duree": 2.1,
+      "texte": "En sept ans ?",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.8,
+      "duree": 2.5,
+      "texte": "J'ai eu une semaine chargée.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

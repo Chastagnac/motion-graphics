@@ -1,0 +1,104 @@
+{
+  "id": "F01-vendredi-18h55",
+  "serie": "IRRITANT",
+  "titre": "Vendredi 18h55",
+  "decor": "accueil",
+  "carrousel": [
+    1,
+    2,
+    1
+  ],
+  "slides": [
+    {
+      "texte": "Vendredi, 18h55.",
+      "duree": 2.2,
+      "places": 2,
+      "personnages": [
+        {
+          "dent": "docteure",
+          "brasG": "salut",
+          "brasD": "bas",
+          "propD": null,
+          "place": 1,
+          "expression": "content",
+          "animations": [
+            "brasG:leve à 0.9s pendant 0.3s"
+          ]
+        }
+      ]
+    },
+    {
+      "texte": "J'ai mal depuis trois semaines.",
+      "voix": "lait",
+      "duree": 2.8,
+      "personnages": [
+        {
+          "dent": "docteure",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "regard_camera",
+          "depart": {
+            "expression": "content"
+          },
+          "animations": [
+            "sursaut à 0.3s",
+            "expression:regard_camera à 0.3s"
+          ]
+        },
+        {
+          "dent": "lait"
+        }
+      ]
+    },
+    {
+      "texte": "Trois semaines ?",
+      "voix": "docteure",
+      "duree": 2,
+      "personnages": [
+        {
+          "dent": "docteure",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "juge"
+        },
+        {
+          "dent": "lait",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Je voulais pas déranger.",
+      "voix": "lait",
+      "duree": 2.8,
+      "personnages": [
+        {
+          "dent": "docteure",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "regard_camera",
+          "depart": {
+            "expression": "blase"
+          },
+          "animations": [
+            "expression:regard_camera à 1.5s"
+          ]
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "haussement",
+          "brasD": "haussement",
+          "jambes": "debout"
+        }
+      ]
+    }
+  ],
+  "legende": "Votre record d'urgence du vendredi soir ?"
+}

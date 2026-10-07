@@ -1,0 +1,115 @@
+{
+  "id": "F05-le-lapin",
+  "titre": "Le lapin",
+  "serie": "irritant",
+  "fond": "#B9C8FF",
+  "T": 10.2,
+  "version": 1791280918293,
+  "video": null,
+  "planche": "F05-le-lapin-planche.png",
+  "carrousel": [
+    {
+      "image": "carrousel/F05-le-lapin-1.png",
+      "cases": [
+        1,
+        2
+      ]
+    },
+    {
+      "image": "carrousel/F05-le-lapin-2.png",
+      "cases": [
+        3,
+        4
+      ]
+    }
+  ],
+  "legende": "Combien de lapins cette semaine ?",
+  "source": "../../series/cote-fauteuil/F05-le-lapin.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 3,
+      "texte": "Il est où, le patient de 14h ?",
+      "voix": "docteur",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": null,
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 3,
+      "duree": 2.2,
+      "texte": "Il a oublié.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": null,
+          "animations": [
+            "prop:cafe:gorgee à 1.2s"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.2,
+      "duree": 2.6,
+      "texte": "Mais il veut un autre rendez-vous.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.8,
+      "duree": 2.4,
+      "texte": "En urgence.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": [
+            "expression:regard_camera à 0.9s",
+            "clignement à 1.7s"
+          ]
+        },
+        {
+          "dent": "incisive",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "F03-le-fil-dentaire",
+  "serie": "IRRITANT",
+  "titre": "Le fil dentaire",
+  "decor": "cabinet",
+  "slides": [
+    {
+      "texte": "Vous passez le fil dentaire ?",
+      "voix": "docteur",
+      "duree": 2.8,
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Tous les jours.",
+      "voix": "lait",
+      "duree": 2,
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "jambes": "debout",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Depuis quand ?",
+      "voix": "docteur",
+      "duree": 2,
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "juge"
+        },
+        {
+          "dent": "lait",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "jambes": "debout",
+          "expression": "regard_camera",
+          "depart": {
+            "expression": "content"
+          },
+          "animations": [
+            "expression:regard_camera à 1.0s"
+          ]
+        }
+      ]
+    },
+    {
+      "texte": "Depuis ce matin.",
+      "voix": "lait",
+      "duree": 2.6,
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "animations": [
+            "clignement à 1.7s"
+          ]
+        },
+        {
+          "dent": "lait",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "expression": "panique"
+        }
+      ]
+    }
+  ],
+  "legende": "Qui a déjà entendu « tous les jours » ?"
+}

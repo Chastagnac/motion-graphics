@@ -1,0 +1,88 @@
+{
+  "id": "F08-la-pause-dejeuner",
+  "serie": "VECU",
+  "titre": "La pause déjeuner",
+  "decor": "cabinet",
+  "slides": [
+    {
+      "texte": "Docteur, il est 13h. On mange ?",
+      "voix": "canine",
+      "duree": 3,
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "content",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "J'ai vingt minutes de retard.",
+      "voix": "docteur",
+      "duree": 2.6,
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "neutre",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "triste"
+        }
+      ]
+    },
+    {
+      "texte": "Donc ?",
+      "voix": "canine",
+      "duree": 1.8,
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "juge",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "triste"
+        }
+      ]
+    },
+    {
+      "texte": "Donc voilà mon déjeuner.",
+      "voix": "docteur",
+      "duree": 3,
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "regard_camera",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "propD": null,
+          "animations": [
+            "clignement à 2.2s"
+          ]
+        },
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "propD": "cafe",
+          "animations": [
+            "brasD:salut à 0.6s"
+          ]
+        }
+      ]
+    }
+  ],
+  "legende": "Votre déjeuner d'aujourd'hui, c'était quoi ?"
+}

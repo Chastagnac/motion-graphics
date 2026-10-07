@@ -1,0 +1,112 @@
+{
+  "id": "S1-lundi",
+  "titre": "Lundi 8h01",
+  "serie": "strip",
+  "fond": "#A8E0D2",
+  "T": 10.4,
+  "version": 1791280962304,
+  "video": null,
+  "planche": "S1-lundi-planche.png",
+  "carrousel": [
+    {
+      "image": "carrousel/S1-lundi-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/S1-lundi-2.png",
+      "cases": [
+        2
+      ]
+    },
+    {
+      "image": "carrousel/S1-lundi-3.png",
+      "cases": [
+        3
+      ]
+    },
+    {
+      "image": "carrousel/S1-lundi-4.png",
+      "cases": [
+        4
+      ]
+    }
+  ],
+  "legende": "Combien d'appels avant 9h chez vous ?",
+  "source": "../../exemple-carrousel.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 2.4,
+      "texte": "L'incisive pose son café.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "animations": [
+            "prop:cafe:gorgee à 1.2s"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 2.4,
+      "duree": 2.4,
+      "texte": "Le téléphone sonne.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "animations": [
+            "sursaut à 0.5s",
+            "expression:regard_camera à 0.5s",
+            "clignement à 1.5s"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 4.8,
+      "duree": 3,
+      "texte": "Elle décroche. La deuxième ligne sonne.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "panique",
+          "animations": [
+            "prop:telephone:vibre à 1.4s pendant 1.2s",
+            "expression:panique à 1.5s"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.8,
+      "duree": 2.6,
+      "texte": "« Lundi, 8h01. »",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": [
+            "sourcil:leve à 1.1s",
+            "clignement à 1.9s"
+          ]
+        }
+      ]
+    }
+  ]
+}

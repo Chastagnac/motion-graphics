@@ -1,0 +1,103 @@
+{
+  "id": "F07-docteur-internet",
+  "serie": "IRRITANT",
+  "titre": "Docteur Internet",
+  "decor": "cabinet",
+  "slides": [
+    {
+      "texte": "J'ai regardé sur internet.",
+      "voix": "lait",
+      "duree": 2.8,
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "brasG": "bas",
+          "brasD": "leve",
+          "jambes": "debout",
+          "expression": "regard_camera",
+          "propD": "telephone",
+          "depart": {
+            "brasD": "tient"
+          },
+          "animations": [
+            "brasD:leve à 0.7s"
+          ]
+        }
+      ]
+    },
+    {
+      "texte": "Et internet dit quoi ?",
+      "voix": "docteur",
+      "duree": 2.4,
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "brasG": "hanche"
+        },
+        {
+          "dent": "lait",
+          "brasG": "bas",
+          "brasD": "tient",
+          "jambes": "debout",
+          "expression": "neutre",
+          "propD": "telephone"
+        }
+      ]
+    },
+    {
+      "texte": "Qu'il me reste trois jours.",
+      "voix": "lait",
+      "duree": 2.6,
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "brasG": "hanche",
+          "animations": [
+            "sourcil:leve à 1.2s"
+          ]
+        },
+        {
+          "dent": "lait",
+          "expression": "panique",
+          "brasG": "bas",
+          "brasD": "tient",
+          "propD": "telephone",
+          "animations": [
+            "prop:telephone:vibre à 0.4s pendant 1.8s"
+          ]
+        }
+      ]
+    },
+    {
+      "texte": "C'est un aphte.",
+      "voix": "docteur",
+      "duree": 2.4,
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "brasG": "hanche",
+          "brasD": "pointe"
+        },
+        {
+          "dent": "lait",
+          "brasG": "bas",
+          "brasD": "tient",
+          "jambes": "debout",
+          "expression": "regard_camera",
+          "propD": "telephone",
+          "animations": [
+            "clignement à 1.6s"
+          ]
+        }
+      ]
+    }
+  ],
+  "legende": "Le pire diagnostic qu'un patient vous ait apporté ?"
+}

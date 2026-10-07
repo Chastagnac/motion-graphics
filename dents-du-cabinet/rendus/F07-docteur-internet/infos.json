@@ -1,0 +1,128 @@
+{
+  "id": "F07-docteur-internet",
+  "titre": "Docteur Internet",
+  "serie": "irritant",
+  "fond": "#B9C8FF",
+  "T": 10.2,
+  "version": 1791280924335,
+  "video": null,
+  "planche": "F07-docteur-internet-planche.png",
+  "carrousel": [
+    {
+      "image": "carrousel/F07-docteur-internet-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/F07-docteur-internet-2.png",
+      "cases": [
+        2
+      ]
+    },
+    {
+      "image": "carrousel/F07-docteur-internet-3.png",
+      "cases": [
+        3
+      ]
+    },
+    {
+      "image": "carrousel/F07-docteur-internet-4.png",
+      "cases": [
+        4
+      ]
+    }
+  ],
+  "legende": "Le pire diagnostic qu'un patient vous ait apporté ?",
+  "source": "../../series/cote-fauteuil/F07-docteur-internet.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 2.8,
+      "texte": "J'ai regardé sur internet.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "animations": [
+            "brasD:leve à 0.7s"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 2.8,
+      "duree": 2.4,
+      "texte": "Et internet dit quoi ?",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.2,
+      "duree": 2.6,
+      "texte": "Qu'il me reste trois jours.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "animations": [
+            "sourcil:leve à 1.2s"
+          ]
+        },
+        {
+          "dent": "lait",
+          "expression": "panique",
+          "animations": [
+            "prop:telephone:vibre à 0.4s pendant 1.8s"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.8,
+      "duree": 2.4,
+      "texte": "C'est un aphte.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "animations": [
+            "clignement à 1.6s"
+          ]
+        }
+      ]
+    }
+  ]
+}

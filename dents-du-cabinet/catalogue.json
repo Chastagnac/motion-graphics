@@ -1,0 +1,84 @@
+{
+  "dents": [
+    "molaire",
+    "canine",
+    "incisive",
+    "lait",
+    "sagesse"
+  ],
+  "humains": [
+    "docteur",
+    "docteure",
+    "collaborateur",
+    "assistante"
+  ],
+  "masques": [
+    "haut",
+    "menton"
+  ],
+  "expressions": [
+    "neutre",
+    "blase",
+    "juge",
+    "regard_camera",
+    "choque",
+    "panique",
+    "content",
+    "malin",
+    "fache",
+    "triste"
+  ],
+  "sourcils": [
+    "neutre",
+    "leve",
+    "fronce",
+    "triste",
+    "choque",
+    "malin"
+  ],
+  "yeux": [
+    "points",
+    "ronds",
+    "plisses",
+    "blase",
+    "cote"
+  ],
+  "bouches": [
+    "neutre",
+    "sourire",
+    "sourire_coin",
+    "ouverte",
+    "triste",
+    "tremble",
+    "moue"
+  ],
+  "bras": [
+    "bas",
+    "hanche",
+    "leve",
+    "salut",
+    "pointe",
+    "croise",
+    "tient",
+    "haussement"
+  ],
+  "objets": [
+    "cafe",
+    "telephone",
+    "bloc",
+    "postit",
+    "aspiration",
+    "miroir",
+    "sonde"
+  ],
+  "jambes": [
+    "debout",
+    "marche",
+    "tremble"
+  ],
+  "effets": [
+    "sueur",
+    "choc",
+    "zzz"
+  ]
+}

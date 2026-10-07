@@ -1,0 +1,91 @@
+{
+  "id": "F12-le-labo",
+  "serie": "IRRITANT",
+  "titre": "Le labo",
+  "decor": "cabinet",
+  "slides": [
+    {
+      "texte": "Le patient est prêt. La couronne ?",
+      "voix": "docteure",
+      "duree": 3,
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content"
+        },
+        {
+          "dent": "canine",
+          "expression": "neutre",
+          "brasG": "hanche",
+          "brasD": "tient",
+          "propD": "telephone"
+        }
+      ]
+    },
+    {
+      "texte": "Le labo dit qu'elle est partie.",
+      "voix": "canine",
+      "duree": 2.8,
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content"
+        },
+        {
+          "dent": "canine",
+          "expression": "content",
+          "brasG": "hanche",
+          "brasD": "tient",
+          "propD": "telephone"
+        }
+      ]
+    },
+    {
+      "texte": "Partie quand ?",
+      "voix": "docteure",
+      "duree": 2,
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "juge"
+        },
+        {
+          "dent": "canine",
+          "expression": "neutre",
+          "brasG": "hanche",
+          "brasD": "tient",
+          "propD": "telephone"
+        }
+      ]
+    },
+    {
+      "texte": "Bientôt.",
+      "voix": "canine",
+      "duree": 2.4,
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "blase",
+          "depart": {
+            "expression": "juge"
+          },
+          "animations": [
+            "expression:blase à 0.9s",
+            "clignement à 1.7s"
+          ]
+        },
+        {
+          "dent": "canine",
+          "expression": "regard_camera",
+          "brasG": "hanche",
+          "brasD": "tient",
+          "propD": "telephone",
+          "animations": [
+            "effet:sueur à 0.9s"
+          ]
+        }
+      ]
+    }
+  ],
+  "legende": "Chez vous aussi, le labo livre « bientôt » ?"
+}

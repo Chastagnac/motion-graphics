@@ -1,0 +1,73 @@
+{
+  "id": "F17-entre-deux",
+  "serie": "IRRITANT",
+  "titre": "Entre deux",
+  "decor": "accueil",
+  "carrousel": [
+    2,
+    2
+  ],
+  "slides": [
+    {
+      "texte": "Il demande à passer entre deux.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propD": "telephone"
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Entre deux quoi ?",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propD": "telephone"
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge"
+        }
+      ]
+    },
+    {
+      "texte": "Entre deux patients.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "propD": "telephone"
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge"
+        }
+      ]
+    },
+    {
+      "texte": "Entre deux patients, il y a un patient.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "propD": "telephone"
+        },
+        {
+          "dent": "molaire",
+          "expression": "fache"
+        }
+      ]
+    }
+  ],
+  "legende": "Combien de « entre deux » aujourd’hui ?"
+}

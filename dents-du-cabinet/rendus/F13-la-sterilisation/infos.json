@@ -1,0 +1,105 @@
+{
+  "id": "F13-la-sterilisation",
+  "titre": "La stérilisation",
+  "serie": "irritant",
+  "fond": "#B9C8FF",
+  "T": 10.1,
+  "version": 1791280938292,
+  "video": null,
+  "planche": "F13-la-sterilisation-planche.png",
+  "carrousel": [
+    {
+      "image": "carrousel/F13-la-sterilisation-1.png",
+      "cases": [
+        1,
+        2
+      ]
+    },
+    {
+      "image": "carrousel/F13-la-sterilisation-2.png",
+      "cases": [
+        3,
+        4
+      ]
+    }
+  ],
+  "legende": "Combien de cycles par jour chez vous ?",
+  "source": "../../series/cote-fauteuil/F13-la-sterilisation.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 2.6,
+      "texte": "J'ai fini la stérilisation.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 2.6,
+      "duree": 2.7,
+      "texte": "Et moi, j'ai fini mon patient.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.3,
+      "duree": 2.5,
+      "texte": "Donc je n'ai pas fini.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.8,
+      "duree": 2.3,
+      "texte": "Toutes les vingt minutes.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "assistante",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

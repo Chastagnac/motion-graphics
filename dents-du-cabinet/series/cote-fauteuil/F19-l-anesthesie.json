@@ -1,0 +1,81 @@
+{
+  "id": "F19-l-anesthesie",
+  "serie": "VECU",
+  "titre": "L'anesthésie",
+  "decor": "cabinet",
+  "carrousel": [
+    2,
+    2
+  ],
+  "slides": [
+    {
+      "texte": "L'anesthésie fait effet ?",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Ve crois que oui.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "expression": "regard_camera"
+        }
+      ]
+    },
+    {
+      "texte": "Vous croyez ?",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "juge"
+        },
+        {
+          "dent": "lait",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "expression": "regard_camera"
+        }
+      ]
+    },
+    {
+      "texte": "Ve fens plus mon vivage.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "brasG": "leve",
+          "brasD": "leve",
+          "jambes": "debout",
+          "expression": "panique"
+        }
+      ]
+    }
+  ],
+  "legende": "La phrase la plus drôle entendue sous anesthésie ?"
+}

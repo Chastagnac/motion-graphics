@@ -1,0 +1,86 @@
+{
+  "id": "F14-telepathie",
+  "serie": "VECU",
+  "titre": "Télépathie",
+  "decor": "cabinet",
+  "carrousel": [
+    2,
+    2
+  ],
+  "slides": [
+    {
+      "texte": "Tu me passes la…",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "brasG": "hanche"
+        },
+        {
+          "dent": "assistante",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Tiens.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "brasG": "hanche"
+        },
+        {
+          "dent": "assistante",
+          "brasG": "pointe",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "content",
+          "propG": "sonde"
+        }
+      ]
+    },
+    {
+      "texte": "Et le miroir, il est où ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "brasG": "haussement"
+        },
+        {
+          "dent": "assistante",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "blase"
+        }
+      ]
+    },
+    {
+      "texte": "Dans ta main.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "brasG": "hanche"
+        },
+        {
+          "dent": "assistante",
+          "brasG": "pointe",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "blase"
+        }
+      ]
+    }
+  ],
+  "legende": "Identifiez votre binôme qui lit dans vos pensées."
+}

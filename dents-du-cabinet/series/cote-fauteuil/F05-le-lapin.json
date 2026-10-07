@@ -1,0 +1,85 @@
+{
+  "id": "F05-le-lapin",
+  "serie": "IRRITANT",
+  "titre": "Le lapin",
+  "decor": "accueil",
+  "carrousel": [
+    2,
+    2
+  ],
+  "slides": [
+    {
+      "texte": "Il est où, le patient de 14h ?",
+      "voix": "docteur",
+      "duree": 3,
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "brasG": "hanche"
+        },
+        {
+          "dent": "incisive"
+        }
+      ]
+    },
+    {
+      "texte": "Il a oublié.",
+      "voix": "incisive",
+      "duree": 2.2,
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "brasG": "hanche"
+        },
+        {
+          "dent": "incisive",
+          "animations": [
+            "prop:cafe:gorgee à 1.2s"
+          ]
+        }
+      ]
+    },
+    {
+      "texte": "Mais il veut un autre rendez-vous.",
+      "voix": "incisive",
+      "duree": 2.6,
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "brasG": "hanche"
+        },
+        {
+          "dent": "incisive",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "En urgence.",
+      "voix": "incisive",
+      "duree": 2.4,
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "brasG": "hanche",
+          "depart": {
+            "expression": "neutre"
+          },
+          "animations": [
+            "expression:regard_camera à 0.9s",
+            "clignement à 1.7s"
+          ]
+        },
+        {
+          "dent": "incisive",
+          "expression": "juge"
+        }
+      ]
+    }
+  ],
+  "legende": "Combien de lapins cette semaine ?"
+}

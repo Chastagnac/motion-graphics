@@ -1,0 +1,80 @@
+{
+  "id": "F13-la-sterilisation",
+  "serie": "IRRITANT",
+  "titre": "La stérilisation",
+  "decor": "cabinet",
+  "carrousel": [
+    2,
+    2
+  ],
+  "slides": [
+    {
+      "texte": "J'ai fini la stérilisation.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "content"
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Et moi, j'ai fini mon patient.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "content"
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasD": "pointe"
+        }
+      ]
+    },
+    {
+      "texte": "Donc je n'ai pas fini.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "blase"
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasD": "pointe"
+        }
+      ]
+    },
+    {
+      "texte": "Toutes les vingt minutes.",
+      "places": 2,
+      "personnages": [
+        {
+          "dent": "assistante",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propD": null,
+          "place": 1,
+          "expression": "regard_camera"
+        }
+      ]
+    }
+  ],
+  "legende": "Combien de cycles par jour chez vous ?"
+}

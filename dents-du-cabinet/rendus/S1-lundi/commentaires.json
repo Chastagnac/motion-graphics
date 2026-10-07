@@ -1,0 +1,28 @@
+{
+  "id": "S1-lundi",
+  "source": "../../exemple-carrousel.json",
+  "maj": "2026-10-06T08:00:46.958Z",
+  "general": "",
+  "cases": [
+    {
+      "case": 1,
+      "texte": "L'incisive pose son café.",
+      "commentaire": ""
+    },
+    {
+      "case": 2,
+      "texte": "Le téléphone sonne.",
+      "commentaire": ""
+    },
+    {
+      "case": 3,
+      "texte": "Elle décroche. La deuxième ligne sonne.",
+      "commentaire": ""
+    },
+    {
+      "case": 4,
+      "texte": "« Lundi, 8h01. »",
+      "commentaire": ""
+    }
+  ]
+}

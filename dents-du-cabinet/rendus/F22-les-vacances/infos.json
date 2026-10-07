@@ -1,0 +1,115 @@
+{
+  "id": "F22-les-vacances",
+  "titre": "Les vacances",
+  "serie": "vecu",
+  "fond": "#FFB3A7",
+  "T": 10.3,
+  "version": 1791280955053,
+  "video": null,
+  "planche": "F22-les-vacances-planche.png",
+  "carrousel": [
+    {
+      "image": "carrousel/F22-les-vacances-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/F22-les-vacances-2.png",
+      "cases": [
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/F22-les-vacances-3.png",
+      "cases": [
+        4
+      ]
+    }
+  ],
+  "legende": "Docteurs, vous tenez combien de jours sans votre assistante ?",
+  "source": "../../series/cote-fauteuil/F22-les-vacances.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 3,
+      "texte": "Je pose une semaine en août.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 3,
+      "duree": 2.1,
+      "texte": "Toute une semaine ?",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "choque",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.1,
+      "duree": 2.5,
+      "texte": "Tu sauras trouver le matériel.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "assistante",
+          "expression": "malin",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "panique",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.6,
+      "duree": 2.7,
+      "texte": "Il est rangé où, le matériel ?",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "assistante",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

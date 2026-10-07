@@ -1,0 +1,73 @@
+{
+  "id": "F20-le-recrutement",
+  "serie": "IRRITANT",
+  "titre": "Le recrutement",
+  "decor": "accueil",
+  "carrousel": [
+    2,
+    2
+  ],
+  "slides": [
+    {
+      "texte": "Des réponses à l'annonce ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "brasG": "hanche"
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Une candidate.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "brasG": "hanche"
+        },
+        {
+          "dent": "molaire",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Elle commence quand ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasG": "leve"
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Elle a vu le planning.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "brasG": "bas"
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge"
+        }
+      ]
+    }
+  ],
+  "legende": "Depuis combien de temps votre annonce est en ligne ?"
+}

@@ -1,0 +1,124 @@
+{
+  "id": "F11-l-avis",
+  "titre": "L'avis",
+  "serie": "irritant",
+  "fond": "#B9C8FF",
+  "T": 10.4,
+  "version": 1791280934316,
+  "video": null,
+  "planche": "F11-l-avis-planche.png",
+  "carrousel": [
+    {
+      "image": "carrousel/F11-l-avis-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/F11-l-avis-2.png",
+      "cases": [
+        2
+      ]
+    },
+    {
+      "image": "carrousel/F11-l-avis-3.png",
+      "cases": [
+        3
+      ]
+    },
+    {
+      "image": "carrousel/F11-l-avis-4.png",
+      "cases": [
+        4
+      ]
+    }
+  ],
+  "legende": "L'avis le plus injuste que vous ayez reçu ?",
+  "source": "../../series/cote-fauteuil/F11-l-avis.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 3,
+      "texte": "On a un nouvel avis en ligne.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 3,
+      "duree": 2.8,
+      "texte": "Celui à qui j'ai sauvé la dent ?",
+      "voix": "docteure",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.8,
+      "duree": 2.2,
+      "texte": "Oui. Une étoile.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "choque",
+          "animations": [
+            "expression:choque à 0.9s"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 8,
+      "duree": 2.4,
+      "texte": "Dix minutes d'attente.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "blase",
+          "animations": [
+            "clignement à 1.7s"
+          ]
+        }
+      ]
+    }
+  ]
+}

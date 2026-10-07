@@ -1,0 +1,110 @@
+{
+  "id": "F17-entre-deux",
+  "titre": "Entre deux",
+  "serie": "irritant",
+  "fond": "#B9C8FF",
+  "T": 10.3,
+  "version": 1791280945620,
+  "video": null,
+  "planche": "F17-entre-deux-planche.png",
+  "carrousel": [
+    {
+      "image": "carrousel/F17-entre-deux-1.png",
+      "cases": [
+        1,
+        2
+      ]
+    },
+    {
+      "image": "carrousel/F17-entre-deux-2.png",
+      "cases": [
+        3,
+        4
+      ]
+    }
+  ],
+  "legende": "Combien de « entre deux » aujourd’hui ?",
+  "source": "../../series/cote-fauteuil/F17-entre-deux.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 3,
+      "texte": "Il demande à passer entre deux.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 3,
+      "duree": 2.1,
+      "texte": "Entre deux quoi ?",
+      "voix": "molaire",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.1,
+      "duree": 2.1,
+      "texte": "Entre deux patients.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.2,
+      "duree": 3.1,
+      "texte": "Entre deux patients, il y a un patient.",
+      "voix": "molaire",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "fache",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+@font-face{font-family:'Geist';src:url(data:font/woff2;base64,__GEIST__) format('woff2');font-weight:100 900}
+html,body{margin:0;overflow:hidden;background:#141413}
+body.preview{height:100vh}
+#wrap{position:relative;transform-origin:50% 50%}
+body.preview #wrap{position:fixed;left:50%;top:50%}
+.scene{position:relative;overflow:hidden;font-family:'Geist',system-ui,sans-serif;-webkit-font-smoothing:antialiased;color:#141413}
+.decor{position:absolute;left:0;top:0;display:block}
+.case,.bloc{position:absolute;inset:0}
+.bulle{position:absolute;left:0;top:0;overflow:visible}
+.bulle path{fill:#fff;stroke:#141413;stroke-width:14;stroke-linejoin:round}
+.txt{position:absolute;text-align:center;font-weight:900;line-height:1.02;letter-spacing:-0.035em;text-wrap:balance}
+.mot{display:inline-block;transform-origin:50% 80%;white-space:nowrap}
+.perso{position:absolute}
+.perso svg{display:block;width:100%;height:100%;overflow:visible}
+
+/* planche de BD : cases en grille, plus une diapositive par case pour le carrousel */
+html.bd,body.bd{overflow:visible;background:#fff}
+.planche{position:relative;background:#fff;font-family:'Geist',system-ui,sans-serif;color:#141413}
+.vignette{position:absolute;box-sizing:border-box;overflow:hidden;border:7px solid #141413;border-radius:18px}
+.vignette .scene{transform-origin:0 0}
+.pied{position:absolute;display:flex;justify-content:space-between;align-items:center;font-weight:900;font-size:24px;letter-spacing:-0.02em;white-space:pre}
+.pied span:last-child{font-weight:700;opacity:.65}

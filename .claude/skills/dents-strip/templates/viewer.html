@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Relecture du strip</title>
+<style>
+:root{--encre:#141413;--papier:#F6F4EF;--gris:#6B6860;--fond:#A8E0D2}
+*{box-sizing:border-box}
+body{margin:0;background:var(--papier);color:var(--encre);font:16px/1.45 system-ui,-apple-system,'Segoe UI',sans-serif}
+header{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px;padding:14px 24px;background:var(--fond);border-bottom:3px solid var(--encre)}
+h1{margin:0;font-size:22px;font-weight:900;letter-spacing:-.02em}
+h2{margin:0 0 14px;font-size:18px;font-weight:900}
+.meta{font-size:14px}
+.etat{margin-left:auto;font-size:14px;font-weight:700}
+header a{color:inherit;font-weight:700;font-size:14px}
+main{max-width:1500px;margin:0 auto;padding:24px}
+.haut{display:grid;grid-template-columns:minmax(240px,440px) 1fr;gap:24px;align-items:start;margin-bottom:32px}
+.grille{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px;align-items:start}
+.carte{background:#fff;border:3px solid var(--encre);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.carte img{display:block;width:100%;height:auto}
+.corps{padding:12px 14px 14px;display:flex;flex-direction:column;gap:8px}
+.num{font-size:13px;font-weight:700;color:var(--gris)}
+.replique{font-weight:800;font-size:16px;line-height:1.25;margin-top:6px}
+label{font-size:13px;font-weight:700}
+textarea{width:100%;min-height:70px;resize:vertical;padding:10px;border:2px solid var(--encre);border-radius:8px;font:inherit;background:var(--papier)}
+textarea:focus{outline:3px solid var(--fond);background:#fff}
+.general textarea{min-height:150px}
+.liens{display:flex;flex-wrap:wrap;gap:8px 18px;margin:10px 0 0;font-size:14px;font-weight:700}
+.liens a{color:inherit}
+.aide{font-size:14px;color:var(--gris);margin:8px 0 0}
+button{font:inherit;font-weight:800;padding:8px 14px;border:3px solid var(--encre);border-radius:999px;background:#fff;cursor:pointer}
+button[hidden]{display:none}
+@media (max-width:700px){.haut{grid-template-columns:1fr}main{padding:16px}}
+</style>
+</head>
+<body>
+<header>
+  <a href="/">Tous les strips</a>
+  <h1 id="titre"></h1>
+  <span class="meta" id="meta"></span>
+  <span class="etat" id="etat" role="status"></span>
+  <button id="telecharger" hidden>Télécharger commentaires.json</button>
+</header>
+<main>
+  <section class="haut">
+    <div class="carte" id="vedette"></div>
+    <div class="general">
+      <label for="general">Commentaire général</label>
+      <textarea id="general" placeholder="Texte, décor, découpage du carrousel, ce qui vaut pour tout le strip"></textarea>
+      <p class="liens" id="liens"></p>
+      <p class="aide" id="aide"></p>
+    </div>
+  </section>
+  <h2 id="sous"></h2>
+  <section class="grille" id="grille"></section>
+</main>
+<script>
+const V = __DONNEES__;
+const $ = (id) => document.getElementById(id);
+const el = (t, c, txt) => { const e = document.createElement(t); if (c) e.className = c; if (txt != null) e.textContent = txt; return e; };
+const v = (f) => f + '?v=' + V.version;
+document.documentElement.style.setProperty('--fond', V.fond);
+document.title = 'Relecture : ' + V.titre;
+$('titre').textContent = V.titre;
+$('meta').textContent = `${V.id} · série ${V.serie} · ${V.cases.length} cases`;
+$('sous').textContent = `Carrousel : ${V.carrousel.length} image${V.carrousel.length > 1 ? 's' : ''}`;
+const vedette = V.planche || (V.carrousel[0] && V.carrousel[0].image);
+if (vedette) { const im = el('img'); im.src = v(vedette); im.alt = 'Planche ' + V.titre; $('vedette').appendChild(im); }
+[[V.planche, 'Ouvrir la planche'], [V.video, 'Voir la vidéo']].forEach(([f, t]) => {
+  if (!f) return;
+  const a = el('a', null, t); a.href = v(f); a.target = '_blank'; $('liens').appendChild(a);
+});
+
+// une carte par image du carrousel, avec un commentaire sous chacune de ses cases
+const champs = [];
+V.carrousel.forEach((p, i) => {
+  const carte = el('article', 'carte');
+  const lien = el('a'); lien.href = v(p.image); lien.target = '_blank';
+  const im = el('img'); im.src = v(p.image); im.alt = 'Image ' + (i + 1) + ' du carrousel'; im.loading = 'lazy';
+  lien.appendChild(im);
+  const corps = el('div', 'corps');
+  corps.appendChild(el('div', 'num', `Image ${i + 1} sur ${V.carrousel.length} · ${p.cases.length} case${p.cases.length > 1 ? 's' : ''}`));
+  p.cases.forEach((n) => {
+    const c = V.cases[n - 1];
+    corps.appendChild(el('div', 'replique', `${n}. ${c.voix ? c.voix + ' : ' : ''}${c.texte}`));
+    const lab = el('label', null, 'Commentaire sur la case ' + n); lab.htmlFor = 'c' + n;
+    const ta = el('textarea'); ta.id = 'c' + n; ta.placeholder = 'Ce qui doit changer dans cette case';
+    corps.append(lab, ta);
+    champs.push({ c, ta });
+  });
+  carte.append(lien, corps); $('grille').appendChild(carte);
+});
+
+// sauvegarde : serveur local si la page est servie par commentaires.js, sinon mémoire du navigateur + téléchargement
+const SERVI = location.protocol.startsWith('http');
+const API = '/api/commentaires/' + encodeURIComponent(V.id), CLE = 'dents-strip:' + V.id;
+const etat = (t) => { $('etat').textContent = t; };
+const lireChamps = () => ({
+  id: V.id, source: V.source, maj: new Date().toISOString(), general: $('general').value.trim(),
+  cases: champs.map(({ c, ta }) => ({ case: c.index, texte: c.texte, commentaire: ta.value.trim() })).sort((a, b) => a.case - b.case)
+});
+const remplir = (d) => {
+  if (!d) return;
+  $('general').value = d.general || '';
+  (d.cases || []).forEach((k) => { const f = champs.find((x) => x.c.index === k.case); if (f) f.ta.value = k.commentaire || ''; });
+};
+let minuteur = null;
+const sauver = async () => {
+  const d = lireChamps();
+  try { localStorage.setItem(CLE, JSON.stringify(d)); } catch (e) {}
+  if (!SERVI) { etat('Gardé dans ce navigateur. Télécharge le fichier quand tu as fini.'); return; }
+  try {
+    const r = await fetch(API, { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(d, null, 2) });
+    etat(r.ok ? 'Enregistré à ' + new Date().toLocaleTimeString('fr-FR') : 'Échec de l’enregistrement');
+  } catch (e) { etat('Serveur injoignable, commentaires gardés dans ce navigateur'); }
+};
+document.addEventListener('input', () => { etat('…'); clearTimeout(minuteur); minuteur = setTimeout(sauver, 500); });
+$('telecharger').addEventListener('click', () => {
+  const a = el('a');
+  a.href = URL.createObjectURL(new Blob([JSON.stringify(lireChamps(), null, 2)], { type: 'application/json' }));
+  a.download = 'commentaires.json'; a.click();
+});
+(async () => {
+  if (SERVI) {
+    $('aide').textContent = 'Les commentaires s’enregistrent tout seuls dans commentaires.json. Quand tu as fini, dis simplement que tes commentaires sont prêts.';
+    try { const r = await fetch(API); if (r.ok) { remplir(await r.json()); etat('Commentaires rechargés'); return; } } catch (e) {}
+    etat('Aucun commentaire pour ce rendu');
+  } else {
+    $('telecharger').hidden = false;
+    $('aide').textContent = 'Page ouverte sans le serveur local : télécharge commentaires.json et dépose le dans ce dossier, à côté de viewer.html.';
+    try { remplir(JSON.parse(localStorage.getItem(CLE) || 'null')); } catch (e) {}
+  }
+})();
+</script>
+</body>
+</html>

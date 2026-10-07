@@ -1,0 +1,117 @@
+{
+  "id": "F10-la-premiere-extraction",
+  "titre": "La première extraction",
+  "serie": "vecu",
+  "fond": "#FFB3A7",
+  "T": 10.2,
+  "version": 1791280931433,
+  "video": null,
+  "planche": "F10-la-premiere-extraction-planche.png",
+  "carrousel": [
+    {
+      "image": "carrousel/F10-la-premiere-extraction-1.png",
+      "cases": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/F10-la-premiere-extraction-2.png",
+      "cases": [
+        4
+      ]
+    }
+  ],
+  "legende": "Vous vous souvenez de votre première extraction ?",
+  "source": "../../series/cote-fauteuil/F10-la-premiere-extraction.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 2.8,
+      "texte": "C'est ma première extraction.",
+      "voix": "collaborateur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": null,
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 2.8,
+      "duree": 2.8,
+      "texte": "Respire. Tout va bien se passer.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": null,
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.6,
+      "duree": 1.8,
+      "texte": "Merci.",
+      "voix": "collaborateur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.4,
+      "duree": 2.8,
+      "texte": "Je parlais au patient.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "choque",
+          "animations": [
+            "expression:choque à 1.0s"
+          ]
+        },
+        {
+          "dent": "docteure",
+          "expression": "malin",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": null,
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "F04-le-gainage",
+  "serie": "VECU",
+  "titre": "Le gainage",
+  "decor": "cabinet",
+  "slides": [
+    {
+      "texte": "Tu fais du sport, toi ?",
+      "voix": "collaborateur",
+      "duree": 2.8,
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "brasG": "bas",
+          "propG": null,
+          "brasD": "bas",
+          "expression": "content"
+        },
+        {
+          "dent": "docteure",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Huit heures de gainage par jour.",
+      "voix": "docteure",
+      "duree": 2.8,
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "brasG": "bas",
+          "propG": null,
+          "brasD": "bas",
+          "expression": "content"
+        },
+        {
+          "dent": "docteure",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "propD": null,
+          "expression": "malin"
+        }
+      ]
+    },
+    {
+      "texte": "Sérieux ?",
+      "voix": "collaborateur",
+      "duree": 1.8,
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "brasG": "bas",
+          "propG": null,
+          "brasD": "bas",
+          "expression": "choque"
+        },
+        {
+          "dent": "docteure",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "propD": null,
+          "expression": "malin"
+        }
+      ]
+    },
+    {
+      "texte": "Penchée sur des molaires.",
+      "voix": "docteure",
+      "duree": 2.6,
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "brasG": "bas",
+          "propG": null,
+          "brasD": "bas",
+          "expression": "regard_camera",
+          "animations": [
+            "effet:sueur à 1.2s"
+          ]
+        },
+        {
+          "dent": "docteure",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "propD": null,
+          "expression": "blase",
+          "animations": [
+            "clignement à 1.8s"
+          ]
+        }
+      ]
+    }
+  ],
+  "legende": "Et votre dos, il en dit quoi ?"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "F21-l-empreinte",
+  "serie": "VECU",
+  "titre": "L'empreinte",
+  "decor": "cabinet",
+  "carrousel": [
+    2,
+    2
+  ],
+  "slides": [
+    {
+      "texte": "Respirez par le nez.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "content",
+          "masque": "menton"
+        },
+        {
+          "dent": "lait",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "J'ai le nez bouché.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "neutre",
+          "masque": "menton"
+        },
+        {
+          "dent": "lait"
+        }
+      ]
+    },
+    {
+      "texte": "Depuis quand ?",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "juge",
+          "masque": "menton"
+        },
+        {
+          "dent": "lait"
+        }
+      ]
+    },
+    {
+      "texte": "Depuis que vous l'avez dit.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "regard_camera",
+          "masque": "menton"
+        },
+        {
+          "dent": "lait",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "tremble",
+          "expression": "triste"
+        }
+      ]
+    }
+  ],
+  "legende": "Qui a déjà vu un nez se boucher sur commande ?"
+}

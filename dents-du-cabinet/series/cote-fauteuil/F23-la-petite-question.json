@@ -1,0 +1,96 @@
+{
+  "id": "F23-la-petite-question",
+  "serie": "IRRITANT",
+  "titre": "La petite question",
+  "decor": "accueil",
+  "carrousel": [
+    2,
+    1,
+    1
+  ],
+  "slides": [
+    {
+      "texte": "Docteur, juste une petite question.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasD": "bas",
+          "propD": null,
+          "masque": null
+        },
+        {
+          "dent": "lait",
+          "brasG": "bas",
+          "brasD": "leve",
+          "jambes": "debout",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Bien sûr.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasD": "bas",
+          "propD": null,
+          "masque": null
+        },
+        {
+          "dent": "lait",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Quarante minutes plus tard.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "brasD": "bas",
+          "propD": null,
+          "masque": null,
+          "effets": [
+            "zzz"
+          ]
+        },
+        {
+          "dent": "lait",
+          "brasG": "haussement",
+          "brasD": "haussement",
+          "jambes": "debout",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Et pour mon autre dent ?",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "brasD": "bas",
+          "propD": null,
+          "masque": null
+        },
+        {
+          "dent": "lait",
+          "brasG": "bas",
+          "brasD": "leve",
+          "jambes": "debout",
+          "expression": "malin"
+        }
+      ]
+    }
+  ],
+  "legende": "Votre record pour « une petite question » ?"
+}

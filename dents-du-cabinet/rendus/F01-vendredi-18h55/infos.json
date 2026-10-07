@@ -1,0 +1,117 @@
+{
+  "id": "F01-vendredi-18h55",
+  "titre": "Vendredi 18h55",
+  "serie": "irritant",
+  "fond": "#B9C8FF",
+  "T": 9.8,
+  "version": 1791280910778,
+  "video": null,
+  "planche": "F01-vendredi-18h55-planche.png",
+  "carrousel": [
+    {
+      "image": "carrousel/F01-vendredi-18h55-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/F01-vendredi-18h55-2.png",
+      "cases": [
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/F01-vendredi-18h55-3.png",
+      "cases": [
+        4
+      ]
+    }
+  ],
+  "legende": "Votre record d'urgence du vendredi soir ?",
+  "source": "../../series/cote-fauteuil/F01-vendredi-18h55.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 2.2,
+      "texte": "Vendredi, 18h55.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": [
+            "brasG:leve à 0.9s pendant 0.3s"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 2.2,
+      "duree": 2.8,
+      "texte": "J'ai mal depuis trois semaines.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "regard_camera",
+          "animations": [
+            "sursaut à 0.3s",
+            "expression:regard_camera à 0.3s"
+          ]
+        },
+        {
+          "dent": "lait",
+          "expression": null,
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5,
+      "duree": 2,
+      "texte": "Trois semaines ?",
+      "voix": "docteure",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7,
+      "duree": 2.8,
+      "texte": "Je voulais pas déranger.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "regard_camera",
+          "animations": [
+            "expression:regard_camera à 1.5s"
+          ]
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

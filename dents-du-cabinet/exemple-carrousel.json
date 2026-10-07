@@ -1,0 +1,81 @@
+{
+  "id": "S1-lundi",
+  "serie": "STRIP",
+  "titre": "Lundi 8h01",
+  "decor": "accueil",
+  "slides": [
+    {
+      "texte": "L'incisive pose son café.",
+      "duree": 2.4,
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "brasD": "tient",
+          "propD": "cafe",
+          "animations": [
+            "prop:cafe:gorgee à 1.2s"
+          ]
+        }
+      ]
+    },
+    {
+      "texte": "Le téléphone sonne.",
+      "duree": 2.4,
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "brasD": "tient",
+          "propD": "cafe",
+          "depart": {
+            "expression": "content"
+          },
+          "animations": [
+            "sursaut à 0.5s",
+            "expression:regard_camera à 0.5s",
+            "clignement à 1.5s"
+          ]
+        }
+      ]
+    },
+    {
+      "texte": "Elle décroche. La deuxième ligne sonne.",
+      "duree": 3,
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "panique",
+          "brasG": "tient",
+          "propG": "telephone",
+          "brasD": "tient",
+          "propD": "cafe",
+          "depart": {
+            "expression": "regard_camera"
+          },
+          "animations": [
+            "prop:telephone:vibre à 1.4s pendant 1.2s",
+            "expression:panique à 1.5s"
+          ]
+        }
+      ]
+    },
+    {
+      "texte": "« Lundi, 8h01. »",
+      "duree": 2.6,
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "brasD": "tient",
+          "propD": "cafe",
+          "animations": [
+            "sourcil:leve à 1.1s",
+            "clignement à 1.9s"
+          ]
+        }
+      ]
+    }
+  ],
+  "legende": "Combien d'appels avant 9h chez vous ?"
+}

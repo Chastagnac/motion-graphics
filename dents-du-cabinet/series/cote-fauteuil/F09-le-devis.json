@@ -1,0 +1,111 @@
+{
+  "id": "F09-le-devis",
+  "serie": "IRRITANT",
+  "titre": "Le devis",
+  "decor": "accueil",
+  "carrousel": [
+    2,
+    1,
+    2
+  ],
+  "slides": [
+    {
+      "texte": "Voici le devis.",
+      "voix": "docteure",
+      "duree": 2.4,
+      "personnages": [
+        {
+          "dent": "docteure",
+          "brasG": "hanche",
+          "brasD": "pointe",
+          "propD": "bloc",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Je vais réfléchir.",
+      "voix": "lait",
+      "duree": 2.2,
+      "personnages": [
+        {
+          "dent": "docteure",
+          "brasG": "hanche",
+          "brasD": "pointe",
+          "propD": "bloc",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "expression": "regard_camera"
+        }
+      ]
+    },
+    {
+      "texte": "Deux ans plus tard.",
+      "duree": 2,
+      "places": 2,
+      "personnages": [
+        {
+          "dent": "docteure",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propD": null,
+          "place": 1,
+          "expression": "neutre",
+          "animations": [
+            "clignement à 1.1s"
+          ]
+        }
+      ]
+    },
+    {
+      "texte": "J'ai réfléchi. J'ai mal.",
+      "voix": "lait",
+      "duree": 2.6,
+      "personnages": [
+        {
+          "dent": "docteure",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "juge"
+        },
+        {
+          "dent": "lait"
+        }
+      ]
+    },
+    {
+      "texte": "Voici le nouveau devis.",
+      "voix": "docteure",
+      "duree": 2.6,
+      "personnages": [
+        {
+          "dent": "docteure",
+          "brasG": "hanche",
+          "brasD": "pointe",
+          "propD": "bloc",
+          "expression": "malin"
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "brasG": "bas",
+          "brasD": "bas"
+        }
+      ]
+    }
+  ],
+  "legende": "Le « je vais réfléchir » le plus long de votre carrière ?"
+}

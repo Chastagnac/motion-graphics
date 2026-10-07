@@ -1,0 +1,114 @@
+{
+  "id": "F06-le-diner",
+  "titre": "Le dîner",
+  "serie": "vecu",
+  "fond": "#FFB3A7",
+  "T": 10.4,
+  "version": 1791280920610,
+  "video": null,
+  "planche": "F06-le-diner-planche.png",
+  "carrousel": [
+    {
+      "image": "carrousel/F06-le-diner-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/F06-le-diner-2.png",
+      "cases": [
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "legende": "Votre meilleure parade en soirée ?",
+  "source": "../../series/cote-fauteuil/F06-le-diner.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 2.6,
+      "texte": "Samedi soir. Dîner entre amis.",
+      "voix": null,
+      "decor": "soiree",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "sagesse",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 2.6,
+      "duree": 2.6,
+      "texte": "Tu es dentiste, c'est ça ?",
+      "voix": "sagesse",
+      "decor": "soiree",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "regard_camera",
+          "animations": [
+            "expression:regard_camera à 0.9s"
+          ]
+        },
+        {
+          "dent": "sagesse",
+          "expression": "malin",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.2,
+      "duree": 2.8,
+      "texte": "Tu peux regarder, là, au fond ?",
+      "voix": "sagesse",
+      "decor": "soiree",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "sagesse",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 8,
+      "duree": 2.4,
+      "texte": "Je suis comptable.",
+      "voix": "docteure",
+      "decor": "soiree",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "animations": [
+            "clignement à 1.6s"
+          ]
+        },
+        {
+          "dent": "sagesse",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

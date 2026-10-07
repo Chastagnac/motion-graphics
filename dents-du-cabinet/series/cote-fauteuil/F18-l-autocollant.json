@@ -1,0 +1,86 @@
+{
+  "id": "F18-l-autocollant",
+  "serie": "VECU",
+  "titre": "L'autocollant",
+  "decor": "cabinet",
+  "carrousel": [
+    2,
+    1,
+    1
+  ],
+  "slides": [
+    {
+      "texte": "Tu ouvres la bouche ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "brasG": "croise",
+          "brasD": "croise",
+          "jambes": "debout",
+          "expression": "fache"
+        }
+      ]
+    },
+    {
+      "texte": "Non.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "brasG": "croise",
+          "brasD": "croise",
+          "jambes": "debout",
+          "expression": "fache"
+        }
+      ]
+    },
+    {
+      "texte": "Tu auras un autocollant.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "malin",
+          "brasG": "tient",
+          "propG": "postit"
+        },
+        {
+          "dent": "lait",
+          "brasG": "croise",
+          "brasD": "croise",
+          "jambes": "debout",
+          "expression": "juge"
+        }
+      ]
+    },
+    {
+      "texte": "Deux.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "brasG": "tient",
+          "propG": "postit"
+        },
+        {
+          "dent": "lait",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "jambes": "debout",
+          "expression": "malin"
+        }
+      ]
+    }
+  ],
+  "legende": "Votre meilleure négociation avec un patient de six ans ?"
+}

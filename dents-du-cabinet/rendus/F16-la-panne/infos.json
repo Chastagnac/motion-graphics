@@ -1,0 +1,110 @@
+{
+  "id": "F16-la-panne",
+  "titre": "La panne",
+  "serie": "irritant",
+  "fond": "#B9C8FF",
+  "T": 9.3,
+  "version": 1791280943791,
+  "video": null,
+  "planche": "F16-la-panne-planche.png",
+  "carrousel": [
+    {
+      "image": "carrousel/F16-la-panne-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/F16-la-panne-2.png",
+      "cases": [
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "legende": "Quelle panne tombe toujours le mauvais jour ?",
+  "source": "../../series/cote-fauteuil/F16-la-panne.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 2.6,
+      "texte": "Lundi matin. Agenda complet.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 2.6,
+      "duree": 2.3,
+      "texte": "L'aspiration ne marche plus.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 4.9,
+      "duree": 1.9,
+      "texte": "Depuis quand ?",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 6.8,
+      "duree": 2.5,
+      "texte": "Depuis que l'agenda est complet.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

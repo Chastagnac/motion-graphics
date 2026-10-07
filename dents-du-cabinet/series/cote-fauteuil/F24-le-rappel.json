@@ -1,0 +1,85 @@
+{
+  "id": "F24-le-rappel",
+  "serie": "IRRITANT",
+  "titre": "Le rappel",
+  "decor": "accueil",
+  "carrousel": [
+    2,
+    2
+  ],
+  "slides": [
+    {
+      "texte": "Votre dernier contrôle date de sept ans.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propD": "bloc"
+        },
+        {
+          "dent": "lait",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "J'ai pas eu le temps.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propD": "bloc"
+        },
+        {
+          "dent": "lait",
+          "brasG": "haussement",
+          "brasD": "haussement",
+          "jambes": "debout",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "En sept ans ?",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "juge",
+          "propD": "bloc"
+        },
+        {
+          "dent": "lait",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "expression": "regard_camera"
+        }
+      ]
+    },
+    {
+      "texte": "J'ai eu une semaine chargée.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "propD": "bloc"
+        },
+        {
+          "dent": "lait",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "jambes": "debout",
+          "expression": "content"
+        }
+      ]
+    }
+  ],
+  "legende": "Le plus long « j’ai pas eu le temps » de votre fichier ?"
+}

@@ -1,0 +1,125 @@
+{
+  "id": "F12-le-labo",
+  "titre": "Le labo",
+  "serie": "irritant",
+  "fond": "#B9C8FF",
+  "T": 10.2,
+  "version": 1791280936652,
+  "video": null,
+  "planche": "F12-le-labo-planche.png",
+  "carrousel": [
+    {
+      "image": "carrousel/F12-le-labo-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/F12-le-labo-2.png",
+      "cases": [
+        2
+      ]
+    },
+    {
+      "image": "carrousel/F12-le-labo-3.png",
+      "cases": [
+        3
+      ]
+    },
+    {
+      "image": "carrousel/F12-le-labo-4.png",
+      "cases": [
+        4
+      ]
+    }
+  ],
+  "legende": "Chez vous aussi, le labo livre « bientôt » ?",
+  "source": "../../series/cote-fauteuil/F12-le-labo.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 3,
+      "texte": "Le patient est prêt. La couronne ?",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "canine",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 3,
+      "duree": 2.8,
+      "texte": "Le labo dit qu'elle est partie.",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "canine",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.8,
+      "duree": 2,
+      "texte": "Partie quand ?",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "canine",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.8,
+      "duree": 2.4,
+      "texte": "Bientôt.",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "blase",
+          "animations": [
+            "expression:blase à 0.9s",
+            "clignement à 1.7s"
+          ]
+        },
+        {
+          "dent": "canine",
+          "expression": "regard_camera",
+          "animations": [
+            "effet:sueur à 0.9s"
+          ]
+        }
+      ]
+    }
+  ]
+}

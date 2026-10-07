@@ -1,0 +1,100 @@
+{
+  "id": "F06-le-diner",
+  "serie": "VECU",
+  "titre": "Le dîner",
+  "decor": "soiree",
+  "carrousel": [
+    1,
+    3
+  ],
+  "slides": [
+    {
+      "texte": "Samedi soir. Dîner entre amis.",
+      "duree": 2.6,
+      "personnages": [
+        {
+          "dent": "docteure",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "content"
+        },
+        {
+          "dent": "sagesse",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Tu es dentiste, c'est ça ?",
+      "voix": "sagesse",
+      "duree": 2.6,
+      "personnages": [
+        {
+          "dent": "docteure",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "regard_camera",
+          "depart": {
+            "expression": "content"
+          },
+          "animations": [
+            "expression:regard_camera à 0.9s"
+          ]
+        },
+        {
+          "dent": "sagesse",
+          "expression": "malin",
+          "brasG": "pointe",
+          "brasD": "bas"
+        }
+      ]
+    },
+    {
+      "texte": "Tu peux regarder, là, au fond ?",
+      "voix": "sagesse",
+      "duree": 2.8,
+      "personnages": [
+        {
+          "dent": "docteure",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "triste"
+        },
+        {
+          "dent": "sagesse",
+          "expression": "regard_camera",
+          "bouche": "ouverte",
+          "brasG": "croise",
+          "brasD": "bas"
+        }
+      ]
+    },
+    {
+      "texte": "Je suis comptable.",
+      "voix": "docteure",
+      "duree": 2.4,
+      "personnages": [
+        {
+          "dent": "docteure",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propD": null,
+          "expression": "neutre",
+          "animations": [
+            "clignement à 1.6s"
+          ]
+        },
+        {
+          "dent": "sagesse",
+          "expression": "juge",
+          "brasG": "croise",
+          "brasD": "bas"
+        }
+      ]
+    }
+  ],
+  "legende": "Votre meilleure parade en soirée ?"
+}

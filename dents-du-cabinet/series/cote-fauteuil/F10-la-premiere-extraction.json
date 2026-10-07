@@ -1,0 +1,85 @@
+{
+  "id": "F10-la-premiere-extraction",
+  "serie": "VECU",
+  "titre": "La première extraction",
+  "decor": "cabinet",
+  "carrousel": [
+    3,
+    1
+  ],
+  "slides": [
+    {
+      "texte": "C'est ma première extraction.",
+      "voix": "collaborateur",
+      "duree": 2.8,
+      "personnages": [
+        {
+          "dent": "collaborateur"
+        },
+        {
+          "dent": "docteure",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Respire. Tout va bien se passer.",
+      "voix": "docteure",
+      "duree": 2.8,
+      "personnages": [
+        {
+          "dent": "collaborateur"
+        },
+        {
+          "dent": "docteure",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Merci.",
+      "voix": "collaborateur",
+      "duree": 1.8,
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "content"
+        },
+        {
+          "dent": "docteure",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Je parlais au patient.",
+      "voix": "docteure",
+      "duree": 2.8,
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "choque",
+          "depart": {
+            "expression": "content"
+          },
+          "animations": [
+            "expression:choque à 1.0s"
+          ]
+        },
+        {
+          "dent": "docteure",
+          "brasG": "hanche",
+          "brasD": "pointe",
+          "propD": null,
+          "expression": "malin"
+        },
+        {
+          "dent": "lait",
+          "brasG": "bas",
+          "brasD": "bas"
+        }
+      ]
+    }
+  ],
+  "legende": "Vous vous souvenez de votre première extraction ?"
+}
