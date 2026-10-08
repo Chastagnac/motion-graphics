@@ -284,5 +284,6 @@
       ]
     }
   ],
-  "legende": "Combien de fois un même patient peut-il rappeler dans la journée ?"
+  "legende": "Combien de fois un même patient peut-il rappeler dans la journée ?",
+  "description": "Il rappelle pour vérifier qu'on va bien le rappeler."
 }

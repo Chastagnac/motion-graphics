@@ -66,6 +66,7 @@
   ],
   "accroche": "Agenda complet. Trois urgences en plus.",
   "legende": "Il ressemble à quoi, votre lundi matin ?",
+  "description": "Même le stérilisateur sait qu'on est lundi.",
   "source": "../../series/situations-du-cabinet/C08-un-bruit-de-lundi.json",
   "cases": [
     {

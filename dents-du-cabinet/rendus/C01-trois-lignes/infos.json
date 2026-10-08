@@ -64,6 +64,7 @@
   ],
   "accroche": "8h04. Trois demandes. Une seule personne.",
   "legende": "Combien de choses à la fois, chez vous, à 8h ?",
+  "description": "À 8h04, elle a déjà trois conversations en cours.",
   "source": "../../series/situations-du-cabinet/C01-trois-lignes.json",
   "cases": [
     {

@@ -68,6 +68,7 @@ function compiler(strip, D, cat, opts) {
   verifierTexte('titre', strip.titre);
   verifierTexte('accroche', strip.accroche);
   verifierTexte('legende', strip.legende);
+  verifierTexte('description', strip.description);
 
   // --- série et fond ---
   const serie = sansAccent(strip.serie || '');

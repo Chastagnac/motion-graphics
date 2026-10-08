@@ -210,5 +210,6 @@
       ]
     }
   ],
-  "legende": "Combien de « entre deux » aujourd'hui ?"
+  "legende": "Combien de « entre deux » aujourd'hui ?",
+  "description": "Entre deux patients, il y a toujours un patient."
 }

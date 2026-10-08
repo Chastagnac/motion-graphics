@@ -255,5 +255,6 @@
       ]
     }
   ],
-  "legende": "Vos patients lisent quoi, sur un devis ?"
+  "legende": "Vos patients lisent quoi, sur un devis ?",
+  "description": "Trois pages de devis, une seule ligne lue."
 }

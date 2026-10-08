@@ -63,6 +63,7 @@
   ],
   "accroche": "",
   "legende": "Quelle panne tombe toujours le mauvais jour ?",
+  "description": "Les pannes aussi consultent l'agenda avant de venir.",
   "source": "../../series/cote-fauteuil/F16-la-panne.json",
   "cases": [
     {

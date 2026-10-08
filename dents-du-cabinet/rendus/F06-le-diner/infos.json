@@ -62,6 +62,7 @@
   ],
   "accroche": "",
   "legende": "Votre meilleure parade en soirée ?",
+  "description": "Ne dites jamais votre métier avant le dessert.",
   "source": "../../series/cote-fauteuil/F06-le-diner.json",
   "cases": [
     {

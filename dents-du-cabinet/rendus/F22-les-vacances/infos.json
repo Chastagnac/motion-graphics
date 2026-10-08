@@ -63,6 +63,7 @@
   ],
   "accroche": "",
   "legende": "Docteurs, vous tenez combien de jours sans votre assistante ?",
+  "description": "Une semaine sans elle, et plus personne ne trouve les gants.",
   "source": "../../series/cote-fauteuil/F22-les-vacances.json",
   "cases": [
     {

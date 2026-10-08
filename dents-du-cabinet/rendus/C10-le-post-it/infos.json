@@ -66,6 +66,7 @@
   ],
   "accroche": "Un message important. Noté sur un post-it.",
   "legende": "Il est où, votre post-it le plus important ?",
+  "description": "Le message était important. Le post-it, lui, était libre.",
   "source": "../../series/situations-du-cabinet/C10-le-post-it.json",
   "cases": [
     {

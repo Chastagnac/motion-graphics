@@ -35,6 +35,7 @@
   ],
   "accroche": "",
   "legende": "Combien d'appels avant 9h chez vous ?",
+  "description": "",
   "source": "../../exemple-carrousel.json",
   "cases": [
     {

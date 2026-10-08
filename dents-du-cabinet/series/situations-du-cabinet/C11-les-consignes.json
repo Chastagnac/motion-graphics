@@ -274,5 +274,6 @@
       ]
     }
   ],
-  "legende": "Combien de temps vos patients retiennent-ils vos consignes ?"
+  "legende": "Combien de temps vos patients retiennent-ils vos consignes ?",
+  "description": "Trois consignes, trente secondes de mémoire."
 }

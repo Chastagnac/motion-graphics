@@ -65,6 +65,7 @@
   ],
   "accroche": "Le patient a dit oui. Mais à quoi ?",
   "legende": "Qui traduit, chez vous, après l'explication du plan de traitement ?",
+  "description": "Il a tout compris, sauf les mots.",
   "source": "../../series/situations-du-cabinet/C05-en-dentiste.json",
   "cases": [
     {

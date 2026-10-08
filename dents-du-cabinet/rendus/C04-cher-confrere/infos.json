@@ -65,6 +65,7 @@
   ],
   "accroche": "19h. Le cabinet est vide. Pas son bureau.",
   "legende": "À quelle heure vous écrivez vos courriers ?",
+  "description": "Cher confrère, je vous adresse ma soirée.",
   "source": "../../series/situations-du-cabinet/C04-cher-confrere.json",
   "cases": [
     {

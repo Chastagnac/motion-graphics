@@ -13,6 +13,8 @@ Comment lire et corriger :
   de départ, le message et l'accroche.
 - **L'accroche** s'affiche en grand au-dessus de la première image : le sujet et l'enjeu, sans
   donner la chute. **La légende** s'affiche sous la dernière image.
+- `La description : …` est la petite phrase qui accompagne le post sur Instagram, au-dessus de la
+  légende. Une seule phrase, drôle, sans raconter la chute.
 - Une **Page** = une image du carrousel. Une ligne = une case (1 à 4 cases par page).
 - `NOM : réplique` pour une bulle, `(narration) texte` pour un cartouche.
 - Une réplique tient en 8 mots environ. 8 pages au maximum.
@@ -23,6 +25,7 @@ Comment lire et corriger :
 
 ## C01 · Trois lignes
 irritant · accueil · légende : Combien de choses à la fois, chez vous, à 8h ?
+La description : À 8h04, elle a déjà trois conversations en cours.
 La situation : l'ouverture, quand le téléphone, le premier patient et le praticien arrivent ensemble.
 Le message : il n'y a qu'une personne à l'accueil, et jamais une seule demande.
 L'accroche : 8h04. Trois demandes. Une seule personne.
@@ -58,6 +61,7 @@ L'accroche : 8h04. Trois demandes. Une seule personne.
 
 ## C02 · La carte Vitale
 irritant · accueil · légende : Elle est où, la carte Vitale de vos patients ?
+La description : Tout est dans l'autre veste. Toujours l'autre.
 La situation : le patient sans carte Vitale ni attestation de mutuelle.
 Le message : un papier qui manque, c'est vingt minutes de comptoir.
 L'accroche : Une carte Vitale oubliée. Vingt minutes perdues.
@@ -94,6 +98,7 @@ L'accroche : Une carte Vitale oubliée. Vingt minutes perdues.
 
 ## C03 · Vingt minutes
 irritant · accueil · légende : Vous faites quoi d'un patient qui arrive avec vingt minutes de retard ?
+La description : Il a une vie. L'agenda aussi.
 La situation : le patient en retard qui veut passer quand même.
 Le message : un retard ne s'efface pas, il se transmet au patient suivant.
 L'accroche : Vingt minutes de retard. Qui les rattrape ?
@@ -130,6 +135,7 @@ L'accroche : Vingt minutes de retard. Qui les rattrape ?
 
 ## C04 · Cher confrère
 irritant · cabinet · légende : À quelle heure vous écrivez vos courriers ?
+La description : Cher confrère, je vous adresse ma soirée.
 La situation : les courriers et comptes rendus, le soir, une fois le cabinet vide.
 Le message : la journée de soins finit à 19h, la journée de papier commence à 19h.
 L'accroche : 19h. Le cabinet est vide. Pas son bureau.
@@ -166,6 +172,7 @@ L'accroche : 19h. Le cabinet est vide. Pas son bureau.
 
 ## C05 · En dentiste
 vécu · cabinet · légende : Qui traduit, chez vous, après l'explication du plan de traitement ?
+La description : Il a tout compris, sauf les mots.
 La situation : le plan de traitement expliqué avec les mots du métier.
 Le message : un patient qui dit oui n'a pas forcément compris.
 L'accroche : Le patient a dit oui. Mais à quoi ?
@@ -202,6 +209,7 @@ L'accroche : Le patient a dit oui. Mais à quoi ?
 
 ## C06 · Le dernier gant
 irritant · cabinet · légende : Quel produit tombe toujours en rupture chez vous ?
+La description : Un gant pour quatorze patients. Le gauche, en plus.
 La situation : la commande de consommables qu'on remet au soir, tous les soirs.
 Le message : « fais-moi penser » n'est pas une commande.
 L'accroche : Quatorze patients. Une boîte de gants.
@@ -240,6 +248,7 @@ L'accroche : Quatorze patients. Une boîte de gants.
 
 ## C07 · Dix petites minutes
 irritant · accueil · légende : Elles durent combien de temps, vos « dix petites minutes » ?
+La description : Dix petites minutes, c'est très long quand elles sont petites.
 La situation : la salle d'attente quand le praticien a pris du retard sur une urgence.
 Le message : attendre, ça passe ; ne pas savoir combien de temps, non.
 L'accroche : « Dix petites minutes. » Ça dure combien ?
@@ -278,6 +287,7 @@ L'accroche : « Dix petites minutes. » Ça dure combien ?
 
 ## C08 · Un bruit de lundi
 vécu · cabinet · légende : Il ressemble à quoi, votre lundi matin ?
+La description : Même le stérilisateur sait qu'on est lundi.
 La situation : le point d'équipe du lundi, quand l'agenda est plein avant d'avoir commencé.
 Le message : un agenda complet n'a pas de place pour l'imprévu, qui vient quand même.
 L'accroche : Agenda complet. Trois urgences en plus.
@@ -315,6 +325,7 @@ L'accroche : Agenda complet. Trois urgences en plus.
 
 ## C09 · C'est urgent
 irritant · accueil · légende : Sur dix « c'est urgent », combien de vraies urgences ?
+La description : Tout est urgent, surtout le blanchiment avant le mariage.
 La situation : le tri des appels du lundi matin, quand tout le monde dit que c'est urgent.
 Le message : la vraie urgence ne crie pas, elle s'excuse.
 L'accroche : Neuf appels urgents avant 9h. Combien de vrais ?
@@ -351,6 +362,7 @@ L'accroche : Neuf appels urgents avant 9h. Combien de vrais ?
 
 ## C10 · Le post-it
 irritant · accueil · légende : Il est où, votre post-it le plus important ?
+La description : Le message était important. Le post-it, lui, était libre.
 La situation : le message d'un patient à transmettre au praticien, noté à la volée.
 Le message : un message sur un post-it n'appartient à personne.
 L'accroche : Un message important. Noté sur un post-it.
@@ -388,6 +400,7 @@ L'accroche : Un message important. Noté sur un post-it.
 
 ## C11 · Les consignes
 vécu · cabinet · légende : Combien de temps vos patients retiennent-ils vos consignes ?
+La description : Trois consignes, trente secondes de mémoire.
 La situation : les consignes données à l'oral après un soin.
 Le message : ce qu'on dit au fauteuil reste au fauteuil.
 L'accroche : Trois consignes. Combien en reste-t-il demain ?
@@ -424,6 +437,7 @@ L'accroche : Trois consignes. Combien en reste-t-il demain ?
 
 ## C12 · Qui rappelle le labo ?
 irritant · cabinet · légende : Chez vous, « il faut » veut dire qui ?
+La description : « Il faut » : le collègue qui ne fait jamais rien.
 La situation : la tâche que tout le monde a entendue et que personne ne s'est attribuée.
 Le message : « il faut » n'a jamais rappelé personne.
 L'accroche : Tout le monde devait rappeler le labo.
@@ -461,6 +475,7 @@ L'accroche : Tout le monde devait rappeler le labo.
 
 ## C13 · Les rappels
 irritant · accueil · légende : Combien d'appels de confirmation pour combien de réponses ?
+La description : Vingt-deux appels pour apprendre qu'on ne saura que demain.
 La situation : les rendez-vous du lendemain à confirmer un par un, en fin de journée.
 Le message : une heure de rappels n'empêche pas le fauteuil vide.
 L'accroche : Une heure au téléphone pour confirmer demain.
@@ -496,6 +511,7 @@ L'accroche : Une heure au téléphone pour confirmer demain.
 
 ## C14 · Le questionnaire
 irritant · accueil · légende : Il dure combien de temps, votre questionnaire médical ?
+La description : « Antécédents », ça veut dire avant quoi, déjà ?
 La situation : le questionnaire médical rempli sur un coin de comptoir, pendant que le praticien attend.
 Le message : le rendez-vous commence dans la salle d'attente, et le retard aussi.
 L'accroche : Un questionnaire. Douze minutes de retard.
@@ -530,6 +546,7 @@ L'accroche : Un questionnaire. Douze minutes de retard.
 
 ## C15 · Le total
 irritant · accueil · légende : Vos patients lisent quoi, sur un devis ?
+La description : Trois pages de devis, une seule ligne lue.
 La situation : le devis remis au comptoir, que le patient ne sait pas lire.
 Le message : le patient lit le prix, pas le traitement.
 L'accroche : Un devis de trois pages. Il lit quoi ?
@@ -565,6 +582,7 @@ L'accroche : Un devis de trois pages. Il lit quoi ?
 
 ## C16 · La même question
 irritant · accueil · légende : Combien de fois un même patient peut-il rappeler dans la journée ?
+La description : Il rappelle pour vérifier qu'on va bien le rappeler.
 La situation : le patient qui rappelle toutes les heures pour la même demande.
 Le message : un patient sans nouvelles rappelle, et rappelle encore.
 L'accroche : Le même appel. Toutes les heures.

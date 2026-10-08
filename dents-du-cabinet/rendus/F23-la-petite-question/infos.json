@@ -58,6 +58,7 @@
   ],
   "accroche": "",
   "legende": "Votre record pour « une petite question » ?",
+  "description": "Une petite question, quarante minutes, sans rendez-vous.",
   "source": "../../series/cote-fauteuil/F23-la-petite-question.json",
   "cases": [
     {

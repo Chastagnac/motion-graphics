@@ -63,6 +63,7 @@
   ],
   "accroche": "",
   "legende": "À quelle heure vous quittez vraiment le cabinet ?",
+  "description": "Les patients partent à 19h. Les papiers, jamais.",
   "source": "../../series/cote-fauteuil/F15-les-papiers.json",
   "cases": [
     {

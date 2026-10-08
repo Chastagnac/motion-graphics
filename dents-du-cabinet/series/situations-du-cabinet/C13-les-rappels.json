@@ -183,5 +183,6 @@
       ]
     }
   ],
-  "legende": "Combien d'appels de confirmation pour combien de réponses ?"
+  "legende": "Combien d'appels de confirmation pour combien de réponses ?",
+  "description": "Vingt-deux appels pour apprendre qu'on ne saura que demain."
 }

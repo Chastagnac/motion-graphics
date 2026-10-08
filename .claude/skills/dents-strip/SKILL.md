@@ -269,6 +269,14 @@ Ne passe à la mise en scène qu'une fois le texte validé.
   `scripts/planche.js` selon la forme de la case. Images et vidéo partagent donc poses, bulles et textes.
 - Cadrage et rythme du reel se règlent en tête de `runtime/scene.js` (`REEL`, ressorts).
 
+## Texte du post
+
+Chaque histoire porte une ligne `La description : …` dans son fichier de `histoires/` : une seule
+petite phrase drôle, qui ne raconte pas la chute (« Il a une vie. L'agenda aussi. »). Elle n'est pas
+dessinée sur les images. La galerie l'affiche sous le titre, suivie de la légende, avec un bouton
+« Copier le texte » qui met les deux dans le presse-papiers pour Instagram. Toute nouvelle histoire
+doit avoir la sienne ; les mots interdits y sont refusés comme ailleurs.
+
 ## Publié ou à publier
 
 `dents-du-cabinet/publications.json` dit quels strips sont déjà sur Instagram : `{ "C01-trois-lignes": "2026-10-08" }`.

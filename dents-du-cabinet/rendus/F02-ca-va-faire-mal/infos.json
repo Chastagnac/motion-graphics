@@ -57,6 +57,7 @@
   ],
   "accroche": "",
   "legende": "Qui a déjà fait mal sans même toucher ?",
+  "description": "Le seul patient qui a mal en avance.",
   "source": "../../series/cote-fauteuil/F02-ca-va-faire-mal.json",
   "cases": [
     {

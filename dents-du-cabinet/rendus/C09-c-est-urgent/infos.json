@@ -65,6 +65,7 @@
   ],
   "accroche": "Neuf appels urgents avant 9h. Combien de vrais ?",
   "legende": "Sur dix « c'est urgent », combien de vraies urgences ?",
+  "description": "Tout est urgent, surtout le blanchiment avant le mariage.",
   "source": "../../series/situations-du-cabinet/C09-c-est-urgent.json",
   "cases": [
     {

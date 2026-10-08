@@ -70,6 +70,7 @@
   ],
   "accroche": "",
   "legende": "Vous aussi, vous certifiez les dents de lait ?",
+  "description": "La petite souris exige désormais un justificatif.",
   "source": "../../series/petites-histoires/H07-la-petite-souris.json",
   "cases": [
     {

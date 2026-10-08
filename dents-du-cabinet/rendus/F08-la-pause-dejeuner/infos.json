@@ -56,6 +56,7 @@
   ],
   "accroche": "",
   "legende": "Votre déjeuner d'aujourd'hui, c'était quoi ?",
+  "description": "Un café sucré, ça compte comme un repas complet.",
   "source": "../../series/cote-fauteuil/F08-la-pause-dejeuner.json",
   "cases": [
     {

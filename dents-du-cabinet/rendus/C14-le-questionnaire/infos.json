@@ -63,6 +63,7 @@
   ],
   "accroche": "Un questionnaire. Douze minutes de retard.",
   "legende": "Il dure combien de temps, votre questionnaire médical ?",
+  "description": "« Antécédents », ça veut dire avant quoi, déjà ?",
   "source": "../../series/situations-du-cabinet/C14-le-questionnaire.json",
   "cases": [
     {

@@ -56,6 +56,7 @@
   ],
   "accroche": "",
   "legende": "Combien de lapins cette semaine ?",
+  "description": "Trois rappels, une confirmation, zéro patient.",
   "source": "../../series/cote-fauteuil/F05-le-lapin.json",
   "cases": [
     {

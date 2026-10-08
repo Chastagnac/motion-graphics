@@ -70,6 +70,7 @@
   ],
   "accroche": "",
   "legende": "À quelle heure votre journée déraille, en général ?",
+  "description": "Cinq minutes de retard à 9h, une heure à 15h. La routine.",
   "source": "../../series/petites-histoires/H08-le-retard.json",
   "cases": [
     {

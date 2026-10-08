@@ -137,7 +137,7 @@ if (doublon) { console.error(`Rendu annulé : deux strips portent l'identifiant 
     const vue = {
       id: data.id, titre: data.titre, serie: data.serie, fond: data.fond, T: data.T, version: Date.now(),
       video: video ? data.id + '.mp4' : null, planche: images.planche, carrousel: images.carrousel,
-      accroche: source.accroche || '', legende: source.legende || '', source: path.relative(dossier, s.fichier).replace(/\\/g, '/'),
+      accroche: source.accroche || '', legende: source.legende || '', description: source.description || '', source: path.relative(dossier, s.fichier).replace(/\\/g, '/'),
       cases: data.cases.map((c) => {
         const sl = source.slides[c.index - 1];
         return {

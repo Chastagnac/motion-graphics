@@ -78,6 +78,7 @@
   ],
   "accroche": "",
   "legende": "Votre patient le plus courageux, c'était qui ?",
+  "description": "Dix ans pour pousser la porte. On la laisse ouverte.",
   "source": "../../series/petites-histoires/H02-la-porte-ouverte.json",
   "cases": [
     {

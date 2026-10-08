@@ -182,5 +182,6 @@
       ]
     }
   ],
-  "legende": "Quelle panne tombe toujours le mauvais jour ?"
+  "legende": "Quelle panne tombe toujours le mauvais jour ?",
+  "description": "Les pannes aussi consultent l'agenda avant de venir."
 }

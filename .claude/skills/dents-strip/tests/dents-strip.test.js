@@ -42,7 +42,8 @@ test('les mots interdits et le tiret cadratin sont refusés partout, accroche co
     ['titre', { titre: 'Le logiciel' }],
     ['accroche', { accroche: "Une IA à l'accueil." }],
     ['legende', { legende: 'Tout est automatique ?' }],
-    ['legende', { legende: 'Un tiret — ici.' }]
+    ['legende', { legende: 'Un tiret — ici.' }],
+    ['description', { description: 'Merci le logiciel.' }]
   ];
   cas.forEach(([ou, surcharge]) => {
     const r = compile(base(surcharge));
@@ -124,6 +125,7 @@ test('histoire.js : texte + mise en scène -> JSON, avec accroche et découpage'
     '# Essai', '', '---', '',
     '## T01 · Trois lignes',
     'irritant · accueil · légende : Et chez vous ?',
+    'La description : Trois lignes, une seule oreille.',
     'Le message : une seule personne.',
     "L'accroche : 8h04. Trois demandes.",
     '', '**Page 1**', '- INCISIVE : Cabinet dentaire, bonjour.',
@@ -136,6 +138,7 @@ test('histoire.js : texte + mise en scène -> JSON, avec accroche et découpage'
   const s = JSON.parse(fs.readFileSync(path.join(sortie, 'T01-trois-lignes.json'), 'utf8'));
   assert.strictEqual(s.accroche, '8h04. Trois demandes.');
   assert.strictEqual(s.legende, 'Et chez vous ?');
+  assert.strictEqual(s.description, 'Trois lignes, une seule oreille.');
   assert.deepStrictEqual(s.carrousel, [1, 2]);
   assert.strictEqual(s.slides[0].voix, 'incisive');
   assert.deepStrictEqual(s.slides[0].personnages[0], { dent: 'incisive', expression: 'content', propG: 'telephone', brasG: 'tient' });

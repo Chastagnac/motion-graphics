@@ -63,6 +63,7 @@
   ],
   "accroche": "",
   "legende": "Vous vous souvenez de votre première extraction ?",
+  "description": "Tout le monde respire, sauf celui qui tient le davier.",
   "source": "../../series/cote-fauteuil/F10-la-premiere-extraction.json",
   "cases": [
     {

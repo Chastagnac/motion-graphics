@@ -43,6 +43,8 @@ function lireHistoires(texte) {
       h.decor = DECORS[sansAccent(m[2].split(',')[0]).toLowerCase().trim()];
       if (!h.decor) err(h.code, `lieu « ${m[2]} » inconnu (${Object.keys(DECORS).join(', ')})`);
       h.legende = m[3].trim();
+    } else if ((m = /^La description\s*:\s*(.+)$/.exec(l))) {
+      h.description = m[1].trim();
     } else if ((m = /^L['’]accroche\s*:\s*(.+)$/.exec(l))) {
       h.accroche = m[1].trim();
     } else if (/^\*\*Page\s+\d+\*\*$/.test(l)) {
@@ -136,7 +138,7 @@ const strips = histoires.map((h) => {
   });
   const strip = { id: `${h.code}-${slug(h.titre)}`, serie: h.serie, titre: h.titre };
   if (h.accroche) strip.accroche = h.accroche;
-  return Object.assign(strip, { decor: h.decor, carrousel: h.pages.map((p) => p.length), slides, legende: h.legende });
+  return Object.assign(strip, { decor: h.decor, carrousel: h.pages.map((p) => p.length), slides, legende: h.legende }, h.description ? { description: h.description } : {});
 });
 
 if (erreurs.length) { erreurs.forEach((e) => console.error('ERREUR, ' + e)); console.error('\nRien n\'a été écrit.'); process.exit(1); }

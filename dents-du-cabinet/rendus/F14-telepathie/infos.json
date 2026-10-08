@@ -57,6 +57,7 @@
   ],
   "accroche": "",
   "legende": "Identifiez votre binôme qui lit dans vos pensées.",
+  "description": "Douze ans de binôme, ça remplace les fins de phrases.",
   "source": "../../series/cote-fauteuil/F14-telepathie.json",
   "cases": [
     {

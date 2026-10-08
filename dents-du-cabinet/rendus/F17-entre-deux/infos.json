@@ -63,6 +63,7 @@
   ],
   "accroche": "",
   "legende": "Combien de « entre deux » aujourd'hui ?",
+  "description": "Entre deux patients, il y a toujours un patient.",
   "source": "../../series/cote-fauteuil/F17-entre-deux.json",
   "cases": [
     {

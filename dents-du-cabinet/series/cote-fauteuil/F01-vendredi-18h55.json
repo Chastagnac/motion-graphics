@@ -206,5 +206,6 @@
       ]
     }
   ],
-  "legende": "Votre record d'urgence du vendredi soir ?"
+  "legende": "Votre record d'urgence du vendredi soir ?",
+  "description": "Le week-end commence à 18h55. Il finit à 18h56."
 }

@@ -78,6 +78,7 @@
   ],
   "accroche": "",
   "legende": "Qui vous a sauvé la mise, votre premier jour ?",
+  "description": "Il a tout révisé, sauf où se trouve la lumière.",
   "source": "../../series/petites-histoires/H01-le-premier-jour.json",
   "cases": [
     {

@@ -266,5 +266,6 @@
       ]
     }
   ],
-  "legende": "Combien de choses à la fois, chez vous, à 8h ?"
+  "legende": "Combien de choses à la fois, chez vous, à 8h ?",
+  "description": "À 8h04, elle a déjà trois conversations en cours."
 }

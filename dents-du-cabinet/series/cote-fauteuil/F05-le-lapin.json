@@ -164,5 +164,6 @@
       ]
     }
   ],
-  "legende": "Combien de lapins cette semaine ?"
+  "legende": "Combien de lapins cette semaine ?",
+  "description": "Trois rappels, une confirmation, zéro patient."
 }

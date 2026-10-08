@@ -334,5 +334,6 @@
       ]
     }
   ],
-  "legende": "Elles durent combien de temps, vos « dix petites minutes » ?"
+  "legende": "Elles durent combien de temps, vos « dix petites minutes » ?",
+  "description": "Dix petites minutes, c'est très long quand elles sont petites."
 }

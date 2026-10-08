@@ -65,6 +65,7 @@
   ],
   "accroche": "Une carte Vitale oubliée. Vingt minutes perdues.",
   "legende": "Elle est où, la carte Vitale de vos patients ?",
+  "description": "Tout est dans l'autre veste. Toujours l'autre.",
   "source": "../../series/situations-du-cabinet/C02-la-carte-vitale.json",
   "cases": [
     {

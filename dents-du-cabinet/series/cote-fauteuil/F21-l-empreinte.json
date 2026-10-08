@@ -287,5 +287,6 @@
       ]
     }
   ],
-  "legende": "Qui a déjà vu un nez se boucher sur commande ?"
+  "legende": "Qui a déjà vu un nez se boucher sur commande ?",
+  "description": "Dites « respirez par le nez » et le nez se bouche."
 }

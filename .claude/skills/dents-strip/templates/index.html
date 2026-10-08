@@ -31,8 +31,11 @@ textarea{width:100%;min-height:84px;resize:vertical;padding:10px;border:2px soli
 textarea:focus{outline:3px solid #B9C8FF;background:#fff}
 a{color:inherit;font-weight:700;font-size:14px}
 .filtres{display:flex;flex-wrap:wrap;gap:8px}
-.filtres button,.pub button{font:inherit;font-size:13px;font-weight:800;padding:5px 14px;border:2px solid var(--encre);border-radius:999px;background:#fff;color:var(--encre);cursor:pointer}
+.filtres button,.pub button,.texte button{font:inherit;font-size:13px;font-weight:800;padding:5px 14px;border:2px solid var(--encre);border-radius:999px;background:#fff;color:var(--encre);cursor:pointer}
 .filtres button[aria-pressed="true"]{background:var(--encre);color:#fff}
+.texte{display:flex;flex-direction:column;align-items:flex-start;gap:6px;padding:10px 12px;border:2px solid var(--encre);border-radius:10px;background:var(--papier);font-size:14px}
+.texte p{margin:0}
+.texte .question{color:var(--gris)}
 .pub{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px}
 .pastille{padding:3px 12px;border:2px solid var(--encre);border-radius:999px;font-size:12px;font-weight:800;background:#FFD84D}
 .carte.publie .pastille{background:#2BA58A;color:#fff}
@@ -220,7 +223,21 @@ S.forEach((s) => {
   });
   pub.append(pastille, bascule);
   cartes.push({ id: s.id, el: carte });
-  corps.append(num, h2, pub, lab, ta, lien); carte.append(v); if (fleches) carte.append(fleches); carte.append(corps); $('grille').appendChild(carte);
+  // le texte du post : la description, puis la question. Un bouton le copie pour Instagram.
+  const texte = document.createElement('div'); texte.className = 'texte';
+  const lignesPost = [s.description, s.legende].filter(Boolean);
+  lignesPost.forEach((t, k) => { const p = document.createElement('p'); p.textContent = t; if (k || !s.description) p.className = 'question'; texte.appendChild(p); });
+  const copier = document.createElement('button'); copier.type = 'button'; copier.textContent = 'Copier le texte';
+  copier.addEventListener('click', async () => {
+    const t = lignesPost.join('\n\n');
+    try { await navigator.clipboard.writeText(t); }
+    catch (e) { const z = document.createElement('textarea'); z.value = t; document.body.appendChild(z); z.select(); document.execCommand('copy'); z.remove(); }
+    copier.textContent = 'Copié'; setTimeout(() => { copier.textContent = 'Copier le texte'; }, 1500);
+  });
+  texte.appendChild(copier);
+  corps.append(num, h2);
+  if (lignesPost.length) corps.append(texte);
+  corps.append(pub, lab, ta, lien); carte.append(v); if (fleches) carte.append(fleches); carte.append(corps); $('grille').appendChild(carte);
   majPub();
   lire(s.id).then((d) => { if (d && d.general) ta.value = d.general; });
 

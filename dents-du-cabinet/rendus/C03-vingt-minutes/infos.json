@@ -65,6 +65,7 @@
   ],
   "accroche": "Vingt minutes de retard. Qui les rattrape ?",
   "legende": "Vous faites quoi d'un patient qui arrive avec vingt minutes de retard ?",
+  "description": "Il a une vie. L'agenda aussi.",
   "source": "../../series/situations-du-cabinet/C03-vingt-minutes.json",
   "cases": [
     {

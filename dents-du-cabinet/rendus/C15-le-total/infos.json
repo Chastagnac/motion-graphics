@@ -64,6 +64,7 @@
   ],
   "accroche": "Un devis de trois pages. Il lit quoi ?",
   "legende": "Vos patients lisent quoi, sur un devis ?",
+  "description": "Trois pages de devis, une seule ligne lue.",
   "source": "../../series/situations-du-cabinet/C15-le-total.json",
   "cases": [
     {

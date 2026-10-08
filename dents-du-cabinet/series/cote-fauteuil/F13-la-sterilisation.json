@@ -198,5 +198,6 @@
       ]
     }
   ],
-  "legende": "Combien de cycles par jour chez vous ?"
+  "legende": "Combien de cycles par jour chez vous ?",
+  "description": "La stérilisation est finie. Pendant vingt minutes."
 }

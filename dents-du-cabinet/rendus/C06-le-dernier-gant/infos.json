@@ -67,6 +67,7 @@
   ],
   "accroche": "Quatorze patients. Une boîte de gants.",
   "legende": "Quel produit tombe toujours en rupture chez vous ?",
+  "description": "Un gant pour quatorze patients. Le gauche, en plus.",
   "source": "../../series/situations-du-cabinet/C06-le-dernier-gant.json",
   "cases": [
     {

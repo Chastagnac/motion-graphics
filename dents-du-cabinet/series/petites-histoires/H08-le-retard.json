@@ -189,5 +189,6 @@
       ]
     }
   ],
-  "legende": "À quelle heure votre journée déraille, en général ?"
+  "legende": "À quelle heure votre journée déraille, en général ?",
+  "description": "Cinq minutes de retard à 9h, une heure à 15h. La routine."
 }

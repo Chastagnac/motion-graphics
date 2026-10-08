@@ -66,6 +66,7 @@
   ],
   "accroche": "Tout le monde devait rappeler le labo.",
   "legende": "Chez vous, « il faut » veut dire qui ?",
+  "description": "« Il faut » : le collègue qui ne fait jamais rien.",
   "source": "../../series/situations-du-cabinet/C12-qui-rappelle-le-labo.json",
   "cases": [
     {

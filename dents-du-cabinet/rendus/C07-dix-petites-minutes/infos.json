@@ -67,6 +67,7 @@
   ],
   "accroche": "« Dix petites minutes. » Ça dure combien ?",
   "legende": "Elles durent combien de temps, vos « dix petites minutes » ?",
+  "description": "Dix petites minutes, c'est très long quand elles sont petites.",
   "source": "../../series/situations-du-cabinet/C07-dix-petites-minutes.json",
   "cases": [
     {

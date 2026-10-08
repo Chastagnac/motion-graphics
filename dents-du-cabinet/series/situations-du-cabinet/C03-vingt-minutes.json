@@ -261,5 +261,6 @@
       ]
     }
   ],
-  "legende": "Vous faites quoi d'un patient qui arrive avec vingt minutes de retard ?"
+  "legende": "Vous faites quoi d'un patient qui arrive avec vingt minutes de retard ?",
+  "description": "Il a une vie. L'agenda aussi."
 }

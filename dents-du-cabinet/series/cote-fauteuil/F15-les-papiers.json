@@ -248,5 +248,6 @@
       ]
     }
   ],
-  "legende": "À quelle heure vous quittez vraiment le cabinet ?"
+  "legende": "À quelle heure vous quittez vraiment le cabinet ?",
+  "description": "Les patients partent à 19h. Les papiers, jamais."
 }

@@ -202,5 +202,6 @@
       ]
     }
   ],
-  "legende": "Votre déjeuner d'aujourd'hui, c'était quoi ?"
+  "legende": "Votre déjeuner d'aujourd'hui, c'était quoi ?",
+  "description": "Un café sucré, ça compte comme un repas complet."
 }

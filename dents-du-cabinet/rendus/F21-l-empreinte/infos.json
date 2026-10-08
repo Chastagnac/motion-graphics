@@ -64,6 +64,7 @@
   ],
   "accroche": "",
   "legende": "Qui a déjà vu un nez se boucher sur commande ?",
+  "description": "Dites « respirez par le nez » et le nez se bouche.",
   "source": "../../series/cote-fauteuil/F21-l-empreinte.json",
   "cases": [
     {

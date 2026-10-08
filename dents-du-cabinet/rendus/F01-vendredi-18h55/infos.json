@@ -56,6 +56,7 @@
   ],
   "accroche": "",
   "legende": "Votre record d'urgence du vendredi soir ?",
+  "description": "Le week-end commence à 18h55. Il finit à 18h56.",
   "source": "../../series/cote-fauteuil/F01-vendredi-18h55.json",
   "cases": [
     {

@@ -64,6 +64,7 @@
   ],
   "accroche": "Une heure au téléphone pour confirmer demain.",
   "legende": "Combien d'appels de confirmation pour combien de réponses ?",
+  "description": "Vingt-deux appels pour apprendre qu'on ne saura que demain.",
   "source": "../../series/situations-du-cabinet/C13-les-rappels.json",
   "cases": [
     {

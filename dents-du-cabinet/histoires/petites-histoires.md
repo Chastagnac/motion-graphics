@@ -7,6 +7,8 @@ Comment lire et corriger :
 
 - Un titre `##` par histoire, puis la couleur de série, le lieu, la légende du post et **l'histoire
   en une phrase**.
+- `La description : …` est la petite phrase qui accompagne le post sur Instagram, au-dessus de la
+  légende. Une seule phrase, drôle, sans raconter la chute.
 - Une **Page** = une image du carrousel. Une ligne = une case (1 à 4 cases par page).
 - `NOM : réplique` pour une bulle, `(narration) texte` pour un cartouche.
 - Une réplique tient en 8 mots environ. 10 pages au maximum.
@@ -17,6 +19,7 @@ Comment lire et corriger :
 
 ## H01 · Le premier jour
 vécu · cabinet · légende : Qui vous a sauvé la mise, votre premier jour ?
+La description : Il a tout révisé, sauf où se trouve la lumière.
 L'histoire : le nouveau collaborateur veut prouver qu'il est prêt, et découvre qui tient vraiment le cabinet.
 
 **Page 1**
@@ -58,6 +61,7 @@ L'histoire : le nouveau collaborateur veut prouver qu'il est prêt, et découvre
 
 ## H02 · La porte ouverte
 vécu · accueil, puis cabinet · légende : Votre patient le plus courageux, c'était qui ?
+La description : Dix ans pour pousser la porte. On la laisse ouverte.
 L'histoire : un patient qui a peur depuis dix ans pousse enfin la porte, et personne ne le brusque.
 
 **Page 1**
@@ -99,6 +103,7 @@ L'histoire : un patient qui a peur depuis dix ans pousse enfin la porte, et pers
 
 ## H03 · La couronne perdue
 irritant · cabinet · légende : L'objet que vous avez le plus cherché au cabinet ?
+La description : La couronne était en sécurité. Très en sécurité.
 L'histoire : la couronne du patient disparaît dix minutes avant la pose, et toute l'équipe la cherche sans rien laisser paraître.
 
 **Page 1**
@@ -137,6 +142,7 @@ L'histoire : la couronne du patient disparaît dix minutes avant la pose, et tou
 
 ## H04 · Le dessin
 vécu · cabinet · légende : Le plus beau cadeau qu'un petit patient vous ait fait ?
+La description : En six mois, il est passé des cornes à la cape.
 L'histoire : un enfant de six ans arrive terrorisé, et son regard sur le dentiste change d'une visite à l'autre.
 
 **Page 1**
@@ -172,6 +178,7 @@ L'histoire : un enfant de six ans arrive terrorisé, et son regard sur le dentis
 
 ## H05 · Les nouvelles
 vécu · cabinet · légende : Qui a aussi une patiente qui vient surtout pour discuter ?
+La description : Zéro carie en trente ans, et jamais un rendez-vous manqué.
 L'histoire : une patiente sans la moindre carie vient tous les six mois depuis trente ans, et la docteure finit par comprendre pourquoi.
 
 **Page 1**
@@ -208,6 +215,7 @@ L'histoire : une patiente sans la moindre carie vient tous les six mois depuis t
 
 ## H06 · La panne de courant
 vécu · cabinet · légende : C'était quand, votre dernier vrai déjeuner d'équipe ?
+La description : Il a fallu une panne de courant pour déjeuner ensemble.
 L'histoire : une coupure de courant vide l'agenda, et l'équipe fait pour la première fois ce qu'elle n'a jamais le temps de faire.
 
 **Page 1**
@@ -243,6 +251,7 @@ L'histoire : une coupure de courant vide l'agenda, et l'équipe fait pour la pre
 
 ## H07 · La petite souris
 vécu · cabinet · légende : Vous aussi, vous certifiez les dents de lait ?
+La description : La petite souris exige désormais un justificatif.
 L'histoire : un enfant perd sa première dent au cabinet et craint que la petite souris ne le sache pas ; la docteure règle le problème.
 
 **Page 1**
@@ -279,6 +288,7 @@ L'histoire : un enfant perd sa première dent au cabinet et craint que la petite
 
 ## H08 · Le retard
 irritant · cabinet · légende : À quelle heure votre journée déraille, en général ?
+La description : Cinq minutes de retard à 9h, une heure à 15h. La routine.
 L'histoire : le docteur passe la journée à courir après cinq minutes de retard, jusqu'à ce qu'un hasard le sauve… pour un soir.
 
 **Page 1**

@@ -65,6 +65,7 @@
   ],
   "accroche": "Trois consignes. Combien en reste-t-il demain ?",
   "legende": "Combien de temps vos patients retiennent-ils vos consignes ?",
+  "description": "Trois consignes, trente secondes de mémoire.",
   "source": "../../series/situations-du-cabinet/C11-les-consignes.json",
   "cases": [
     {

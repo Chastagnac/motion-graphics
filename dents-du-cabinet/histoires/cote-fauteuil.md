@@ -6,6 +6,8 @@ Ce fichier ne contient que l'écriture. Pas de pose, pas de décor dessiné, pas
 Comment lire et corriger :
 
 - Un titre `##` par histoire, puis la couleur de série, le lieu et la légende du post.
+- `La description : …` est la petite phrase qui accompagne le post sur Instagram, au-dessus de la
+  légende. Une seule phrase, drôle, sans raconter la chute.
 - Une **Page** = une image du carrousel. Une ligne = une case (1 à 4 cases par page).
 - `NOM : réplique` pour une bulle, `(narration) texte` pour un cartouche.
 - Une réplique tient en 8 mots environ.
@@ -19,6 +21,7 @@ situation, une première chute, puis un dernier rebond sur la page finale.
 
 ## F01 · Vendredi 18h55
 irritant · accueil · légende : Votre record d'urgence du vendredi soir ?
+La description : Le week-end commence à 18h55. Il finit à 18h56.
 
 **Page 1**
 - (narration) Vendredi, 18h55.
@@ -46,6 +49,7 @@ irritant · accueil · légende : Votre record d'urgence du vendredi soir ?
 
 ## F02 · Ça va faire mal ?
 vécu · cabinet · légende : Qui a déjà fait mal sans même toucher ?
+La description : Le seul patient qui a mal en avance.
 
 **Page 1**
 - LAIT : Ça va faire mal ?
@@ -74,6 +78,7 @@ vécu · cabinet · légende : Qui a déjà fait mal sans même toucher ?
 
 ## F03 · Le fil dentaire
 irritant · cabinet · légende : Qui a déjà entendu « tous les jours » ?
+La description : Le fil dentaire : tous les jours, depuis ce matin.
 
 **Page 1**
 - DOCTEUR : Vous passez le fil dentaire ?
@@ -101,6 +106,7 @@ irritant · cabinet · légende : Qui a déjà entendu « tous les jours » ?
 
 ## F04 · Le gainage
 vécu · cabinet · légende : Et votre dos, il en dit quoi ?
+La description : Pas besoin de salle de sport quand on a un fauteuil.
 
 **Page 1**
 - COLLABORATEUR : Tu fais du sport, toi ?
@@ -128,6 +134,7 @@ vécu · cabinet · légende : Et votre dos, il en dit quoi ?
 
 ## F05 · Le lapin
 irritant · accueil · légende : Combien de lapins cette semaine ?
+La description : Trois rappels, une confirmation, zéro patient.
 
 **Page 1**
 - (narration) 14h. La salle d'attente est vide.
@@ -155,6 +162,7 @@ irritant · accueil · légende : Combien de lapins cette semaine ?
 
 ## F06 · Le dîner
 vécu · soirée · légende : Votre meilleure parade en soirée ?
+La description : Ne dites jamais votre métier avant le dessert.
 
 **Page 1**
 - (narration) Samedi soir. Dîner entre amis.
@@ -185,6 +193,7 @@ vécu · soirée · légende : Votre meilleure parade en soirée ?
 
 ## F07 · Docteur Internet
 irritant · cabinet · légende : Le pire diagnostic qu'un patient vous ait apporté ?
+La description : Six ans d'études contre un forum. Le forum mène.
 
 **Page 1**
 - LAIT : J'ai regardé sur internet.
@@ -213,6 +222,7 @@ irritant · cabinet · légende : Le pire diagnostic qu'un patient vous ait appo
 
 ## F08 · La pause déjeuner
 vécu · cabinet · légende : Votre déjeuner d'aujourd'hui, c'était quoi ?
+La description : Un café sucré, ça compte comme un repas complet.
 
 **Page 1**
 - CANINE : Docteur, il est 13h. On mange ?
@@ -240,6 +250,7 @@ vécu · cabinet · légende : Votre déjeuner d'aujourd'hui, c'était quoi ?
 
 ## F09 · Le devis
 irritant · accueil · légende : Le « je vais réfléchir » le plus long de votre carrière ?
+La description : Il a réfléchi deux ans. La carie, elle, n'a pas hésité.
 
 **Page 1**
 - DOCTEURE : Voici le devis.
@@ -272,6 +283,7 @@ irritant · accueil · légende : Le « je vais réfléchir » le plus long de v
 
 ## F10 · La première extraction
 vécu · cabinet · légende : Vous vous souvenez de votre première extraction ?
+La description : Tout le monde respire, sauf celui qui tient le davier.
 
 **Page 1**
 - COLLABORATEUR : C'est ma première extraction.
@@ -303,6 +315,7 @@ vécu · cabinet · légende : Vous vous souvenez de votre première extraction 
 
 ## F11 · L'avis
 irritant · accueil · légende : L'avis le plus injuste que vous ayez reçu ?
+La description : Une dent sauvée, une étoile, et un avis sur le parking.
 
 **Page 1**
 - INCISIVE : On a un nouvel avis en ligne.
@@ -330,6 +343,7 @@ irritant · accueil · légende : L'avis le plus injuste que vous ayez reçu ?
 
 ## F12 · Le labo
 irritant · cabinet · légende : Chez vous aussi, le labo livre « bientôt » ?
+La description : La couronne est partie. Enfin, presque. Enfin, bientôt.
 
 **Page 1**
 - DOCTEURE : Le patient est prêt. La couronne ?
@@ -360,6 +374,7 @@ irritant · cabinet · légende : Chez vous aussi, le labo livre « bientôt » 
 
 ## F13 · La stérilisation
 irritant · cabinet · légende : Combien de cycles par jour chez vous ?
+La description : La stérilisation est finie. Pendant vingt minutes.
 
 **Page 1**
 - ASSISTANTE : J'ai fini la stérilisation.
@@ -387,6 +402,7 @@ irritant · cabinet · légende : Combien de cycles par jour chez vous ?
 
 ## F14 · Télépathie
 vécu · cabinet · légende : Identifiez votre binôme qui lit dans vos pensées.
+La description : Douze ans de binôme, ça remplace les fins de phrases.
 
 **Page 1**
 - DOCTEUR : Tu me passes la…
@@ -415,6 +431,7 @@ vécu · cabinet · légende : Identifiez votre binôme qui lit dans vos pensée
 
 ## F15 · Les papiers
 irritant · accueil · légende : À quelle heure vous quittez vraiment le cabinet ?
+La description : Les patients partent à 19h. Les papiers, jamais.
 
 **Page 1**
 - DOCTEUR : Dernier patient. Bonne soirée !
@@ -446,6 +463,7 @@ irritant · accueil · légende : À quelle heure vous quittez vraiment le cabin
 
 ## F16 · La panne
 irritant · cabinet · légende : Quelle panne tombe toujours le mauvais jour ?
+La description : Les pannes aussi consultent l'agenda avant de venir.
 
 **Page 1**
 - (narration) Lundi matin. Agenda complet.
@@ -477,6 +495,7 @@ irritant · cabinet · légende : Quelle panne tombe toujours le mauvais jour ?
 
 ## F17 · Entre deux
 irritant · accueil · légende : Combien de « entre deux » aujourd'hui ?
+La description : Entre deux patients, il y a toujours un patient.
 
 **Page 1**
 - INCISIVE : Il demande à passer entre deux.
@@ -508,6 +527,7 @@ irritant · accueil · légende : Combien de « entre deux » aujourd'hui ?
 
 ## F18 · L'autocollant
 vécu · cabinet · légende : Votre meilleure négociation avec un patient de six ans ?
+La description : Six ans, et déjà meilleur négociateur que nous.
 
 **Page 1**
 - DOCTEUR : Tu ouvres la bouche ?
@@ -537,6 +557,7 @@ vécu · cabinet · légende : Votre meilleure négociation avec un patient de s
 
 ## F19 · L'anesthésie
 vécu · cabinet · légende : La phrase la plus drôle entendue sous anesthésie ?
+La description : Présenter un budget sous anesthésie, f'est tout un art.
 
 **Page 1**
 - DOCTEURE : L'anesthésie fait effet ?
@@ -565,6 +586,7 @@ vécu · cabinet · légende : La phrase la plus drôle entendue sous anesthési
 
 ## F20 · Le recrutement
 irritant · accueil · légende : Depuis combien de temps votre annonce est en ligne ?
+La description : Six mois d'annonce, une candidate, et elle a ri.
 
 **Page 1**
 - DOCTEUR : Des réponses à l'annonce ?
@@ -594,6 +616,7 @@ irritant · accueil · légende : Depuis combien de temps votre annonce est en l
 
 ## F21 · L'empreinte
 vécu · cabinet · légende : Qui a déjà vu un nez se boucher sur commande ?
+La description : Dites « respirez par le nez » et le nez se bouche.
 
 **Page 1**
 - ASSISTANTE : On prend l'empreinte. Trois minutes.
@@ -626,6 +649,7 @@ vécu · cabinet · légende : Qui a déjà vu un nez se boucher sur commande ?
 
 ## F22 · Les vacances
 vécu · cabinet · légende : Docteurs, vous tenez combien de jours sans votre assistante ?
+La description : Une semaine sans elle, et plus personne ne trouve les gants.
 
 **Page 1**
 - ASSISTANTE : Je pose une semaine en août.
@@ -657,6 +681,7 @@ vécu · cabinet · légende : Docteurs, vous tenez combien de jours sans votre 
 
 ## F23 · La petite question
 irritant · accueil · légende : Votre record pour « une petite question » ?
+La description : Une petite question, quarante minutes, sans rendez-vous.
 
 **Page 1**
 - LAIT : Docteur, juste une petite question.
@@ -686,6 +711,7 @@ irritant · accueil · légende : Votre record pour « une petite question » ?
 
 ## F24 · Le rappel
 irritant · accueil · légende : Le plus long « j'ai pas eu le temps » de votre fichier ?
+La description : Sept ans sans contrôle. Semaine chargée.
 
 **Page 1**
 - INCISIVE : Votre dernier contrôle date de sept ans.
