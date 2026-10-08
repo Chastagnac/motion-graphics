@@ -4,7 +4,7 @@
   "serie": "vecu",
   "fond": "#FFB3A7",
   "T": 26.9,
-  "version": 1791411529519,
+  "version": 1791482744463,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -56,6 +56,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Votre meilleure négociation avec un patient de six ans ?",
   "source": "../../series/cote-fauteuil/F18-l-autocollant.json",
   "cases": [

@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 28.9,
-  "version": 1791411881481,
+  "version": 1791482738481,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -61,6 +61,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Combien de « entre deux » aujourd'hui ?",
   "source": "../../series/cote-fauteuil/F17-entre-deux.json",
   "cases": [

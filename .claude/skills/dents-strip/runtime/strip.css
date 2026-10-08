@@ -10,7 +10,7 @@ body.preview #wrap{position:fixed;left:50%;top:50%}
 .bulle path{fill:#fff;stroke:#141413;stroke-width:14;stroke-linejoin:round}
 .bulle path.ombre{fill:#141413}
 .recit .bulle path:not(.ombre){fill:#FFF1B8}
-.txt{position:absolute;text-align:center;font-weight:900;line-height:1.02;letter-spacing:-0.035em;text-wrap:balance}
+.txt{position:absolute;text-align:center;font-weight:900;line-height:1.02;letter-spacing:-0.035em;word-spacing:.12em;text-wrap:balance}
 .mot{display:inline-block;transform-origin:50% 80%;white-space:nowrap}
 .perso{position:absolute}
 .monde{position:absolute;inset:0}
@@ -26,5 +26,10 @@ html.bd,body.bd{overflow:visible;background:#fff}
 .planche{position:relative;background:#fff;font-family:'Geist',system-ui,sans-serif;color:#141413}
 .vignette{position:absolute;box-sizing:border-box;overflow:hidden;border:7px solid #141413;border-radius:18px}
 .vignette .scene{transform-origin:0 0}
+/* textes hors case du carrousel : accroche au-dessus de la première image, question sous la dernière */
+.bande-accroche,.bande-question{position:absolute;box-sizing:border-box;display:flex;align-items:center;font-weight:900;line-height:1.04;letter-spacing:-0.035em;word-spacing:.1em;text-wrap:balance}
+.bande-accroche{padding:0 6px 6px}
+.bande-question{padding:14px 30px;border-radius:18px;background:#141413;color:#fff;font-weight:800;letter-spacing:-0.025em}
+.bande-accroche span,.bande-question span{display:block;width:100%}
 .pied{position:absolute;display:flex;justify-content:space-between;align-items:center;font-weight:900;font-size:24px;letter-spacing:-0.02em;white-space:pre}
 .pied span:last-child{font-weight:700;opacity:.65}

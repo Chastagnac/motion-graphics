@@ -4,7 +4,7 @@
   "serie": "vecu",
   "fond": "#FFB3A7",
   "T": 35.5,
-  "version": 1791445360842,
+  "version": 1791482972122,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -64,6 +64,7 @@
       ]
     }
   ],
+  "accroche": "Agenda complet. Trois urgences en plus.",
   "legende": "Il ressemble à quoi, votre lundi matin ?",
   "source": "../../series/situations-du-cabinet/C08-un-bruit-de-lundi.json",
   "cases": [

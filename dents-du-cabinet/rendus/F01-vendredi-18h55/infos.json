@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 23,
-  "version": 1791411443704,
+  "version": 1791482638249,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -54,6 +54,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Votre record d'urgence du vendredi soir ?",
   "source": "../../series/cote-fauteuil/F01-vendredi-18h55.json",
   "cases": [

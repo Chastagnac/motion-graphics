@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 34.1,
-  "version": 1791411887323,
+  "version": 1791482907488,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -68,6 +68,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "À quelle heure votre journée déraille, en général ?",
   "source": "../../series/petites-histoires/H08-le-retard.json",
   "cases": [

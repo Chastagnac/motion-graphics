@@ -4,7 +4,7 @@
   "serie": "vecu",
   "fond": "#FFB3A7",
   "T": 25.4,
-  "version": 1791411534352,
+  "version": 1791482750360,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -55,6 +55,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "La phrase la plus drôle entendue sous anesthésie ?",
   "source": "../../series/cote-fauteuil/F19-l-anesthesie.json",
   "cases": [

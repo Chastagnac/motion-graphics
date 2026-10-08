@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 26.4,
-  "version": 1791411540845,
+  "version": 1791482756295,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -56,6 +56,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Depuis combien de temps votre annonce est en ligne ?",
   "source": "../../series/cote-fauteuil/F20-le-recrutement.json",
   "cases": [

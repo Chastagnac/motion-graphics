@@ -1,5 +1,36 @@
 # motion-graphics
 
+> **Fork.** Ce dépôt part de [Barty-Bart/motion-graphics](https://github.com/Barty-Bart/motion-graphics) et y ajoute **Les Dents du Cabinet**, une série de strips sur le quotidien d'un cabinet dentaire. La suite du README, en anglais, est celle du dépôt d'origine.
+
+## Les Dents du Cabinet
+
+Des strips en SVG, sans modèle d'image : les personnages sont assemblés à partir de pièces (`dents-du-cabinet/dents.js`), les décors viennent de `decors.js`, et Chromium capture le tout en planche 4:5, en carrousel et, sur demande, en reel vertical.
+
+| Dossier | Contenu |
+|---|---|
+| `dents-du-cabinet/histoires/` | le texte seul de chaque série : c'est là qu'on écrit et qu'on corrige |
+| `dents-du-cabinet/mises-en-scene/` | une ligne par case : qui est là, quelle expression, quelle pose |
+| `dents-du-cabinet/series/` | les JSON produits à partir des deux précédents, à ne pas corriger à la main |
+| `dents-du-cabinet/rendus/` | les images livrables et les commentaires de relecture |
+| `.claude/skills/dents-strip/` | le skill Claude Code qui fait tout ça, mode d'emploi dans son `SKILL.md` |
+
+```bash
+# une fois : Playwright dans ./motion (il faut aussi Node 18+ et ffmpeg)
+mkdir -p motion && cd motion && echo '{"private":true}' > package.json && npm install playwright && npx playwright install chromium && cd ..
+
+# texte + mise en scène -> JSON, puis JSON -> images
+node .claude/skills/dents-strip/scripts/histoire.js dents-du-cabinet/histoires/situations-du-cabinet.md dents-du-cabinet/mises-en-scene/situations-du-cabinet.txt
+node .claude/skills/dents-strip/scripts/strip.js dents-du-cabinet/series/situations-du-cabinet
+
+# relire et commenter case par case sur http://localhost:4173/
+node .claude/skills/dents-strip/scripts/commentaires.js dents-du-cabinet/rendus
+
+# tests
+node --test .claude/skills/dents-strip/tests/dents-strip.test.js
+```
+
+---
+
 Free video-editing skills for Claude Code. Each skill does one job.
 
 > **Want my entire AI video editing process?** I teach it step by step, with the full set of skills, in my community: **[Bart's AI Workshop](https://www.skool.com/barts-ai-workshop-4507/about)**

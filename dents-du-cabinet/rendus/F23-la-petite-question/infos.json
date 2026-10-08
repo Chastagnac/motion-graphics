@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 28.5,
-  "version": 1791411558913,
+  "version": 1791482781226,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -56,6 +56,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Votre record pour « une petite question » ?",
   "source": "../../series/cote-fauteuil/F23-la-petite-question.json",
   "cases": [

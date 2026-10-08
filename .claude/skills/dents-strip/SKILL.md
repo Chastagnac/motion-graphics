@@ -24,6 +24,9 @@ des vidéos le 6 octobre 2026. N'ajoute `--video` que s'il le demande.
    et une ombre sur le corps. Mains et chaussures sont des marqueurs SVG au bout des traits : les tracés
    des bras et des jambes sont inchangés, `scene.js` les retrouve toujours. Chaque dessin numérote ses
    propres marqueurs, car Chromium n'affiche pas un marqueur défini dans une case cachée.
+   La vérification est automatique : `node dents-du-cabinet/verifier.js` redessine chaque personnage
+   dans chaque expression et le compare à `svg/`. Lance le avant et après toute retouche de `dents.js`.
+   Après un changement voulu par l'utilisateur, et seulement là : `node dents-du-cabinet/verifier.js --accepter`.
 2. **N'invente aucune pièce.** Si une valeur de pose ou d'animation n'est pas dans `catalogue.json`,
    le script s'arrête et le dit. Signale le à l'utilisateur avec la liste des valeurs possibles, ne
    contourne pas.
@@ -91,6 +94,12 @@ objet bien dans la main, rien qui chevauche le visage ou sort de la case.
   sur celui qui parle, ou sur le premier personnage ; décor éteint, tout le reste dans le noir, texte en
   capitales rouges dans un bandeau noir. À garder pour une chute ou un regard noir : une fois par
   histoire au plus, et pas dans toutes.
+  Sur une image fixe, un petit objet accroché au mur (l'horloge et l'étagère de l'accueil) s'efface
+  quand il tombe derrière une tête : il ne doit jamais sembler sortir d'un crâne.
+- **Accroche et légende** (carrousel seulement) : le champ `accroche` du strip s'affiche en grand
+  au-dessus de la première image, le champ `legende` dans un bandeau noir sous la dernière. La planche
+  ne porte ni l'un ni l'autre. L'accroche donne le sujet et l'enjeu en 8 mots au plus, sans la chute
+  (« 8h04. Trois demandes. Une seule personne. ») : c'est elle qui arrête le pouce dans le fil.
 - Titre du strip en bas à gauche (avec le numéro de l'image pour un carrousel), « Les Dents du
   Cabinet » en bas à droite.
 - La mise en page se règle dans `scripts/planche.js`.
@@ -103,6 +112,7 @@ Le format du carrousel, plus quelques ajouts par case : `duree`, `animations`, e
 ```json
 {
   "id": "S1-lundi", "serie": "STRIP", "titre": "Lundi 8h01",
+  "accroche": "Lundi, 8h01. Deux lignes, un café.",
   "slides": [
     {
       "texte": "Le téléphone sonne.",
@@ -169,8 +179,16 @@ Limites connues à signaler plutôt qu'à contourner :
 
 ## Écrire une série
 
-Les strips d'une série vivent dans `dents-du-cabinet/series/<nom>/`, un JSON par strip. Série
-existante : `cote-fauteuil` (le quotidien vu par les dentistes, identifiants `F01` à `F24`).
+Les strips d'une série vivent dans `dents-du-cabinet/series/<nom>/`, un JSON par strip. Séries
+existantes :
+
+| Série | Identifiants | Contenu |
+|---|---|---|
+| `cote-fauteuil` | `F01` à `F24` | le quotidien vu par les dentistes, gags en 4 cases |
+| `petites-histoires` | `H01` à `H08` | de vraies petites histoires, 9 ou 10 pages |
+| `situations-du-cabinet` | `C01` à `C16` | une douleur du cabinet par histoire, 8 pages, avec accroche et message final |
+
+Les trois ont leur texte dans `histoires/` et leur mise en scène dans `mises-en-scene/` (voir plus bas).
 Pour produire en nombre : un JSON par histoire, sans `duree` ni `animations`, puis une seule commande sur le dossier.
 
 Recette qui marche, tirée des références du dossier `assets/` (duos de caractères opposés, bulles
@@ -195,7 +213,7 @@ Une histoire longue (9 ou 10 pages de carrousel) s'écrit donc en deux fichiers,
 
 | Fichier | Contenu |
 |---|---|
-| `dents-du-cabinet/histoires/<serie>.md` | le texte seul : pages, répliques, narration. C'est là qu'on corrige l'écriture. |
+| `dents-du-cabinet/histoires/<serie>.md` | le texte seul : pages, répliques, narration, légende, et une ligne `L'accroche : …` facultative. C'est là qu'on corrige l'écriture. |
 | `dents-du-cabinet/mises-en-scene/<serie>.txt` | une ligne par case : qui est là, quelle expression, quelle pose, quel décor. La syntaxe est en tête du fichier. |
 
 ```bash
@@ -250,3 +268,17 @@ Ne passe à la mise en scène qu'une fois le texte validé.
   (`DentsScene(element, donnees, cadrage)`), figée sur la fin du plan, avec le cadrage calculé par
   `scripts/planche.js` selon la forme de la case. Images et vidéo partagent donc poses, bulles et textes.
 - Cadrage et rythme du reel se règlent en tête de `runtime/scene.js` (`REEL`, ressorts).
+
+## Tests et suivi git
+
+```bash
+node --test .claude/skills/dents-strip/tests/dents-strip.test.js
+```
+
+Sans navigateur, quelques secondes. Les tests couvrent la validation (mots interdits, pièces hors
+catalogue, découpage), la mise en page, `histoire.js`, et vérifient que tous les JSON de `series/`
+se compilent, qu'ils correspondent à leur source dans `histoires/`, et qu'aucun personnage n'a changé.
+Lance les après toute retouche du skill ou de la bibliothèque.
+
+Dans `rendus/`, git ne suit que les images (planche, carrousel), `infos.json` et les commentaires.
+Les pages HTML et les MP4 sont ignorés : ils se régénèrent avec `strip.js`.

@@ -5,3 +5,9 @@ node_modules/
 motion/
 .DS_Store
 *.mov
+
+# rendus : les pages HTML et les vidéos se régénèrent depuis series/ avec strip.js.
+# Les images livrables (planche, carrousel) et les commentaires restent suivis.
+dents-du-cabinet/rendus/**/*.html
+dents-du-cabinet/rendus/**/*.mp4
+dents-du-cabinet/rendus/**/apercus/

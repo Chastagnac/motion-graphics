@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 26.7,
-  "version": 1791411495714,
+  "version": 1791482704970,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -60,6 +60,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Chez vous aussi, le labo livre « bientôt » ?",
   "source": "../../series/cote-fauteuil/F12-le-labo.json",
   "cases": [

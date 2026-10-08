@@ -10,7 +10,9 @@ jamais parler d'un produit.
 Comment lire et corriger :
 
 - Un titre `##` par histoire, puis la couleur de série, le lieu, la légende du post, la situation
-  de départ et le message.
+  de départ, le message et l'accroche.
+- **L'accroche** s'affiche en grand au-dessus de la première image : le sujet et l'enjeu, sans
+  donner la chute. **La légende** s'affiche sous la dernière image.
 - Une **Page** = une image du carrousel. Une ligne = une case (1 à 4 cases par page).
 - `NOM : réplique` pour une bulle, `(narration) texte` pour un cartouche.
 - Une réplique tient en 8 mots environ. 8 pages au maximum.
@@ -23,6 +25,7 @@ Comment lire et corriger :
 irritant · accueil · légende : Combien de choses à la fois, chez vous, à 8h ?
 La situation : l'ouverture, quand le téléphone, le premier patient et le praticien arrivent ensemble.
 Le message : il n'y a qu'une personne à l'accueil, et jamais une seule demande.
+L'accroche : 8h04. Trois demandes. Une seule personne.
 
 **Page 1**
 - INCISIVE : Cabinet dentaire, bonjour.
@@ -57,6 +60,7 @@ Le message : il n'y a qu'une personne à l'accueil, et jamais une seule demande.
 irritant · accueil · légende : Elle est où, la carte Vitale de vos patients ?
 La situation : le patient sans carte Vitale ni attestation de mutuelle.
 Le message : un papier qui manque, c'est vingt minutes de comptoir.
+L'accroche : Une carte Vitale oubliée. Vingt minutes perdues.
 
 **Page 1**
 - INCISIVE : Votre carte Vitale, s'il vous plaît.
@@ -92,6 +96,7 @@ Le message : un papier qui manque, c'est vingt minutes de comptoir.
 irritant · accueil · légende : Vous faites quoi d'un patient qui arrive avec vingt minutes de retard ?
 La situation : le patient en retard qui veut passer quand même.
 Le message : un retard ne s'efface pas, il se transmet au patient suivant.
+L'accroche : Vingt minutes de retard. Qui les rattrape ?
 
 **Page 1**
 - (narration) Rendez-vous à 10h. Il est 10h20.
@@ -127,6 +132,7 @@ Le message : un retard ne s'efface pas, il se transmet au patient suivant.
 irritant · cabinet · légende : À quelle heure vous écrivez vos courriers ?
 La situation : les courriers et comptes rendus, le soir, une fois le cabinet vide.
 Le message : la journée de soins finit à 19h, la journée de papier commence à 19h.
+L'accroche : 19h. Le cabinet est vide. Pas son bureau.
 
 **Page 1**
 - (narration) 19h. Le dernier patient est parti.
@@ -162,6 +168,7 @@ Le message : la journée de soins finit à 19h, la journée de papier commence �
 vécu · cabinet · légende : Qui traduit, chez vous, après l'explication du plan de traitement ?
 La situation : le plan de traitement expliqué avec les mots du métier.
 Le message : un patient qui dit oui n'a pas forcément compris.
+L'accroche : Le patient a dit oui. Mais à quoi ?
 
 **Page 1**
 - DOCTEURE : Je vous explique le plan de traitement.
@@ -197,6 +204,7 @@ Le message : un patient qui dit oui n'a pas forcément compris.
 irritant · cabinet · légende : Quel produit tombe toujours en rupture chez vous ?
 La situation : la commande de consommables qu'on remet au soir, tous les soirs.
 Le message : « fais-moi penser » n'est pas une commande.
+L'accroche : Quatorze patients. Une boîte de gants.
 
 **Page 1**
 - CANINE : Il reste une boîte de gants.
@@ -234,6 +242,7 @@ Le message : « fais-moi penser » n'est pas une commande.
 irritant · accueil · légende : Elles durent combien de temps, vos « dix petites minutes » ?
 La situation : la salle d'attente quand le praticien a pris du retard sur une urgence.
 Le message : attendre, ça passe ; ne pas savoir combien de temps, non.
+L'accroche : « Dix petites minutes. » Ça dure combien ?
 
 **Page 1**
 - (narration) 15h. Le docteur a pris du retard.
@@ -271,6 +280,7 @@ Le message : attendre, ça passe ; ne pas savoir combien de temps, non.
 vécu · cabinet · légende : Il ressemble à quoi, votre lundi matin ?
 La situation : le point d'équipe du lundi, quand l'agenda est plein avant d'avoir commencé.
 Le message : un agenda complet n'a pas de place pour l'imprévu, qui vient quand même.
+L'accroche : Agenda complet. Trois urgences en plus.
 
 **Page 1**
 - (narration) Lundi, 8h15. Le point du matin.
@@ -307,6 +317,7 @@ Le message : un agenda complet n'a pas de place pour l'imprévu, qui vient quand
 irritant · accueil · légende : Sur dix « c'est urgent », combien de vraies urgences ?
 La situation : le tri des appels du lundi matin, quand tout le monde dit que c'est urgent.
 Le message : la vraie urgence ne crie pas, elle s'excuse.
+L'accroche : Neuf appels urgents avant 9h. Combien de vrais ?
 
 **Page 1**
 - INCISIVE : Cabinet dentaire, bonjour.
@@ -342,6 +353,7 @@ Le message : la vraie urgence ne crie pas, elle s'excuse.
 irritant · accueil · légende : Il est où, votre post-it le plus important ?
 La situation : le message d'un patient à transmettre au praticien, noté à la volée.
 Le message : un message sur un post-it n'appartient à personne.
+L'accroche : Un message important. Noté sur un post-it.
 
 **Page 1**
 - INCISIVE : Un patient a appelé. C'est important.
@@ -378,6 +390,7 @@ Le message : un message sur un post-it n'appartient à personne.
 vécu · cabinet · légende : Combien de temps vos patients retiennent-ils vos consignes ?
 La situation : les consignes données à l'oral après un soin.
 Le message : ce qu'on dit au fauteuil reste au fauteuil.
+L'accroche : Trois consignes. Combien en reste-t-il demain ?
 
 **Page 1**
 - DOCTEURE : Trois consignes après l'extraction.
@@ -413,6 +426,7 @@ Le message : ce qu'on dit au fauteuil reste au fauteuil.
 irritant · cabinet · légende : Chez vous, « il faut » veut dire qui ?
 La situation : la tâche que tout le monde a entendue et que personne ne s'est attribuée.
 Le message : « il faut » n'a jamais rappelé personne.
+L'accroche : Tout le monde devait rappeler le labo.
 
 **Page 1**
 - DOCTEUR : Il faut rappeler le labo.
@@ -449,6 +463,7 @@ Le message : « il faut » n'a jamais rappelé personne.
 irritant · accueil · légende : Combien d'appels de confirmation pour combien de réponses ?
 La situation : les rendez-vous du lendemain à confirmer un par un, en fin de journée.
 Le message : une heure de rappels n'empêche pas le fauteuil vide.
+L'accroche : Une heure au téléphone pour confirmer demain.
 
 **Page 1**
 - (narration) 17h. L'heure des rappels.
@@ -483,6 +498,7 @@ Le message : une heure de rappels n'empêche pas le fauteuil vide.
 irritant · accueil · légende : Il dure combien de temps, votre questionnaire médical ?
 La situation : le questionnaire médical rempli sur un coin de comptoir, pendant que le praticien attend.
 Le message : le rendez-vous commence dans la salle d'attente, et le retard aussi.
+L'accroche : Un questionnaire. Douze minutes de retard.
 
 **Page 1**
 - INCISIVE : Vous remplissez le questionnaire médical ?
@@ -516,6 +532,7 @@ Le message : le rendez-vous commence dans la salle d'attente, et le retard aussi
 irritant · accueil · légende : Vos patients lisent quoi, sur un devis ?
 La situation : le devis remis au comptoir, que le patient ne sait pas lire.
 Le message : le patient lit le prix, pas le traitement.
+L'accroche : Un devis de trois pages. Il lit quoi ?
 
 **Page 1**
 - MOLAIRE : Voici votre devis. Trois pages.
@@ -550,6 +567,7 @@ Le message : le patient lit le prix, pas le traitement.
 irritant · accueil · légende : Combien de fois un même patient peut-il rappeler dans la journée ?
 La situation : le patient qui rappelle toutes les heures pour la même demande.
 Le message : un patient sans nouvelles rappelle, et rappelle encore.
+L'accroche : Le même appel. Toutes les heures.
 
 **Page 1**
 - INCISIVE : Cabinet dentaire, bonjour.

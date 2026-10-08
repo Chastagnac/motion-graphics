@@ -4,7 +4,7 @@
   "serie": "vecu",
   "fond": "#FFB3A7",
   "T": 34.2,
-  "version": 1791411608932,
+  "version": 1791482899696,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -68,6 +68,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Vous aussi, vous certifiez les dents de lait ?",
   "source": "../../series/petites-histoires/H07-la-petite-souris.json",
   "cases": [

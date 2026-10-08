@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 29.8,
-  "version": 1791445393591,
+  "version": 1791483028053,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -61,6 +61,7 @@
       ]
     }
   ],
+  "accroche": "Un questionnaire. Douze minutes de retard.",
   "legende": "Il dure combien de temps, votre questionnaire médical ?",
   "source": "../../series/situations-du-cabinet/C14-le-questionnaire.json",
   "cases": [

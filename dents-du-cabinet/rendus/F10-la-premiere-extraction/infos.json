@@ -4,7 +4,7 @@
   "serie": "vecu",
   "fond": "#FFB3A7",
   "T": 26.3,
-  "version": 1791411485564,
+  "version": 1791482692831,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -61,6 +61,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Vous vous souvenez de votre première extraction ?",
   "source": "../../series/cote-fauteuil/F10-la-premiere-extraction.json",
   "cases": [

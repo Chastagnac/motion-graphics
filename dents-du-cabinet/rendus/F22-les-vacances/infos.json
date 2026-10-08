@@ -4,7 +4,7 @@
   "serie": "vecu",
   "fond": "#FFB3A7",
   "T": 29.1,
-  "version": 1791411553822,
+  "version": 1791482773005,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -61,6 +61,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Docteurs, vous tenez combien de jours sans votre assistante ?",
   "source": "../../series/cote-fauteuil/F22-les-vacances.json",
   "cases": [

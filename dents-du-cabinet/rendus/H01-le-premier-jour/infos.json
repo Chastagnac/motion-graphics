@@ -4,7 +4,7 @@
   "serie": "vecu",
   "fond": "#FFB3A7",
   "T": 40.1,
-  "version": 1791411570185,
+  "version": 1791482801512,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -76,6 +76,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Qui vous a sauvé la mise, votre premier jour ?",
   "source": "../../series/petites-histoires/H01-le-premier-jour.json",
   "cases": [

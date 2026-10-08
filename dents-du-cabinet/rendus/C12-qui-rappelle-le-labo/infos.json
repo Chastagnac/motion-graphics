@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 35.3,
-  "version": 1791445383022,
+  "version": 1791483008878,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -64,6 +64,7 @@
       ]
     }
   ],
+  "accroche": "Tout le monde devait rappeler le labo.",
   "legende": "Chez vous, « il faut » veut dire qui ?",
   "source": "../../series/situations-du-cabinet/C12-qui-rappelle-le-labo.json",
   "cases": [

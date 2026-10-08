@@ -77,7 +77,7 @@ if (doublon) { console.error(`Rendu annulé : deux strips portent l'identifiant 
     const tete = (classe) => `<!doctype html><html lang="fr"${classe}><head><meta charset="utf-8"><title>${html(data.titre)}</title><style>${css}</style></head>`;
 
     // --- images fixes : la planche (toutes les cases) et les pages du carrousel ---
-    const P = miseEnPage(data.cases.length, data.carrousel);
+    const P = miseEnPage(data.cases.length, data.carrousel, { accroche: data.accroche, legende: data.legende });
     const plancheHtml = path.join(dossier, data.id + '-planche.html');
     fs.writeFileSync(plancheHtml, tete(' class="bd"') + `<body class="bd">` + moteurs +
       `<script>window.STRIP=${inline(JSON.stringify(data))};window.PLANCHE=${inline(JSON.stringify(P))};</script>` +
@@ -137,7 +137,7 @@ if (doublon) { console.error(`Rendu annulé : deux strips portent l'identifiant 
     const vue = {
       id: data.id, titre: data.titre, serie: data.serie, fond: data.fond, T: data.T, version: Date.now(),
       video: video ? data.id + '.mp4' : null, planche: images.planche, carrousel: images.carrousel,
-      legende: source.legende || '', source: path.relative(dossier, s.fichier).replace(/\\/g, '/'),
+      accroche: source.accroche || '', legende: source.legende || '', source: path.relative(dossier, s.fichier).replace(/\\/g, '/'),
       cases: data.cases.map((c) => {
         const sl = source.slides[c.index - 1];
         return {

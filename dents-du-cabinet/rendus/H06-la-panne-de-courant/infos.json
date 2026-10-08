@@ -4,7 +4,7 @@
   "serie": "vecu",
   "fond": "#FFB3A7",
   "T": 32,
-  "version": 1791411602245,
+  "version": 1791482892960,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -67,6 +67,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "C'était quand, votre dernier vrai déjeuner d'équipe ?",
   "source": "../../series/petites-histoires/H06-la-panne-de-courant.json",
   "cases": [

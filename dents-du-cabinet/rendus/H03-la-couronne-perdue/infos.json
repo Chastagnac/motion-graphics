@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 37.1,
-  "version": 1791411583110,
+  "version": 1791482869793,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -70,6 +70,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "L'objet que vous avez le plus cherché au cabinet ?",
   "source": "../../series/petites-histoires/H03-la-couronne-perdue.json",
   "cases": [

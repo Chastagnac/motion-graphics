@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 24.1,
-  "version": 1791411460046,
+  "version": 1791482661368,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -54,6 +54,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Combien de lapins cette semaine ?",
   "source": "../../series/cote-fauteuil/F05-le-lapin.json",
   "cases": [

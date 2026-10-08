@@ -4,7 +4,7 @@
   "serie": "vecu",
   "fond": "#FFB3A7",
   "T": 23.6,
-  "version": 1791411456177,
+  "version": 1791482654338,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -54,6 +54,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Et votre dos, il en dit quoi ?",
   "source": "../../series/cote-fauteuil/F04-le-gainage.json",
   "cases": [

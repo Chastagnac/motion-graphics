@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 35.8,
-  "version": 1791445370970,
+  "version": 1791482988794,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -64,6 +64,7 @@
       ]
     }
   ],
+  "accroche": "Un message important. Noté sur un post-it.",
   "legende": "Il est où, votre post-it le plus important ?",
   "source": "../../series/situations-du-cabinet/C10-le-post-it.json",
   "cases": [

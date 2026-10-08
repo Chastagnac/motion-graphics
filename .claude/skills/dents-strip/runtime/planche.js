@@ -23,6 +23,22 @@
       scene.style.transform = `scale(${cel.cadrage.echelle})`;
       figes.push(() => seek(c.t0 + c.duree - 0.02));
     });
+    // textes hors case : l'accroche au-dessus de la première image, la question sous la dernière
+    [['accroche', 92, 44], ['question', 56, 30]].forEach(([nom, max, min]) => {
+      const b = p[nom];
+      if (!b) return;
+      const boite = document.createElement('div'), texte = document.createElement('span');
+      boite.className = 'bande-' + nom; texte.textContent = b.texte.replace(/'/g, '’');
+      Object.assign(boite.style, { left: b.x + 'px', top: b.y + 'px', width: b.l + 'px', height: b.h + 'px' });
+      boite.appendChild(texte); page.appendChild(boite);
+      figes.push(() => {
+        const cs = getComputedStyle(boite);
+        const hMax = b.h - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom), lMax = b.l - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+        let f = max;
+        for (; f > min; f -= 2) { texte.style.fontSize = f + 'px'; if (texte.offsetHeight <= hMax && texte.scrollWidth <= lMax) break; }
+        texte.style.fontSize = f + 'px';
+      });
+    });
     const pied = document.createElement('div');
     pied.className = 'pied';
     Object.assign(pied.style, { left: P.marge + 'px', right: P.marge + 'px', top: P.piedY + 'px', height: P.pied + 'px' });

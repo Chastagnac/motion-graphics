@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 28.6,
-  "version": 1791411563300,
+  "version": 1791482788115,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -56,6 +56,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Le plus long « j'ai pas eu le temps » de votre fichier ?",
   "source": "../../series/cote-fauteuil/F24-le-rappel.json",
   "cases": [

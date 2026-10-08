@@ -4,7 +4,7 @@
   "serie": "vecu",
   "fond": "#FFB3A7",
   "T": 31,
-  "version": 1791411588945,
+  "version": 1791482874875,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -67,6 +67,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Le plus beau cadeau qu'un petit patient vous ait fait ?",
   "source": "../../series/petites-histoires/H04-le-dessin.json",
   "cases": [

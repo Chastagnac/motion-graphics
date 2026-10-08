@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 23.4,
-  "version": 1791411490149,
+  "version": 1791482698876,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -54,6 +54,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "L'avis le plus injuste que vous ayez reçu ?",
   "source": "../../series/cote-fauteuil/F11-l-avis.json",
   "cases": [

@@ -4,7 +4,7 @@
   "serie": "vecu",
   "fond": "#FFB3A7",
   "T": 33.6,
-  "version": 1791445339631,
+  "version": 1791482945402,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -63,6 +63,7 @@
       ]
     }
   ],
+  "accroche": "Le patient a dit oui. Mais à quoi ?",
   "legende": "Qui traduit, chez vous, après l'explication du plan de traitement ?",
   "source": "../../series/situations-du-cabinet/C05-en-dentiste.json",
   "cases": [

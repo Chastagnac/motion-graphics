@@ -4,7 +4,7 @@
   "serie": "vecu",
   "fond": "#FFB3A7",
   "T": 35,
-  "version": 1791445377156,
+  "version": 1791482998124,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -63,6 +63,7 @@
       ]
     }
   ],
+  "accroche": "Trois consignes. Combien en reste-t-il demain ?",
   "legende": "Combien de temps vos patients retiennent-ils vos consignes ?",
   "source": "../../series/situations-du-cabinet/C11-les-consignes.json",
   "cases": [

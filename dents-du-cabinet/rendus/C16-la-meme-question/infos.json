@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 36.8,
-  "version": 1791445412430,
+  "version": 1791483068194,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -64,6 +64,7 @@
       ]
     }
   ],
+  "accroche": "Le même appel. Toutes les heures.",
   "legende": "Combien de fois un même patient peut-il rappeler dans la journée ?",
   "source": "../../series/situations-du-cabinet/C16-la-meme-question.json",
   "cases": [

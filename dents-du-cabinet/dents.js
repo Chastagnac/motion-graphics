@@ -220,7 +220,9 @@
   const PROPS = {
     cafe: (x, y) => `<rect x="${x - 9}" y="${y - 20}" width="18" height="21" rx="3" fill="${COLORS.cafe}" stroke-width="4"/>` +
       `<path d="M${x} ${y - 26} C${x - 4} ${y - 30} ${x + 4} ${y - 34} ${x} ${y - 39}" stroke-width="3"/>`,
-    telephone: (x, y) => `<rect x="${x - 7}" y="${y - 30}" width="14" height="32" rx="7" fill="${COLORS.bleu}" stroke-width="4"/>`,
+    // combiné sombre à écran clair : il ne se confond pas avec le casque bleu de l'incisive
+    telephone: (x, y) => `<rect x="${x - 7}" y="${y - 30}" width="14" height="32" rx="7" fill="${INK}" stroke-width="4"/>` +
+      `<rect x="${x - 3.5}" y="${y - 24}" width="7" height="13" rx="2" fill="${COLORS.masque}" stroke="none"/>`,
     bloc: (x, y) => `<rect x="${x - 13}" y="${y - 30}" width="26" height="32" rx="2" fill="${COLORS.blanc}" stroke-width="4"/>` +
       `<path d="M${x - 7} ${y - 20} L${x + 7} ${y - 20} M${x - 7} ${y - 12} L${x + 7} ${y - 12} M${x - 7} ${y - 4} L${x + 3} ${y - 4}" stroke-width="2.5"/>`,
     postit: (x, y) => `<rect x="${x - 12}" y="${y - 24}" width="24" height="24" fill="${COLORS.postit}" stroke-width="3.5" transform="rotate(-8 ${x} ${y - 12})"/>`,

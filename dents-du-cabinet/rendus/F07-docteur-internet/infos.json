@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 25.5,
-  "version": 1791411469065,
+  "version": 1791482672742,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -55,6 +55,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Le pire diagnostic qu'un patient vous ait apporté ?",
   "source": "../../series/cote-fauteuil/F07-docteur-internet.json",
   "cases": [

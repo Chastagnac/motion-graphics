@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 35.9,
-  "version": 1791445455676,
+  "version": 1791482930270,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -63,6 +63,7 @@
       ]
     }
   ],
+  "accroche": "Vingt minutes de retard. Qui les rattrape ?",
   "legende": "Vous faites quoi d'un patient qui arrive avec vingt minutes de retard ?",
   "source": "../../series/situations-du-cabinet/C03-vingt-minutes.json",
   "cases": [

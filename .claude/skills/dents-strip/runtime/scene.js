@@ -150,7 +150,8 @@
       const monde = document.createElement('div');
       monde.className = 'monde'; el.appendChild(monde);
       if (window.Decors && c.decor && c.decor !== 'aucun') monde.insertAdjacentHTML('afterbegin', window.Decors.rendre(c.decor, {
-        W, H, sol: C.sol, u: cadre.s, fond: DATA.fond, pieds: TEXTE.cartouche ? c.persos.map((p) => W * cadre.x[p.place]) : [], piedY: SOL_Y
+        W, H, sol: C.sol, u: cadre.s, fond: DATA.fond, pieds: TEXTE.cartouche ? c.persos.map((p) => W * cadre.x[p.place]) : [], piedY: SOL_Y,
+        tetes: TEXTE.cartouche ? c.persos.map((p) => ({ x: W * cadre.x[p.place], h: SOL - D.BODIES[p.dent].haut })) : []
       }));
       const persos = c.persos.map((p) => {
         const o = personnage(p, W * cadre.x[p.place], cadre.s);

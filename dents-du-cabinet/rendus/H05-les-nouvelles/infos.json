@@ -4,7 +4,7 @@
   "serie": "vecu",
   "fond": "#FFB3A7",
   "T": 33.4,
-  "version": 1791411595542,
+  "version": 1791482880905,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -68,6 +68,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Qui a aussi une patiente qui vient surtout pour discuter ?",
   "source": "../../series/petites-histoires/H05-les-nouvelles.json",
   "cases": [

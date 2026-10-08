@@ -4,7 +4,7 @@
   "serie": "vecu",
   "fond": "#FFB3A7",
   "T": 25,
-  "version": 1791411505661,
+  "version": 1791482716079,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -55,6 +55,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Identifiez votre binôme qui lit dans vos pensées.",
   "source": "../../series/cote-fauteuil/F14-telepathie.json",
   "cases": [

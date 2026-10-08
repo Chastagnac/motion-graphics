@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 38,
-  "version": 1791445346643,
+  "version": 1791482953895,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -65,6 +65,7 @@
       ]
     }
   ],
+  "accroche": "Quatorze patients. Une boîte de gants.",
   "legende": "Quel produit tombe toujours en rupture chez vous ?",
   "source": "../../series/situations-du-cabinet/C06-le-dernier-gant.json",
   "cases": [

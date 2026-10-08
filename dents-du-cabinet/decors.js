@@ -8,6 +8,8 @@
  *   u    : pixels par unité de personnage (un dentiste mesure 232 unités), les meubles suivent
  *   fond : couleur de la série, en #RRGGBB
  *   pieds, piedY : facultatifs, x des personnages et y de leurs pieds, pour poser une ombre au sol
+ *   tetes : facultatif, [{ x, h }] centre et hauteur (en unités) de chaque personnage. Sur une image
+ *           fixe, un petit objet accroché au mur (horloge, étagère) s'efface s'il tombe derrière une tête.
  */
 (function (root) {
   const ENCRE = '#141413', BLANC = '#FFFFFF';
@@ -29,7 +31,9 @@
     const C = (x, h, r, c) => `<circle cx="${n(x)}" cy="${n(y(h))}" r="${n(r * u)}" fill="${c}"/>`;
     const E = (x, h, rx, ry, c, a) => `<ellipse cx="${n(x)}" cy="${n(y(h))}" rx="${n(rx * u)}" ry="${n(ry * u)}" fill="${c}"${a ? ` transform="rotate(${a} ${n(x)} ${n(y(h))})"` : ''}/>`;
     const T = (x, h, s, c) => `<path transform="translate(${n(x)} ${n(y(h))}) scale(${+(s * u).toFixed(2)})" d="${DENT}" fill="${c}"/>`;   // silhouette de dent
-    return { W, H, u, y, R, P, C, E, T };
+    // vrai si aucune tête ne passe devant la zone du mur x0..x1 dont le bas est à la hauteur h
+    const libre = (x0, x1, h) => !(o.tetes || []).some((q) => q.h + 20 > h && q.x > x0 - 46 * u && q.x < x1 + 46 * u);
+    return { W, H, u, y, R, P, C, E, T, libre };
   }
   /* La pièce : haut de mur plus clair au-dessus d'une cimaise, plinthe, sol avec ses lignes de fuite.
      carreaux : true pour un carrelage (lignes dans les deux sens), sinon un parquet. */
@@ -98,7 +102,7 @@
     accueil: {
       nom: "L'accueil",
       dessin: (o, t) => {
-        const { W, u, R, P, C } = outils(o);
+        const { W, u, R, P, C, libre } = outils(o);
         const b = 0.44 * W, p = 0.085 * W, h = 0.3 * W, s = 0.19 * W;
         const chaise = (x) => R(x + 3 * u, 40, 3 * u, 40, t.ombre) + R(x + 22 * u, 40, 3 * u, 40, t.ombre) +
           R(x + 2 * u, 86, 24 * u, 32, t.clair, 5) + R(x, 47, 28 * u, 8, t.clair, 3);
@@ -110,7 +114,7 @@
           R(p - 20 * u, 196, 46 * u, 56, t.ombre, 2) + R(p - 15 * u, 191, 36 * u, 46, t.lumiere, 1) +
           outils(o).T(p + 3 * u, 167, 0.85, t.clair) +
           // horloge
-          C(h, 198, 16, t.ombre) + C(h, 198, 12.5, t.lumiere) + R(h - 1 * u, 207, 2 * u, 10, t.ombre, 1) + R(h, 199, 8 * u, 2, t.ombre, 1) +
+          (libre(h - 16 * u, h + 16 * u, 182) ? C(h, 198, 16, t.ombre) + C(h, 198, 12.5, t.lumiere) + R(h - 1 * u, 207, 2 * u, 10, t.ombre, 1) + R(h, 199, 8 * u, 2, t.ombre, 1) : '') +
           // chaises d'attente
           chaise(s) + chaise(s + 33 * u) +
           // plante
@@ -118,8 +122,8 @@
           [[-16, 62, -28], [0, 76, 0], [16, 64, 26], [-9, 92, -12], [10, 96, 14]].map(([dx, hh, a]) =>
             `<ellipse cx="${n(p + dx * u)}" cy="${n(o.sol - hh * u)}" rx="${n(9 * u)}" ry="${n(24 * u)}" fill="${t.meuble}" transform="rotate(${a} ${n(p + dx * u)} ${n(o.sol - hh * u)})"/>`).join('') +
           // étagère de dossiers au-dessus de la banque
-          R(b + 16 * u, 178, 96 * u, 4, t.ombre, 1) +
-          dossiers.map(([dx, hh, c]) => R(b + 20 * u + dx * u, 178 + hh, 7 * u, hh, t[c], 1)).join('') +
+          (libre(b + 16 * u, b + 112 * u, 174) ? R(b + 16 * u, 178, 96 * u, 4, t.ombre, 1) +
+            dossiers.map(([dx, hh, c]) => R(b + 20 * u + dx * u, 178 + hh, 7 * u, hh, t[c], 1)).join('') : '') +
           // banque d'accueil, plateau, panneau clair, présentoir
           R(b, 92, W - b, 92, t.meuble) + R(b - 8 * u, 101, W - b + 8 * u, 9, t.ombre, 2) +
           R(b + 18 * u, 74, W - b - 36 * u, 52, t.clair, 4) +

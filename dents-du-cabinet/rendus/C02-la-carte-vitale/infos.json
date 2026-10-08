@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 36.3,
-  "version": 1791445311712,
+  "version": 1791482922302,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -63,6 +63,7 @@
       ]
     }
   ],
+  "accroche": "Une carte Vitale oubliée. Vingt minutes perdues.",
   "legende": "Elle est où, la carte Vitale de vos patients ?",
   "source": "../../series/situations-du-cabinet/C02-la-carte-vitale.json",
   "cases": [

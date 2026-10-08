@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 28.5,
-  "version": 1791411518623,
+  "version": 1791482729018,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -61,6 +61,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Quelle panne tombe toujours le mauvais jour ?",
   "source": "../../series/cote-fauteuil/F16-la-panne.json",
   "cases": [

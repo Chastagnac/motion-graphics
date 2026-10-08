@@ -32,6 +32,17 @@ textarea:focus{outline:3px solid var(--fond);background:#fff}
 button{font:inherit;font-weight:800;padding:8px 14px;border:3px solid var(--encre);border-radius:999px;background:#fff;cursor:pointer}
 button[hidden]{display:none}
 @media (max-width:700px){.haut{grid-template-columns:1fr}main{padding:16px}}
+/* visionneuse : l'image entière à l'écran, sans rien autour, prête à capturer ou à télécharger */
+.visio{position:fixed;inset:0;z-index:50;display:none;flex-direction:column;background:#141413}
+.visio.ouverte{display:flex}
+.visio .zone{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;padding:12px}
+.visio img{max-width:100%;max-height:100%;width:auto;height:auto;display:block;background:#fff}
+.visio .barre{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:10px;padding:10px 14px 14px;color:#fff;font-size:15px;font-weight:700}
+.visio .barre span{min-width:150px;text-align:center}
+.visio button,.visio .barre a{font:inherit;font-size:15px;font-weight:800;padding:8px 16px;border:2px solid #fff;border-radius:999px;background:transparent;color:#fff;cursor:pointer;text-decoration:none}
+.visio a.principal{background:#fff;color:#141413}
+.visio button:disabled{opacity:.3;cursor:default}
+img.agrandir{cursor:zoom-in}
 </style>
 </head>
 <body>
@@ -65,8 +76,44 @@ document.title = 'Relecture : ' + V.titre;
 $('titre').textContent = V.titre;
 $('meta').textContent = `${V.id} · série ${V.serie} · ${V.cases.length} cases`;
 $('sous').textContent = `Carrousel : ${V.carrousel.length} image${V.carrousel.length > 1 ? 's' : ''}`;
+// visionneuse : clic sur une image -> elle s'affiche entière, flèches pour feuilleter, bouton pour l'enregistrer en pleine taille
+const visio = (() => {
+  const mk = (t, c, txt) => { const e = document.createElement(t); if (c) e.className = c; if (txt != null) e.textContent = txt; return e; };
+  const boite = mk('div', 'visio'), zone = mk('div', 'zone'), img = mk('img'), barre = mk('div', 'barre');
+  const avant = mk('button', null, '←'), apres = mk('button', null, '→'), ou = mk('span'), dl = mk('a', 'principal', 'Télécharger'), tout = mk('button', null, 'Tout télécharger'), fermer = mk('button', null, 'Fermer');
+  avant.setAttribute('aria-label', 'Image précédente'); apres.setAttribute('aria-label', 'Image suivante');
+  boite.setAttribute('role', 'dialog'); boite.setAttribute('aria-label', 'Image en grand');
+  zone.appendChild(img); barre.append(avant, ou, apres, dl, tout, fermer); boite.append(zone, barre);
+  document.body.appendChild(boite);
+  let images = [], i = 0;
+  const nom = (src) => decodeURIComponent(src.split('?')[0].split('/').pop());
+  const montrer = () => {
+    img.src = images[i]; img.alt = nom(images[i]);
+    ou.textContent = images.length > 1 ? `Image ${i + 1} sur ${images.length}` : nom(images[i]);
+    dl.href = images[i]; dl.download = nom(images[i]);
+    avant.disabled = i === 0; apres.disabled = i === images.length - 1;
+    avant.hidden = apres.hidden = tout.hidden = images.length < 2;
+  };
+  const aller = (d) => { const n = i + d; if (n < 0 || n >= images.length) return; i = n; montrer(); };
+  const clore = () => { boite.classList.remove('ouverte'); document.body.style.overflow = ''; };
+  avant.addEventListener('click', () => aller(-1)); apres.addEventListener('click', () => aller(1));
+  fermer.addEventListener('click', clore);
+  zone.addEventListener('click', (e) => { if (e.target === zone) clore(); });
+  tout.addEventListener('click', () => images.forEach((src, k) => setTimeout(() => { const a = mk('a'); a.href = src; a.download = nom(src); a.click(); }, k * 250)));
+  document.addEventListener('keydown', (e) => {
+    if (!boite.classList.contains('ouverte')) return;
+    if (e.key === 'Escape') clore(); else if (e.key === 'ArrowLeft') aller(-1); else if (e.key === 'ArrowRight') aller(1);
+  });
+  return (liste, depart) => { images = liste; i = depart || 0; montrer(); boite.classList.add('ouverte'); document.body.style.overflow = 'hidden'; fermer.focus(); };
+})();
+// branche une image (et son lien, s'il y en a un) sur la visionneuse
+const agrandir = (im, liste, k) => {
+  im.classList.add('agrandir');
+  (im.closest('a') || im).addEventListener('click', (e) => { e.preventDefault(); visio(liste, k); });
+};
+const pages = V.carrousel.map((p) => v(p.image));
 const vedette = V.planche || (V.carrousel[0] && V.carrousel[0].image);
-if (vedette) { const im = el('img'); im.src = v(vedette); im.alt = 'Planche ' + V.titre; $('vedette').appendChild(im); }
+if (vedette) { const im = el('img'); im.src = v(vedette); im.alt = 'Planche ' + V.titre; $('vedette').appendChild(im); agrandir(im, V.planche ? [v(V.planche)].concat(pages) : pages, 0); }
 [[V.planche, 'Ouvrir la planche'], [V.video, 'Voir la vidéo']].forEach(([f, t]) => {
   if (!f) return;
   const a = el('a', null, t); a.href = v(f); a.target = '_blank'; $('liens').appendChild(a);
@@ -78,7 +125,7 @@ V.carrousel.forEach((p, i) => {
   const carte = el('article', 'carte');
   const lien = el('a'); lien.href = v(p.image); lien.target = '_blank';
   const im = el('img'); im.src = v(p.image); im.alt = 'Image ' + (i + 1) + ' du carrousel'; im.loading = 'lazy';
-  lien.appendChild(im);
+  lien.appendChild(im); agrandir(im, pages, i);
   const corps = el('div', 'corps');
   corps.appendChild(el('div', 'num', `Image ${i + 1} sur ${V.carrousel.length} · ${p.cases.length} case${p.cases.length > 1 ? 's' : ''}`));
   p.cases.forEach((n) => {

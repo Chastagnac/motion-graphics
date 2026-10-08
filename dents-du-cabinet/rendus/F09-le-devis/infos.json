@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 27.3,
-  "version": 1791411479618,
+  "version": 1791482686165,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -62,6 +62,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Le « je vais réfléchir » le plus long de votre carrière ?",
   "source": "../../series/cote-fauteuil/F09-le-devis.json",
   "cases": [

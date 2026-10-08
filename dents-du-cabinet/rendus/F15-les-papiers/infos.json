@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 27.7,
-  "version": 1791411512139,
+  "version": 1791482722406,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -61,6 +61,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "À quelle heure vous quittez vraiment le cabinet ?",
   "source": "../../series/cote-fauteuil/F15-les-papiers.json",
   "cases": [

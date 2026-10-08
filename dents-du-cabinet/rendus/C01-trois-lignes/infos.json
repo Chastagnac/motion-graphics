@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 33,
-  "version": 1791445305559,
+  "version": 1791482914617,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -62,6 +62,7 @@
       ]
     }
   ],
+  "accroche": "8h04. Trois demandes. Une seule personne.",
   "legende": "Combien de choses à la fois, chez vous, à 8h ?",
   "source": "../../series/situations-du-cabinet/C01-trois-lignes.json",
   "cases": [

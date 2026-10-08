@@ -4,7 +4,7 @@
   "serie": "vecu",
   "fond": "#FFB3A7",
   "T": 29.8,
-  "version": 1791411548498,
+  "version": 1791482764796,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -62,6 +62,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Qui a déjà vu un nez se boucher sur commande ?",
   "source": "../../series/cote-fauteuil/F21-l-empreinte.json",
   "cases": [

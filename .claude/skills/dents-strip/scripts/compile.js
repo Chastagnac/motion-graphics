@@ -66,6 +66,7 @@ function compiler(strip, D, cat, opts) {
     if (TIRETS.test(t)) err(ou, 'tiret cadratin interdit dans les textes affichés');
   };
   verifierTexte('titre', strip.titre);
+  verifierTexte('accroche', strip.accroche);
   verifierTexte('legende', strip.legende);
 
   // --- série et fond ---
@@ -259,7 +260,7 @@ function compiler(strip, D, cat, opts) {
   else if (carrousel.reduce((a, b) => a + b, 0) !== cases.length) err('carrousel', `la somme (${carrousel.reduce((a, b) => a + b, 0)}) doit égaler le nombre de cases (${cases.length})`);
 
   if (erreurs.length) return { erreurs, avertissements, data: null };
-  return { erreurs, avertissements, data: { id: strip.id, titre: strip.titre || '', serie, fond: FONDS[serie], W, H, fps: FPS, T: total, carrousel, cases } };
+  return { erreurs, avertissements, data: { id: strip.id, titre: strip.titre || '', accroche: strip.accroche || '', legende: strip.legende || '', serie, fond: FONDS[serie], W, H, fps: FPS, T: total, carrousel, cases } };
 }
 
 module.exports = { compiler, lireAnimation, mots, FONDS, W, H, FPS };

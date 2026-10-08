@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 23.1,
-  "version": 1791411500178,
+  "version": 1791482710013,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -54,6 +54,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Combien de cycles par jour chez vous ?",
   "source": "../../series/cote-fauteuil/F13-la-sterilisation.json",
   "cases": [

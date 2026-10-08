@@ -4,8 +4,8 @@
   "serie": "strip",
   "fond": "#A8E0D2",
   "T": 10.4,
-  "version": 1791411700388,
-  "video": null,
+  "version": 1791483346035,
+  "video": "S1-lundi.mp4",
   "planche": "S1-lundi-planche.png",
   "carrousel": [
     {
@@ -33,6 +33,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Combien d'appels avant 9h chez vous ?",
   "source": "../../exemple-carrousel.json",
   "cases": [

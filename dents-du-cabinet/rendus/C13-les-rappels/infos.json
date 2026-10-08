@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 30.9,
-  "version": 1791445388292,
+  "version": 1791483018537,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -62,6 +62,7 @@
       ]
     }
   ],
+  "accroche": "Une heure au téléphone pour confirmer demain.",
   "legende": "Combien d'appels de confirmation pour combien de réponses ?",
   "source": "../../series/situations-du-cabinet/C13-les-rappels.json",
   "cases": [

@@ -4,7 +4,7 @@
   "serie": "vecu",
   "fond": "#FFB3A7",
   "T": 22.1,
-  "version": 1791411474024,
+  "version": 1791482679370,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -54,6 +54,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Votre déjeuner d'aujourd'hui, c'était quoi ?",
   "source": "../../series/cote-fauteuil/F08-la-pause-dejeuner.json",
   "cases": [

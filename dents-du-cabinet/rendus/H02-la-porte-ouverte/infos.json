@@ -4,7 +4,7 @@
   "serie": "vecu",
   "fond": "#FFB3A7",
   "T": 40,
-  "version": 1791411577219,
+  "version": 1791482819652,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -76,6 +76,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Votre patient le plus courageux, c'était qui ?",
   "source": "../../series/petites-histoires/H02-la-porte-ouverte.json",
   "cases": [

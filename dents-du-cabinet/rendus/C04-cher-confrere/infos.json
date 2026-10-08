@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 35.3,
-  "version": 1791445332332,
+  "version": 1791482937877,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -63,6 +63,7 @@
       ]
     }
   ],
+  "accroche": "19h. Le cabinet est vide. Pas son bureau.",
   "legende": "À quelle heure vous écrivez vos courriers ?",
   "source": "../../series/situations-du-cabinet/C04-cher-confrere.json",
   "cases": [

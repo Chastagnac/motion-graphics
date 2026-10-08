@@ -4,7 +4,7 @@
   "serie": "irritant",
   "fond": "#B9C8FF",
   "T": 31.6,
-  "version": 1791445398626,
+  "version": 1791483047239,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -62,6 +62,7 @@
       ]
     }
   ],
+  "accroche": "Un devis de trois pages. Il lit quoi ?",
   "legende": "Vos patients lisent quoi, sur un devis ?",
   "source": "../../series/situations-du-cabinet/C15-le-total.json",
   "cases": [

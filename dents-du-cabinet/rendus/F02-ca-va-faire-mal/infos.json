@@ -4,7 +4,7 @@
   "serie": "vecu",
   "fond": "#FFB3A7",
   "T": 24.6,
-  "version": 1791411448753,
+  "version": 1791482644469,
   "video": null,
   "planche": null,
   "carrousel": [
@@ -55,6 +55,7 @@
       ]
     }
   ],
+  "accroche": "",
   "legende": "Qui a déjà fait mal sans même toucher ?",
   "source": "../../series/cote-fauteuil/F02-ca-va-faire-mal.json",
   "cases": [

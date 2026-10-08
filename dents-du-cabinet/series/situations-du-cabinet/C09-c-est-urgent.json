@@ -2,6 +2,7 @@
   "id": "C09-c-est-urgent",
   "serie": "IRRITANT",
   "titre": "C'est urgent",
+  "accroche": "Neuf appels urgents avant 9h. Combien de vrais ?",
   "decor": "accueil",
   "carrousel": [
     1,
