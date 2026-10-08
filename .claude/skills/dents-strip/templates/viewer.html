@@ -40,7 +40,7 @@ button[hidden]{display:none}
 .visio .barre{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:10px;padding:10px 14px 14px;color:#fff;font-size:15px;font-weight:700}
 .visio .barre span{min-width:150px;text-align:center}
 .visio button,.visio .barre a{font:inherit;font-size:15px;font-weight:800;padding:8px 16px;border:2px solid #fff;border-radius:999px;background:transparent;color:#fff;cursor:pointer;text-decoration:none}
-.visio a.principal{background:#fff;color:#141413}
+.visio .principal{background:#fff;color:#141413}
 .visio button:disabled{opacity:.3;cursor:default}
 img.agrandir{cursor:zoom-in}
 </style>
@@ -76,21 +76,43 @@ document.title = 'Relecture : ' + V.titre;
 $('titre').textContent = V.titre;
 $('meta').textContent = `${V.id} · série ${V.serie} · ${V.cases.length} cases`;
 $('sous').textContent = `Carrousel : ${V.carrousel.length} image${V.carrousel.length > 1 ? 's' : ''}`;
-// visionneuse : clic sur une image -> elle s'affiche entière, flèches pour feuilleter, bouton pour l'enregistrer en pleine taille
+// visionneuse : clic sur une image -> elle s'affiche entière, flèches pour feuilleter, boutons pour enregistrer les images en pleine taille
 const visio = (() => {
   const mk = (t, c, txt) => { const e = document.createElement(t); if (c) e.className = c; if (txt != null) e.textContent = txt; return e; };
+  const TACTILE = matchMedia('(pointer: coarse)').matches;
   const boite = mk('div', 'visio'), zone = mk('div', 'zone'), img = mk('img'), barre = mk('div', 'barre');
-  const avant = mk('button', null, '←'), apres = mk('button', null, '→'), ou = mk('span'), dl = mk('a', 'principal', 'Télécharger'), tout = mk('button', null, 'Tout télécharger'), fermer = mk('button', null, 'Fermer');
+  const avant = mk('button', null, '←'), apres = mk('button', null, '→'), ou = mk('span'), dl = mk('button', 'principal', TACTILE ? 'Enregistrer l’image' : 'Télécharger l’image'), tout = mk('button', null, TACTILE ? 'Tout enregistrer' : 'Tout télécharger'), fermer = mk('button', null, 'Fermer');
   avant.setAttribute('aria-label', 'Image précédente'); apres.setAttribute('aria-label', 'Image suivante');
   boite.setAttribute('role', 'dialog'); boite.setAttribute('aria-label', 'Image en grand');
   zone.appendChild(img); barre.append(avant, ou, apres, dl, tout, fermer); boite.append(zone, barre);
   document.body.appendChild(boite);
   let images = [], i = 0;
   const nom = (src) => decodeURIComponent(src.split('?')[0].split('/').pop());
+  // les images sont chargées dès l'ouverture : au clic, le fichier est déjà prêt et le navigateur accepte de l'enregistrer
+  const prets = new Map();
+  const charger = (src) => {
+    if (!prets.has(src)) prets.set(src, fetch(src).then((r) => { if (!r.ok) throw new Error(r.status); return r.blob(); })
+      .then((b) => { if (!b.type.startsWith('image/')) throw new Error('pas une image'); return new File([b], nom(src), { type: b.type }); })
+      .catch((e) => { prets.delete(src); throw e; }));
+    return prets.get(src);
+  };
+  // téléphone : feuille de partage (Enregistrer dans Photos, Instagram). Ordinateur : un fichier PNG par image.
+  const enregistrer = async (srcs) => {
+    let fichiers;
+    try { fichiers = await Promise.all(srcs.map(charger)); } catch (e) { ou.textContent = 'Image introuvable, recharge la page'; return; }
+    if (TACTILE && navigator.canShare && navigator.canShare({ files: fichiers })) {
+      try { await navigator.share({ files: fichiers }); return; } catch (e) { if (e.name === 'AbortError') return; }
+    }
+    fichiers.forEach((f, k) => setTimeout(() => {
+      const a = mk('a'); a.href = URL.createObjectURL(f); a.download = f.name;
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 20000);
+    }, k * 350));
+  };
   const montrer = () => {
     img.src = images[i]; img.alt = nom(images[i]);
     ou.textContent = images.length > 1 ? `Image ${i + 1} sur ${images.length}` : nom(images[i]);
-    dl.href = images[i]; dl.download = nom(images[i]);
+    images.forEach((src) => charger(src).catch(() => {}));
     avant.disabled = i === 0; apres.disabled = i === images.length - 1;
     avant.hidden = apres.hidden = tout.hidden = images.length < 2;
   };
@@ -99,7 +121,8 @@ const visio = (() => {
   avant.addEventListener('click', () => aller(-1)); apres.addEventListener('click', () => aller(1));
   fermer.addEventListener('click', clore);
   zone.addEventListener('click', (e) => { if (e.target === zone) clore(); });
-  tout.addEventListener('click', () => images.forEach((src, k) => setTimeout(() => { const a = mk('a'); a.href = src; a.download = nom(src); a.click(); }, k * 250)));
+  dl.addEventListener('click', () => enregistrer([images[i]]));
+  tout.addEventListener('click', () => enregistrer(images));
   document.addEventListener('keydown', (e) => {
     if (!boite.classList.contains('ouverte')) return;
     if (e.key === 'Escape') clore(); else if (e.key === 'ArrowLeft') aller(-1); else if (e.key === 'ArrowRight') aller(1);
