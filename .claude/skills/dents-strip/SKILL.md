@@ -100,8 +100,8 @@ objet bien dans la main, rien qui chevauche le visage ou sort de la case.
   au-dessus de la première image, le champ `legende` dans un bandeau noir sous la dernière. La planche
   ne porte ni l'un ni l'autre. L'accroche donne le sujet et l'enjeu en 8 mots au plus, sans la chute
   (« 8h04. Trois demandes. Une seule personne. ») : c'est elle qui arrête le pouce dans le fil.
-- Titre du strip en bas à gauche (avec le numéro de l'image pour un carrousel), « Les Dents du
-  Cabinet » en bas à droite.
+- **Rien d'autre sur l'image** : ni titre, ni numéro de page, ni signature. L'utilisateur l'a demandé
+  le 8 octobre 2026 : une image téléchargée part telle quelle sur Instagram.
 - La mise en page se règle dans `scripts/planche.js`.
 
 ## Format JSON
@@ -268,6 +268,19 @@ Ne passe à la mise en scène qu'une fois le texte validé.
   (`DentsScene(element, donnees, cadrage)`), figée sur la fin du plan, avec le cadrage calculé par
   `scripts/planche.js` selon la forme de la case. Images et vidéo partagent donc poses, bulles et textes.
 - Cadrage et rythme du reel se règlent en tête de `runtime/scene.js` (`REEL`, ressorts).
+
+## Publié ou à publier
+
+`dents-du-cabinet/publications.json` dit quels strips sont déjà sur Instagram : `{ "C01-trois-lignes": "2026-10-08" }`.
+Dans la galerie, chaque strip porte une pastille « À publier » ou « Publié le … », un bouton pour
+basculer, et l'en-tête filtre « À publier » et « Publiés ».
+
+- Sur `localhost:4173`, le bouton écrit le fichier. Il faut ensuite le commiter et pousser pour que
+  la galerie en ligne le sache.
+- En ligne, le fichier est figé : une coche y reste dans le navigateur de l'appareil, en plus de
+  celles du fichier. Elle ne se voit donc pas depuis un autre appareil tant qu'elle n'a pas été
+  reportée dans le fichier.
+- Si l'utilisateur dit « j'ai publié C03 », ajoute la ligne dans `publications.json` avec la date du jour.
 
 ## Galerie en ligne (Vercel)
 

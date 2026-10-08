@@ -5,7 +5,8 @@
  *   node site.js [dossier rendus] [dossier de sortie]
  *
  * Écrit index.html (la vue d'ensemble, avec la visionneuse et le téléchargement) et copie les
- * images de chaque strip. Pas de commentaires ici : ils ont besoin du serveur local commentaires.js.
+ * images de chaque strip. Pas de commentaires ici : ils ont besoin du serveur local commentaires.js. Les strips déjà publiés
+ * viennent de publications.json, à côté du dossier des rendus.
  * Aucune dépendance, aucun navigateur : les images viennent de git, telles que strip.js les a rendues.
  */
 const fs = require('fs');
@@ -33,9 +34,13 @@ strips.forEach((s) => {
 });
 if (manquantes.length) { console.error('Images absentes (relance strip.js) :\n  ' + manquantes.join('\n  ')); process.exit(1); }
 
+let publies = {};
+try { publies = JSON.parse(fs.readFileSync(path.join(RENDUS, '..', 'publications.json'), 'utf8')); } catch (e) {}
+
 // même page que le serveur local, en mode statique : pas de champ de commentaire, pas d'appel au serveur
 const page = fs.readFileSync(path.join(__dirname, '../templates/index.html'), 'utf8')
   .replace('__DONNEES__', () => JSON.stringify(strips).replace(/<\/script/gi, '<\\/script'))
+  .replace('__PUBLICATIONS__', () => JSON.stringify(publies).replace(/</g, '\\u003c'))
   .replace('</head>', '<meta name="robots" content="noindex"><script>window.STATIQUE=true</script><style>label,textarea,.detail,.etat{display:none}</style></head>');
 fs.writeFileSync(path.join(SORTIE, 'index.html'), page);
 console.log(`${strips.length} strips, ${images} images dans ${path.relative(process.cwd(), SORTIE) || '.'}`);

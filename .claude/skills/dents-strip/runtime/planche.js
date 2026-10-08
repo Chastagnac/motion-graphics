@@ -6,7 +6,6 @@
 (function () {
   const P = window.PLANCHE, DATA = window.STRIP;
   const figes = [];
-  const carrousel = P.pages.filter((p) => p.id !== 'planche').length;
 
   P.pages.forEach((p) => {
     const page = document.createElement('div');
@@ -39,13 +38,6 @@
         texte.style.fontSize = f + 'px';
       });
     });
-    const pied = document.createElement('div');
-    pied.className = 'pied';
-    Object.assign(pied.style, { left: P.marge + 'px', right: P.marge + 'px', top: P.piedY + 'px', height: P.pied + 'px' });
-    const gauche = document.createElement('span'), droite = document.createElement('span');
-    gauche.textContent = DATA.titre + (p.id !== 'planche' && carrousel > 1 ? `  ${p.id.slice(1)}/${carrousel}` : '');
-    droite.textContent = P.signature;
-    pied.append(gauche, droite); page.appendChild(pied);
     document.body.appendChild(page);
   });
 

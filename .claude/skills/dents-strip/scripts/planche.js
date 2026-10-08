@@ -1,10 +1,10 @@
 /*
  * dents-strip : mise en page des images fixes, au format 4:5 du fil Instagram (1080 x 1350).
- * Une page porte 1 à 6 cases. La planche les porte toutes, le carrousel les répartit page par page.
+ * Une image ne porte que ses cases, plus l'accroche ou la question : ni titre, ni numéro, ni signature,
+ * elle part telle quelle sur Instagram. Une page porte 1 à 6 cases. La planche les porte toutes, le carrousel les répartit page par page.
  * Chaque case reçoit son propre cadrage selon sa forme : mêmes règles que le reel.
  */
-const PAGE = { W: 1080, H: 1350, marge: 28, gouttiere: 18, bord: 7, pied: 40 };
-const SIGNATURE = 'Les Dents du Cabinet';
+const PAGE = { W: 1080, H: 1350, marge: 28, gouttiere: 18, bord: 7 };
 const RANGS = { 1: [1], 2: [1, 1], 3: [2, 1], 4: [2, 2], 5: [2, 2, 1], 6: [2, 2, 2] };   // cases par rang
 const MAX_CASES = 6, MAX_PAR_PAGE = 4;
 const BANDES = { accroche: 196, question: 124, ecart: 18 };   // hauteur des textes hors case, et leur écart aux cases
@@ -36,7 +36,7 @@ function page(id, indices, bandes) {
   const rangs = RANGS[indices.length];
   const hTete = bandes.accroche ? BANDES.accroche : 0, hQueue = bandes.question ? BANDES.question : 0;
   const haut = PAGE.marge + (hTete ? hTete + BANDES.ecart : 0);
-  const zoneH = PAGE.H - haut - PAGE.pied - 20 - (hQueue ? hQueue + BANDES.ecart : 0), zoneL = PAGE.W - 2 * PAGE.marge;
+  const zoneH = PAGE.H - haut - PAGE.marge - (hQueue ? hQueue + BANDES.ecart : 0), zoneL = PAGE.W - 2 * PAGE.marge;
   const h = Math.floor((zoneH - (rangs.length - 1) * PAGE.gouttiere) / rangs.length);
   const cellules = [];
   let k = 0;
@@ -67,7 +67,7 @@ function miseEnPage(nbCases, groupes, textes) {
     }));
     debut += taille;
   });
-  return Object.assign({ pages, signature: SIGNATURE, piedY: PAGE.H - PAGE.pied - 14 }, PAGE);
+  return Object.assign({ pages }, PAGE);
 }
 
 module.exports = { miseEnPage, MAX_CASES, MAX_PAR_PAGE };

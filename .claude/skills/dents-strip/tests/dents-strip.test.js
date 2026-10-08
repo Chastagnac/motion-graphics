@@ -97,7 +97,7 @@ test('mise en page : accroche sur la première image, légende sur la dernière,
   // les cases laissent la place aux bandes et tout tient dans la page
   assert.ok(c1.cellules[0].y >= c1.accroche.y + c1.accroche.h);
   const bas = Math.max(...c3.cellules.map((c) => c.y + c.h));
-  assert.ok(c3.question.y >= bas && c3.question.y + c3.question.h <= P.piedY);
+  assert.ok(c3.question.y >= bas && c3.question.y + c3.question.h <= P.H - P.marge);
   // sans texte, la mise en page d'avant est inchangée
   const nue = miseEnPage(4, [1, 2, 1]);
   assert.deepStrictEqual(nue.pages[2].cellules, c2.cellules);

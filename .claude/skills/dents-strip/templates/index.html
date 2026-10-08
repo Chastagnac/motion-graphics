@@ -30,6 +30,14 @@ label{font-size:13px;font-weight:700}
 textarea{width:100%;min-height:84px;resize:vertical;padding:10px;border:2px solid var(--encre);border-radius:8px;font:inherit;background:var(--papier)}
 textarea:focus{outline:3px solid #B9C8FF;background:#fff}
 a{color:inherit;font-weight:700;font-size:14px}
+.filtres{display:flex;flex-wrap:wrap;gap:8px}
+.filtres button,.pub button{font:inherit;font-size:13px;font-weight:800;padding:5px 14px;border:2px solid var(--encre);border-radius:999px;background:#fff;color:var(--encre);cursor:pointer}
+.filtres button[aria-pressed="true"]{background:var(--encre);color:#fff}
+.pub{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px}
+.pastille{padding:3px 12px;border:2px solid var(--encre);border-radius:999px;font-size:12px;font-weight:800;background:#FFD84D}
+.carte.publie .pastille{background:#2BA58A;color:#fff}
+.carte.publie>.pages,.carte.publie>a,.carte.publie>video{opacity:.55}
+.carte[hidden]{display:none}
 .detail{margin-top:auto;display:flex;flex-wrap:wrap;gap:6px 16px}
 @media (max-width:600px){main{padding:16px}}
 /* visionneuse : l'image entière à l'écran, sans rien autour, prête à capturer ou à télécharger */
@@ -49,6 +57,7 @@ img.agrandir{cursor:zoom-in}
 <header>
   <h1>Les Dents du Cabinet</h1>
   <span class="meta" id="meta"></span>
+  <nav class="filtres" id="filtres" aria-label="Filtrer les strips"></nav>
   <span class="etat" id="etat" role="status"></span>
 </header>
 <main><section class="grille" id="grille"></section></main>
@@ -92,6 +101,27 @@ const visio = (() => {
 const agrandir = (im, liste, k) => {
   im.classList.add('agrandir');
   (im.closest('a') || im).addEventListener('click', (e) => { e.preventDefault(); visio(liste, k); });
+};
+// suivi de publication : { id: date } dans dents-du-cabinet/publications.json, suivi par git.
+// Le serveur local l'écrit. En ligne le fichier est figé : une coche y reste sur l'appareil, en plus de celles du fichier.
+const PUBLIES = __PUBLICATIONS__;
+const CLE_PUB = 'dents-strip:publies';
+let locaux = {};
+try { locaux = JSON.parse(localStorage.getItem(CLE_PUB) || '{}') || {}; } catch (e) {}
+const datePub = (id) => PUBLIES[id] || locaux[id] || null;
+const cartes = [];
+let filtre = 'tous';
+const majFiltres = () => {
+  const n = cartes.filter((c) => datePub(c.id)).length;
+  [['tous', `Tous (${cartes.length})`], ['a-publier', `À publier (${cartes.length - n})`], ['publies', `Publiés (${n})`]].forEach(([cle, texte]) => {
+    let b = $('filtres').querySelector(`[data-f="${cle}"]`);
+    if (!b) {
+      b = document.createElement('button'); b.type = 'button'; b.dataset.f = cle; $('filtres').appendChild(b);
+      b.addEventListener('click', () => { filtre = cle; majFiltres(); });
+    }
+    b.textContent = texte; b.setAttribute('aria-pressed', String(filtre === cle));
+  });
+  cartes.forEach((c) => { const p = !!datePub(c.id); c.el.hidden = filtre === 'a-publier' ? p : filtre === 'publies' ? !p : false; });
 };
 const SERVEUR = !window.STATIQUE;                    // galerie statique (site.js) : pas de commentaires
 const lire = async (id) => { if (!SERVEUR) return null; try { const r = await fetch(api(id)); return r.ok ? await r.json() : null; } catch (e) { return null; } };
@@ -138,7 +168,37 @@ S.forEach((s) => {
     if (!h) return;
     const a = document.createElement('a'); a.href = h; a.textContent = t; if (t === 'Vidéo') a.target = '_blank'; lien.appendChild(a);
   });
-  corps.append(num, h2, lab, ta, lien); carte.append(v); if (fleches) carte.append(fleches); carte.append(corps); $('grille').appendChild(carte);
+  // publié ou à publier : une pastille et un bouton pour basculer
+  const pub = document.createElement('div'); pub.className = 'pub';
+  const pastille = document.createElement('span'); pastille.className = 'pastille';
+  const bascule = document.createElement('button'); bascule.type = 'button';
+  const majPub = () => {
+    const d = datePub(s.id);
+    carte.classList.toggle('publie', !!d);
+    pastille.textContent = d ? 'Publié le ' + new Date(d).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' }) : 'À publier';
+    bascule.textContent = d ? 'Annuler' : 'Marquer comme publié';
+    bascule.hidden = !SERVEUR && !!PUBLIES[s.id];        // en ligne, une coche du fichier ne se retire que depuis le serveur local
+    majFiltres();
+  };
+  bascule.addEventListener('click', async () => {
+    const date = datePub(s.id) ? null : new Date().toISOString().slice(0, 10);
+    if (SERVEUR) {
+      try {
+        const r = await fetch('/api/publications', { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ id: s.id, date }) });
+        if (!r.ok) throw new Error();
+        Object.keys(PUBLIES).forEach((k) => delete PUBLIES[k]); Object.assign(PUBLIES, await r.json());
+        etat('Enregistré dans publications.json');
+      } catch (e) { etat('Échec de l’enregistrement'); return; }
+    } else {
+      if (date) locaux[s.id] = date; else delete locaux[s.id];
+      try { localStorage.setItem(CLE_PUB, JSON.stringify(locaux)); } catch (e) {}
+    }
+    majPub();
+  });
+  pub.append(pastille, bascule);
+  cartes.push({ id: s.id, el: carte });
+  corps.append(num, h2, pub, lab, ta, lien); carte.append(v); if (fleches) carte.append(fleches); carte.append(corps); $('grille').appendChild(carte);
+  majPub();
   lire(s.id).then((d) => { if (d && d.general) ta.value = d.general; });
 
   // le commentaire d'ici va dans le champ « general » du strip, sans toucher aux commentaires par case
