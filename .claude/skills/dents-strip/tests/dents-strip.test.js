@@ -176,6 +176,19 @@ test('les JSON des séries sont à jour avec histoires/ et mises-en-scene/', () 
   fs.rmSync(dossier, { recursive: true, force: true });
 });
 
+test('site.js : la galerie statique contient la page et toutes ses images', () => {
+  const sortie = fs.mkdtempSync(path.join(os.tmpdir(), 'dents-site-'));
+  const r = spawnSync(process.execPath, [path.join(SKILL, 'scripts/site.js'), path.join(BIB, 'rendus'), sortie], { encoding: 'utf8' });
+  assert.strictEqual(r.status, 0, r.stderr);
+  const page = fs.readFileSync(path.join(sortie, 'index.html'), 'utf8');
+  assert.ok(!page.includes('__DONNEES__') && page.includes('window.STATIQUE=true'));
+  const strips = JSON.parse(/const S = (\[.*\]);\n/.exec(page)[1]);
+  assert.ok(strips.length > 0);
+  strips.forEach((s) => [s.planche].concat(s.carrousel.map((p) => p.image)).filter(Boolean).forEach((f) =>
+    assert.ok(fs.existsSync(path.join(sortie, s.id, f)), `${s.id}/${f} manque dans la galerie`)));
+  fs.rmSync(sortie, { recursive: true, force: true });
+});
+
 test('aucun personnage existant n’a changé (dents-du-cabinet/verifier.js)', () => {
   const r = spawnSync(process.execPath, [path.join(BIB, 'verifier.js')], { encoding: 'utf8' });
   assert.strictEqual(r.status, 0, r.stderr);

@@ -11,3 +11,7 @@ motion/
 dents-du-cabinet/rendus/**/*.html
 dents-du-cabinet/rendus/**/*.mp4
 dents-du-cabinet/rendus/**/apercus/
+
+# galerie statique construite par site.js (Vercel la reconstruit à chaque déploiement)
+site/
+.vercel

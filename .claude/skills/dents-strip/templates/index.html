@@ -93,7 +93,8 @@ const agrandir = (im, liste, k) => {
   im.classList.add('agrandir');
   (im.closest('a') || im).addEventListener('click', (e) => { e.preventDefault(); visio(liste, k); });
 };
-const lire = async (id) => { try { const r = await fetch(api(id)); return r.ok ? await r.json() : null; } catch (e) { return null; } };
+const SERVEUR = !window.STATIQUE;                    // galerie statique (site.js) : pas de commentaires
+const lire = async (id) => { if (!SERVEUR) return null; try { const r = await fetch(api(id)); return r.ok ? await r.json() : null; } catch (e) { return null; } };
 
 S.forEach((s) => {
   const carte = document.createElement('article'); carte.className = 'carte';

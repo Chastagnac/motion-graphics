@@ -269,6 +269,20 @@ Ne passe à la mise en scène qu'une fois le texte validé.
   `scripts/planche.js` selon la forme de la case. Images et vidéo partagent donc poses, bulles et textes.
 - Cadrage et rythme du reel se règlent en tête de `runtime/scene.js` (`REEL`, ressorts).
 
+## Galerie en ligne (Vercel)
+
+`vercel.json` fait construire à Vercel une galerie statique à chaque `git push` :
+
+```bash
+node .claude/skills/dents-strip/scripts/site.js dents-du-cabinet/rendus site
+```
+
+Elle reprend la vue d'ensemble (clic sur une image pour la voir en grand, flèches, « Télécharger » en
+pleine taille), sans les commentaires, qui ont besoin du serveur local `commentaires.js`. Vercel ne
+rend rien lui même : il publie les images suivies par git. Après un rendu, il faut donc commiter les
+PNG de `rendus/` et pousser pour que le site change. La galerie demande aux moteurs de recherche de
+ne pas l'indexer, mais son adresse reste ouverte à qui la connaît.
+
 ## Tests et suivi git
 
 ```bash
