@@ -3,23 +3,54 @@
   "titre": "Le lapin",
   "serie": "irritant",
   "fond": "#B9C8FF",
-  "T": 10.2,
-  "version": 1791280918293,
+  "T": 24.1,
+  "version": 1791411460046,
   "video": null,
-  "planche": "F05-le-lapin-planche.png",
+  "planche": null,
   "carrousel": [
     {
       "image": "carrousel/F05-le-lapin-1.png",
       "cases": [
-        1,
-        2
+        1
       ]
     },
     {
       "image": "carrousel/F05-le-lapin-2.png",
       "cases": [
-        3,
-        4
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/F05-le-lapin-3.png",
+      "cases": [
+        4,
+        5
+      ]
+    },
+    {
+      "image": "carrousel/F05-le-lapin-4.png",
+      "cases": [
+        6
+      ]
+    },
+    {
+      "image": "carrousel/F05-le-lapin-5.png",
+      "cases": [
+        7,
+        8
+      ]
+    },
+    {
+      "image": "carrousel/F05-le-lapin-6.png",
+      "cases": [
+        9
+      ]
+    },
+    {
+      "image": "carrousel/F05-le-lapin-7.png",
+      "cases": [
+        10
       ]
     }
   ],
@@ -30,6 +61,21 @@
       "index": 1,
       "t0": 0,
       "duree": 3,
+      "texte": "14h. La salle d'attente est vide.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": null,
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 3,
+      "duree": 2.9,
       "texte": "Il est où, le patient de 14h ?",
       "voix": "docteur",
       "decor": "accueil",
@@ -47,9 +93,9 @@
       ]
     },
     {
-      "index": 2,
-      "t0": 3,
-      "duree": 2.2,
+      "index": 3,
+      "t0": 5.9,
+      "duree": 2.1,
       "texte": "Il a oublié.",
       "voix": "incisive",
       "decor": "accueil",
@@ -62,16 +108,54 @@
         {
           "dent": "incisive",
           "expression": null,
-          "animations": [
-            "prop:cafe:gorgee à 1.2s"
-          ]
+          "animations": []
         }
       ]
     },
     {
-      "index": 3,
-      "t0": 5.2,
-      "duree": 2.6,
+      "index": 4,
+      "t0": 8,
+      "duree": 2.1,
+      "texte": "On l'avait rappelé ?",
+      "voix": "docteur",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 10.1,
+      "duree": 2.5,
+      "texte": "Trois fois. Il avait confirmé.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 12.6,
+      "duree": 2.7,
       "texte": "Mais il veut un autre rendez-vous.",
       "voix": "incisive",
       "decor": "accueil",
@@ -89,9 +173,29 @@
       ]
     },
     {
-      "index": 4,
-      "t0": 7.8,
-      "duree": 2.4,
+      "index": 7,
+      "t0": 15.3,
+      "duree": 1.9,
+      "texte": "Pour quand ?",
+      "voix": "docteur",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 17.2,
+      "duree": 1.9,
       "texte": "En urgence.",
       "voix": "incisive",
       "decor": "accueil",
@@ -99,14 +203,51 @@
         {
           "dent": "docteur",
           "expression": "regard_camera",
-          "animations": [
-            "expression:regard_camera à 0.9s",
-            "clignement à 1.7s"
-          ]
+          "animations": []
         },
         {
           "dent": "incisive",
           "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 19.1,
+      "duree": 2.5,
+      "texte": "Et il est libre quand ?",
+      "voix": "docteur",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 21.6,
+      "duree": 2.5,
+      "texte": "Pas avant le mois prochain.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "blase",
           "animations": []
         }
       ]

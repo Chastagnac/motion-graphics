@@ -1,0 +1,278 @@
+{
+  "id": "H03-la-couronne-perdue",
+  "serie": "IRRITANT",
+  "titre": "La couronne perdue",
+  "decor": "cabinet",
+  "carrousel": [
+    1,
+    2,
+    2,
+    2,
+    2,
+    3,
+    1,
+    1,
+    2
+  ],
+  "slides": [
+    {
+      "texte": "8h30. La couronne arrive du labo.",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Je l'ai posée sur le plateau.",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "content"
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Quel plateau ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "neutre"
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "brasG": "haussement",
+          "propG": null
+        }
+      ]
+    },
+    {
+      "texte": "8h40. Le patient est installé.",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "panique"
+        },
+        {
+          "dent": "docteur",
+          "expression": "panique"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "On la retrouve. Calmement.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "panique"
+        },
+        {
+          "dent": "docteur",
+          "expression": "panique"
+        }
+      ]
+    },
+    {
+      "texte": "Pas dans le tiroir.",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "triste"
+        },
+        {
+          "dent": "docteur",
+          "expression": "panique"
+        }
+      ]
+    },
+    {
+      "texte": "Pas sous le fauteuil.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "triste"
+        },
+        {
+          "dent": "docteur",
+          "expression": "triste"
+        }
+      ]
+    },
+    {
+      "texte": "Vous cherchez quelque chose ?",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Non, non. Tout va bien.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "juge",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "8h55.",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "panique"
+        },
+        {
+          "dent": "docteur",
+          "expression": "panique"
+        }
+      ]
+    },
+    {
+      "texte": "Qui a vidé le plateau ?",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "juge"
+        },
+        {
+          "dent": "canine",
+          "expression": "triste"
+        },
+        {
+          "dent": "docteur",
+          "expression": "triste"
+        }
+      ]
+    },
+    {
+      "texte": "Personne…",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "juge"
+        },
+        {
+          "dent": "canine",
+          "expression": "triste"
+        },
+        {
+          "dent": "docteur",
+          "expression": "regard_camera"
+        }
+      ]
+    },
+    {
+      "texte": "Docteur. Ta poche.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "brasD": "pointe",
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "choque"
+        }
+      ]
+    },
+    {
+      "texte": "Je l'avais mise en sécurité.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "blase"
+        },
+        {
+          "dent": "docteur",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "C'était la mienne ?",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Elle a été très surveillée.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "malin"
+        },
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    }
+  ],
+  "legende": "L'objet que vous avez le plus cherché au cabinet ?"
+}

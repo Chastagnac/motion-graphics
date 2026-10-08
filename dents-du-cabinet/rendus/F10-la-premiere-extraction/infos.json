@@ -3,23 +3,61 @@
   "titre": "La première extraction",
   "serie": "vecu",
   "fond": "#FFB3A7",
-  "T": 10.2,
-  "version": 1791280931433,
+  "T": 26.3,
+  "version": 1791411485564,
   "video": null,
-  "planche": "F10-la-premiere-extraction-planche.png",
+  "planche": null,
   "carrousel": [
     {
       "image": "carrousel/F10-la-premiere-extraction-1.png",
       "cases": [
-        1,
-        2,
-        3
+        1
       ]
     },
     {
       "image": "carrousel/F10-la-premiere-extraction-2.png",
       "cases": [
-        4
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/F10-la-premiere-extraction-3.png",
+      "cases": [
+        4,
+        5
+      ]
+    },
+    {
+      "image": "carrousel/F10-la-premiere-extraction-4.png",
+      "cases": [
+        6
+      ]
+    },
+    {
+      "image": "carrousel/F10-la-premiere-extraction-5.png",
+      "cases": [
+        7,
+        8
+      ]
+    },
+    {
+      "image": "carrousel/F10-la-premiere-extraction-6.png",
+      "cases": [
+        9
+      ]
+    },
+    {
+      "image": "carrousel/F10-la-premiere-extraction-7.png",
+      "cases": [
+        10,
+        11
+      ]
+    },
+    {
+      "image": "carrousel/F10-la-premiere-extraction-8.png",
+      "cases": [
+        12
       ]
     }
   ],
@@ -29,7 +67,7 @@
     {
       "index": 1,
       "t0": 0,
-      "duree": 2.8,
+      "duree": 2.6,
       "texte": "C'est ma première extraction.",
       "voix": "collaborateur",
       "decor": "cabinet",
@@ -48,8 +86,48 @@
     },
     {
       "index": 2,
-      "t0": 2.8,
-      "duree": 2.8,
+      "t0": 2.6,
+      "duree": 2.1,
+      "texte": "Tu as révisé ?",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": null,
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 4.7,
+      "duree": 2.1,
+      "texte": "Toute la nuit.",
+      "voix": "collaborateur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 6.8,
+      "duree": 2.7,
       "texte": "Respire. Tout va bien se passer.",
       "voix": "docteure",
       "decor": "cabinet",
@@ -67,8 +145,8 @@
       ]
     },
     {
-      "index": 3,
-      "t0": 5.6,
+      "index": 5,
+      "t0": 9.5,
       "duree": 1.8,
       "texte": "Merci.",
       "voix": "collaborateur",
@@ -87,9 +165,9 @@
       ]
     },
     {
-      "index": 4,
-      "t0": 7.4,
-      "duree": 2.8,
+      "index": 6,
+      "t0": 11.3,
+      "duree": 2.3,
       "texte": "Je parlais au patient.",
       "voix": "docteure",
       "decor": "cabinet",
@@ -97,9 +175,7 @@
         {
           "dent": "collaborateur",
           "expression": "choque",
-          "animations": [
-            "expression:choque à 1.0s"
-          ]
+          "animations": []
         },
         {
           "dent": "docteure",
@@ -109,6 +185,131 @@
         {
           "dent": "lait",
           "expression": null,
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 13.6,
+      "duree": 2.1,
+      "texte": "C'est sa première ?",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": null,
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 15.7,
+      "duree": 1.9,
+      "texte": "Mais non.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 17.6,
+      "duree": 1.8,
+      "texte": "Si.",
+      "voix": "collaborateur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "panique",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 19.4,
+      "duree": 2.3,
+      "texte": "Dix minutes plus tard.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 21.7,
+      "duree": 2.1,
+      "texte": "Elle est sortie !",
+      "voix": "collaborateur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 23.8,
+      "duree": 2.5,
+      "texte": "Moi aussi, je peux sortir ?",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
           "animations": []
         }
       ]

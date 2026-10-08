@@ -1,0 +1,257 @@
+{
+  "id": "H06-la-panne-de-courant",
+  "serie": "VECU",
+  "titre": "La panne de courant",
+  "decor": "cabinet",
+  "carrousel": [
+    1,
+    2,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    1
+  ],
+  "slides": [
+    {
+      "texte": "Mardi, 11h. Tout s'éteint.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "choque"
+        },
+        {
+          "dent": "assistante",
+          "expression": "choque"
+        }
+      ]
+    },
+    {
+      "texte": "C'est chez nous ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste"
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "C'est tout le quartier.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "choque"
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase"
+        }
+      ]
+    },
+    {
+      "texte": "Douze patients à déplacer.",
+      "voix": "molaire",
+      "decor": "accueil",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "fache"
+        },
+        {
+          "dent": "incisive",
+          "expression": "blase"
+        }
+      ]
+    },
+    {
+      "texte": "Le téléphone marche encore.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "juge"
+        },
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Midi. Tout le monde est prévenu.",
+      "decor": "accueil",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "content"
+        },
+        {
+          "dent": "incisive",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "On fait quoi, maintenant ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "brasG": "haussement",
+          "brasD": "haussement",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "brasD": "bas",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Rien. On ne peut rien faire.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "assistante",
+          "expression": "malin",
+          "brasD": "bas",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Alors ils ont déjeuné. Assis. Ensemble.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "propD": "cafe",
+          "brasD": "tient"
+        },
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "propD": "cafe",
+          "brasD": "tient"
+        },
+        {
+          "dent": "molaire",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "On n'avait jamais fait ça.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "propD": "cafe",
+          "brasD": "tient"
+        },
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "propD": "cafe",
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "En douze ans, non.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "propD": "cafe",
+          "brasD": "tient"
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "propD": "cafe",
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "13h02. La lumière revient.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "propD": "cafe",
+          "brasD": "tient"
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "propD": "cafe",
+          "brasD": "tient"
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Personne ne bouge. On finit le dessert.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "propD": "cafe",
+          "brasD": "tient"
+        },
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "propD": "cafe",
+          "brasD": "tient"
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    }
+  ],
+  "legende": "C'était quand, votre dernier vrai déjeuner d'équipe ?"
+}

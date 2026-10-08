@@ -4,82 +4,209 @@
   "titre": "Le devis",
   "decor": "accueil",
   "carrousel": [
+    1,
+    2,
+    3,
+    1,
     2,
     1,
-    2
+    2,
+    1
   ],
   "slides": [
     {
       "texte": "Voici le devis.",
       "voix": "docteure",
-      "duree": 2.4,
       "personnages": [
         {
           "dent": "docteure",
+          "expression": "content",
           "brasG": "hanche",
           "brasD": "pointe",
           "propD": "bloc",
-          "expression": "content"
+          "propG": null
         },
         {
           "dent": "lait",
+          "expression": "neutre",
           "brasG": "bas",
           "brasD": "bas",
           "jambes": "debout",
-          "expression": "neutre"
+          "propG": null,
+          "propD": null
         }
       ]
     },
     {
       "texte": "Je vais réfléchir.",
       "voix": "lait",
-      "duree": 2.2,
       "personnages": [
         {
           "dent": "docteure",
+          "expression": "content",
           "brasG": "hanche",
           "brasD": "pointe",
           "propD": "bloc",
-          "expression": "content"
+          "propG": null
         },
         {
           "dent": "lait",
+          "expression": "regard_camera",
           "brasG": "bas",
           "brasD": "bas",
           "jambes": "debout",
-          "expression": "regard_camera"
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Prenez votre temps.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Six mois plus tard.",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "incisive"
+        }
+      ]
+    },
+    {
+      "texte": "Il a rappelé ?",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "incisive",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Non.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "blase",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "incisive",
+          "expression": "blase"
         }
       ]
     },
     {
       "texte": "Deux ans plus tard.",
-      "duree": 2,
       "places": 2,
       "personnages": [
         {
           "dent": "docteure",
+          "expression": "neutre",
           "brasG": "hanche",
           "brasD": "bas",
-          "propD": null,
           "place": 1,
-          "expression": "neutre",
-          "animations": [
-            "clignement à 1.1s"
-          ]
+          "propG": null,
+          "propD": null
         }
       ]
     },
     {
-      "texte": "J'ai réfléchi. J'ai mal.",
+      "texte": "J'ai réfléchi.",
       "voix": "lait",
-      "duree": 2.6,
       "personnages": [
         {
           "dent": "docteure",
+          "expression": "juge",
           "brasG": "hanche",
           "brasD": "bas",
-          "propD": null,
-          "expression": "juge"
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Et alors ?",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "juge",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "J'ai mal.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "blase",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "lait"
@@ -89,20 +216,64 @@
     {
       "texte": "Voici le nouveau devis.",
       "voix": "docteure",
-      "duree": 2.6,
       "personnages": [
         {
           "dent": "docteure",
+          "expression": "malin",
           "brasG": "hanche",
           "brasD": "pointe",
           "propD": "bloc",
-          "expression": "malin"
+          "propG": null
         },
         {
           "dent": "lait",
           "expression": "choque",
           "brasG": "bas",
-          "brasD": "bas"
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Il a grossi.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "malin",
+          "brasG": "hanche",
+          "brasD": "pointe",
+          "propD": "bloc",
+          "propG": null
+        },
+        {
+          "dent": "lait",
+          "expression": "panique"
+        }
+      ]
+    },
+    {
+      "texte": "La carie aussi.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "blase",
+          "brasG": "hanche",
+          "brasD": "pointe",
+          "propD": "bloc",
+          "propG": null
+        },
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
         }
       ]
     }

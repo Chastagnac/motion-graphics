@@ -1,0 +1,327 @@
+{
+  "id": "H02-la-porte-ouverte",
+  "serie": "VECU",
+  "titre": "La porte ouverte",
+  "decor": "accueil",
+  "carrousel": [
+    1,
+    2,
+    1,
+    3,
+    2,
+    1,
+    2,
+    2,
+    2,
+    1
+  ],
+  "slides": [
+    {
+      "texte": "Il n'est pas venu depuis dix ans.",
+      "personnages": [
+        {
+          "dent": "lait"
+        }
+      ]
+    },
+    {
+      "texte": "Vous avez rendez-vous ?",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait"
+        }
+      ]
+    },
+    {
+      "texte": "Oui. Mais je peux repartir.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase"
+        },
+        {
+          "dent": "lait",
+          "expression": "triste"
+        }
+      ]
+    },
+    {
+      "texte": "Asseyez-vous. Je laisse la porte ouverte.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "tremble",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Dans la salle de soins.",
+      "decor": "cabinet",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content"
+        },
+        {
+          "dent": "lait"
+        }
+      ]
+    },
+    {
+      "texte": "Qu'est-ce qui vous fait peur ?",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "expression": "triste"
+        }
+      ]
+    },
+    {
+      "texte": "Tout.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "expression": "panique"
+        }
+      ]
+    },
+    {
+      "texte": "Alors on commence par rien.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Rien ?",
+      "voix": "lait",
+      "decor": "cabinet",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Aujourd'hui, je regarde. C'est tout.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "propD": "miroir",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Dix minutes plus tard.",
+      "decor": "cabinet",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "propD": "miroir",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "C'est déjà fini ?",
+      "voix": "lait",
+      "decor": "cabinet",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Pour aujourd'hui, oui.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "malin",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "J'ai attendu dix ans pour ça.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "À l'accueil.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Je peux revenir jeudi ?",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Je laisserai la porte ouverte.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    }
+  ],
+  "legende": "Votre patient le plus courageux, c'était qui ?"
+}

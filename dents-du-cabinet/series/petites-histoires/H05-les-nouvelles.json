@@ -1,0 +1,234 @@
+{
+  "id": "H05-les-nouvelles",
+  "serie": "VECU",
+  "titre": "Les nouvelles",
+  "decor": "cabinet",
+  "carrousel": [
+    1,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    3,
+    1
+  ],
+  "slides": [
+    {
+      "texte": "Tous les six mois. Depuis trente ans.",
+      "personnages": [
+        {
+          "dent": "sagesse",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Bonjour docteure. Rien de neuf.",
+      "voix": "sagesse",
+      "personnages": [
+        {
+          "dent": "sagesse",
+          "expression": "content",
+          "brasG": "salut",
+          "propG": null
+        },
+        {
+          "dent": "docteure",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Installez-vous.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "sagesse",
+          "expression": "content"
+        },
+        {
+          "dent": "docteure",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Mon petit-fils passe son permis.",
+      "voix": "sagesse",
+      "personnages": [
+        {
+          "dent": "sagesse",
+          "expression": "content",
+          "brasG": "bas",
+          "propG": null
+        },
+        {
+          "dent": "docteure",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Ouvrez grand.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "sagesse",
+          "expression": "content",
+          "brasG": "bas",
+          "propG": null
+        },
+        {
+          "dent": "docteure",
+          "expression": "blase"
+        }
+      ]
+    },
+    {
+      "texte": "Et ma voisine a déménagé.",
+      "voix": "sagesse",
+      "personnages": [
+        {
+          "dent": "sagesse",
+          "expression": "malin",
+          "brasG": "bas",
+          "propG": null
+        },
+        {
+          "dent": "docteure",
+          "expression": "blase"
+        }
+      ]
+    },
+    {
+      "texte": "Vous n'avez aucune carie.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "sagesse",
+          "expression": "content",
+          "brasG": "bas",
+          "propG": null
+        },
+        {
+          "dent": "docteure",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Je n'en ai jamais eu.",
+      "voix": "sagesse",
+      "personnages": [
+        {
+          "dent": "sagesse",
+          "expression": "malin"
+        },
+        {
+          "dent": "docteure",
+          "expression": "regard_camera"
+        }
+      ]
+    },
+    {
+      "texte": "Alors pourquoi tous les six mois ?",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "sagesse",
+          "expression": "neutre"
+        },
+        {
+          "dent": "docteure",
+          "expression": "juge"
+        }
+      ]
+    },
+    {
+      "texte": "Ici, on m'écoute. Même la bouche ouverte.",
+      "voix": "sagesse",
+      "personnages": [
+        {
+          "dent": "sagesse",
+          "expression": "content",
+          "brasG": "bas",
+          "propG": null
+        },
+        {
+          "dent": "docteure",
+          "expression": "choque"
+        }
+      ]
+    },
+    {
+      "texte": "Elle a repris rendez-vous.",
+      "decor": "accueil",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "incisive",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Mets-lui trente minutes.",
+      "voix": "docteure",
+      "decor": "accueil",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "incisive",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Pour un contrôle ?",
+      "voix": "incisive",
+      "decor": "accueil",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "malin",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "incisive",
+          "expression": "juge"
+        }
+      ]
+    },
+    {
+      "texte": "Pour les nouvelles.",
+      "voix": "docteure",
+      "decor": "accueil",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "incisive",
+          "expression": "regard_camera"
+        }
+      ]
+    }
+  ],
+  "legende": "Qui a aussi une patiente qui vient surtout pour discuter ?"
+}

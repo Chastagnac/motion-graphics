@@ -3,10 +3,10 @@
   "titre": "Les papiers",
   "serie": "irritant",
   "fond": "#B9C8FF",
-  "T": 9.5,
-  "version": 1791280941746,
+  "T": 27.7,
+  "version": 1791411512139,
   "video": null,
-  "planche": "F15-les-papiers-planche.png",
+  "planche": null,
   "carrousel": [
     {
       "image": "carrousel/F15-les-papiers-1.png",
@@ -25,6 +25,39 @@
       "image": "carrousel/F15-les-papiers-3.png",
       "cases": [
         4
+      ]
+    },
+    {
+      "image": "carrousel/F15-les-papiers-4.png",
+      "cases": [
+        5,
+        6
+      ]
+    },
+    {
+      "image": "carrousel/F15-les-papiers-5.png",
+      "cases": [
+        7,
+        8
+      ]
+    },
+    {
+      "image": "carrousel/F15-les-papiers-6.png",
+      "cases": [
+        9
+      ]
+    },
+    {
+      "image": "carrousel/F15-les-papiers-7.png",
+      "cases": [
+        10,
+        11
+      ]
+    },
+    {
+      "image": "carrousel/F15-les-papiers-8.png",
+      "cases": [
+        12
       ]
     }
   ],
@@ -97,6 +130,166 @@
         {
           "dent": "docteur",
           "expression": "panique",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 9.5,
+      "duree": 2.1,
+      "texte": "À ce point ?",
+      "voix": "docteur",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 11.6,
+      "duree": 2.9,
+      "texte": "Les devis, les courriers, les comptes rendus.",
+      "voix": "molaire",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 14.5,
+      "duree": 2.5,
+      "texte": "Je les fais demain matin.",
+      "voix": "docteur",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 17,
+      "duree": 2.5,
+      "texte": "Tu as dit ça hier.",
+      "voix": "molaire",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 19.5,
+      "duree": 1.9,
+      "texte": "Et avant-hier.",
+      "voix": "molaire",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 21.4,
+      "duree": 1.8,
+      "texte": "22h.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 23.2,
+      "duree": 1.8,
+      "texte": "Fini !",
+      "voix": "docteur",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 25,
+      "duree": 2.7,
+      "texte": "Il reste la pile de mardi.",
+      "voix": "molaire",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
           "animations": []
         },
         {

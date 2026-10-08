@@ -4,6 +4,11 @@
   "titre": "Le rappel",
   "decor": "accueil",
   "carrousel": [
+    1,
+    2,
+    1,
+    2,
+    2,
     2,
     2
   ],
@@ -15,14 +20,17 @@
         {
           "dent": "incisive",
           "expression": "neutre",
-          "propD": "bloc"
+          "propD": "bloc",
+          "brasD": "tient"
         },
         {
           "dent": "lait",
+          "expression": "content",
           "brasG": "bas",
           "brasD": "bas",
           "jambes": "debout",
-          "expression": "content"
+          "propG": null,
+          "propD": null
         }
       ]
     },
@@ -33,14 +41,17 @@
         {
           "dent": "incisive",
           "expression": "neutre",
-          "propD": "bloc"
+          "propD": "bloc",
+          "brasD": "tient"
         },
         {
           "dent": "lait",
+          "expression": "content",
           "brasG": "haussement",
           "brasD": "haussement",
           "jambes": "debout",
-          "expression": "content"
+          "propG": null,
+          "propD": null
         }
       ]
     },
@@ -51,14 +62,17 @@
         {
           "dent": "incisive",
           "expression": "juge",
-          "propD": "bloc"
+          "propD": "bloc",
+          "brasD": "tient"
         },
         {
           "dent": "lait",
+          "expression": "regard_camera",
           "brasG": "bas",
           "brasD": "bas",
           "jambes": "debout",
-          "expression": "regard_camera"
+          "propG": null,
+          "propD": null
         }
       ]
     },
@@ -69,17 +83,188 @@
         {
           "dent": "incisive",
           "expression": "regard_camera",
-          "propD": "bloc"
+          "propD": "bloc",
+          "brasD": "tient"
         },
         {
           "dent": "lait",
+          "expression": "content",
           "brasG": "hanche",
           "brasD": "hanche",
           "jambes": "debout",
-          "expression": "content"
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "On vous a envoyé des rappels.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Je les ai tous lus.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Et ?",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "juge",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Ils étaient très bien écrits.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "On prend rendez-vous pour le suivi ?",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Bien sûr.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Mardi prochain ?",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Disons dans sept ans.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "haussement",
+          "brasD": "haussement",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
         }
       ]
     }
   ],
-  "legende": "Le plus long « j’ai pas eu le temps » de votre fichier ?"
+  "legende": "Le plus long « j'ai pas eu le temps » de votre fichier ?"
 }

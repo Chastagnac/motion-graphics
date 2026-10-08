@@ -20,6 +20,10 @@ des vidéos le 6 octobre 2026. N'ajoute `--video` que s'il le demande.
    ou un nouveau décor ne s'ajoute que si l'utilisateur le demande (l'assistante et `decors.js` l'ont
    été le 6 octobre 2026), sans toucher aux autres : exporte `node build.js <dossier>` avant et après,
    et vérifie avec `diff -r` que les SVG existants sont identiques.
+   Le 8 octobre 2026, à sa demande, tous les personnages ont reçu des mains, des chaussures, des joues
+   et une ombre sur le corps. Mains et chaussures sont des marqueurs SVG au bout des traits : les tracés
+   des bras et des jambes sont inchangés, `scene.js` les retrouve toujours. Chaque dessin numérote ses
+   propres marqueurs, car Chromium n'affiche pas un marqueur défini dans une case cachée.
 2. **N'invente aucune pièce.** Si une valeur de pose ou d'animation n'est pas dans `catalogue.json`,
    le script s'arrête et le dit. Signale le à l'utilisateur avec la liste des valeurs possibles, ne
    contourne pas.
@@ -76,11 +80,17 @@ objet bien dans la main, rien qui chevauche le visage ou sort de la case.
   bas), 4 cases en carré. La planche de 5 ou 6 cases passe sur 3 rangs.
 - Chaque case montre la **dernière image** de son plan : pose finale après les micro animations,
   réplique entière. Une animation passagère (clignement, gorgée) ne se voit pas sur une image fixe.
-- Celui qui parle a une bulle, la narration (case sans `voix`) un cartouche rectangulaire en haut.
+- Celui qui parle a une bulle blanche à queue courbe, la narration (case sans `voix`) un cartouche
+  jaune pâle, rectangulaire et posé légèrement de travers. Les deux ont une ombre portée noire.
 - **Décor** : champ `decor` sur le strip, ou sur une case pour en changer. Valeurs de
   `dents-du-cabinet/decors.js` : `cabinet` (salle de soins, valeur par défaut), `accueil`,
-  `soiree` (hors du cabinet), `sol` (mur et sol nus), `aucun`. Les décors sont des aplats ton sur ton
-  dans la couleur de la série, sans contour, pour laisser le trait noir aux personnages.
+  `soiree` (hors du cabinet), `reunion` (salle de réunion), `sol` (mur et sol nus), `aucun`. Les décors sont des
+  aplats ton sur ton dans la couleur de la série, sans contour, pour laisser le trait noir aux personnages.
+  Sur les images fixes, chaque personnage a une ombre au sol.
+- **Plan dramatique** : `"plan": "drame"` sur une case (ou `; plan=drame` dans la mise en scène). Gros plan
+  sur celui qui parle, ou sur le premier personnage ; décor éteint, tout le reste dans le noir, texte en
+  capitales rouges dans un bandeau noir. À garder pour une chute ou un regard noir : une fois par
+  histoire au plus, et pas dans toutes.
 - Titre du strip en bas à gauche (avec le numéro de l'image pour un carrousel), « Les Dents du
   Cabinet » en bas à droite.
 - La mise en page se règle dans `scripts/planche.js`.
@@ -177,6 +187,25 @@ courtes, chute pince-sans-rire) :
 - la `legende` pose une question qui appelle un commentaire.
 
 On s'inspire du mécanisme des références, jamais de leurs personnages ni de leurs gags.
+
+## Histoires longues : le texte d'abord
+
+L'utilisateur travaille l'écriture, les personnages et les décors comme trois chantiers séparés.
+Une histoire longue (9 ou 10 pages de carrousel) s'écrit donc en deux fichiers, puis se compile :
+
+| Fichier | Contenu |
+|---|---|
+| `dents-du-cabinet/histoires/<serie>.md` | le texte seul : pages, répliques, narration. C'est là qu'on corrige l'écriture. |
+| `dents-du-cabinet/mises-en-scene/<serie>.txt` | une ligne par case : qui est là, quelle expression, quelle pose, quel décor. La syntaxe est en tête du fichier. |
+
+```bash
+node .claude/skills/dents-strip/scripts/histoire.js dents-du-cabinet/histoires/petites-histoires.md dents-du-cabinet/mises-en-scene/petites-histoires.txt
+node .claude/skills/dents-strip/scripts/strip.js dents-du-cabinet/series/petites-histoires
+```
+
+`histoire.js` écrit un JSON par histoire dans `series/<serie>/` ; ne corrige pas ces JSON à la main,
+corrige la source et relance. Au-delà de 6 cases il n'y a plus de planche unique, seulement le carrousel.
+Ne passe à la mise en scène qu'une fois le texte validé.
 
 ## Boucle de commentaires
 

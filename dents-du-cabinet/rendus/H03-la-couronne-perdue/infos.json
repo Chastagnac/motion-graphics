@@ -1,0 +1,407 @@
+{
+  "id": "H03-la-couronne-perdue",
+  "titre": "La couronne perdue",
+  "serie": "irritant",
+  "fond": "#B9C8FF",
+  "T": 37.1,
+  "version": 1791411583110,
+  "video": null,
+  "planche": null,
+  "carrousel": [
+    {
+      "image": "carrousel/H03-la-couronne-perdue-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/H03-la-couronne-perdue-2.png",
+      "cases": [
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/H03-la-couronne-perdue-3.png",
+      "cases": [
+        4,
+        5
+      ]
+    },
+    {
+      "image": "carrousel/H03-la-couronne-perdue-4.png",
+      "cases": [
+        6,
+        7
+      ]
+    },
+    {
+      "image": "carrousel/H03-la-couronne-perdue-5.png",
+      "cases": [
+        8,
+        9
+      ]
+    },
+    {
+      "image": "carrousel/H03-la-couronne-perdue-6.png",
+      "cases": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "image": "carrousel/H03-la-couronne-perdue-7.png",
+      "cases": [
+        13
+      ]
+    },
+    {
+      "image": "carrousel/H03-la-couronne-perdue-8.png",
+      "cases": [
+        14
+      ]
+    },
+    {
+      "image": "carrousel/H03-la-couronne-perdue-9.png",
+      "cases": [
+        15,
+        16
+      ]
+    }
+  ],
+  "legende": "L'objet que vous avez le plus cherché au cabinet ?",
+  "source": "../../series/petites-histoires/H03-la-couronne-perdue.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 3,
+      "texte": "8h30. La couronne arrive du labo.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 3,
+      "duree": 2.7,
+      "texte": "Je l'ai posée sur le plateau.",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.7,
+      "duree": 1.9,
+      "texte": "Quel plateau ?",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.6,
+      "duree": 2.5,
+      "texte": "8h40. Le patient est installé.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "panique",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "panique",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 10.1,
+      "duree": 2.3,
+      "texte": "On la retrouve. Calmement.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "panique",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "panique",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 12.4,
+      "duree": 2.3,
+      "texte": "Pas dans le tiroir.",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "panique",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 14.7,
+      "duree": 2.3,
+      "texte": "Pas sous le fauteuil.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 17,
+      "duree": 2.3,
+      "texte": "Vous cherchez quelque chose ?",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 19.3,
+      "duree": 2.5,
+      "texte": "Non, non. Tout va bien.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 21.8,
+      "duree": 1.8,
+      "texte": "8h55.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "panique",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "panique",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 23.6,
+      "duree": 2.5,
+      "texte": "Qui a vidé le plateau ?",
+      "voix": "molaire",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "canine",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 26.1,
+      "duree": 1.8,
+      "texte": "Personne…",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "canine",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "t0": 27.9,
+      "duree": 2.1,
+      "texte": "Docteur. Ta poche.",
+      "voix": "molaire",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "t0": 30,
+      "duree": 2.5,
+      "texte": "Je l'avais mise en sécurité.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "t0": 32.5,
+      "duree": 2.1,
+      "texte": "C'était la mienne ?",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "t0": 34.6,
+      "duree": 2.5,
+      "texte": "Elle a été très surveillée.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "malin",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "id": "C13-les-rappels",
+  "serie": "IRRITANT",
+  "titre": "Les rappels",
+  "decor": "accueil",
+  "carrousel": [
+    1,
+    2,
+    2,
+    2,
+    1,
+    2,
+    2,
+    1
+  ],
+  "slides": [
+    {
+      "texte": "17h. L'heure des rappels.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Bonjour, je confirme votre rendez-vous de demain.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Messagerie.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Bonjour, je confirme…",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Messagerie pleine.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "triste",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Bonjour, je…",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Allô ? C'est pour un sondage ?",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Vingt-deux appels. Deux réponses. Un sondage.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "triste",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Demain, ils viennent ?",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase"
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "On le saura demain.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "malin"
+        },
+        {
+          "dent": "molaire",
+          "expression": "regard_camera"
+        }
+      ]
+    },
+    {
+      "texte": "Le lendemain, 9h. Fauteuil vide.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase"
+        }
+      ]
+    },
+    {
+      "texte": "Il avait une très belle messagerie.",
+      "voix": "incisive",
+      "plan": "drame",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "juge"
+        }
+      ]
+    },
+    {
+      "texte": "Une heure de rappels. Un fauteuil vide.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera"
+        }
+      ]
+    }
+  ],
+  "legende": "Combien d'appels de confirmation pour combien de réponses ?"
+}

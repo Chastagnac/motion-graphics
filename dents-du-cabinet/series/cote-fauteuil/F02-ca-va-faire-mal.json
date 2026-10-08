@@ -4,14 +4,18 @@
   "titre": "Ça va faire mal ?",
   "decor": "cabinet",
   "carrousel": [
+    1,
     2,
-    2
+    2,
+    1,
+    2,
+    2,
+    1
   ],
   "slides": [
     {
       "texte": "Ça va faire mal ?",
       "voix": "lait",
-      "duree": 2.6,
       "personnages": [
         {
           "dent": "docteur",
@@ -25,7 +29,6 @@
     {
       "texte": "C'est juste un contrôle.",
       "voix": "docteur",
-      "duree": 2.4,
       "personnages": [
         {
           "dent": "docteur",
@@ -35,24 +38,58 @@
           "dent": "lait",
           "expression": "triste",
           "brasG": "bas",
-          "brasD": "bas"
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Tout le monde dit ça.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "expression": "juge",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Ouvrez grand.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
         }
       ]
     },
     {
       "texte": "AÏE !",
       "voix": "lait",
-      "duree": 1.8,
       "personnages": [
         {
           "dent": "docteur",
-          "expression": "regard_camera",
-          "depart": {
-            "expression": "content"
-          },
-          "animations": [
-            "expression:regard_camera à 0.35s"
-          ]
+          "expression": "regard_camera"
         },
         {
           "dent": "lait",
@@ -63,7 +100,6 @@
     {
       "texte": "Je n'ai pas encore commencé.",
       "voix": "docteur",
-      "duree": 2.8,
       "personnages": [
         {
           "dent": "docteur",
@@ -71,13 +107,102 @@
         },
         {
           "dent": "lait",
+          "expression": "regard_camera",
           "brasG": "bas",
           "brasD": "bas",
           "jambes": "debout",
-          "expression": "regard_camera",
-          "animations": [
-            "clignement à 1.8s"
-          ]
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Je m'entraînais.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Il est doué.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase"
+        }
+      ]
+    },
+    {
+      "texte": "Voilà, c'est fini.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Déjà ?",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "J'ai même pas eu le temps d'avoir mal.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
         }
       ]
     }

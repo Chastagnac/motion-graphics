@@ -1,0 +1,248 @@
+{
+  "id": "H04-le-dessin",
+  "serie": "VECU",
+  "titre": "Le dessin",
+  "decor": "cabinet",
+  "carrousel": [
+    1,
+    2,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    1
+  ],
+  "slides": [
+    {
+      "texte": "Première visite. Il a six ans.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "lait"
+        }
+      ]
+    },
+    {
+      "texte": "Je veux pas.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "fache",
+          "brasG": "croise",
+          "brasD": "croise",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "On compte tes dents, c'est tout.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "juge",
+          "brasG": "croise",
+          "brasD": "croise",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Une, deux, trois…",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "blase",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Vingt. Je sais compter.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "En partant, il laisse un dessin.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "propG": "postit",
+          "brasD": "bas",
+          "brasG": "tient",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "C'est toi, là ?",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "malin"
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "propG": "postit",
+          "brasD": "bas",
+          "brasG": "tient",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Avec des cornes, oui.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "content"
+        },
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "propG": "postit",
+          "brasD": "bas",
+          "brasG": "tient",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Six mois plus tard.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "J'ai fait un autre dessin.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "propD": "postit",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Encore des cornes ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase"
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "brasG": "bas",
+          "propD": "postit",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Non. Une cape.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "choque"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "propD": "postit",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Il est toujours accroché à l'accueil.",
+      "decor": "accueil",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "incisive",
+          "expression": "content"
+        }
+      ]
+    }
+  ],
+  "legende": "Le plus beau cadeau qu'un petit patient vous ait fait ?"
+}

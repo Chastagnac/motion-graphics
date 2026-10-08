@@ -1,0 +1,297 @@
+{
+  "id": "H01-le-premier-jour",
+  "serie": "VECU",
+  "titre": "Le premier jour",
+  "decor": "cabinet",
+  "carrousel": [
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    2,
+    1
+  ],
+  "slides": [
+    {
+      "texte": "Lundi. Premier jour du nouveau.",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "J'ai tout révisé. Je suis prêt.",
+      "voix": "collaborateur",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "content"
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "On verra à 9h.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "content"
+        },
+        {
+          "dent": "assistante",
+          "expression": "malin"
+        }
+      ]
+    },
+    {
+      "texte": "9h. Premier patient.",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "panique"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Bonjour, je suis le docteur… euh…",
+      "voix": "collaborateur",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "panique"
+        },
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Vous êtes nouveau ?",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "triste"
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Ça se voit tant que ça ?",
+      "voix": "collaborateur",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "triste"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Il cherche la sonde. Partout.",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "panique",
+          "brasG": "haussement",
+          "brasD": "haussement",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase"
+        }
+      ]
+    },
+    {
+      "texte": "Tiens.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "choque",
+          "brasG": "bas",
+          "propG": null
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "brasG": "pointe",
+          "propG": "sonde",
+          "brasD": "bas",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Il cherche la lumière.",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "panique",
+          "brasG": "leve",
+          "propG": null
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase"
+        }
+      ]
+    },
+    {
+      "texte": "Elle est allumée.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "regard_camera",
+          "brasG": "bas",
+          "propG": null
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase"
+        }
+      ]
+    },
+    {
+      "texte": "Midi. Il n'a rien cassé.",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "content"
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Sans toi, j'étais perdu.",
+      "voix": "collaborateur",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "triste"
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Je sais.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "assistante",
+          "expression": "malin"
+        }
+      ]
+    },
+    {
+      "texte": "18h. Le dernier patient s'en va.",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "content"
+        },
+        {
+          "dent": "assistante",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Il est bien, le nouveau.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Il apprend vite.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "content"
+        },
+        {
+          "dent": "assistante",
+          "expression": "content"
+        }
+      ]
+    }
+  ],
+  "legende": "Qui vous a sauvé la mise, votre premier jour ?"
+}

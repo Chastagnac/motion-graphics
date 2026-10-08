@@ -1,0 +1,193 @@
+{
+  "id": "H08-le-retard",
+  "serie": "IRRITANT",
+  "titre": "Le retard",
+  "decor": "cabinet",
+  "carrousel": [
+    1,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    1
+  ],
+  "slides": [
+    {
+      "texte": "9h05. Cinq minutes de retard.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Je rattrape au prochain.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "canine",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Tu dis ça tous les matins.",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "canine",
+          "expression": "blase"
+        }
+      ]
+    },
+    {
+      "texte": "10h30. Vingt minutes.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Une petite urgence. Ça arrive.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasG": "haussement",
+          "propG": null
+        },
+        {
+          "dent": "canine",
+          "expression": "juge"
+        }
+      ]
+    },
+    {
+      "texte": "Midi. Quarante minutes.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste"
+        }
+      ]
+    },
+    {
+      "texte": "La salle d'attente te regarde.",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "panique"
+        },
+        {
+          "dent": "canine",
+          "expression": "malin"
+        }
+      ]
+    },
+    {
+      "texte": "15h. Une heure.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "panique"
+        }
+      ]
+    },
+    {
+      "texte": "Je ne rattraperai jamais.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste"
+        },
+        {
+          "dent": "canine",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Le patient de 16h a annulé.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "choque"
+        },
+        {
+          "dent": "incisive",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "C'est le plus beau jour de ma vie.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasG": "leve",
+          "propG": null
+        },
+        {
+          "dent": "incisive",
+          "expression": "regard_camera"
+        }
+      ]
+    },
+    {
+      "texte": "18h. Pile à l'heure.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasG": "salut",
+          "propG": null
+        }
+      ]
+    },
+    {
+      "texte": "Demain, tu repars de zéro.",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "canine",
+          "expression": "malin"
+        }
+      ]
+    },
+    {
+      "texte": "Le lendemain. 9h05.",
+      "plan": "drame",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase"
+        }
+      ]
+    }
+  ],
+  "legende": "À quelle heure votre journée déraille, en général ?"
+}

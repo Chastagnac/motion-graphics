@@ -1,0 +1,376 @@
+{
+  "id": "C08-un-bruit-de-lundi",
+  "titre": "Un bruit de lundi",
+  "serie": "vecu",
+  "fond": "#FFB3A7",
+  "T": 35.5,
+  "version": 1791445360842,
+  "video": null,
+  "planche": null,
+  "carrousel": [
+    {
+      "image": "carrousel/C08-un-bruit-de-lundi-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/C08-un-bruit-de-lundi-2.png",
+      "cases": [
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/C08-un-bruit-de-lundi-3.png",
+      "cases": [
+        4,
+        5
+      ]
+    },
+    {
+      "image": "carrousel/C08-un-bruit-de-lundi-4.png",
+      "cases": [
+        6,
+        7
+      ]
+    },
+    {
+      "image": "carrousel/C08-un-bruit-de-lundi-5.png",
+      "cases": [
+        8
+      ]
+    },
+    {
+      "image": "carrousel/C08-un-bruit-de-lundi-6.png",
+      "cases": [
+        9,
+        10
+      ]
+    },
+    {
+      "image": "carrousel/C08-un-bruit-de-lundi-7.png",
+      "cases": [
+        11,
+        12
+      ]
+    },
+    {
+      "image": "carrousel/C08-un-bruit-de-lundi-8.png",
+      "cases": [
+        13,
+        14,
+        15
+      ]
+    }
+  ],
+  "legende": "Il ressemble à quoi, votre lundi matin ?",
+  "source": "../../series/situations-du-cabinet/C08-un-bruit-de-lundi.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 3,
+      "texte": "Lundi, 8h15. Le point du matin.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 3,
+      "duree": 2.1,
+      "texte": "L'agenda est complet.",
+      "voix": "molaire",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.1,
+      "duree": 1.8,
+      "texte": "Parfait.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 6.9,
+      "duree": 2.5,
+      "texte": "Plus trois urgences du week-end.",
+      "voix": "molaire",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 9.4,
+      "duree": 2.3,
+      "texte": "On les met où ?",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 11.7,
+      "duree": 1.9,
+      "texte": "Entre deux.",
+      "voix": "molaire",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 13.6,
+      "duree": 2.1,
+      "texte": "Entre deux quoi ?",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 15.7,
+      "duree": 2.7,
+      "texte": "Entre ton déjeuner et ta pause.",
+      "voix": "molaire",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "malin",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 18.4,
+      "duree": 2.7,
+      "texte": "Et le stérilisateur fait un bruit.",
+      "voix": "molaire",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 21.1,
+      "duree": 2.1,
+      "texte": "Un bruit comment ?",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "choque",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 23.2,
+      "duree": 2.3,
+      "texte": "Un bruit de lundi.",
+      "voix": "molaire",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 25.5,
+      "duree": 2.7,
+      "texte": "19h30. Tout le monde est passé.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "t0": 28.2,
+      "duree": 2.1,
+      "texte": "On l'a fait.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "t0": 30.3,
+      "duree": 2.3,
+      "texte": "Demain, c'est complet aussi.",
+      "voix": "molaire",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "malin",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "t0": 32.6,
+      "duree": 2.9,
+      "texte": "Agenda complet. L'imprévu, lui, n'a pas réservé.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

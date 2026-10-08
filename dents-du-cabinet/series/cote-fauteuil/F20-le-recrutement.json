@@ -4,6 +4,11 @@
   "titre": "Le recrutement",
   "decor": "accueil",
   "carrousel": [
+    1,
+    2,
+    2,
+    1,
+    2,
     2,
     2
   ],
@@ -15,7 +20,8 @@
         {
           "dent": "docteur",
           "expression": "neutre",
-          "brasG": "hanche"
+          "brasG": "hanche",
+          "propG": null
         },
         {
           "dent": "molaire",
@@ -30,7 +36,40 @@
         {
           "dent": "docteur",
           "expression": "choque",
-          "brasG": "hanche"
+          "brasG": "hanche",
+          "propG": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Une ? En six mois ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "brasG": "hanche",
+          "propG": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Diplômée. Dix ans d'expérience.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasG": "hanche",
+          "propG": null
         },
         {
           "dent": "molaire",
@@ -45,7 +84,8 @@
         {
           "dent": "docteur",
           "expression": "content",
-          "brasG": "leve"
+          "brasG": "leve",
+          "propG": null
         },
         {
           "dent": "molaire",
@@ -60,11 +100,110 @@
         {
           "dent": "docteur",
           "expression": "triste",
-          "brasG": "bas"
+          "brasG": "bas",
+          "propG": null
         },
         {
           "dent": "molaire",
           "expression": "juge"
+        }
+      ]
+    },
+    {
+      "texte": "Et ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "brasG": "bas",
+          "propG": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge"
+        }
+      ]
+    },
+    {
+      "texte": "Elle a ri.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "brasG": "bas",
+          "propG": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "blase"
+        }
+      ]
+    },
+    {
+      "texte": "On peut revoir les horaires.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasG": "haussement",
+          "propG": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge"
+        }
+      ]
+    },
+    {
+      "texte": "Elle a déjà signé ailleurs.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "brasG": "bas",
+          "propG": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Où ça ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "brasG": "bas",
+          "propG": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "En face.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "brasG": "bas",
+          "propG": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "blase",
+          "brasD": "pointe",
+          "propD": null
         }
       ]
     }

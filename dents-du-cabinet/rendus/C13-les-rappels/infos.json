@@ -1,0 +1,284 @@
+{
+  "id": "C13-les-rappels",
+  "titre": "Les rappels",
+  "serie": "irritant",
+  "fond": "#B9C8FF",
+  "T": 30.9,
+  "version": 1791445388292,
+  "video": null,
+  "planche": null,
+  "carrousel": [
+    {
+      "image": "carrousel/C13-les-rappels-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/C13-les-rappels-2.png",
+      "cases": [
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/C13-les-rappels-3.png",
+      "cases": [
+        4,
+        5
+      ]
+    },
+    {
+      "image": "carrousel/C13-les-rappels-4.png",
+      "cases": [
+        6,
+        7
+      ]
+    },
+    {
+      "image": "carrousel/C13-les-rappels-5.png",
+      "cases": [
+        8
+      ]
+    },
+    {
+      "image": "carrousel/C13-les-rappels-6.png",
+      "cases": [
+        9,
+        10
+      ]
+    },
+    {
+      "image": "carrousel/C13-les-rappels-7.png",
+      "cases": [
+        11,
+        12
+      ]
+    },
+    {
+      "image": "carrousel/C13-les-rappels-8.png",
+      "cases": [
+        13
+      ]
+    }
+  ],
+  "legende": "Combien d'appels de confirmation pour combien de réponses ?",
+  "source": "../../series/situations-du-cabinet/C13-les-rappels.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 2.6,
+      "texte": "17h. L'heure des rappels.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 2.6,
+      "duree": 2.9,
+      "texte": "Bonjour, je confirme votre rendez-vous de demain.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.5,
+      "duree": 1.8,
+      "texte": "Messagerie.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.3,
+      "duree": 2.1,
+      "texte": "Bonjour, je confirme…",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 9.4,
+      "duree": 1.9,
+      "texte": "Messagerie pleine.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 11.3,
+      "duree": 1.9,
+      "texte": "Bonjour, je…",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 13.2,
+      "duree": 2.5,
+      "texte": "Allô ? C'est pour un sondage ?",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 15.7,
+      "duree": 2.7,
+      "texte": "Vingt-deux appels. Deux réponses. Un sondage.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 18.4,
+      "duree": 2.1,
+      "texte": "Demain, ils viennent ?",
+      "voix": "molaire",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 20.5,
+      "duree": 2.3,
+      "texte": "On le saura demain.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "malin",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 22.8,
+      "duree": 2.5,
+      "texte": "Le lendemain, 9h. Fauteuil vide.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 25.3,
+      "duree": 2.7,
+      "texte": "Il avait une très belle messagerie.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "t0": 28,
+      "duree": 2.9,
+      "texte": "Une heure de rappels. Un fauteuil vide.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

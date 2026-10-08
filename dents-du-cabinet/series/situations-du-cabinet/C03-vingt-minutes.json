@@ -1,0 +1,264 @@
+{
+  "id": "C03-vingt-minutes",
+  "serie": "IRRITANT",
+  "titre": "Vingt minutes",
+  "decor": "accueil",
+  "carrousel": [
+    1,
+    2,
+    2,
+    1,
+    2,
+    2,
+    1,
+    3
+  ],
+  "slides": [
+    {
+      "texte": "Rendez-vous à 10h. Il est 10h20.",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "juge"
+        }
+      ]
+    },
+    {
+      "texte": "Me voilà ! Impossible de se garer.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "juge"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "haussement",
+          "brasD": "haussement",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Le docteur a pris le patient suivant.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Mais c'était mon heure !",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "juge"
+        },
+        {
+          "dent": "lait",
+          "expression": "fache",
+          "brasG": "leve",
+          "brasD": "leve",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "C'était. Il y a vingt minutes.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "blase"
+        },
+        {
+          "dent": "lait",
+          "expression": "fache",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Il peut me prendre entre deux ?",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Entre deux, il y a quelqu'un d'à l'heure.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "juge"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Alors quand ?",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "17h.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "17h ? Mais j'ai une vie, moi !",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Nous aussi. Elle est planifiée.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "blase",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "17h20.",
+      "plan": "drame",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "fache"
+        }
+      ]
+    },
+    {
+      "texte": "Me voilà ! Impossible de se garer.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "haussement",
+          "brasD": "haussement",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Un retard ne s'efface pas. Il se transmet.",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "blase"
+        }
+      ]
+    }
+  ],
+  "legende": "Vous faites quoi d'un patient qui arrive avec vingt minutes de retard ?"
+}

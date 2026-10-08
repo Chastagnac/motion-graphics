@@ -3,10 +3,10 @@
   "titre": "L'avis",
   "serie": "irritant",
   "fond": "#B9C8FF",
-  "T": 10.4,
-  "version": 1791280934316,
+  "T": 23.4,
+  "version": 1791411490149,
   "video": null,
-  "planche": "F11-l-avis-planche.png",
+  "planche": null,
   "carrousel": [
     {
       "image": "carrousel/F11-l-avis-1.png",
@@ -17,19 +17,40 @@
     {
       "image": "carrousel/F11-l-avis-2.png",
       "cases": [
-        2
+        2,
+        3
       ]
     },
     {
       "image": "carrousel/F11-l-avis-3.png",
       "cases": [
-        3
+        4
       ]
     },
     {
       "image": "carrousel/F11-l-avis-4.png",
       "cases": [
-        4
+        5
+      ]
+    },
+    {
+      "image": "carrousel/F11-l-avis-5.png",
+      "cases": [
+        6,
+        7
+      ]
+    },
+    {
+      "image": "carrousel/F11-l-avis-6.png",
+      "cases": [
+        8,
+        9
+      ]
+    },
+    {
+      "image": "carrousel/F11-l-avis-7.png",
+      "cases": [
+        10
       ]
     }
   ],
@@ -39,7 +60,7 @@
     {
       "index": 1,
       "t0": 0,
-      "duree": 3,
+      "duree": 3.2,
       "texte": "On a un nouvel avis en ligne.",
       "voix": "incisive",
       "decor": "accueil",
@@ -58,8 +79,8 @@
     },
     {
       "index": 2,
-      "t0": 3,
-      "duree": 2.8,
+      "t0": 3.2,
+      "duree": 2.9,
       "texte": "Celui à qui j'ai sauvé la dent ?",
       "voix": "docteure",
       "decor": "accueil",
@@ -78,9 +99,49 @@
     },
     {
       "index": 3,
-      "t0": 5.8,
-      "duree": 2.2,
-      "texte": "Oui. Une étoile.",
+      "t0": 6.1,
+      "duree": 1.8,
+      "texte": "Lui-même.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.9,
+      "duree": 2.7,
+      "texte": "Trois heures de travail. Un samedi.",
+      "voix": "docteure",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 10.6,
+      "duree": 1.9,
+      "texte": "Une étoile.",
       "voix": "incisive",
       "decor": "accueil",
       "persos": [
@@ -92,16 +153,34 @@
         {
           "dent": "docteure",
           "expression": "choque",
-          "animations": [
-            "expression:choque à 0.9s"
-          ]
+          "animations": []
         }
       ]
     },
     {
-      "index": 4,
-      "t0": 8,
-      "duree": 2.4,
+      "index": 6,
+      "t0": 12.5,
+      "duree": 2.1,
+      "texte": "Il dit quoi ?",
+      "voix": "docteure",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "fache",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 14.6,
+      "duree": 2.1,
       "texte": "Dix minutes d'attente.",
       "voix": "incisive",
       "decor": "accueil",
@@ -114,9 +193,67 @@
         {
           "dent": "docteure",
           "expression": "blase",
-          "animations": [
-            "clignement à 1.7s"
-          ]
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 16.7,
+      "duree": 2.1,
+      "texte": "Et la dent ?",
+      "voix": "docteure",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 18.8,
+      "duree": 2.3,
+      "texte": "Il n'en parle pas.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 21.1,
+      "duree": 2.3,
+      "texte": "Il parle du parking.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "regard_camera",
+          "animations": []
         }
       ]
     }

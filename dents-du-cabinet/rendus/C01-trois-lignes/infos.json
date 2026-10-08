@@ -1,0 +1,334 @@
+{
+  "id": "C01-trois-lignes",
+  "titre": "Trois lignes",
+  "serie": "irritant",
+  "fond": "#B9C8FF",
+  "T": 33,
+  "version": 1791445305559,
+  "video": null,
+  "planche": null,
+  "carrousel": [
+    {
+      "image": "carrousel/C01-trois-lignes-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/C01-trois-lignes-2.png",
+      "cases": [
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/C01-trois-lignes-3.png",
+      "cases": [
+        4,
+        5
+      ]
+    },
+    {
+      "image": "carrousel/C01-trois-lignes-4.png",
+      "cases": [
+        6
+      ]
+    },
+    {
+      "image": "carrousel/C01-trois-lignes-5.png",
+      "cases": [
+        7,
+        8
+      ]
+    },
+    {
+      "image": "carrousel/C01-trois-lignes-6.png",
+      "cases": [
+        9
+      ]
+    },
+    {
+      "image": "carrousel/C01-trois-lignes-7.png",
+      "cases": [
+        10,
+        11
+      ]
+    },
+    {
+      "image": "carrousel/C01-trois-lignes-8.png",
+      "cases": [
+        12,
+        13
+      ]
+    }
+  ],
+  "legende": "Combien de choses à la fois, chez vous, à 8h ?",
+  "source": "../../series/situations-du-cabinet/C01-trois-lignes.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 2.4,
+      "texte": "Cabinet dentaire, bonjour.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 2.4,
+      "duree": 2.3,
+      "texte": "Bonjour ! C'est moi, 8h.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 4.7,
+      "duree": 2.9,
+      "texte": "Je suis à vous. Ne quittez pas.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.6,
+      "duree": 3.1,
+      "texte": "Je ne quitte pas, je suis devant vous.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 10.7,
+      "duree": 2.1,
+      "texte": "Pas vous. Lui.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 12.8,
+      "duree": 2.3,
+      "texte": "La deuxième ligne sonne.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "choque",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 15.1,
+      "duree": 2.5,
+      "texte": "Tu as vu mon planning ?",
+      "voix": "docteur",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "panique",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 17.6,
+      "duree": 2.1,
+      "texte": "Ne quittez pas.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "fache",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 19.7,
+      "duree": 2.1,
+      "texte": "Moi non plus ?",
+      "voix": "docteur",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 21.8,
+      "duree": 2.7,
+      "texte": "Vous, salle d'attente. Lui, jeudi 14h.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 24.5,
+      "duree": 2.9,
+      "texte": "Toi, ton planning est sur ton bureau.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 27.4,
+      "duree": 2.5,
+      "texte": "8h04. Il reste neuf heures.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "t0": 29.9,
+      "duree": 3.1,
+      "texte": "Une personne à l'accueil. Jamais une seule demande.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

@@ -3,10 +3,10 @@
   "titre": "Les vacances",
   "serie": "vecu",
   "fond": "#FFB3A7",
-  "T": 10.3,
-  "version": 1791280955053,
+  "T": 29.1,
+  "version": 1791411553822,
   "video": null,
-  "planche": "F22-les-vacances-planche.png",
+  "planche": null,
   "carrousel": [
     {
       "image": "carrousel/F22-les-vacances-1.png",
@@ -24,7 +24,40 @@
     {
       "image": "carrousel/F22-les-vacances-3.png",
       "cases": [
-        4
+        4,
+        5
+      ]
+    },
+    {
+      "image": "carrousel/F22-les-vacances-4.png",
+      "cases": [
+        6
+      ]
+    },
+    {
+      "image": "carrousel/F22-les-vacances-5.png",
+      "cases": [
+        7,
+        8
+      ]
+    },
+    {
+      "image": "carrousel/F22-les-vacances-6.png",
+      "cases": [
+        9,
+        10
+      ]
+    },
+    {
+      "image": "carrousel/F22-les-vacances-7.png",
+      "cases": [
+        11
+      ]
+    },
+    {
+      "image": "carrousel/F22-les-vacances-8.png",
+      "cases": [
+        12
       ]
     }
   ],
@@ -74,6 +107,26 @@
     {
       "index": 3,
       "t0": 5.1,
+      "duree": 2.1,
+      "texte": "Sept jours, oui.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.2,
       "duree": 2.5,
       "texte": "Tu sauras trouver le matériel.",
       "voix": "assistante",
@@ -92,8 +145,8 @@
       ]
     },
     {
-      "index": 4,
-      "t0": 7.6,
+      "index": 5,
+      "t0": 9.7,
       "duree": 2.7,
       "texte": "Il est rangé où, le matériel ?",
       "voix": "docteure",
@@ -104,6 +157,116 @@
           "expression": "regard_camera",
           "animations": []
         },
+        {
+          "dent": "docteure",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 12.4,
+      "duree": 2.5,
+      "texte": "Je te laisse une liste.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 14.9,
+      "duree": 1.9,
+      "texte": "Lundi, 8h05.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "panique",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 16.8,
+      "duree": 2.5,
+      "texte": "C'est quel tiroir, les gants ?",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "panique",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 19.3,
+      "duree": 1.9,
+      "texte": "Lundi, 8h12.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 21.2,
+      "duree": 2.7,
+      "texte": "Et le stérilisateur, il s'allume comment ?",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "panique",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 23.9,
+      "duree": 2.5,
+      "texte": "Tu as lu ma liste ?",
+      "voix": "assistante",
+      "decor": "soiree",
+      "persos": [
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 26.4,
+      "duree": 2.7,
+      "texte": "Elle est rangée où, la liste ?",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
         {
           "dent": "docteure",
           "expression": "triste",

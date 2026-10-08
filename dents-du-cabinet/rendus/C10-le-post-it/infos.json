@@ -1,0 +1,356 @@
+{
+  "id": "C10-le-post-it",
+  "titre": "Le post-it",
+  "serie": "irritant",
+  "fond": "#B9C8FF",
+  "T": 35.8,
+  "version": 1791445370970,
+  "video": null,
+  "planche": null,
+  "carrousel": [
+    {
+      "image": "carrousel/C10-le-post-it-1.png",
+      "cases": [
+        1,
+        2
+      ]
+    },
+    {
+      "image": "carrousel/C10-le-post-it-2.png",
+      "cases": [
+        3
+      ]
+    },
+    {
+      "image": "carrousel/C10-le-post-it-3.png",
+      "cases": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "image": "carrousel/C10-le-post-it-4.png",
+      "cases": [
+        7
+      ]
+    },
+    {
+      "image": "carrousel/C10-le-post-it-5.png",
+      "cases": [
+        8,
+        9
+      ]
+    },
+    {
+      "image": "carrousel/C10-le-post-it-6.png",
+      "cases": [
+        10,
+        11
+      ]
+    },
+    {
+      "image": "carrousel/C10-le-post-it-7.png",
+      "cases": [
+        12,
+        13
+      ]
+    },
+    {
+      "image": "carrousel/C10-le-post-it-8.png",
+      "cases": [
+        14,
+        15
+      ]
+    }
+  ],
+  "legende": "Il est où, votre post-it le plus important ?",
+  "source": "../../series/situations-du-cabinet/C10-le-post-it.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 3,
+      "texte": "Un patient a appelé. C'est important.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 3,
+      "duree": 2.3,
+      "texte": "Note-le, je regarde après.",
+      "voix": "docteur",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.3,
+      "duree": 2.7,
+      "texte": "Elle le note. Sur un post-it.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 8,
+      "duree": 1.8,
+      "texte": "Midi.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": null,
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 9.8,
+      "duree": 2.5,
+      "texte": "Il voulait quoi, ce patient ?",
+      "voix": "docteur",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 12.3,
+      "duree": 2.3,
+      "texte": "C'est sur le post-it.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 14.6,
+      "duree": 1.8,
+      "texte": "Lequel ?",
+      "voix": "docteur",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "panique",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 16.4,
+      "duree": 1.9,
+      "texte": "« Rappeler labo » ?",
+      "voix": "canine",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "canine",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 18.3,
+      "duree": 2.5,
+      "texte": "Non. Ça, c'est de mars.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "canine",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 20.8,
+      "duree": 2.1,
+      "texte": "« Acheter du café » ?",
+      "voix": "canine",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "canine",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 22.9,
+      "duree": 2.5,
+      "texte": "Ça, c'est vital. Mais non.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "canine",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 25.4,
+      "duree": 2.3,
+      "texte": "18h. Le patient rappelle.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "t0": 27.7,
+      "duree": 2.5,
+      "texte": "Vous avez eu mon message ?",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "panique",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "t0": 30.2,
+      "duree": 2.5,
+      "texte": "Oui. Redites-le-moi, pour être sûre.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "t0": 32.7,
+      "duree": 3.1,
+      "texte": "Un message sur un post-it n'appartient à personne.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

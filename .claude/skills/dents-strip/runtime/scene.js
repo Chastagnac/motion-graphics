@@ -137,7 +137,7 @@
         sauts.forEach((f) => { y += f(u); });
         el.style.transform = `translateY(${y.toFixed(2)}px)`;
       });
-      return { el, cx, tete: SOL_Y - (SOL - corps.haut) * s, maj: (u) => majs.forEach((f) => f(u)) };
+      return { el, cx, tete: SOL_Y - (SOL - corps.haut) * s, visage: SOL_Y - (SOL - corps.visage.y) * s, maj: (u) => majs.forEach((f) => f(u)) };
     }
 
     // --- une case = un plan : les personnages, puis le bloc de texte (bulle si quelqu'un parle, cartouche sinon) ---
@@ -146,20 +146,43 @@
       el.className = 'case';
       const cadre = CADRE[c.places];
       // décor de la bibliothèque, ton sur ton, à l'échelle des personnages de la case
-      if (window.Decors && c.decor && c.decor !== 'aucun') el.insertAdjacentHTML('afterbegin', window.Decors.rendre(c.decor, { W, H, sol: C.sol, u: cadre.s, fond: DATA.fond }));
+      // le monde de la case (décor et personnages) tient dans un calque à part : un plan dramatique le recadre d'un bloc
+      const monde = document.createElement('div');
+      monde.className = 'monde'; el.appendChild(monde);
+      if (window.Decors && c.decor && c.decor !== 'aucun') monde.insertAdjacentHTML('afterbegin', window.Decors.rendre(c.decor, {
+        W, H, sol: C.sol, u: cadre.s, fond: DATA.fond, pieds: TEXTE.cartouche ? c.persos.map((p) => W * cadre.x[p.place]) : [], piedY: SOL_Y
+      }));
       const persos = c.persos.map((p) => {
         const o = personnage(p, W * cadre.x[p.place], cadre.s);
-        el.appendChild(o.el);
+        monde.appendChild(o.el);
         return o;
       });
+      // plan dramatique : gros plan sur un visage, décor éteint, tout le reste dans le noir
+      let bande = null;
+      if (c.plan === 'drame') {
+        el.classList.add('drame');
+        const qui = persos[c.voix != null ? c.voix : 0];
+        const Z = M.clamp(0.3 * H / (62 * cadre.s), 1.3, 2.6);
+        monde.style.transformOrigin = '0 0';
+        monde.style.transform = `translate(${n2(W / 2 - Z * qui.cx)}px, ${n2(0.4 * H - Z * qui.visage)}px) scale(${n2(Z)})`;
+        const nuit = document.createElement('div');
+        nuit.className = 'nuit'; el.appendChild(nuit);
+        bande = document.createElement('div');
+        bande.className = 'bande';
+      }
       const bloc = document.createElement('div');
       bloc.className = 'bloc';
       let trace = null;
-      if (c.voix != null || TEXTE.cartouche) {
+      if (bande) bloc.appendChild(bande);
+      else if (c.voix != null || TEXTE.cartouche) {
         const svg = document.createElementNS(SVG, 'svg');
         svg.setAttribute('class', 'bulle'); svg.setAttribute('width', W); svg.setAttribute('height', H);
+        // ombre portée pleine, décalée : la bulle se détache du décor
+        const ombre = document.createElementNS(SVG, 'path');
+        ombre.setAttribute('class', 'ombre'); ombre.setAttribute('transform', 'translate(11 13)');
         trace = document.createElementNS(SVG, 'path');
-        svg.appendChild(trace); bloc.appendChild(svg);
+        svg.append(ombre, trace); bloc.appendChild(svg);
+        if (c.voix == null) bloc.classList.add('recit');
       }
       const txt = document.createElement('div');
       txt.className = 'txt';
@@ -171,7 +194,7 @@
         return { sp, t: w.t };
       });
       bloc.appendChild(txt); el.appendChild(bloc); stage.appendChild(el);
-      return { c, el, bloc, txt, mots, persos, trace };
+      return { c, el, bloc, txt, mots, persos, trace, bande };
     });
 
     // taille du texte : la plus grande qui tient, mesurée avec la vraie police ; la bulle épouse le texte
@@ -190,9 +213,19 @@
     });
     const calibrer = () => {
       const pret = document.fonts.check('900 100px Geist');
-      cases.forEach(({ c, el, bloc, txt, mots, persos, trace }) => {
+      cases.forEach(({ c, el, bloc, txt, mots, persos, trace, bande }) => {
         if (!mots.length) return;
         const vu = el.style.display; el.style.display = '';
+        if (bande) {
+          // plan dramatique : le texte en capitales dans un bandeau noir, en bas de la case
+          const lt = W - 140, pad = Math.round(0.03 * H);
+          txt.style.left = (W - lt) / 2 + 'px'; txt.style.top = '0px'; txt.style.width = lt + 'px';
+          ajuster(txt, mots, 0.2 * H, 150);
+          const h = txt.offsetHeight + 2 * pad, y0 = Math.round(0.9 * H - h);
+          bande.style.top = y0 + 'px'; bande.style.height = h + 'px'; txt.style.top = y0 + pad + 'px';
+          el.style.display = vu;
+          return;
+        }
         const sommet = Math.min(...persos.map((p) => p.tete));
         if (c.voix == null) {
           // narration : en haut, mais jamais loin des têtes quand les personnages sont petits
@@ -208,6 +241,8 @@
             txt.style.top = y0 + TEXTE.padY - ys + 'px';
             trace.setAttribute('d', `M${x0 + r} ${y0} H${x1 - r} A${r} ${r} 0 0 1 ${x1} ${y0 + r} V${y1 - r} A${r} ${r} 0 0 1 ${x1 - r} ${y1}` +
               ` H${x0 + r} A${r} ${r} 0 0 1 ${x0} ${y1 - r} V${y0 + r} A${r} ${r} 0 0 1 ${x0 + r} ${y0} Z`);
+            bloc.style.transformOrigin = `${(x0 + x1) / 2}px ${(y0 + y1) / 2}px`;
+            bloc.style.transform = 'rotate(-1.4deg)';                  // cartouche posé un peu de travers, comme une étiquette
           }
         } else {
           const qui = persos[c.voix], bas = sommet - BULLE.ecart;
@@ -220,9 +255,10 @@
           txt.style.left = cx - (xs + xe) / 2 + 'px'; txt.style.top = y0 + BULLE.padY - ys + 'px';
           const q = BULLE.queue, tx = n2(M.clamp(M.lerp(cx, qui.cx, 0.8), x0 + r + q, x1 - r - q)), px = n2(qui.cx), py = n2(qui.tete - 24);
           trace.setAttribute('d', `M${x0 + r} ${y0} H${x1 - r} A${r} ${r} 0 0 1 ${x1} ${y0 + r} V${y1 - r} A${r} ${r} 0 0 1 ${x1 - r} ${y1}` +
-            ` H${tx + q} L${px} ${py} L${tx - q} ${y1} H${x0 + r} A${r} ${r} 0 0 1 ${x0} ${y1 - r} V${y0 + r} A${r} ${r} 0 0 1 ${x0 + r} ${y0} Z`);
+            ` H${tx + q} Q${n2(tx + q * 0.35)} ${n2(y1 + (py - y1) * 0.6)} ${px} ${py} Q${n2(tx - q * 0.75)} ${n2(y1 + (py - y1) * 0.45)} ${tx - q} ${y1} H${x0 + r} A${r} ${r} 0 0 1 ${x0} ${y1 - r} V${y0 + r} A${r} ${r} 0 0 1 ${x0 + r} ${y0} Z`);
           bloc.style.transformOrigin = `${px}px ${py}px`;
         }
+        if (trace) trace.previousSibling.setAttribute('d', trace.getAttribute('d') || '');
         el.style.display = vu;
       });
       calibre = pret;
@@ -236,7 +272,7 @@
         const u = t - c.t0;
         if (u < 0 || u >= c.duree) { el.style.display = 'none'; return; }
         el.style.display = '';
-        if (c.voix != null) {
+        if (c.voix != null && c.plan !== 'drame') {
           bloc.style.visibility = u < c.tBulle ? 'hidden' : '';
           bloc.style.transform = `scale(${(0.6 + 0.4 * M.S(u - c.tBulle, R_BULLE[0], R_BULLE[1])).toFixed(4)})`;
         }

@@ -1,0 +1,432 @@
+{
+  "id": "C07-dix-petites-minutes",
+  "titre": "Dix petites minutes",
+  "serie": "irritant",
+  "fond": "#B9C8FF",
+  "T": 38.3,
+  "version": 1791445353915,
+  "video": null,
+  "planche": null,
+  "carrousel": [
+    {
+      "image": "carrousel/C07-dix-petites-minutes-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/C07-dix-petites-minutes-2.png",
+      "cases": [
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/C07-dix-petites-minutes-3.png",
+      "cases": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "image": "carrousel/C07-dix-petites-minutes-4.png",
+      "cases": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "image": "carrousel/C07-dix-petites-minutes-5.png",
+      "cases": [
+        10,
+        11
+      ]
+    },
+    {
+      "image": "carrousel/C07-dix-petites-minutes-6.png",
+      "cases": [
+        12,
+        13
+      ]
+    },
+    {
+      "image": "carrousel/C07-dix-petites-minutes-7.png",
+      "cases": [
+        14,
+        15
+      ]
+    },
+    {
+      "image": "carrousel/C07-dix-petites-minutes-8.png",
+      "cases": [
+        16
+      ]
+    }
+  ],
+  "legende": "Elles durent combien de temps, vos « dix petites minutes » ?",
+  "source": "../../series/situations-du-cabinet/C07-dix-petites-minutes.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 3.2,
+      "texte": "15h. Le docteur a pris du retard.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "sagesse",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 3.2,
+      "duree": 2.7,
+      "texte": "Il y en a pour longtemps ?",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "sagesse",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.9,
+      "duree": 2.1,
+      "texte": "Dix petites minutes.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "sagesse",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 8,
+      "duree": 1.8,
+      "texte": "15h20.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "lait",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "sagesse",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 9.8,
+      "duree": 2.5,
+      "texte": "Vous aviez dit dix minutes.",
+      "voix": "sagesse",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "sagesse",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 12.3,
+      "duree": 2.7,
+      "texte": "Des petites. Elles passent moins vite.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "sagesse",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 15,
+      "duree": 1.8,
+      "texte": "15h40.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "lait",
+          "expression": "fache",
+          "animations": []
+        },
+        {
+          "dent": "sagesse",
+          "expression": "fache",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 16.8,
+      "duree": 2.5,
+      "texte": "J'ai lu tous vos magazines.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "lait",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "sagesse",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 19.3,
+      "duree": 2.3,
+      "texte": "Même celui de 2019.",
+      "voix": "sagesse",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "sagesse",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 21.6,
+      "duree": 2.5,
+      "texte": "Le docteur gère une urgence.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "sagesse",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 24.1,
+      "duree": 2.5,
+      "texte": "Moi aussi, je deviens urgente.",
+      "voix": "sagesse",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "sagesse",
+          "expression": "fache",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 26.6,
+      "duree": 2.3,
+      "texte": "16h. La porte s'ouvre.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "lait",
+          "expression": "panique",
+          "animations": []
+        },
+        {
+          "dent": "sagesse",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "t0": 28.9,
+      "duree": 2.5,
+      "texte": "Désolé ! À qui le tour ?",
+      "voix": "docteur",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "panique",
+          "animations": []
+        },
+        {
+          "dent": "sagesse",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "t0": 31.4,
+      "duree": 1.9,
+      "texte": "À elle !",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "panique",
+          "animations": []
+        },
+        {
+          "dent": "sagesse",
+          "expression": "choque",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "t0": 33.3,
+      "duree": 1.9,
+      "texte": "À lui !",
+      "voix": "sagesse",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "animations": []
+        },
+        {
+          "dent": "sagesse",
+          "expression": "fache",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "t0": 35.2,
+      "duree": 3.1,
+      "texte": "Attendre, ça passe. Ne pas savoir combien, non.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

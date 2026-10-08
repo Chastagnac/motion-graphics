@@ -17,6 +17,12 @@ main{max-width:1600px;margin:0 auto;padding:24px}
 .carte{background:#fff;border:3px solid var(--encre);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
 video{display:block;width:100%;aspect-ratio:9/16;cursor:pointer}
 .carte>a img{display:block;width:100%;height:auto}
+.pages{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;border-bottom:3px solid var(--encre)}
+.pages a{flex:0 0 100%;scroll-snap-align:start}
+.pages img{display:block;width:100%;height:auto;aspect-ratio:4/5}
+.fleches{display:flex;align-items:center;justify-content:space-between;padding:8px 14px 0;font-size:13px;font-weight:700;color:var(--gris)}
+.fleches button{font:inherit;font-weight:800;padding:4px 12px;border:2px solid var(--encre);border-radius:8px;background:#fff;cursor:pointer}
+.fleches button:disabled{opacity:.3;cursor:default}
 .corps{padding:12px 14px 14px;display:flex;flex-direction:column;gap:8px;flex:1}
 h2{margin:0;font-size:17px;font-weight:800;line-height:1.25}
 .num{font-size:13px;font-weight:700;color:var(--gris)}
@@ -38,7 +44,7 @@ a{color:inherit;font-weight:700;font-size:14px}
 <script>
 const S = __DONNEES__;
 const $ = (id) => document.getElementById(id);
-$('meta').textContent = `${S.length} strips · clique sur une planche pour l'ouvrir en grand`;
+$('meta').textContent = `${S.length} strips · fais défiler les pages d'un carrousel avec les flèches, clique sur une image pour l'ouvrir en grand`;
 const etat = (t) => { $('etat').textContent = t; };
 const api = (id) => '/api/commentaires/' + encodeURIComponent(id);
 const lire = async (id) => { try { const r = await fetch(api(id)); return r.ok ? await r.json() : null; } catch (e) { return null; } };
@@ -46,8 +52,26 @@ const lire = async (id) => { try { const r = await fetch(api(id)); return r.ok ?
 S.forEach((s) => {
   const carte = document.createElement('article'); carte.className = 'carte';
   const url = (f) => `/${s.id}/${f}?v=${s.version}`;
-  let v;
-  if (s.planche) {
+  let v, fleches = null;
+  if (!s.planche && s.carrousel && s.carrousel.length) {
+    // histoire longue : pas de planche unique, on feuillette les pages du carrousel
+    v = document.createElement('div'); v.className = 'pages';
+    s.carrousel.forEach((p, i) => {
+      const a = document.createElement('a'); a.href = url(p.image); a.target = '_blank';
+      const im = document.createElement('img'); im.src = url(p.image); im.alt = `Page ${i + 1} de ${s.titre}`; im.loading = 'lazy';
+      a.appendChild(im); v.appendChild(a);
+    });
+    fleches = document.createElement('div'); fleches.className = 'fleches';
+    const avant = document.createElement('button'), apres = document.createElement('button'), ou = document.createElement('span');
+    avant.type = apres.type = 'button'; avant.textContent = '←'; apres.textContent = '→';
+    avant.setAttribute('aria-label', 'Page précédente'); apres.setAttribute('aria-label', 'Page suivante');
+    const page = () => Math.round(v.scrollLeft / Math.max(1, v.clientWidth));
+    const maj = () => { const n = page(); ou.textContent = `Page ${n + 1} sur ${s.carrousel.length}`; avant.disabled = n === 0; apres.disabled = n === s.carrousel.length - 1; };
+    const aller = (d) => v.scrollTo({ left: (page() + d) * v.clientWidth, behavior: 'smooth' });
+    avant.addEventListener('click', () => aller(-1)); apres.addEventListener('click', () => aller(1));
+    v.addEventListener('scroll', maj); maj();
+    fleches.append(avant, ou, apres);
+  } else if (s.planche) {
     v = document.createElement('a'); v.href = url(s.planche); v.target = '_blank';
     const im = document.createElement('img'); im.src = url(s.planche); im.alt = 'Planche ' + s.titre; im.loading = 'lazy'; v.appendChild(im);
   } else {
@@ -57,7 +81,7 @@ S.forEach((s) => {
     v.addEventListener('click', () => (v.paused ? v.play() : v.pause()));
   }
   const corps = document.createElement('div'); corps.className = 'corps';
-  const num = document.createElement('div'); num.className = 'num'; num.textContent = `${s.id} · série ${s.serie} · ${s.T} s`;
+  const num = document.createElement('div'); num.className = 'num'; num.textContent = `${s.id} · série ${s.serie} · ${s.cases.length} cases`;
   const h2 = document.createElement('h2'); h2.textContent = s.titre;
   const lab = document.createElement('label'); lab.textContent = 'Commentaire'; lab.htmlFor = 'g-' + s.id;
   const ta = document.createElement('textarea'); ta.id = 'g-' + s.id; ta.placeholder = 'Ton avis sur ce strip';
@@ -66,7 +90,7 @@ S.forEach((s) => {
     if (!h) return;
     const a = document.createElement('a'); a.href = h; a.textContent = t; if (t === 'Vidéo') a.target = '_blank'; lien.appendChild(a);
   });
-  corps.append(num, h2, lab, ta, lien); carte.append(v, corps); $('grille').appendChild(carte);
+  corps.append(num, h2, lab, ta, lien); carte.append(v); if (fleches) carte.append(fleches); carte.append(corps); $('grille').appendChild(carte);
   lire(s.id).then((d) => { if (d && d.general) ta.value = d.general; });
 
   // le commentaire d'ici va dans le champ « general » du strip, sans toucher aux commentaires par case

@@ -1,0 +1,195 @@
+{
+  "id": "C09-c-est-urgent",
+  "serie": "IRRITANT",
+  "titre": "C'est urgent",
+  "decor": "accueil",
+  "carrousel": [
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+  ],
+  "slides": [
+    {
+      "texte": "Cabinet dentaire, bonjour.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Appel numéro un.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Couronne tombée samedi. Je note : urgent.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Appel numéro quatre.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Un détartrage. Urgent. Bien sûr.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Appel numéro neuf.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "triste",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Un blanchiment avant un mariage. Très urgent.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Combien d'urgences ce matin ?",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase"
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Neuf.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase"
+        },
+        {
+          "dent": "molaire",
+          "expression": "choque"
+        }
+      ]
+    },
+    {
+      "texte": "Et des vraies ?",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre"
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge"
+        }
+      ]
+    },
+    {
+      "texte": "Une.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "malin"
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Laquelle ?",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre"
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge"
+        }
+      ]
+    },
+    {
+      "texte": "Celui qui s'est excusé de déranger.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "content"
+        },
+        {
+          "dent": "molaire",
+          "expression": "regard_camera"
+        }
+      ]
+    },
+    {
+      "texte": "La vraie urgence ne crie pas. Elle s'excuse.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    }
+  ],
+  "legende": "Sur dix « c'est urgent », combien de vraies urgences ?"
+}

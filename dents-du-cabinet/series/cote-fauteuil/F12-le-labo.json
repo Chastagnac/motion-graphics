@@ -3,11 +3,20 @@
   "serie": "IRRITANT",
   "titre": "Le labo",
   "decor": "cabinet",
+  "carrousel": [
+    1,
+    2,
+    2,
+    1,
+    1,
+    2,
+    1,
+    1
+  ],
   "slides": [
     {
       "texte": "Le patient est prêt. La couronne ?",
       "voix": "docteure",
-      "duree": 3,
       "personnages": [
         {
           "dent": "docteure",
@@ -17,15 +26,15 @@
           "dent": "canine",
           "expression": "neutre",
           "brasG": "hanche",
-          "brasD": "tient",
-          "propD": "telephone"
+          "propD": "telephone",
+          "propG": null,
+          "brasD": "tient"
         }
       ]
     },
     {
-      "texte": "Le labo dit qu'elle est partie.",
+      "texte": "J'appelle le labo.",
       "voix": "canine",
-      "duree": 2.8,
       "personnages": [
         {
           "dent": "docteure",
@@ -35,15 +44,33 @@
           "dent": "canine",
           "expression": "content",
           "brasG": "hanche",
-          "brasD": "tient",
-          "propD": "telephone"
+          "propD": "telephone",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Ils disent qu'elle est partie.",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content"
+        },
+        {
+          "dent": "canine",
+          "expression": "content",
+          "brasG": "hanche",
+          "propD": "telephone",
+          "propG": null,
+          "brasD": "tient"
         }
       ]
     },
     {
       "texte": "Partie quand ?",
       "voix": "docteure",
-      "duree": 2,
       "personnages": [
         {
           "dent": "docteure",
@@ -53,36 +80,134 @@
           "dent": "canine",
           "expression": "neutre",
           "brasG": "hanche",
-          "brasD": "tient",
-          "propD": "telephone"
+          "propD": "telephone",
+          "propG": null,
+          "brasD": "tient"
         }
       ]
     },
     {
       "texte": "Bientôt.",
       "voix": "canine",
-      "duree": 2.4,
       "personnages": [
         {
           "dent": "docteure",
-          "expression": "blase",
-          "depart": {
-            "expression": "juge"
-          },
-          "animations": [
-            "expression:blase à 0.9s",
-            "clignement à 1.7s"
-          ]
+          "expression": "blase"
         },
         {
           "dent": "canine",
           "expression": "regard_camera",
           "brasG": "hanche",
-          "brasD": "tient",
           "propD": "telephone",
-          "animations": [
-            "effet:sueur à 0.9s"
-          ]
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Elle est partie ou elle va partir ?",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "fache"
+        },
+        {
+          "dent": "canine",
+          "expression": "neutre",
+          "brasG": "hanche",
+          "propD": "telephone",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Elle est en train de partir.",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "blase"
+        },
+        {
+          "dent": "canine",
+          "expression": "triste",
+          "brasG": "hanche",
+          "propD": "telephone",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Une heure plus tard. Le coursier.",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "neutre"
+        },
+        {
+          "dent": "canine",
+          "expression": "content",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "La voilà !",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content"
+        },
+        {
+          "dent": "canine",
+          "expression": "content",
+          "brasG": "leve",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "C'est une molaire. J'attendais une incisive.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "juge"
+        },
+        {
+          "dent": "canine",
+          "expression": "choque",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "La bonne est partie. Bientôt.",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "canine",
+          "expression": "triste",
+          "brasG": "hanche",
+          "propD": "telephone",
+          "propG": null,
+          "brasD": "tient"
         }
       ]
     }

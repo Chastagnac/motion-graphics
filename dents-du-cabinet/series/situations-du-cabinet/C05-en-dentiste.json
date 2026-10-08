@@ -1,0 +1,302 @@
+{
+  "id": "C05-en-dentiste",
+  "serie": "VECU",
+  "titre": "En dentiste",
+  "decor": "cabinet",
+  "carrousel": [
+    1,
+    2,
+    2,
+    2,
+    1,
+    2,
+    2,
+    2
+  ],
+  "slides": [
+    {
+      "texte": "Je vous explique le plan de traitement.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Inlay-core sur la 36, puis couronne.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Très bien.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Et un détartrage sous-gingival.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Évidemment.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Des questions ?",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Aucune. C'est limpide.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "La docteure sort.",
+      "personnages": [
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "brasD": "bas",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "J'ai rien compris.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "lait",
+          "expression": "panique"
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "brasD": "bas",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Personne ne comprend. Je traduis.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "brasD": "bas",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "On soigne la dent du fond. Trois rendez-vous.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "brasG": "pointe",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Pourquoi elle l'a pas dit ?",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "lait",
+          "expression": "juge",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "brasD": "bas",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Elle l'a dit. En dentiste.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "assistante",
+          "expression": "malin",
+          "brasD": "bas",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Dire oui, ce n'est pas avoir compris.",
+      "personnages": [
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    }
+  ],
+  "legende": "Qui traduit, chez vous, après l'explication du plan de traitement ?"
+}

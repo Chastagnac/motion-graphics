@@ -4,8 +4,14 @@
   "titre": "Entre deux",
   "decor": "accueil",
   "carrousel": [
+    1,
     2,
-    2
+    1,
+    2,
+    2,
+    2,
+    1,
+    1
   ],
   "slides": [
     {
@@ -15,7 +21,8 @@
         {
           "dent": "incisive",
           "expression": "neutre",
-          "propD": "telephone"
+          "propD": "telephone",
+          "brasD": "tient"
         },
         {
           "dent": "molaire",
@@ -30,7 +37,8 @@
         {
           "dent": "incisive",
           "expression": "neutre",
-          "propD": "telephone"
+          "propD": "telephone",
+          "brasD": "tient"
         },
         {
           "dent": "molaire",
@@ -45,7 +53,8 @@
         {
           "dent": "incisive",
           "expression": "blase",
-          "propD": "telephone"
+          "propD": "telephone",
+          "brasD": "tient"
         },
         {
           "dent": "molaire",
@@ -60,7 +69,139 @@
         {
           "dent": "incisive",
           "expression": "regard_camera",
-          "propD": "telephone"
+          "propD": "telephone",
+          "brasD": "tient"
+        },
+        {
+          "dent": "molaire",
+          "expression": "fache"
+        }
+      ]
+    },
+    {
+      "texte": "Il dit que c'est rapide.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propD": "telephone",
+          "brasD": "tient"
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge"
+        }
+      ]
+    },
+    {
+      "texte": "Ils disent tous ça.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "propD": "telephone",
+          "brasD": "tient"
+        },
+        {
+          "dent": "molaire",
+          "expression": "blase"
+        }
+      ]
+    },
+    {
+      "texte": "Juste un petit coup d'œil.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propD": "telephone",
+          "brasD": "tient"
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge"
+        }
+      ]
+    },
+    {
+      "texte": "De quarante minutes.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "propD": "telephone",
+          "brasD": "tient"
+        },
+        {
+          "dent": "molaire",
+          "expression": "blase"
+        }
+      ]
+    },
+    {
+      "texte": "Propose-lui jeudi.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propD": "telephone",
+          "brasD": "tient"
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "brasG": "pointe",
+          "propG": null
+        }
+      ]
+    },
+    {
+      "texte": "Il dit « entre deux, jeudi ».",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "propD": "telephone",
+          "brasD": "tient"
+        },
+        {
+          "dent": "molaire",
+          "expression": "fache"
+        }
+      ]
+    },
+    {
+      "texte": "Entre midi et deux, alors ?",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "malin",
+          "propD": "telephone",
+          "brasD": "tient"
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge"
+        }
+      ]
+    },
+    {
+      "texte": "Ça, c'est mon déjeuner.",
+      "voix": "molaire",
+      "plan": "drame",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "propD": "telephone",
+          "brasD": "tient"
         },
         {
           "dent": "molaire",
@@ -69,5 +210,5 @@
       ]
     }
   ],
-  "legende": "Combien de « entre deux » aujourd’hui ?"
+  "legende": "Combien de « entre deux » aujourd'hui ?"
 }

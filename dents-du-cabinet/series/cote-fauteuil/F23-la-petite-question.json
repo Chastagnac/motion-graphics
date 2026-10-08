@@ -6,6 +6,10 @@
   "carrousel": [
     2,
     1,
+    2,
+    2,
+    2,
+    2,
     1
   ],
   "slides": [
@@ -17,15 +21,16 @@
           "dent": "docteur",
           "expression": "content",
           "brasD": "bas",
-          "propD": null,
-          "masque": null
+          "propD": null
         },
         {
           "dent": "lait",
+          "expression": "content",
           "brasG": "bas",
           "brasD": "leve",
           "jambes": "debout",
-          "expression": "content"
+          "propG": null,
+          "propD": null
         }
       ]
     },
@@ -37,15 +42,78 @@
           "dent": "docteur",
           "expression": "content",
           "brasD": "bas",
-          "propD": null,
-          "masque": null
+          "propD": null
         },
         {
           "dent": "lait",
+          "expression": "content",
           "brasG": "bas",
           "brasD": "bas",
           "jambes": "debout",
-          "expression": "content"
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "C'est pour ma dent du fond.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "leve",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Dix minutes plus tard.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "haussement",
+          "brasD": "haussement",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Et là, mon beau-frère m'a dit…",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "brasG": "bas",
+          "brasD": "leve",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
         }
       ]
     },
@@ -56,18 +124,16 @@
           "dent": "docteur",
           "expression": "blase",
           "brasD": "bas",
-          "propD": null,
-          "masque": null,
-          "effets": [
-            "zzz"
-          ]
+          "propD": null
         },
         {
           "dent": "lait",
+          "expression": "content",
           "brasG": "haussement",
           "brasD": "haussement",
           "jambes": "debout",
-          "expression": "content"
+          "propG": null,
+          "propD": null
         }
       ]
     },
@@ -79,15 +145,129 @@
           "dent": "docteur",
           "expression": "regard_camera",
           "brasD": "bas",
-          "propD": null,
-          "masque": null
+          "propD": null
         },
         {
           "dent": "lait",
+          "expression": "malin",
           "brasG": "bas",
           "brasD": "leve",
           "jambes": "debout",
-          "expression": "malin"
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Il faudrait prendre rendez-vous.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Oh non, c'est juste une question.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "haussement",
+          "brasD": "haussement",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Docteur, le suivant attend.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "juge"
+        },
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Je finis.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase"
+        },
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "brasG": "bas",
+          "brasD": "leve",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Dernière petite question.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "leve",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
         }
       ]
     }

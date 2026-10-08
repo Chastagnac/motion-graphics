@@ -4,28 +4,59 @@
   "titre": "L'empreinte",
   "decor": "cabinet",
   "carrousel": [
+    1,
     2,
-    2
+    2,
+    2,
+    1,
+    2,
+    2,
+    1
   ],
   "slides": [
+    {
+      "texte": "On prend l'empreinte. Trois minutes.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
     {
       "texte": "Respirez par le nez.",
       "voix": "assistante",
       "personnages": [
         {
           "dent": "assistante",
+          "expression": "content",
           "brasG": "bas",
           "brasD": "bas",
-          "propD": null,
-          "expression": "content",
-          "masque": "menton"
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "lait",
+          "expression": "neutre",
           "brasG": "bas",
           "brasD": "bas",
           "jambes": "debout",
-          "expression": "neutre"
+          "propG": null,
+          "propD": null
         }
       ]
     },
@@ -35,11 +66,11 @@
       "personnages": [
         {
           "dent": "assistante",
+          "expression": "neutre",
           "brasG": "bas",
           "brasD": "bas",
-          "propD": null,
-          "expression": "neutre",
-          "masque": "menton"
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "lait"
@@ -52,11 +83,11 @@
       "personnages": [
         {
           "dent": "assistante",
+          "expression": "juge",
           "brasG": "hanche",
           "brasD": "bas",
-          "propD": null,
-          "expression": "juge",
-          "masque": "menton"
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "lait"
@@ -69,18 +100,189 @@
       "personnages": [
         {
           "dent": "assistante",
+          "expression": "regard_camera",
           "brasG": "hanche",
           "brasD": "bas",
-          "propD": null,
-          "expression": "regard_camera",
-          "masque": "menton"
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "lait",
+          "expression": "triste",
           "brasG": "bas",
           "brasD": "bas",
           "jambes": "tremble",
-          "expression": "triste"
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Pensez à autre chose.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Je pense à mon nez.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "panique"
+        }
+      ]
+    },
+    {
+      "texte": "Plus que deux minutes.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "panique"
+        }
+      ]
+    },
+    {
+      "texte": "Mmmh mmh !",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "panique"
+        }
+      ]
+    },
+    {
+      "texte": "Ne parlez pas.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "brasG": "bas",
+          "brasD": "pointe",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "tremble",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "C'est fini. Bravo.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Je respire !",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "leve",
+          "brasD": "leve",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Il y a une bulle. On recommence.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
         }
       ]
     }

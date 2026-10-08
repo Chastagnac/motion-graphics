@@ -1,0 +1,349 @@
+{
+  "id": "H06-la-panne-de-courant",
+  "titre": "La panne de courant",
+  "serie": "vecu",
+  "fond": "#FFB3A7",
+  "T": 32,
+  "version": 1791411602245,
+  "video": null,
+  "planche": null,
+  "carrousel": [
+    {
+      "image": "carrousel/H06-la-panne-de-courant-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/H06-la-panne-de-courant-2.png",
+      "cases": [
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/H06-la-panne-de-courant-3.png",
+      "cases": [
+        4,
+        5
+      ]
+    },
+    {
+      "image": "carrousel/H06-la-panne-de-courant-4.png",
+      "cases": [
+        6
+      ]
+    },
+    {
+      "image": "carrousel/H06-la-panne-de-courant-5.png",
+      "cases": [
+        7,
+        8
+      ]
+    },
+    {
+      "image": "carrousel/H06-la-panne-de-courant-6.png",
+      "cases": [
+        9
+      ]
+    },
+    {
+      "image": "carrousel/H06-la-panne-de-courant-7.png",
+      "cases": [
+        10,
+        11
+      ]
+    },
+    {
+      "image": "carrousel/H06-la-panne-de-courant-8.png",
+      "cases": [
+        12
+      ]
+    },
+    {
+      "image": "carrousel/H06-la-panne-de-courant-9.png",
+      "cases": [
+        13
+      ]
+    }
+  ],
+  "legende": "C'était quand, votre dernier vrai déjeuner d'équipe ?",
+  "source": "../../series/petites-histoires/H06-la-panne-de-courant.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 2.6,
+      "texte": "Mardi, 11h. Tout s'éteint.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "choque",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 2.6,
+      "duree": 2.1,
+      "texte": "C'est chez nous ?",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 4.7,
+      "duree": 2.3,
+      "texte": "C'est tout le quartier.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7,
+      "duree": 2.3,
+      "texte": "Douze patients à déplacer.",
+      "voix": "molaire",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "fache",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 9.3,
+      "duree": 2.3,
+      "texte": "Le téléphone marche encore.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 11.6,
+      "duree": 2.7,
+      "texte": "Midi. Tout le monde est prévenu.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 14.3,
+      "duree": 2.3,
+      "texte": "On fait quoi, maintenant ?",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 16.6,
+      "duree": 2.7,
+      "texte": "Rien. On ne peut rien faire.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "malin",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 19.3,
+      "duree": 2.7,
+      "texte": "Alors ils ont déjeuné. Assis. Ensemble.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 22,
+      "duree": 2.5,
+      "texte": "On n'avait jamais fait ça.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 24.5,
+      "duree": 2.3,
+      "texte": "En douze ans, non.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 26.8,
+      "duree": 2.3,
+      "texte": "13h02. La lumière revient.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "t0": 29.1,
+      "duree": 2.9,
+      "texte": "Personne ne bouge. On finit le dessert.",
+      "voix": "molaire",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

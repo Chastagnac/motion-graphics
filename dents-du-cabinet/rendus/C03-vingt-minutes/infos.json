@@ -1,0 +1,335 @@
+{
+  "id": "C03-vingt-minutes",
+  "titre": "Vingt minutes",
+  "serie": "irritant",
+  "fond": "#B9C8FF",
+  "T": 35.9,
+  "version": 1791445455676,
+  "video": null,
+  "planche": null,
+  "carrousel": [
+    {
+      "image": "carrousel/C03-vingt-minutes-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/C03-vingt-minutes-2.png",
+      "cases": [
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/C03-vingt-minutes-3.png",
+      "cases": [
+        4,
+        5
+      ]
+    },
+    {
+      "image": "carrousel/C03-vingt-minutes-4.png",
+      "cases": [
+        6
+      ]
+    },
+    {
+      "image": "carrousel/C03-vingt-minutes-5.png",
+      "cases": [
+        7,
+        8
+      ]
+    },
+    {
+      "image": "carrousel/C03-vingt-minutes-6.png",
+      "cases": [
+        9,
+        10
+      ]
+    },
+    {
+      "image": "carrousel/C03-vingt-minutes-7.png",
+      "cases": [
+        11
+      ]
+    },
+    {
+      "image": "carrousel/C03-vingt-minutes-8.png",
+      "cases": [
+        12,
+        13,
+        14
+      ]
+    }
+  ],
+  "legende": "Vous faites quoi d'un patient qui arrive avec vingt minutes de retard ?",
+  "source": "../../series/situations-du-cabinet/C03-vingt-minutes.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 3,
+      "texte": "Rendez-vous à 10h. Il est 10h20.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 3,
+      "duree": 2.7,
+      "texte": "Me voilà ! Impossible de se garer.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.7,
+      "duree": 2.9,
+      "texte": "Le docteur a pris le patient suivant.",
+      "voix": "molaire",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 8.6,
+      "duree": 2.3,
+      "texte": "Mais c'était mon heure !",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "fache",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 10.9,
+      "duree": 2.7,
+      "texte": "C'était. Il y a vingt minutes.",
+      "voix": "molaire",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "fache",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 13.6,
+      "duree": 2.7,
+      "texte": "Il peut me prendre entre deux ?",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 16.3,
+      "duree": 3.1,
+      "texte": "Entre deux, il y a quelqu'un d'à l'heure.",
+      "voix": "molaire",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 19.4,
+      "duree": 1.9,
+      "texte": "Alors quand ?",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 21.3,
+      "duree": 1.8,
+      "texte": "17h.",
+      "voix": "molaire",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 23.1,
+      "duree": 2.7,
+      "texte": "17h ? Mais j'ai une vie, moi !",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 25.8,
+      "duree": 2.5,
+      "texte": "Nous aussi. Elle est planifiée.",
+      "voix": "molaire",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 28.3,
+      "duree": 1.8,
+      "texte": "17h20.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "fache",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "t0": 30.1,
+      "duree": 2.7,
+      "texte": "Me voilà ! Impossible de se garer.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "t0": 32.8,
+      "duree": 3.1,
+      "texte": "Un retard ne s'efface pas. Il se transmet.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "molaire",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

@@ -91,9 +91,10 @@ function compiler(strip, D, cat, opts) {
   let t0 = 0, precedents = [];
   const cases = strip.slides.map((slide, i) => {
     const ouCase = `case ${i + 1}`;
-    Object.keys(slide).forEach((k) => { if (!['texte', 'duree', 'personnages', 'voix', 'places', 'decor'].includes(k)) err(ouCase, `champ inconnu « ${k} »`); });
+    Object.keys(slide).forEach((k) => { if (!['texte', 'duree', 'personnages', 'voix', 'places', 'decor', 'plan'].includes(k)) err(ouCase, `champ inconnu « ${k} »`); });
     const decor = slide.decor || strip.decor || DECOR_DEFAUT;
     if (!decors.includes(decor)) err(ouCase, `decor « ${decor} » n'existe pas dans decors.js (valeurs : ${liste(decors)})`);
+    if (slide.plan != null && slide.plan !== 'drame') err(ouCase, `plan « ${slide.plan} » inconnu (valeur possible : drame)`);
     verifierTexte(`${ouCase}, texte`, slide.texte);
     // durée du plan vidéo : celle du JSON, sinon calculée sur la longueur de la réplique
     const duree = slide.duree;
@@ -242,7 +243,7 @@ function compiler(strip, D, cat, opts) {
         .sort((x, y) => x[0] - y[0]);
     }
 
-    const c = { index: i + 1, t0: +t0.toFixed(3), duree: d, texteBrut: slide.texte || '', texte, persos, places, voix, decor, tBulle: +Math.max(0, debutTexte - 0.12).toFixed(3) };
+    const c = { index: i + 1, t0: +t0.toFixed(3), duree: d, texteBrut: slide.texte || '', texte, persos, places, voix, decor, plan: slide.plan || null, tBulle: +Math.max(0, debutTexte - 0.12).toFixed(3) };
     t0 += d;
     precedents = (slide.personnages || []).map((p) => p.dent);
     return c;

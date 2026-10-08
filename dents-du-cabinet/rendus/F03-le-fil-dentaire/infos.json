@@ -3,10 +3,10 @@
   "titre": "Le fil dentaire",
   "serie": "irritant",
   "fond": "#B9C8FF",
-  "T": 9.4,
-  "version": 1791280914279,
+  "T": 22.7,
+  "version": 1791411452379,
   "video": null,
-  "planche": "F03-le-fil-dentaire-planche.png",
+  "planche": null,
   "carrousel": [
     {
       "image": "carrousel/F03-le-fil-dentaire-1.png",
@@ -17,19 +17,40 @@
     {
       "image": "carrousel/F03-le-fil-dentaire-2.png",
       "cases": [
-        2
+        2,
+        3
       ]
     },
     {
       "image": "carrousel/F03-le-fil-dentaire-3.png",
       "cases": [
-        3
+        4,
+        5
       ]
     },
     {
       "image": "carrousel/F03-le-fil-dentaire-4.png",
       "cases": [
-        4
+        6
+      ]
+    },
+    {
+      "image": "carrousel/F03-le-fil-dentaire-5.png",
+      "cases": [
+        7,
+        8
+      ]
+    },
+    {
+      "image": "carrousel/F03-le-fil-dentaire-6.png",
+      "cases": [
+        9
+      ]
+    },
+    {
+      "image": "carrousel/F03-le-fil-dentaire-7.png",
+      "cases": [
+        10
       ]
     }
   ],
@@ -59,7 +80,7 @@
     {
       "index": 2,
       "t0": 2.8,
-      "duree": 2,
+      "duree": 2.1,
       "texte": "Tous les jours.",
       "voix": "lait",
       "decor": "cabinet",
@@ -78,8 +99,48 @@
     },
     {
       "index": 3,
-      "t0": 4.8,
-      "duree": 2,
+      "t0": 4.9,
+      "duree": 2.1,
+      "texte": "Tous les jours ?",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7,
+      "duree": 2.1,
+      "texte": "Matin et soir.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 9.1,
+      "duree": 1.9,
       "texte": "Depuis quand ?",
       "voix": "docteur",
       "decor": "cabinet",
@@ -92,16 +153,14 @@
         {
           "dent": "lait",
           "expression": "regard_camera",
-          "animations": [
-            "expression:regard_camera à 1.0s"
-          ]
+          "animations": []
         }
       ]
     },
     {
-      "index": 4,
-      "t0": 6.8,
-      "duree": 2.6,
+      "index": 6,
+      "t0": 11,
+      "duree": 2.1,
       "texte": "Depuis ce matin.",
       "voix": "lait",
       "decor": "cabinet",
@@ -109,13 +168,91 @@
         {
           "dent": "docteur",
           "expression": "blase",
-          "animations": [
-            "clignement à 1.7s"
-          ]
+          "animations": []
         },
         {
           "dent": "lait",
           "expression": "panique",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 13.1,
+      "duree": 2.3,
+      "texte": "Et avant ce matin ?",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 15.4,
+      "duree": 2.3,
+      "texte": "J'y pensais très fort.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 17.7,
+      "duree": 2.5,
+      "texte": "Vos gencives disent autre chose.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "panique",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 20.2,
+      "duree": 2.5,
+      "texte": "Elles ont toujours été bavardes.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
           "animations": []
         }
       ]

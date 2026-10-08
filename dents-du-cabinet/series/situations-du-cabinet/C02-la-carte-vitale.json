@@ -1,0 +1,275 @@
+{
+  "id": "C02-la-carte-vitale",
+  "serie": "IRRITANT",
+  "titre": "La carte Vitale",
+  "decor": "accueil",
+  "carrousel": [
+    1,
+    2,
+    2,
+    1,
+    2,
+    1,
+    2,
+    3
+  ],
+  "slides": [
+    {
+      "texte": "Votre carte Vitale, s'il vous plaît.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Elle est dans l'autre veste.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "haussement",
+          "brasD": "haussement",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Votre attestation de mutuelle, alors ?",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Sur mon téléphone.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Parfait. Montrez-moi.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Il est dans l'autre veste aussi.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Vous avez quoi, dans cette veste-là ?",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "juge"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Un ticket de parking.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "propD": "postit",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Vingt minutes. Trois appels à la mutuelle.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "triste",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "C'est réglé. La carte, la prochaine fois ?",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Promis. Je mets la bonne veste.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "leve",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Six mois plus tard.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "J'ai changé de veste. Et de mutuelle.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "haussement",
+          "brasD": "haussement",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Un papier manquant. Vingt minutes au comptoir.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase"
+        }
+      ]
+    }
+  ],
+  "legende": "Elle est où, la carte Vitale de vos patients ?"
+}

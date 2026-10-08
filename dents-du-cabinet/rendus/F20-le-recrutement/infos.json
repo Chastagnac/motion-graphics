@@ -3,23 +3,56 @@
   "titre": "Le recrutement",
   "serie": "irritant",
   "fond": "#B9C8FF",
-  "T": 9.1,
-  "version": 1791280951377,
+  "T": 26.4,
+  "version": 1791411540845,
   "video": null,
-  "planche": "F20-le-recrutement-planche.png",
+  "planche": null,
   "carrousel": [
     {
       "image": "carrousel/F20-le-recrutement-1.png",
       "cases": [
-        1,
-        2
+        1
       ]
     },
     {
       "image": "carrousel/F20-le-recrutement-2.png",
       "cases": [
-        3,
-        4
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/F20-le-recrutement-3.png",
+      "cases": [
+        4,
+        5
+      ]
+    },
+    {
+      "image": "carrousel/F20-le-recrutement-4.png",
+      "cases": [
+        6
+      ]
+    },
+    {
+      "image": "carrousel/F20-le-recrutement-5.png",
+      "cases": [
+        7,
+        8
+      ]
+    },
+    {
+      "image": "carrousel/F20-le-recrutement-6.png",
+      "cases": [
+        9,
+        10
+      ]
+    },
+    {
+      "image": "carrousel/F20-le-recrutement-7.png",
+      "cases": [
+        11,
+        12
       ]
     }
   ],
@@ -69,6 +102,46 @@
     {
       "index": 3,
       "t0": 4.5,
+      "duree": 2.3,
+      "texte": "Une ? En six mois ?",
+      "voix": "docteur",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 6.8,
+      "duree": 2.3,
+      "texte": "Diplômée. Dix ans d'expérience.",
+      "voix": "molaire",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 9.1,
       "duree": 2.1,
       "texte": "Elle commence quand ?",
       "voix": "docteur",
@@ -87,8 +160,8 @@
       ]
     },
     {
-      "index": 4,
-      "t0": 6.6,
+      "index": 6,
+      "t0": 11.2,
       "duree": 2.5,
       "texte": "Elle a vu le planning.",
       "voix": "molaire",
@@ -102,6 +175,126 @@
         {
           "dent": "molaire",
           "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 13.7,
+      "duree": 1.8,
+      "texte": "Et ?",
+      "voix": "docteur",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 15.5,
+      "duree": 2.1,
+      "texte": "Elle a ri.",
+      "voix": "molaire",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 17.6,
+      "duree": 2.5,
+      "texte": "On peut revoir les horaires.",
+      "voix": "docteur",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 20.1,
+      "duree": 2.5,
+      "texte": "Elle a déjà signé ailleurs.",
+      "voix": "molaire",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 22.6,
+      "duree": 1.9,
+      "texte": "Où ça ?",
+      "voix": "docteur",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 24.5,
+      "duree": 1.9,
+      "texte": "En face.",
+      "voix": "molaire",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "blase",
           "animations": []
         }
       ]

@@ -1,0 +1,372 @@
+{
+  "id": "C06-le-dernier-gant",
+  "titre": "Le dernier gant",
+  "serie": "irritant",
+  "fond": "#B9C8FF",
+  "T": 38,
+  "version": 1791445346643,
+  "video": null,
+  "planche": null,
+  "carrousel": [
+    {
+      "image": "carrousel/C06-le-dernier-gant-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/C06-le-dernier-gant-2.png",
+      "cases": [
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/C06-le-dernier-gant-3.png",
+      "cases": [
+        4,
+        5
+      ]
+    },
+    {
+      "image": "carrousel/C06-le-dernier-gant-4.png",
+      "cases": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "image": "carrousel/C06-le-dernier-gant-5.png",
+      "cases": [
+        9,
+        10
+      ]
+    },
+    {
+      "image": "carrousel/C06-le-dernier-gant-6.png",
+      "cases": [
+        11,
+        12
+      ]
+    },
+    {
+      "image": "carrousel/C06-le-dernier-gant-7.png",
+      "cases": [
+        13,
+        14
+      ]
+    },
+    {
+      "image": "carrousel/C06-le-dernier-gant-8.png",
+      "cases": [
+        15,
+        16
+      ]
+    }
+  ],
+  "legende": "Quel produit tombe toujours en rupture chez vous ?",
+  "source": "../../series/situations-du-cabinet/C06-le-dernier-gant.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 3,
+      "texte": "Il reste une boîte de gants.",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 3,
+      "duree": 2.3,
+      "texte": "Fais-moi penser à commander.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.3,
+      "duree": 2.5,
+      "texte": "Je t'y fais penser. Là.",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.8,
+      "duree": 2.1,
+      "texte": "Ce soir, promis.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 9.9,
+      "duree": 2.5,
+      "texte": "Tu as dit ça lundi.",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 12.4,
+      "duree": 1.8,
+      "texte": "Mercredi.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 14.2,
+      "duree": 2.3,
+      "texte": "Il reste six gants.",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 16.5,
+      "duree": 2.1,
+      "texte": "Ce soir, promis.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 18.6,
+      "duree": 1.9,
+      "texte": "Jeudi, 9h.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "fache",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 20.5,
+      "duree": 2.7,
+      "texte": "Il reste un gant. Le gauche.",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "fache",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 23.2,
+      "duree": 2.3,
+      "texte": "Je commande ! Livraison… lundi.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "panique",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 25.5,
+      "duree": 2.5,
+      "texte": "On a quatorze patients aujourd'hui.",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "t0": 28,
+      "duree": 1.9,
+      "texte": "Jeudi, 9h10.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "t0": 29.9,
+      "duree": 2.7,
+      "texte": "Bonjour, c'est le cabinet d'en face.",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "t0": 32.6,
+      "duree": 2.7,
+      "texte": "Vous auriez une boîte de gants ?",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "t0": 35.3,
+      "duree": 2.7,
+      "texte": "« Fais-moi penser » n'est pas une commande.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

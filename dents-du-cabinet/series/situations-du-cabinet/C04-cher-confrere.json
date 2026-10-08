@@ -1,0 +1,229 @@
+{
+  "id": "C04-cher-confrere",
+  "serie": "IRRITANT",
+  "titre": "Cher confrère",
+  "decor": "cabinet",
+  "carrousel": [
+    1,
+    2,
+    2,
+    1,
+    2,
+    2,
+    2,
+    2
+  ],
+  "slides": [
+    {
+      "texte": "19h. Le dernier patient est parti.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasD": "bas",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Journée finie !",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasG": "leve",
+          "brasD": "leve",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "brasD": "bas",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Et tes courriers ?",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "assistante",
+          "expression": "juge",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "J'en ai un ou deux.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Tu as vu dix-huit patients.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "« Cher confrère, je vous adresse… »",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "propD": "bloc",
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "20h. Courrier numéro six.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "propD": "bloc",
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "« Cher confrère, comme convenu… »",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "propD": "bloc",
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "21h. Courrier numéro quatorze.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "propD": "bloc",
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "« Cher confrère, je vous adresse mon dîner. »",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "propD": "bloc",
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Rentre. Tu finiras demain.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "pointe",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Demain, il y en aura dix-huit autres.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "assistante",
+          "expression": "triste",
+          "brasD": "bas",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Sa journée de soins finit à 19h.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "propD": "bloc",
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Sa journée de papier commence à 19h.",
+      "plan": "drame",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "propD": "bloc",
+          "brasD": "tient"
+        }
+      ]
+    }
+  ],
+  "legende": "À quelle heure vous écrivez vos courriers ?"
+}

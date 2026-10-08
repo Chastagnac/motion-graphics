@@ -1,0 +1,277 @@
+{
+  "id": "C12-qui-rappelle-le-labo",
+  "serie": "IRRITANT",
+  "titre": "Qui rappelle le labo ?",
+  "decor": "cabinet",
+  "carrousel": [
+    2,
+    2,
+    2,
+    1,
+    2,
+    2,
+    2,
+    2
+  ],
+  "slides": [
+    {
+      "texte": "Il faut rappeler le labo.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Oui, il faut.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "assistante",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Le lendemain.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre"
+        },
+        {
+          "dent": "canine",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Quelqu'un a rappelé le labo ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre"
+        },
+        {
+          "dent": "canine",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Je croyais que c'était toi.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "choque"
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "brasG": "pointe",
+          "propG": null
+        },
+        {
+          "dent": "canine",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Je croyais que c'était elle.",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste"
+        },
+        {
+          "dent": "assistante",
+          "expression": "choque"
+        },
+        {
+          "dent": "canine",
+          "expression": "malin",
+          "brasG": "pointe",
+          "propG": null
+        }
+      ]
+    },
+    {
+      "texte": "Je croyais que c'était fait.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "brasG": "haussement",
+          "propG": null
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase"
+        },
+        {
+          "dent": "canine",
+          "expression": "blase"
+        }
+      ]
+    },
+    {
+      "texte": "Bon. Cette fois, on s'organise.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "juge"
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre"
+        },
+        {
+          "dent": "canine",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Il faut vraiment rappeler le labo.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "fache",
+          "brasG": "leve",
+          "propG": null
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre"
+        },
+        {
+          "dent": "canine",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Vraiment, oui.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase"
+        },
+        {
+          "dent": "assistante",
+          "expression": "content"
+        },
+        {
+          "dent": "canine",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Absolument.",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase"
+        },
+        {
+          "dent": "assistante",
+          "expression": "content"
+        },
+        {
+          "dent": "canine",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Le surlendemain.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre"
+        },
+        {
+          "dent": "canine",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Quelqu'un a rappelé le labo ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste"
+        },
+        {
+          "dent": "assistante",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "canine",
+          "expression": "regard_camera"
+        }
+      ]
+    },
+    {
+      "texte": "Le labo, lui, attend toujours.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "assistante",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "canine",
+          "expression": "regard_camera"
+        }
+      ]
+    },
+    {
+      "texte": "« Il faut » n'a jamais rappelé personne.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase"
+        }
+      ]
+    }
+  ],
+  "legende": "Chez vous, « il faut » veut dire qui ?"
+}

@@ -3,23 +3,55 @@
   "titre": "Ça va faire mal ?",
   "serie": "vecu",
   "fond": "#FFB3A7",
-  "T": 9.6,
-  "version": 1791280912369,
+  "T": 24.6,
+  "version": 1791411448753,
   "video": null,
-  "planche": "F02-ca-va-faire-mal-planche.png",
+  "planche": null,
   "carrousel": [
     {
       "image": "carrousel/F02-ca-va-faire-mal-1.png",
       "cases": [
-        1,
-        2
+        1
       ]
     },
     {
       "image": "carrousel/F02-ca-va-faire-mal-2.png",
       "cases": [
-        3,
-        4
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/F02-ca-va-faire-mal-3.png",
+      "cases": [
+        4,
+        5
+      ]
+    },
+    {
+      "image": "carrousel/F02-ca-va-faire-mal-4.png",
+      "cases": [
+        6
+      ]
+    },
+    {
+      "image": "carrousel/F02-ca-va-faire-mal-5.png",
+      "cases": [
+        7,
+        8
+      ]
+    },
+    {
+      "image": "carrousel/F02-ca-va-faire-mal-6.png",
+      "cases": [
+        9,
+        10
+      ]
+    },
+    {
+      "image": "carrousel/F02-ca-va-faire-mal-7.png",
+      "cases": [
+        11
       ]
     }
   ],
@@ -49,7 +81,7 @@
     {
       "index": 2,
       "t0": 2.6,
-      "duree": 2.4,
+      "duree": 2.3,
       "texte": "C'est juste un contrôle.",
       "voix": "docteur",
       "decor": "cabinet",
@@ -68,7 +100,47 @@
     },
     {
       "index": 3,
-      "t0": 5,
+      "t0": 4.9,
+      "duree": 2.5,
+      "texte": "Tout le monde dit ça.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.4,
+      "duree": 1.9,
+      "texte": "Ouvrez grand.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 9.3,
       "duree": 1.8,
       "texte": "AÏE !",
       "voix": "lait",
@@ -77,9 +149,7 @@
         {
           "dent": "docteur",
           "expression": "regard_camera",
-          "animations": [
-            "expression:regard_camera à 0.35s"
-          ]
+          "animations": []
         },
         {
           "dent": "lait",
@@ -89,9 +159,9 @@
       ]
     },
     {
-      "index": 4,
-      "t0": 6.8,
-      "duree": 2.8,
+      "index": 6,
+      "t0": 11.1,
+      "duree": 2.5,
       "texte": "Je n'ai pas encore commencé.",
       "voix": "docteur",
       "decor": "cabinet",
@@ -104,9 +174,107 @@
         {
           "dent": "lait",
           "expression": "regard_camera",
-          "animations": [
-            "clignement à 1.8s"
-          ]
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 13.6,
+      "duree": 1.9,
+      "texte": "Je m'entraînais.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 15.5,
+      "duree": 2.1,
+      "texte": "Il est doué.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 17.6,
+      "duree": 2.1,
+      "texte": "Voilà, c'est fini.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 19.7,
+      "duree": 1.8,
+      "texte": "Déjà ?",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 21.5,
+      "duree": 3.1,
+      "texte": "J'ai même pas eu le temps d'avoir mal.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "animations": []
         }
       ]
     }

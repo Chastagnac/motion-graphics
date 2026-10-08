@@ -5,7 +5,12 @@
   "decor": "cabinet",
   "carrousel": [
     2,
-    2
+    2,
+    2,
+    1,
+    2,
+    1,
+    1
   ],
   "slides": [
     {
@@ -15,14 +20,16 @@
         {
           "dent": "docteur",
           "expression": "neutre",
-          "brasG": "hanche"
+          "brasG": "hanche",
+          "propG": null
         },
         {
           "dent": "assistante",
+          "expression": "neutre",
           "brasG": "bas",
           "brasD": "bas",
-          "propD": null,
-          "expression": "neutre"
+          "propG": null,
+          "propD": null
         }
       ]
     },
@@ -33,15 +40,156 @@
         {
           "dent": "docteur",
           "expression": "regard_camera",
-          "brasG": "hanche"
+          "brasG": "hanche",
+          "propG": null
         },
         {
           "dent": "assistante",
-          "brasG": "pointe",
-          "brasD": "bas",
-          "propD": null,
           "expression": "content",
-          "propG": "sonde"
+          "brasG": "pointe",
+          "propG": "sonde",
+          "brasD": "bas",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Et il faudrait aussi le…",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "brasG": "hanche",
+          "propG": null
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Déjà prêt.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "brasG": "hanche",
+          "propG": null
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Comment tu fais ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasG": "hanche",
+          "propG": null
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Douze ans à côté de toi.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasG": "hanche",
+          "propG": null
+        },
+        {
+          "dent": "assistante",
+          "expression": "malin",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Et là, je pense à quoi ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "malin",
+          "brasG": "hanche",
+          "propG": null
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "À ton déjeuner.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "brasG": "hanche",
+          "propG": null
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Incroyable.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasG": "hanche",
+          "propG": null
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
         }
       ]
     },
@@ -52,14 +200,16 @@
         {
           "dent": "docteur",
           "expression": "triste",
-          "brasG": "haussement"
+          "brasG": "haussement",
+          "propG": null
         },
         {
           "dent": "assistante",
+          "expression": "blase",
           "brasG": "bas",
           "brasD": "bas",
-          "propD": null,
-          "expression": "blase"
+          "propG": null,
+          "propD": null
         }
       ]
     },
@@ -70,14 +220,16 @@
         {
           "dent": "docteur",
           "expression": "regard_camera",
-          "brasG": "hanche"
+          "brasG": "hanche",
+          "propG": null
         },
         {
           "dent": "assistante",
+          "expression": "blase",
           "brasG": "pointe",
           "brasD": "bas",
-          "propD": null,
-          "expression": "blase"
+          "propG": null,
+          "propD": null
         }
       ]
     }

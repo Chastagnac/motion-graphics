@@ -3,11 +3,19 @@
   "serie": "IRRITANT",
   "titre": "Le fil dentaire",
   "decor": "cabinet",
+  "carrousel": [
+    1,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1
+  ],
   "slides": [
     {
       "texte": "Vous passez le fil dentaire ?",
       "voix": "docteur",
-      "duree": 2.8,
       "personnages": [
         {
           "dent": "docteur",
@@ -15,17 +23,18 @@
         },
         {
           "dent": "lait",
+          "expression": "neutre",
           "brasG": "bas",
           "brasD": "bas",
           "jambes": "debout",
-          "expression": "neutre"
+          "propG": null,
+          "propD": null
         }
       ]
     },
     {
       "texte": "Tous les jours.",
       "voix": "lait",
-      "duree": 2,
       "personnages": [
         {
           "dent": "docteur",
@@ -33,17 +42,18 @@
         },
         {
           "dent": "lait",
+          "expression": "content",
           "brasG": "hanche",
           "brasD": "hanche",
           "jambes": "debout",
-          "expression": "content"
+          "propG": null,
+          "propD": null
         }
       ]
     },
     {
-      "texte": "Depuis quand ?",
+      "texte": "Tous les jours ?",
       "voix": "docteur",
-      "duree": 2,
       "personnages": [
         {
           "dent": "docteur",
@@ -51,37 +61,140 @@
         },
         {
           "dent": "lait",
+          "expression": "content",
           "brasG": "hanche",
           "brasD": "hanche",
           "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Matin et soir.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "juge"
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Depuis quand ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "juge"
+        },
+        {
+          "dent": "lait",
           "expression": "regard_camera",
-          "depart": {
-            "expression": "content"
-          },
-          "animations": [
-            "expression:regard_camera à 1.0s"
-          ]
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
         }
       ]
     },
     {
       "texte": "Depuis ce matin.",
       "voix": "lait",
-      "duree": 2.6,
       "personnages": [
         {
           "dent": "docteur",
-          "expression": "blase",
-          "animations": [
-            "clignement à 1.7s"
-          ]
+          "expression": "blase"
         },
         {
           "dent": "lait",
+          "expression": "panique",
           "brasG": "bas",
           "brasD": "bas",
           "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Et avant ce matin ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase"
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "J'y pensais très fort.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Vos gencives disent autre chose.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "juge"
+        },
+        {
+          "dent": "lait",
           "expression": "panique"
+        }
+      ]
+    },
+    {
+      "texte": "Elles ont toujours été bavardes.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
         }
       ]
     }

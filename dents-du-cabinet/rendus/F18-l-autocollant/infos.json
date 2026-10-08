@@ -3,10 +3,10 @@
   "titre": "L'autocollant",
   "serie": "vecu",
   "fond": "#FFB3A7",
-  "T": 8.5,
-  "version": 1791280947688,
+  "T": 26.9,
+  "version": 1791411529519,
   "video": null,
-  "planche": "F18-l-autocollant-planche.png",
+  "planche": null,
   "carrousel": [
     {
       "image": "carrousel/F18-l-autocollant-1.png",
@@ -18,13 +18,41 @@
     {
       "image": "carrousel/F18-l-autocollant-2.png",
       "cases": [
-        3
+        3,
+        4
       ]
     },
     {
       "image": "carrousel/F18-l-autocollant-3.png",
       "cases": [
-        4
+        5,
+        6
+      ]
+    },
+    {
+      "image": "carrousel/F18-l-autocollant-4.png",
+      "cases": [
+        7,
+        8
+      ]
+    },
+    {
+      "image": "carrousel/F18-l-autocollant-5.png",
+      "cases": [
+        9
+      ]
+    },
+    {
+      "image": "carrousel/F18-l-autocollant-6.png",
+      "cases": [
+        10
+      ]
+    },
+    {
+      "image": "carrousel/F18-l-autocollant-7.png",
+      "cases": [
+        11,
+        12
       ]
     }
   ],
@@ -96,6 +124,166 @@
       "t0": 6.7,
       "duree": 1.8,
       "texte": "Deux.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 8.5,
+      "duree": 1.9,
+      "texte": "Deux, d'accord.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 10.4,
+      "duree": 2.5,
+      "texte": "Et c'est moi qui choisis.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 12.9,
+      "duree": 2.1,
+      "texte": "Tu ouvres, maintenant ?",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 15,
+      "duree": 2.7,
+      "texte": "Je veux d'abord voir les autocollants.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 17.7,
+      "duree": 2.3,
+      "texte": "Dix minutes de négociation.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "fache",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 20,
+      "duree": 2.3,
+      "texte": "Trois. Et le dinosaure.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 22.3,
+      "duree": 1.9,
+      "texte": "Marché conclu.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 24.2,
+      "duree": 2.7,
+      "texte": "Ma sœur passe après. Bon courage.",
       "voix": "lait",
       "decor": "cabinet",
       "persos": [

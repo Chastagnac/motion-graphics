@@ -4,6 +4,11 @@
   "titre": "L'anesthésie",
   "decor": "cabinet",
   "carrousel": [
+    1,
+    2,
+    1,
+    2,
+    1,
     2,
     2
   ],
@@ -18,10 +23,12 @@
         },
         {
           "dent": "lait",
+          "expression": "neutre",
           "brasG": "bas",
           "brasD": "bas",
           "jambes": "debout",
-          "expression": "neutre"
+          "propG": null,
+          "propD": null
         }
       ]
     },
@@ -35,10 +42,12 @@
         },
         {
           "dent": "lait",
+          "expression": "regard_camera",
           "brasG": "bas",
           "brasD": "bas",
           "jambes": "debout",
-          "expression": "regard_camera"
+          "propG": null,
+          "propD": null
         }
       ]
     },
@@ -52,10 +61,12 @@
         },
         {
           "dent": "lait",
+          "expression": "regard_camera",
           "brasG": "bas",
           "brasD": "bas",
           "jambes": "debout",
-          "expression": "regard_camera"
+          "propG": null,
+          "propD": null
         }
       ]
     },
@@ -69,10 +80,141 @@
         },
         {
           "dent": "lait",
+          "expression": "panique",
           "brasG": "leve",
           "brasD": "leve",
           "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "C'est normal. Ça dure deux heures.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Deux veures ?",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "V'ai une réunion à quinve heures.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "lait",
           "expression": "panique"
+        }
+      ]
+    },
+    {
+      "texte": "Parlez le moins possible.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "blase"
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Ve préfente le budvet.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "15h. Salle de réunion.",
+      "decor": "reunion",
+      "personnages": [
+        {
+          "dent": "lait",
+          "expression": "panique",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Bonvour à touf.",
+      "voix": "lait",
+      "decor": "reunion",
+      "personnages": [
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "salut",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge"
+        },
+        {
+          "dent": "sagesse",
+          "expression": "blase"
         }
       ]
     }

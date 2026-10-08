@@ -1,0 +1,277 @@
+{
+  "id": "C11-les-consignes",
+  "serie": "VECU",
+  "titre": "Les consignes",
+  "decor": "cabinet",
+  "carrousel": [
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+  ],
+  "slides": [
+    {
+      "texte": "Trois consignes après l'extraction.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Pas de bain de bouche ce soir.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "brasD": "leve",
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Noté.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Rien de chaud. Pas de tabac.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "brasD": "leve",
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Noté, noté.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "blase",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Vous me les répétez ?",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "juge",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Pas de… Oui. Tout ça.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "regard_camera",
+          "brasD": "bas",
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "panique"
+        }
+      ]
+    },
+    {
+      "texte": "Sur le parking, trente secondes plus tard.",
+      "decor": "sol",
+      "personnages": [
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Elle a dit quoi, déjà ?",
+      "voix": "lait",
+      "decor": "sol",
+      "personnages": [
+        {
+          "dent": "lait",
+          "expression": "panique"
+        }
+      ]
+    },
+    {
+      "texte": "Le lendemain, 8h01.",
+      "decor": "accueil",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Le café, c'était avant le bain de bouche ?",
+      "voix": "lait",
+      "decor": "accueil",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Ni l'un ni l'autre.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Ah. Et la cigarette ?",
+      "voix": "lait",
+      "decor": "accueil",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Ce qu'on dit au fauteuil reste au fauteuil.",
+      "decor": "accueil",
+      "plan": "drame",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "juge",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    }
+  ],
+  "legende": "Combien de temps vos patients retiennent-ils vos consignes ?"
+}

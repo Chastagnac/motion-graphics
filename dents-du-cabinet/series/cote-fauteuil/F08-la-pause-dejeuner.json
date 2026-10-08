@@ -3,17 +3,26 @@
   "serie": "VECU",
   "titre": "La pause déjeuner",
   "decor": "cabinet",
+  "carrousel": [
+    1,
+    2,
+    2,
+    1,
+    1,
+    2,
+    1
+  ],
   "slides": [
     {
       "texte": "Docteur, il est 13h. On mange ?",
       "voix": "canine",
-      "duree": 3,
       "personnages": [
         {
           "dent": "canine",
           "expression": "content",
           "brasG": "hanche",
           "brasD": "bas",
+          "propG": null,
           "propD": null
         },
         {
@@ -25,13 +34,13 @@
     {
       "texte": "J'ai vingt minutes de retard.",
       "voix": "docteur",
-      "duree": 2.6,
       "personnages": [
         {
           "dent": "canine",
           "expression": "neutre",
           "brasG": "hanche",
           "brasD": "bas",
+          "propG": null,
           "propD": null
         },
         {
@@ -41,15 +50,69 @@
       ]
     },
     {
-      "texte": "Donc ?",
+      "texte": "Comme hier.",
       "voix": "canine",
-      "duree": 1.8,
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "blase",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "triste"
+        }
+      ]
+    },
+    {
+      "texte": "Hier, c'était trente.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "neutre",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "On progresse.",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "malin",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Donc, le déjeuner ?",
+      "voix": "canine",
       "personnages": [
         {
           "dent": "canine",
           "expression": "juge",
           "brasG": "hanche",
           "brasD": "hanche",
+          "propG": null,
           "propD": null
         },
         {
@@ -59,27 +122,82 @@
       ]
     },
     {
-      "texte": "Donc voilà mon déjeuner.",
+      "texte": "Voilà mon déjeuner.",
       "voix": "docteur",
-      "duree": 3,
       "personnages": [
         {
           "dent": "canine",
           "expression": "regard_camera",
           "brasG": "hanche",
           "brasD": "hanche",
-          "propD": null,
-          "animations": [
-            "clignement à 2.2s"
-          ]
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "docteur",
           "expression": "blase",
           "propD": "cafe",
-          "animations": [
-            "brasD:salut à 0.6s"
-          ]
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "C'est un café.",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "juge",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "propD": "cafe",
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Avec du sucre.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "blase",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "propD": "cafe",
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Un repas complet, alors.",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "regard_camera",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "propD": "cafe",
+          "brasD": "tient"
         }
       ]
     }

@@ -5,7 +5,13 @@
   "decor": "cabinet",
   "carrousel": [
     1,
-    3
+    2,
+    1,
+    2,
+    2,
+    2,
+    1,
+    1
   ],
   "slides": [
     {
@@ -17,9 +23,6 @@
         },
         {
           "dent": "assistante",
-          "brasG": "bas",
-          "brasD": "tient",
-          "propD": "aspiration",
           "expression": "content"
         }
       ]
@@ -34,9 +37,6 @@
         },
         {
           "dent": "assistante",
-          "brasG": "bas",
-          "brasD": "tient",
-          "propD": "aspiration",
           "expression": "neutre"
         }
       ]
@@ -51,9 +51,6 @@
         },
         {
           "dent": "assistante",
-          "brasG": "bas",
-          "brasD": "tient",
-          "propD": "aspiration",
           "expression": "neutre"
         }
       ]
@@ -68,10 +65,119 @@
         },
         {
           "dent": "assistante",
-          "brasG": "bas",
-          "brasD": "tient",
-          "propD": "aspiration",
           "expression": "blase"
+        }
+      ]
+    },
+    {
+      "texte": "Tu as appelé le technicien ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Il passe jeudi.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "choque"
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase"
+        }
+      ]
+    },
+    {
+      "texte": "On est lundi.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste"
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Il a dit « jeudi au plus vite ».",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase"
+        }
+      ]
+    },
+    {
+      "texte": "Jeudi. Le technicien arrive.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "assistante",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Elle remarche. Toute seule.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "choque"
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase"
+        }
+      ]
+    },
+    {
+      "texte": "Jeudi soir. Le technicien repart.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Le fauteuil ne monte plus.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "brasD": "bas",
+          "propD": null
         }
       ]
     }

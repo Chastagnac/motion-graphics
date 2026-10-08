@@ -1,0 +1,287 @@
+{
+  "id": "C16-la-meme-question",
+  "serie": "IRRITANT",
+  "titre": "La même question",
+  "decor": "accueil",
+  "carrousel": [
+    2,
+    2,
+    2,
+    2,
+    3,
+    2,
+    1,
+    1
+  ],
+  "slides": [
+    {
+      "texte": "Cabinet dentaire, bonjour.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "C'est pour mes résultats de radio.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Le docteur vous rappelle ce soir.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Parfait. Merci.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Une heure plus tard.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "C'est encore moi. Pour la radio.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Toujours ce soir.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Je vérifiais que ça n'avait pas changé.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Une heure plus tard.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "triste",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Ce soir.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "fache",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Je n'ai encore rien dit.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "18h. Le docteur le rappelle.",
+      "decor": "cabinet",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "propD": "telephone",
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Ça sonne occupé.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "propD": "telephone",
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Normal. Il est en ligne avec moi.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Sans nouvelles, un patient rappelle. Puis rappelle.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    }
+  ],
+  "legende": "Combien de fois un même patient peut-il rappeler dans la journée ?"
+}

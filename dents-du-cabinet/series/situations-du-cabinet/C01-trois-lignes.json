@@ -1,0 +1,269 @@
+{
+  "id": "C01-trois-lignes",
+  "serie": "IRRITANT",
+  "titre": "Trois lignes",
+  "decor": "accueil",
+  "carrousel": [
+    1,
+    2,
+    2,
+    1,
+    2,
+    1,
+    2,
+    2
+  ],
+  "slides": [
+    {
+      "texte": "Cabinet dentaire, bonjour.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Bonjour ! C'est moi, 8h.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "leve",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Je suis à vous. Ne quittez pas.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Je ne quitte pas, je suis devant vous.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "juge",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Pas vous. Lui.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "juge",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "La deuxième ligne sonne.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "choque",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Tu as vu mon planning ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "incisive",
+          "expression": "panique",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Ne quittez pas.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        },
+        {
+          "dent": "incisive",
+          "expression": "fache",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Moi non plus ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste"
+        },
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Vous, salle d'attente. Lui, jeudi 14h.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        },
+        {
+          "dent": "incisive",
+          "expression": "juge",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Toi, ton planning est sur ton bureau.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "choque"
+        },
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "8h04. Il reste neuf heures.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase"
+        }
+      ]
+    },
+    {
+      "texte": "Une personne à l'accueil. Jamais une seule demande.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera"
+        }
+      ]
+    }
+  ],
+  "legende": "Combien de choses à la fois, chez vous, à 8h ?"
+}

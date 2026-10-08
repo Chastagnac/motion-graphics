@@ -1,0 +1,418 @@
+{
+  "id": "H02-la-porte-ouverte",
+  "titre": "La porte ouverte",
+  "serie": "vecu",
+  "fond": "#FFB3A7",
+  "T": 40,
+  "version": 1791411577219,
+  "video": null,
+  "planche": null,
+  "carrousel": [
+    {
+      "image": "carrousel/H02-la-porte-ouverte-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/H02-la-porte-ouverte-2.png",
+      "cases": [
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/H02-la-porte-ouverte-3.png",
+      "cases": [
+        4
+      ]
+    },
+    {
+      "image": "carrousel/H02-la-porte-ouverte-4.png",
+      "cases": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "image": "carrousel/H02-la-porte-ouverte-5.png",
+      "cases": [
+        8,
+        9
+      ]
+    },
+    {
+      "image": "carrousel/H02-la-porte-ouverte-6.png",
+      "cases": [
+        10
+      ]
+    },
+    {
+      "image": "carrousel/H02-la-porte-ouverte-7.png",
+      "cases": [
+        11,
+        12
+      ]
+    },
+    {
+      "image": "carrousel/H02-la-porte-ouverte-8.png",
+      "cases": [
+        13,
+        14
+      ]
+    },
+    {
+      "image": "carrousel/H02-la-porte-ouverte-9.png",
+      "cases": [
+        15,
+        16
+      ]
+    },
+    {
+      "image": "carrousel/H02-la-porte-ouverte-10.png",
+      "cases": [
+        17
+      ]
+    }
+  ],
+  "legende": "Votre patient le plus courageux, c'était qui ?",
+  "source": "../../series/petites-histoires/H02-la-porte-ouverte.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 3.2,
+      "texte": "Il n'est pas venu depuis dix ans.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "lait",
+          "expression": null,
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 3.2,
+      "duree": 2.1,
+      "texte": "Vous avez rendez-vous ?",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": null,
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.3,
+      "duree": 2.5,
+      "texte": "Oui. Mais je peux repartir.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.8,
+      "duree": 2.7,
+      "texte": "Asseyez-vous. Je laisse la porte ouverte.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 10.5,
+      "duree": 2.5,
+      "texte": "Dans la salle de soins.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": null,
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 13,
+      "duree": 2.5,
+      "texte": "Qu'est-ce qui vous fait peur ?",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 15.5,
+      "duree": 1.8,
+      "texte": "Tout.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "panique",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 17.3,
+      "duree": 2.5,
+      "texte": "Alors on commence par rien.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 19.8,
+      "duree": 1.8,
+      "texte": "Rien ?",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 21.6,
+      "duree": 2.5,
+      "texte": "Aujourd'hui, je regarde. C'est tout.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 24.1,
+      "duree": 2.3,
+      "texte": "Dix minutes plus tard.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 26.4,
+      "duree": 2.1,
+      "texte": "C'est déjà fini ?",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "t0": 28.5,
+      "duree": 2.1,
+      "texte": "Pour aujourd'hui, oui.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "malin",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "t0": 30.6,
+      "duree": 2.7,
+      "texte": "J'ai attendu dix ans pour ça.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "t0": 33.3,
+      "duree": 1.9,
+      "texte": "À l'accueil.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "t0": 35.2,
+      "duree": 2.3,
+      "texte": "Je peux revenir jeudi ?",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "t0": 37.5,
+      "duree": 2.5,
+      "texte": "Je laisserai la porte ouverte.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

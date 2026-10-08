@@ -3,11 +3,204 @@
   "serie": "IRRITANT",
   "titre": "Docteur Internet",
   "decor": "cabinet",
+  "carrousel": [
+    1,
+    2,
+    2,
+    1,
+    2,
+    1,
+    2
+  ],
   "slides": [
     {
       "texte": "J'ai regardé sur internet.",
       "voix": "lait",
-      "duree": 2.8,
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "brasG": "bas",
+          "brasD": "leve",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null
+        }
+      ]
+    },
+    {
+      "texte": "Et internet dit quoi ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "brasG": "hanche",
+          "propG": null
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Qu'il me reste trois jours.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "brasG": "hanche",
+          "propG": null
+        },
+        {
+          "dent": "lait",
+          "expression": "panique",
+          "brasG": "bas",
+          "propD": "telephone",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Montrez-moi.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "brasG": "hanche",
+          "propG": null
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "J'ai déjà prévenu ma famille.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "brasG": "hanche",
+          "propG": null
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "C'est un aphte.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "brasG": "hanche",
+          "propG": null
+        },
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Vous êtes sûr ?",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "brasG": "hanche",
+          "propG": null
+        },
+        {
+          "dent": "lait",
+          "expression": "juge",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "J'ai fait six ans d'études.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "fache",
+          "brasG": "hanche",
+          "propG": null
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Le forum avait l'air sûr aussi.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "brasG": "hanche",
+          "propG": null
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Le lendemain.",
       "personnages": [
         {
           "dent": "docteur",
@@ -17,84 +210,26 @@
           "dent": "lait",
           "brasG": "bas",
           "brasD": "leve",
-          "jambes": "debout",
-          "expression": "regard_camera",
           "propD": "telephone",
-          "depart": {
-            "brasD": "tient"
-          },
-          "animations": [
-            "brasD:leve à 0.7s"
-          ]
+          "propG": null
         }
       ]
     },
     {
-      "texte": "Et internet dit quoi ?",
-      "voix": "docteur",
-      "duree": 2.4,
-      "personnages": [
-        {
-          "dent": "docteur",
-          "expression": "blase",
-          "brasG": "hanche"
-        },
-        {
-          "dent": "lait",
-          "brasG": "bas",
-          "brasD": "tient",
-          "jambes": "debout",
-          "expression": "neutre",
-          "propD": "telephone"
-        }
-      ]
-    },
-    {
-      "texte": "Qu'il me reste trois jours.",
+      "texte": "J'ai encore regardé sur internet.",
       "voix": "lait",
-      "duree": 2.6,
       "personnages": [
         {
           "dent": "docteur",
-          "expression": "blase",
-          "brasG": "hanche",
-          "animations": [
-            "sourcil:leve à 1.2s"
-          ]
+          "expression": "blase"
         },
         {
           "dent": "lait",
           "expression": "panique",
           "brasG": "bas",
-          "brasD": "tient",
+          "brasD": "leve",
           "propD": "telephone",
-          "animations": [
-            "prop:telephone:vibre à 0.4s pendant 1.8s"
-          ]
-        }
-      ]
-    },
-    {
-      "texte": "C'est un aphte.",
-      "voix": "docteur",
-      "duree": 2.4,
-      "personnages": [
-        {
-          "dent": "docteur",
-          "expression": "blase",
-          "brasG": "hanche",
-          "brasD": "pointe"
-        },
-        {
-          "dent": "lait",
-          "brasG": "bas",
-          "brasD": "tient",
-          "jambes": "debout",
-          "expression": "regard_camera",
-          "propD": "telephone",
-          "animations": [
-            "clignement à 1.6s"
-          ]
+          "propG": null
         }
       ]
     }

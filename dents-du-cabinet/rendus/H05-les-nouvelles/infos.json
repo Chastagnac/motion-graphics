@@ -1,0 +1,350 @@
+{
+  "id": "H05-les-nouvelles",
+  "titre": "Les nouvelles",
+  "serie": "vecu",
+  "fond": "#FFB3A7",
+  "T": 33.4,
+  "version": 1791411595542,
+  "video": null,
+  "planche": null,
+  "carrousel": [
+    {
+      "image": "carrousel/H05-les-nouvelles-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/H05-les-nouvelles-2.png",
+      "cases": [
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/H05-les-nouvelles-3.png",
+      "cases": [
+        4,
+        5
+      ]
+    },
+    {
+      "image": "carrousel/H05-les-nouvelles-4.png",
+      "cases": [
+        6,
+        7
+      ]
+    },
+    {
+      "image": "carrousel/H05-les-nouvelles-5.png",
+      "cases": [
+        8
+      ]
+    },
+    {
+      "image": "carrousel/H05-les-nouvelles-6.png",
+      "cases": [
+        9
+      ]
+    },
+    {
+      "image": "carrousel/H05-les-nouvelles-7.png",
+      "cases": [
+        10
+      ]
+    },
+    {
+      "image": "carrousel/H05-les-nouvelles-8.png",
+      "cases": [
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "image": "carrousel/H05-les-nouvelles-9.png",
+      "cases": [
+        14
+      ]
+    }
+  ],
+  "legende": "Qui a aussi une patiente qui vient surtout pour discuter ?",
+  "source": "../../series/petites-histoires/H05-les-nouvelles.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 3.2,
+      "texte": "Tous les six mois. Depuis trente ans.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "sagesse",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 3.2,
+      "duree": 2.5,
+      "texte": "Bonjour docteure. Rien de neuf.",
+      "voix": "sagesse",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "sagesse",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.7,
+      "duree": 1.8,
+      "texte": "Installez-vous.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "sagesse",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.5,
+      "duree": 2.5,
+      "texte": "Mon petit-fils passe son permis.",
+      "voix": "sagesse",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "sagesse",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 10,
+      "duree": 1.9,
+      "texte": "Ouvrez grand.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "sagesse",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 11.9,
+      "duree": 2.5,
+      "texte": "Et ma voisine a déménagé.",
+      "voix": "sagesse",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "sagesse",
+          "expression": "malin",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 14.4,
+      "duree": 2.3,
+      "texte": "Vous n'avez aucune carie.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "sagesse",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 16.7,
+      "duree": 2.5,
+      "texte": "Je n'en ai jamais eu.",
+      "voix": "sagesse",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "sagesse",
+          "expression": "malin",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 19.2,
+      "duree": 2.7,
+      "texte": "Alors pourquoi tous les six mois ?",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "sagesse",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 21.9,
+      "duree": 2.9,
+      "texte": "Ici, on m'écoute. Même la bouche ouverte.",
+      "voix": "sagesse",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "sagesse",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "choque",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 24.8,
+      "duree": 2.3,
+      "texte": "Elle a repris rendez-vous.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 27.1,
+      "duree": 2.1,
+      "texte": "Mets-lui trente minutes.",
+      "voix": "docteure",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "t0": 29.2,
+      "duree": 2.1,
+      "texte": "Pour un contrôle ?",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "malin",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "t0": 31.3,
+      "duree": 2.1,
+      "texte": "Pour les nouvelles.",
+      "voix": "docteure",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

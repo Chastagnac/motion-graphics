@@ -10,7 +10,8 @@
   const INK = '#141413';
   const COLORS = {
     blanc: '#FFFFFF', vert: '#2BA58A', rouge: '#E2553F', bleu: '#2F4FD8',
-    cafe: '#F2A93B', goutte: '#2F8FE0', postit: '#FFE45C', calot: '#8EC5FF', masque: '#BFE3F5'
+    cafe: '#F2A93B', goutte: '#2F8FE0', postit: '#FFE45C', calot: '#8EC5FF', masque: '#BFE3F5',
+    ombre: '#DCE3EE', vertOmbre: '#228C75', joue: '#FF9A9A'
   };
   const W = 200, H = 260, SOL = 248;
 
@@ -55,21 +56,21 @@
     /* Les dentistes : humains bâton en blouse, dans le même cadre que les dents. */
     docteur: {
       type: 'humain', nom: 'Le docteur', role: 'Dentiste',
-      dessin: () => blouse(),
+      dessin: (u) => blouse(u),
       hanches: [[90, 186], [110, 186]], epaules: [[79, 116], [121, 116]],
       visage: { x: 100, y: 68, s: 13, k: 1 }, haut: 24,
       defaut: { expression: 'content', brasG: 'bas', brasD: 'tient', propD: 'miroir', masque: 'menton' }
     },
     docteure: {
       type: 'humain', nom: 'La docteure', role: 'Dentiste',
-      dessin: () => blouse(),
+      dessin: (u) => blouse(u),
       hanches: [[90, 186], [110, 186]], epaules: [[79, 116], [121, 116]],
       visage: { x: 100, y: 68, s: 13, k: 1 }, haut: 18,
       defaut: { expression: 'malin', brasG: 'hanche', brasD: 'tient', propD: 'sonde' }
     },
     collaborateur: {
       type: 'humain', nom: 'Le collaborateur', role: 'Jeune dentiste',
-      dessin: () => blouse(),
+      dessin: (u) => blouse(u),
       hanches: [[90, 186], [110, 186]], epaules: [[79, 116], [121, 116]],
       visage: { x: 100, y: 68, s: 13, k: 1 }, haut: 28,
       defaut: { expression: 'panique', brasG: 'tient', propG: 'bloc', brasD: 'bas' }
@@ -77,7 +78,7 @@
     /* L'assistante : humaine bâton en tunique verte, queue de cheval. */
     assistante: {
       type: 'humain', nom: "L'assistante", role: 'Assistante dentaire',
-      dessin: () => tunique(),
+      dessin: (u) => tunique(u),
       hanches: [[90, 186], [110, 186]], epaules: [[79, 116], [121, 116]],
       visage: { x: 100, y: 68, s: 13, k: 1 }, haut: 30,
       defaut: { expression: 'content', brasG: 'bas', brasD: 'tient', propD: 'aspiration' }
@@ -85,19 +86,27 @@
   };
   Object.keys(BODIES).forEach((k) => { if (!BODIES[k].type) BODIES[k].type = 'dent'; });
 
-  function blouse() {
+  /* Tête des humains : un croissant d'ombre à droite, sous le contour. */
+  const tete = (u) => `<defs><clipPath id="dc-tete-${u}"><circle cx="100" cy="70" r="34"/></clipPath></defs>` +
+    `<circle cx="100" cy="70" r="34" fill="${COLORS.ombre}" stroke="none"/>` +
+    `<circle cx="94" cy="67" r="34" fill="${COLORS.blanc}" stroke="none" clip-path="url(#dc-tete-${u})"/>` +
+    `<circle cx="100" cy="70" r="34"/>`;
+
+  function blouse(u) {
     return `<path d="M80 106 L120 106 L136 188 L64 188 Z" fill="${COLORS.blanc}"/>` +
+      `<path d="M110 109 L117.5 109 L132 185 L121 185 Z" fill="${COLORS.ombre}" stroke="none"/>` +
       `<path d="M88 106 L100 126 L112 106" stroke-width="4"/>` +
       `<path d="M110 146 L126 146 L127 160 L111 160 Z" stroke-width="3.5"/>` +
       `<path d="M116 146 L116 137" stroke="${COLORS.bleu}" stroke-width="3.5"/>` +
-      `<circle cx="100" cy="70" r="34" fill="${COLORS.blanc}"/>`;
+      tete(u);
   }
 
-  function tunique() {
+  function tunique(u) {
     return `<path d="M80 106 L120 106 L136 188 L64 188 Z" fill="${COLORS.vert}"/>` +
+      `<path d="M112 109 L117.5 109 L132 185 L122 185 Z" fill="${COLORS.vertOmbre}" stroke="none"/>` +
       `<path d="M88 106 L100 124 L112 106 Z" fill="${COLORS.blanc}" stroke-width="4"/>` +
       `<rect x="79" y="142" width="14" height="9" rx="2" fill="${COLORS.blanc}" stroke-width="3"/>` +
-      `<circle cx="100" cy="70" r="34" fill="${COLORS.blanc}"/>`;
+      tete(u);
   }
 
   /* Accessoire fixe de chaque personnage : il ne change jamais. */
@@ -251,7 +260,20 @@
     }
   };
 
-  /* ---------- 7. ASSEMBLAGE ---------- */
+  /* ---------- 7. FINITIONS ---------- */
+  // Mains et chaussures sont des marqueurs SVG posés au bout des traits : les tracés des bras et des
+  // jambes ne changent pas, et la main ou le pied suit le trait quand une animation le déplace.
+  const marqueur = (nom, inner) => `<marker id="${nom}" markerUnits="userSpaceOnUse" markerWidth="60" markerHeight="40" refX="30" refY="20" viewBox="0 0 60 40" overflow="visible">${inner}</marker>`;
+  const finitions = (humain, u) => `<defs>` +
+    marqueur('dc-main-' + u, `<circle cx="30" cy="20" r="5.4" fill="${COLORS.blanc}" stroke="${INK}" stroke-width="3.6"/>`) +
+    [['G', 13, 35], ['D', 25, 47]].map(([c, x0, x1]) => marqueur('dc-pied-' + u + c,
+      `<path d="M${x0} 21 A11 9 0 0 1 ${x1} 21 Z" fill="${humain ? COLORS.blanc : INK}" stroke="${INK}" stroke-width="3.6" stroke-linejoin="round"/>`)).join('') +
+    `</defs>`;
+
+  /* ---------- 8. ASSEMBLAGE ---------- */
+  // Chaque dessin porte ses propres marqueurs et masques, sous un numéro à lui : une page qui montre et
+  // cache des cases ne peut pas faire dépendre un personnage visible d'une définition cachée.
+  let numero = 0;
   const pts = (arr) => 'M' + arr.map((p) => p.join(' ')).join(' L');
 
   function renderTooth(pose, opts) {
@@ -268,12 +290,16 @@
     const effets = [].concat(ex.effets || [], p.effets || []);
     const sig = SIGNATURES[id] || {};
     const { x, y, s, k } = b.visage;
-    let o = '';
+    const u = ++numero, humain = b.type === 'humain', pied = 'dc-pied-' + u;
+    let o = finitions(humain, u);
 
     // jambes
-    o += `<path d="${JAMBES[p.jambes](b.hanches[0], -1)}"/><path d="${JAMBES[p.jambes](b.hanches[1], 1)}"/>`;
-    // corps
-    o += b.dessin ? b.dessin() : `<path d="${b.path}" fill="${COLORS.blanc}"/>`;
+    o += `<path d="${JAMBES[p.jambes](b.hanches[0], -1)}" marker-end="url(#${pied}G)"/><path d="${JAMBES[p.jambes](b.hanches[1], 1)}" marker-end="url(#${pied}D)"/>`;
+    // corps : une dent a un croissant d'ombre à droite, sous son contour
+    o += b.dessin ? b.dessin(u) : `<defs><clipPath id="dc-corps-${u}"><path d="${b.path}" transform="translate(7 4)"/></clipPath></defs>` +
+      `<path d="${b.path}" fill="${COLORS.ombre}" stroke="none"/>` +
+      `<path d="${b.path}" fill="${COLORS.blanc}" stroke="none" transform="translate(-7 -4)" clip-path="url(#dc-corps-${u})"/>` +
+      `<path d="${b.path}"/>`;
     if (sig.apresCorps) o += sig.apresCorps(b);
     // bras et objets
     const props = [];
@@ -282,10 +308,11 @@
       if (!a) return;
       const [ex0, ey0] = b.epaules[i];
       const abs = a.d.map(([ax, ay]) => [ex0 + ax * m, ey0 + ay]);
-      o += `<path d="${pts(abs)}"/>`;
+      o += `<path d="${pts(abs)}" marker-end="url(#dc-main-${u})"/>`;
       if (p[pk] && PROPS[p[pk]]) props.push(PROPS[p[pk]](ex0 + a.main[0] * m, ey0 + a.main[1]));
     });
-    // visage
+    // visage : deux joues roses, puis l'accessoire, puis les traits
+    o += [-1, 1].map((c) => `<circle cx="${x + c * (s + 8 * k)}" cy="${y + 13 * k}" r="${5.5 * k}" fill="${COLORS.joue}" stroke="none" opacity="0.6"/>`).join('');
     if (sig.avantVisage) o += sig.avantVisage(b);
     const by = -14 * k, my = 24 * k;
     o += `<g stroke-width="${5 * k}">`;

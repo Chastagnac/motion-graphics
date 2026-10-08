@@ -1,0 +1,327 @@
+// Mise en scène de « Côté fauteuil », version longue : qui est dans chaque case, et dans quelle pose.
+// Le texte, lui, vit dans histoires/cote-fauteuil.md. Une ligne par case, dans l'ordre du texte.
+//
+//   N: personnage [expression] [options] | personnage ... ; decor=accueil places=2
+//
+// Options : g:<bras gauche> d:<bras droit> pg:<objet gauche> pd:<objet droit> (« - » = rien)
+//           j:<jambes> p:<place> calme (bras baissés, debout, mains vides)
+// Ce qui n'est pas écrit garde la pose par défaut du personnage. « decor= » vaut jusqu'au suivant.
+// Puis : node .claude/skills/dents-strip/scripts/histoire.js <histoires.md> <ce fichier>
+
+# F01
+1: docteure content g:salut d:bas
+2: docteure content g:salut d:bas | incisive neutre
+3: docteure content g:bas d:bas | incisive content
+4: docteure regard_camera g:bas d:bas | lait
+5: docteure regard_camera g:bas d:bas | lait
+6: docteure juge g:hanche d:bas | lait neutre calme
+7: docteure blase g:hanche d:bas | lait content g:haussement d:haussement j:debout
+8: docteure juge g:hanche d:bas | lait neutre calme
+9: docteure regard_camera g:hanche d:bas | lait content calme
+10: docteure blase g:bas d:bas | incisive blase
+
+# F02
+1: docteur content | lait
+2: docteur content | lait triste calme
+3: docteur neutre | lait juge calme
+4: docteur content | lait triste calme
+5: docteur regard_camera | lait choque
+6: docteur blase | lait regard_camera calme
+7: docteur blase | lait content calme
+8: docteur regard_camera | assistante blase
+9: docteur content | lait neutre calme
+10: docteur content | lait choque calme
+11: docteur regard_camera | lait triste calme
+
+# F03
+1: docteur content | lait neutre calme
+2: docteur neutre | lait content g:hanche d:hanche j:debout
+3: docteur juge | lait content g:hanche d:hanche j:debout
+4: docteur juge | lait malin g:hanche d:hanche j:debout
+5: docteur juge | lait regard_camera g:hanche d:hanche j:debout
+6: docteur blase | lait panique calme
+7: docteur blase | lait triste calme
+8: docteur regard_camera | lait content calme
+9: docteur juge | lait panique
+10: docteur regard_camera | lait malin calme
+
+# F04
+1: collaborateur content g:bas | docteure neutre d:bas
+2: collaborateur content g:bas | docteure malin d:hanche
+3: collaborateur choque g:bas | docteure malin d:hanche
+4: collaborateur regard_camera g:bas | docteure blase d:hanche
+5: collaborateur neutre g:bas | docteure blase d:hanche
+6: collaborateur choque g:bas | docteure neutre d:hanche
+7: collaborateur neutre g:bas | docteure neutre d:hanche
+8: collaborateur triste g:bas | docteure malin d:leve
+9: collaborateur triste g:bas | docteure blase d:hanche
+10: collaborateur regard_camera g:bas | docteure blase d:hanche
+
+# F05
+1: incisive
+2: docteur neutre g:hanche | incisive
+3: docteur blase g:hanche | incisive
+4: docteur neutre g:hanche | incisive neutre
+5: docteur triste g:hanche | incisive blase
+6: docteur neutre g:hanche | incisive neutre
+7: docteur neutre g:hanche | incisive neutre
+8: docteur regard_camera g:hanche | incisive juge
+9: docteur blase g:hanche | incisive neutre
+10: docteur regard_camera g:hanche | incisive blase
+
+# F06
+1: docteure content g:bas d:bas | sagesse content
+2: docteure content g:bas d:bas | sagesse content
+3: docteure content g:bas d:bas | sagesse malin
+4: docteure regard_camera g:bas d:bas
+5: docteure triste g:bas d:bas | sagesse malin g:pointe
+6: docteure blase g:bas d:bas | sagesse neutre
+7: docteure triste g:bas d:bas | sagesse content
+8: docteure content g:bas d:bas | molaire content
+9: docteure regard_camera g:bas d:bas | molaire content
+10: docteure malin g:bas d:bas | molaire neutre
+11: docteure regard_camera g:bas d:bas | molaire content
+
+# F07
+1: docteur content | lait regard_camera g:bas d:leve pd:telephone j:debout
+2: docteur blase g:hanche | lait neutre g:bas pd:telephone j:debout
+3: docteur blase g:hanche | lait panique g:bas pd:telephone
+4: docteur neutre g:hanche | lait triste g:bas pd:telephone j:debout
+5: docteur regard_camera g:hanche | lait triste g:bas pd:telephone j:debout
+6: docteur blase g:hanche | lait regard_camera g:bas pd:telephone j:debout
+7: docteur blase g:hanche | lait juge g:bas pd:telephone j:debout
+8: docteur fache g:hanche | lait neutre g:bas pd:telephone j:debout
+9: docteur regard_camera g:hanche | lait malin g:bas pd:telephone j:debout
+10: docteur content | lait g:bas d:leve pd:telephone
+11: docteur blase | lait panique g:bas d:leve pd:telephone
+
+# F08
+1: canine content g:hanche d:bas | docteur neutre
+2: canine neutre g:hanche d:bas | docteur triste
+3: canine blase g:hanche d:bas | docteur triste
+4: canine neutre g:hanche d:bas | docteur content
+5: canine malin g:hanche d:bas | docteur content
+6: canine juge g:hanche d:hanche | docteur triste
+7: canine regard_camera g:hanche d:hanche | docteur blase pd:cafe
+8: canine juge g:hanche d:hanche | docteur neutre pd:cafe
+9: canine blase g:hanche d:hanche | docteur content pd:cafe
+10: canine regard_camera g:hanche d:hanche | docteur content pd:cafe
+
+# F09
+1: docteure content g:hanche d:pointe pd:bloc | lait neutre calme
+2: docteure content g:hanche d:pointe pd:bloc | lait regard_camera calme
+3: docteure content g:hanche d:bas | lait content calme
+4: docteure neutre g:hanche d:bas | incisive
+5: docteure neutre g:hanche d:bas | incisive neutre
+6: docteure blase g:hanche d:bas | incisive blase
+7: docteure neutre g:hanche d:bas p:1 ; places=2
+8: docteure juge g:hanche d:bas | lait neutre calme
+9: docteure juge g:hanche d:bas | lait triste calme
+10: docteure blase g:hanche d:bas | lait
+11: docteure malin g:hanche d:pointe pd:bloc | lait choque calme
+12: docteure malin g:hanche d:pointe pd:bloc | lait panique
+13: docteure blase g:hanche d:pointe pd:bloc | lait regard_camera calme
+
+# F10
+1: collaborateur | docteure neutre
+2: collaborateur | docteure neutre
+3: collaborateur triste | docteure blase
+4: collaborateur | docteure content
+5: collaborateur content | docteure content
+6: collaborateur choque | docteure malin g:hanche d:pointe | lait g:bas d:bas
+7: docteure neutre | lait g:bas d:bas
+8: docteure content | lait triste calme
+9: collaborateur triste | docteure regard_camera | lait panique
+10: collaborateur content | lait triste calme
+11: collaborateur content g:leve | lait choque calme
+12: collaborateur content | lait triste calme
+
+# F11
+1: incisive neutre pd:telephone | docteure neutre d:bas
+2: incisive neutre pd:telephone | docteure content d:hanche
+3: incisive neutre pd:telephone | docteure content d:hanche
+4: incisive blase pd:telephone | docteure content d:hanche
+5: incisive blase pd:telephone | docteure choque d:hanche
+6: incisive neutre pd:telephone | docteure fache d:hanche
+7: incisive juge pd:telephone | docteure blase d:bas
+8: incisive neutre pd:telephone | docteure triste d:bas
+9: incisive blase pd:telephone | docteure triste d:bas
+10: incisive juge pd:telephone | docteure regard_camera d:bas
+
+# F12
+1: docteure content | canine neutre g:hanche pd:telephone
+2: docteure content | canine content g:hanche pd:telephone
+3: docteure content | canine content g:hanche pd:telephone
+4: docteure juge | canine neutre g:hanche pd:telephone
+5: docteure blase | canine regard_camera g:hanche pd:telephone
+6: docteure fache | canine neutre g:hanche pd:telephone
+7: docteure blase | canine triste g:hanche pd:telephone
+8: docteure neutre | canine content g:hanche d:bas
+9: docteure content | canine content g:leve d:bas
+10: docteure juge | canine choque g:hanche d:bas
+11: docteure regard_camera | canine triste g:hanche pd:telephone
+
+# F13
+1: assistante content g:hanche d:bas | docteur neutre
+2: assistante content g:hanche d:bas | docteur content d:pointe
+3: assistante blase g:bas d:bas | docteur content d:pointe
+4: assistante neutre g:bas d:bas p:1 ; places=2
+5: assistante content g:hanche d:bas | docteur neutre
+6: assistante choque g:hanche d:bas | docteur content d:pointe
+7: assistante blase g:bas d:bas | docteur neutre
+8: assistante juge g:bas d:pointe | docteur neutre
+9: assistante blase g:bas d:bas | docteur content d:pointe
+10: assistante regard_camera g:bas d:bas | docteur content
+
+# F14
+1: docteur neutre g:hanche | assistante neutre g:bas d:bas
+2: docteur regard_camera g:hanche | assistante content g:pointe pg:sonde d:bas
+3: docteur neutre g:hanche | assistante neutre g:bas d:bas
+4: docteur choque g:hanche | assistante blase g:bas d:bas
+5: docteur content g:hanche | assistante neutre g:bas d:bas
+6: docteur content g:hanche | assistante malin g:hanche d:bas
+7: docteur malin g:hanche | assistante neutre g:hanche d:bas
+8: docteur choque g:hanche | assistante blase g:hanche d:bas
+9: docteur content g:hanche | assistante blase g:hanche d:bas
+10: docteur triste g:haussement | assistante blase g:bas d:bas
+11: docteur regard_camera g:hanche | assistante blase g:pointe d:bas
+
+# F15
+1: docteur content g:salut d:bas p:1 ; places=2
+2: docteur regard_camera g:bas d:bas | molaire juge pd:bloc
+3: docteur triste g:bas d:bas | molaire neutre pd:bloc
+4: docteur panique g:bas d:bas | molaire juge pd:bloc
+5: docteur choque g:bas d:bas | molaire neutre pd:bloc
+6: docteur triste g:bas d:bas | molaire juge pd:bloc
+7: docteur content g:bas d:bas | molaire juge pd:bloc
+8: docteur regard_camera g:bas d:bas | molaire blase pd:bloc
+9: docteur triste g:bas d:bas | molaire juge pd:bloc
+10: docteur blase g:bas d:bas | molaire neutre pd:bloc
+11: docteur content g:leve d:leve | molaire neutre
+12: docteur regard_camera g:bas d:bas | molaire juge pd:bloc
+
+# F16
+1: docteur content | assistante content
+2: docteur choque | assistante neutre
+3: docteur triste | assistante neutre
+4: docteur regard_camera | assistante blase
+5: docteur neutre | assistante neutre
+6: docteur choque | assistante blase
+7: docteur triste | assistante neutre
+8: docteur regard_camera | assistante blase
+9: docteur content | assistante content
+10: docteur choque | assistante blase
+11: docteur content | assistante neutre
+12: docteur regard_camera | assistante blase d:bas
+
+# F17
+1: incisive neutre pd:telephone | molaire neutre
+2: incisive neutre pd:telephone | molaire juge
+3: incisive blase pd:telephone | molaire juge
+4: incisive regard_camera pd:telephone | molaire fache
+5: incisive neutre pd:telephone | molaire juge
+6: incisive blase pd:telephone | molaire blase
+7: incisive neutre pd:telephone | molaire juge
+8: incisive regard_camera pd:telephone | molaire blase
+9: incisive neutre pd:telephone | molaire neutre g:pointe
+10: incisive blase pd:telephone | molaire fache
+11: incisive malin pd:telephone | molaire juge
+12: incisive regard_camera pd:telephone | molaire fache ; plan=drame
+
+# F18
+1: docteur content | lait fache g:croise d:croise j:debout
+2: docteur neutre | lait fache g:croise d:croise j:debout
+3: docteur malin pg:postit | lait juge g:croise d:croise j:debout
+4: docteur regard_camera pg:postit | lait malin g:hanche d:hanche j:debout
+5: docteur blase pg:postit | lait malin g:hanche d:hanche j:debout
+6: docteur triste pg:postit | lait content g:hanche d:hanche j:debout
+7: docteur content pg:postit | lait juge g:croise d:croise j:debout
+8: docteur blase pg:postit | lait malin g:croise d:croise j:debout
+9: docteur triste pg:postit | lait fache g:croise d:croise j:debout
+10: docteur choque pg:postit | lait malin g:hanche d:hanche j:debout
+11: docteur blase | lait content g:bas pd:postit j:debout
+12: docteur regard_camera | lait malin g:bas pd:postit j:debout
+
+# F19
+1: docteure content | lait neutre calme
+2: docteure neutre | lait regard_camera calme
+3: docteure juge | lait regard_camera calme
+4: docteure content | lait panique g:leve d:leve j:debout
+5: docteure content | lait neutre calme
+6: docteure neutre | lait choque calme
+7: docteure regard_camera | lait panique
+8: docteure blase | lait triste calme
+9: docteure regard_camera | lait triste calme
+10: lait panique calme ; decor=reunion
+11: lait content g:salut d:bas j:debout | molaire juge | sagesse blase
+
+# F20
+1: docteur neutre g:hanche | molaire neutre
+2: docteur choque g:hanche | molaire content
+3: docteur triste g:hanche | molaire neutre
+4: docteur content g:hanche | molaire content
+5: docteur content g:leve | molaire neutre
+6: docteur triste g:bas | molaire juge
+7: docteur neutre g:bas | molaire juge
+8: docteur triste g:bas | molaire blase
+9: docteur content g:haussement | molaire juge
+10: docteur choque g:bas | molaire neutre
+11: docteur triste g:bas | molaire neutre
+12: docteur regard_camera g:bas | molaire blase d:pointe
+
+# F21
+1: assistante content g:bas d:bas | lait neutre calme
+2: assistante content g:bas d:bas | lait neutre calme
+3: assistante neutre g:bas d:bas | lait
+4: assistante juge g:hanche d:bas | lait
+5: assistante regard_camera g:hanche d:bas | lait triste g:bas d:bas j:tremble
+6: assistante content g:hanche d:bas | lait triste calme
+7: assistante blase g:hanche d:bas | lait panique
+8: assistante content g:bas d:bas | lait panique
+9: assistante neutre g:bas d:bas | lait panique
+10: assistante blase g:bas d:pointe | lait triste g:bas d:bas j:tremble
+11: assistante content g:bas d:bas | lait neutre calme
+12: assistante content g:bas d:bas | lait content g:leve d:leve j:debout
+13: assistante blase g:bas d:bas | lait choque calme
+
+# F22
+1: assistante content g:hanche d:bas | docteure neutre d:bas
+2: assistante content g:hanche d:bas | docteure choque g:bas d:bas
+3: assistante blase g:hanche d:bas | docteure triste g:bas d:bas
+4: assistante malin g:hanche d:bas | docteure panique g:bas d:bas
+5: assistante regard_camera g:hanche d:bas | docteure triste g:haussement d:haussement
+6: assistante blase g:hanche pd:bloc | docteure content g:bas d:bas
+7: docteure panique g:bas d:bas
+8: docteure panique g:bas pd:telephone
+9: docteure triste g:bas pd:telephone
+10: docteure panique g:bas pd:telephone
+11: assistante blase g:hanche pd:telephone ; decor=soiree
+12: docteure triste g:haussement d:haussement ; decor=cabinet
+
+# F23
+1: docteur content d:bas | lait content g:bas d:leve j:debout
+2: docteur content d:bas | lait content calme
+3: docteur content d:bas | lait content g:bas d:leve j:debout
+4: docteur neutre d:bas | lait content g:haussement d:haussement j:debout
+5: docteur blase d:bas | lait malin g:bas d:leve j:debout
+6: docteur blase d:bas | lait content g:haussement d:haussement j:debout
+7: docteur regard_camera d:bas | lait malin g:bas d:leve j:debout
+8: docteur triste d:bas | lait neutre calme
+9: docteur blase d:bas | lait content g:haussement d:haussement j:debout
+10: incisive juge | docteur triste d:bas | lait content calme
+11: incisive blase | docteur regard_camera d:bas | lait malin g:bas d:leve j:debout
+12: docteur triste d:bas | lait content g:bas d:leve j:debout
+
+# F24
+1: incisive neutre pd:bloc | lait content calme
+2: incisive neutre pd:bloc | lait content g:haussement d:haussement j:debout
+3: incisive juge pd:bloc | lait regard_camera calme
+4: incisive regard_camera pd:bloc | lait content g:hanche d:hanche j:debout
+5: incisive neutre pd:bloc | lait neutre calme
+6: incisive neutre pd:bloc | lait content calme
+7: incisive juge pd:bloc | lait content calme
+8: incisive regard_camera pd:bloc | lait malin g:hanche d:hanche j:debout
+9: incisive neutre pd:bloc | lait content calme
+10: incisive content pd:bloc | lait content calme
+11: incisive content pd:bloc | lait neutre calme
+12: incisive regard_camera pd:bloc | lait content g:haussement d:haussement j:debout

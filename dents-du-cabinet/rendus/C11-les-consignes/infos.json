@@ -1,0 +1,330 @@
+{
+  "id": "C11-les-consignes",
+  "titre": "Les consignes",
+  "serie": "vecu",
+  "fond": "#FFB3A7",
+  "T": 35,
+  "version": 1791445377156,
+  "video": null,
+  "planche": null,
+  "carrousel": [
+    {
+      "image": "carrousel/C11-les-consignes-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/C11-les-consignes-2.png",
+      "cases": [
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/C11-les-consignes-3.png",
+      "cases": [
+        4,
+        5
+      ]
+    },
+    {
+      "image": "carrousel/C11-les-consignes-4.png",
+      "cases": [
+        6,
+        7
+      ]
+    },
+    {
+      "image": "carrousel/C11-les-consignes-5.png",
+      "cases": [
+        8,
+        9
+      ]
+    },
+    {
+      "image": "carrousel/C11-les-consignes-6.png",
+      "cases": [
+        10,
+        11
+      ]
+    },
+    {
+      "image": "carrousel/C11-les-consignes-7.png",
+      "cases": [
+        12,
+        13
+      ]
+    },
+    {
+      "image": "carrousel/C11-les-consignes-8.png",
+      "cases": [
+        14
+      ]
+    }
+  ],
+  "legende": "Combien de temps vos patients retiennent-ils vos consignes ?",
+  "source": "../../series/situations-du-cabinet/C11-les-consignes.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 2.6,
+      "texte": "Trois consignes après l'extraction.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 2.6,
+      "duree": 2.9,
+      "texte": "Pas de bain de bouche ce soir.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.5,
+      "duree": 1.8,
+      "texte": "Noté.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.3,
+      "duree": 2.7,
+      "texte": "Rien de chaud. Pas de tabac.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 10,
+      "duree": 1.9,
+      "texte": "Noté, noté.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 11.9,
+      "duree": 2.3,
+      "texte": "Vous me les répétez ?",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 14.2,
+      "duree": 2.5,
+      "texte": "Pas de… Oui. Tout ça.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "panique",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 16.7,
+      "duree": 2.9,
+      "texte": "Sur le parking, trente secondes plus tard.",
+      "voix": null,
+      "decor": "sol",
+      "persos": [
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 19.6,
+      "duree": 2.5,
+      "texte": "Elle a dit quoi, déjà ?",
+      "voix": "lait",
+      "decor": "sol",
+      "persos": [
+        {
+          "dent": "lait",
+          "expression": "panique",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 22.1,
+      "duree": 2.1,
+      "texte": "Le lendemain, 8h01.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": null,
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 24.2,
+      "duree": 3.1,
+      "texte": "Le café, c'était avant le bain de bouche ?",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 27.3,
+      "duree": 2.3,
+      "texte": "Ni l'un ni l'autre.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "t0": 29.6,
+      "duree": 2.3,
+      "texte": "Ah. Et la cigarette ?",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "t0": 31.9,
+      "duree": 3.1,
+      "texte": "Ce qu'on dit au fauteuil reste au fauteuil.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

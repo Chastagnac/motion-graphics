@@ -6,6 +6,11 @@
   "carrousel": [
     1,
     2,
+    1,
+    2,
+    2,
+    1,
+    2,
     1
   ],
   "slides": [
@@ -16,12 +21,12 @@
       "personnages": [
         {
           "dent": "docteur",
-          "place": 1,
           "expression": "content",
           "brasG": "salut",
           "brasD": "bas",
-          "propD": null,
-          "masque": null
+          "place": 1,
+          "propG": null,
+          "propD": null
         }
       ]
     },
@@ -34,14 +39,14 @@
           "expression": "regard_camera",
           "brasG": "bas",
           "brasD": "bas",
-          "propD": null,
-          "masque": null
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "molaire",
           "expression": "juge",
-          "brasD": "tient",
-          "propD": "bloc"
+          "propD": "bloc",
+          "brasD": "tient"
         }
       ]
     },
@@ -54,14 +59,14 @@
           "expression": "triste",
           "brasG": "bas",
           "brasD": "bas",
-          "propD": null,
-          "masque": null
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "molaire",
           "expression": "neutre",
-          "brasD": "tient",
-          "propD": "bloc"
+          "propD": "bloc",
+          "brasD": "tient"
         }
       ]
     },
@@ -74,14 +79,171 @@
           "expression": "panique",
           "brasG": "bas",
           "brasD": "bas",
-          "propD": null,
-          "masque": null
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "molaire",
           "expression": "juge",
-          "brasD": "tient",
-          "propD": "bloc"
+          "propD": "bloc",
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "À ce point ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "propD": "bloc",
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Les devis, les courriers, les comptes rendus.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "propD": "bloc",
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Je les fais demain matin.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "propD": "bloc",
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Tu as dit ça hier.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "blase",
+          "propD": "bloc",
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Et avant-hier.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "propD": "bloc",
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "22h.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "propD": "bloc",
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Fini !",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasG": "leve",
+          "brasD": "leve",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Il reste la pile de mardi.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "propD": "bloc",
+          "brasD": "tient"
         }
       ]
     }

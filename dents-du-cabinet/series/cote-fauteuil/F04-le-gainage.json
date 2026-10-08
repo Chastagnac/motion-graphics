@@ -3,94 +3,193 @@
   "serie": "VECU",
   "titre": "Le gainage",
   "decor": "cabinet",
+  "carrousel": [
+    1,
+    2,
+    1,
+    2,
+    2,
+    1,
+    1
+  ],
   "slides": [
     {
       "texte": "Tu fais du sport, toi ?",
       "voix": "collaborateur",
-      "duree": 2.8,
       "personnages": [
         {
           "dent": "collaborateur",
+          "expression": "content",
           "brasG": "bas",
-          "propG": null,
-          "brasD": "bas",
-          "expression": "content"
+          "propG": null
         },
         {
           "dent": "docteure",
-          "brasG": "hanche",
+          "expression": "neutre",
           "brasD": "bas",
-          "propD": null,
-          "expression": "neutre"
+          "propD": null
         }
       ]
     },
     {
       "texte": "Huit heures de gainage par jour.",
       "voix": "docteure",
-      "duree": 2.8,
       "personnages": [
         {
           "dent": "collaborateur",
+          "expression": "content",
           "brasG": "bas",
-          "propG": null,
-          "brasD": "bas",
-          "expression": "content"
+          "propG": null
         },
         {
           "dent": "docteure",
-          "brasG": "hanche",
+          "expression": "malin",
           "brasD": "hanche",
-          "propD": null,
-          "expression": "malin"
+          "propD": null
         }
       ]
     },
     {
       "texte": "Sérieux ?",
       "voix": "collaborateur",
-      "duree": 1.8,
       "personnages": [
         {
           "dent": "collaborateur",
+          "expression": "choque",
           "brasG": "bas",
-          "propG": null,
-          "brasD": "bas",
-          "expression": "choque"
+          "propG": null
         },
         {
           "dent": "docteure",
-          "brasG": "hanche",
+          "expression": "malin",
           "brasD": "hanche",
-          "propD": null,
-          "expression": "malin"
+          "propD": null
         }
       ]
     },
     {
       "texte": "Penchée sur des molaires.",
       "voix": "docteure",
-      "duree": 2.6,
       "personnages": [
         {
           "dent": "collaborateur",
-          "brasG": "bas",
-          "propG": null,
-          "brasD": "bas",
           "expression": "regard_camera",
-          "animations": [
-            "effet:sueur à 1.2s"
-          ]
+          "brasG": "bas",
+          "propG": null
         },
         {
           "dent": "docteure",
-          "brasG": "hanche",
-          "brasD": "hanche",
-          "propD": null,
           "expression": "blase",
-          "animations": [
-            "clignement à 1.8s"
-          ]
+          "brasD": "hanche",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Et le cardio ?",
+      "voix": "collaborateur",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "neutre",
+          "brasG": "bas",
+          "propG": null
+        },
+        {
+          "dent": "docteure",
+          "expression": "blase",
+          "brasD": "hanche",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Trois urgences dans la même heure.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "choque",
+          "brasG": "bas",
+          "propG": null
+        },
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "brasD": "hanche",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Et les étirements ?",
+      "voix": "collaborateur",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "neutre",
+          "brasG": "bas",
+          "propG": null
+        },
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "brasD": "hanche",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Pour attraper le plateau.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "triste",
+          "brasG": "bas",
+          "propG": null
+        },
+        {
+          "dent": "docteure",
+          "expression": "malin",
+          "brasD": "leve",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Et tu récupères où ?",
+      "voix": "collaborateur",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "triste",
+          "brasG": "bas",
+          "propG": null
+        },
+        {
+          "dent": "docteure",
+          "expression": "blase",
+          "brasD": "hanche",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Chez l'ostéo. Tous les jeudis.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "regard_camera",
+          "brasG": "bas",
+          "propG": null
+        },
+        {
+          "dent": "docteure",
+          "expression": "blase",
+          "brasD": "hanche",
+          "propD": null
         }
       ]
     }

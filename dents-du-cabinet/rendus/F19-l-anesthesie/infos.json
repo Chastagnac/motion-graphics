@@ -3,23 +3,55 @@
   "titre": "L'anesthésie",
   "serie": "vecu",
   "fond": "#FFB3A7",
-  "T": 9.1,
-  "version": 1791280949468,
+  "T": 25.4,
+  "version": 1791411534352,
   "video": null,
-  "planche": "F19-l-anesthesie-planche.png",
+  "planche": null,
   "carrousel": [
     {
       "image": "carrousel/F19-l-anesthesie-1.png",
       "cases": [
-        1,
-        2
+        1
       ]
     },
     {
       "image": "carrousel/F19-l-anesthesie-2.png",
       "cases": [
-        3,
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/F19-l-anesthesie-3.png",
+      "cases": [
         4
+      ]
+    },
+    {
+      "image": "carrousel/F19-l-anesthesie-4.png",
+      "cases": [
+        5,
+        6
+      ]
+    },
+    {
+      "image": "carrousel/F19-l-anesthesie-5.png",
+      "cases": [
+        7
+      ]
+    },
+    {
+      "image": "carrousel/F19-l-anesthesie-6.png",
+      "cases": [
+        8,
+        9
+      ]
+    },
+    {
+      "image": "carrousel/F19-l-anesthesie-7.png",
+      "cases": [
+        10,
+        11
       ]
     }
   ],
@@ -102,6 +134,146 @@
         {
           "dent": "lait",
           "expression": "panique",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 9.1,
+      "duree": 2.7,
+      "texte": "C'est normal. Ça dure deux heures.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 11.8,
+      "duree": 1.9,
+      "texte": "Deux veures ?",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 13.7,
+      "duree": 2.7,
+      "texte": "V'ai une réunion à quinve heures.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "panique",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 16.4,
+      "duree": 2.3,
+      "texte": "Parlez le moins possible.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 18.7,
+      "duree": 2.3,
+      "texte": "Ve préfente le budvet.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 21,
+      "duree": 2.3,
+      "texte": "15h. Salle de réunion.",
+      "voix": null,
+      "decor": "reunion",
+      "persos": [
+        {
+          "dent": "lait",
+          "expression": "panique",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 23.3,
+      "duree": 2.1,
+      "texte": "Bonvour à touf.",
+      "voix": "lait",
+      "decor": "reunion",
+      "persos": [
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "sagesse",
+          "expression": "blase",
           "animations": []
         }
       ]

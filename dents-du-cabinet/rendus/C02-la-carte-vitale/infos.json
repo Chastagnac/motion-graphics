@@ -1,0 +1,345 @@
+{
+  "id": "C02-la-carte-vitale",
+  "titre": "La carte Vitale",
+  "serie": "irritant",
+  "fond": "#B9C8FF",
+  "T": 36.3,
+  "version": 1791445311712,
+  "video": null,
+  "planche": null,
+  "carrousel": [
+    {
+      "image": "carrousel/C02-la-carte-vitale-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/C02-la-carte-vitale-2.png",
+      "cases": [
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/C02-la-carte-vitale-3.png",
+      "cases": [
+        4,
+        5
+      ]
+    },
+    {
+      "image": "carrousel/C02-la-carte-vitale-4.png",
+      "cases": [
+        6
+      ]
+    },
+    {
+      "image": "carrousel/C02-la-carte-vitale-5.png",
+      "cases": [
+        7,
+        8
+      ]
+    },
+    {
+      "image": "carrousel/C02-la-carte-vitale-6.png",
+      "cases": [
+        9
+      ]
+    },
+    {
+      "image": "carrousel/C02-la-carte-vitale-7.png",
+      "cases": [
+        10,
+        11
+      ]
+    },
+    {
+      "image": "carrousel/C02-la-carte-vitale-8.png",
+      "cases": [
+        12,
+        13,
+        14
+      ]
+    }
+  ],
+  "legende": "Elle est où, la carte Vitale de vos patients ?",
+  "source": "../../series/situations-du-cabinet/C02-la-carte-vitale.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 3,
+      "texte": "Votre carte Vitale, s'il vous plaît.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 3,
+      "duree": 2.5,
+      "texte": "Elle est dans l'autre veste.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.5,
+      "duree": 2.5,
+      "texte": "Votre attestation de mutuelle, alors ?",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 8,
+      "duree": 2.1,
+      "texte": "Sur mon téléphone.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 10.1,
+      "duree": 1.9,
+      "texte": "Parfait. Montrez-moi.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 12,
+      "duree": 2.7,
+      "texte": "Il est dans l'autre veste aussi.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 14.7,
+      "duree": 2.7,
+      "texte": "Vous avez quoi, dans cette veste-là ?",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 17.4,
+      "duree": 2.3,
+      "texte": "Un ticket de parking.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 19.7,
+      "duree": 2.9,
+      "texte": "Vingt minutes. Trois appels à la mutuelle.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 22.6,
+      "duree": 2.9,
+      "texte": "C'est réglé. La carte, la prochaine fois ?",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 25.5,
+      "duree": 2.7,
+      "texte": "Promis. Je mets la bonne veste.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 28.2,
+      "duree": 2.3,
+      "texte": "Six mois plus tard.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "t0": 30.5,
+      "duree": 2.9,
+      "texte": "J'ai changé de veste. Et de mutuelle.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "t0": 33.4,
+      "duree": 2.9,
+      "texte": "Un papier manquant. Vingt minutes au comptoir.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

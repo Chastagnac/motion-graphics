@@ -6,45 +6,89 @@
   "carrousel": [
     1,
     2,
+    1,
+    2,
+    2,
+    1,
     1
   ],
   "slides": [
     {
       "texte": "Vendredi, 18h55.",
-      "duree": 2.2,
-      "places": 2,
       "personnages": [
         {
           "dent": "docteure",
+          "expression": "content",
           "brasG": "salut",
           "brasD": "bas",
-          "propD": null,
-          "place": 1,
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Bon week-end, tout le monde !",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
           "expression": "content",
-          "animations": [
-            "brasG:leve à 0.9s pendant 0.3s"
-          ]
+          "brasG": "salut",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "incisive",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "À lundi.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "incisive",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "18h56.",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "regard_camera",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "lait"
         }
       ]
     },
     {
       "texte": "J'ai mal depuis trois semaines.",
       "voix": "lait",
-      "duree": 2.8,
       "personnages": [
         {
           "dent": "docteure",
+          "expression": "regard_camera",
           "brasG": "bas",
           "brasD": "bas",
-          "propD": null,
-          "expression": "regard_camera",
-          "depart": {
-            "expression": "content"
-          },
-          "animations": [
-            "sursaut à 0.3s",
-            "expression:regard_camera à 0.3s"
-          ]
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "lait"
@@ -54,48 +98,110 @@
     {
       "texte": "Trois semaines ?",
       "voix": "docteure",
-      "duree": 2,
       "personnages": [
         {
           "dent": "docteure",
+          "expression": "juge",
           "brasG": "hanche",
           "brasD": "bas",
-          "propD": null,
-          "expression": "juge"
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "lait",
+          "expression": "neutre",
           "brasG": "bas",
           "brasD": "bas",
           "jambes": "debout",
-          "expression": "neutre"
+          "propG": null,
+          "propD": null
         }
       ]
     },
     {
       "texte": "Je voulais pas déranger.",
       "voix": "lait",
-      "duree": 2.8,
       "personnages": [
         {
           "dent": "docteure",
+          "expression": "blase",
           "brasG": "hanche",
           "brasD": "bas",
-          "propD": null,
-          "expression": "regard_camera",
-          "depart": {
-            "expression": "blase"
-          },
-          "animations": [
-            "expression:regard_camera à 1.5s"
-          ]
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "lait",
           "expression": "content",
           "brasG": "haussement",
           "brasD": "haussement",
-          "jambes": "debout"
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Et ce soir, ça ne dérange pas ?",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "juge",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Ce soir, j'ai un week-end prévu.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "regard_camera",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Je rallume la lumière.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "blase",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "incisive",
+          "expression": "blase"
         }
       ]
     }

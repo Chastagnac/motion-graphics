@@ -5,19 +5,25 @@
   "decor": "soiree",
   "carrousel": [
     1,
-    3
+    2,
+    1,
+    2,
+    1,
+    1,
+    2,
+    1
   ],
   "slides": [
     {
       "texte": "Samedi soir. Dîner entre amis.",
-      "duree": 2.6,
       "personnages": [
         {
           "dent": "docteure",
+          "expression": "content",
           "brasG": "bas",
           "brasD": "bas",
-          "propD": null,
-          "expression": "content"
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "sagesse",
@@ -26,72 +32,178 @@
       ]
     },
     {
-      "texte": "Tu es dentiste, c'est ça ?",
+      "texte": "Tu fais quoi dans la vie ?",
       "voix": "sagesse",
-      "duree": 2.6,
       "personnages": [
         {
           "dent": "docteure",
+          "expression": "content",
           "brasG": "bas",
           "brasD": "bas",
-          "propD": null,
-          "expression": "regard_camera",
-          "depart": {
-            "expression": "content"
-          },
-          "animations": [
-            "expression:regard_camera à 0.9s"
-          ]
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "sagesse",
-          "expression": "malin",
-          "brasG": "pointe",
-          "brasD": "bas"
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Dentiste.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "sagesse",
+          "expression": "malin"
+        }
+      ]
+    },
+    {
+      "texte": "Erreur.",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "regard_camera",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
         }
       ]
     },
     {
       "texte": "Tu peux regarder, là, au fond ?",
       "voix": "sagesse",
-      "duree": 2.8,
       "personnages": [
         {
           "dent": "docteure",
+          "expression": "triste",
           "brasG": "bas",
           "brasD": "bas",
-          "propD": null,
-          "expression": "triste"
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "sagesse",
+          "expression": "malin",
+          "brasG": "pointe",
+          "propG": null
+        }
+      ]
+    },
+    {
+      "texte": "On est à table.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "blase",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "sagesse",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Juste deux secondes. J'ouvre grand.",
+      "voix": "sagesse",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "sagesse",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Le samedi suivant. Autre dîner.",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Et toi, tu fais quoi dans la vie ?",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "docteure",
           "expression": "regard_camera",
-          "bouche": "ouverte",
-          "brasG": "croise",
-          "brasD": "bas"
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "content"
         }
       ]
     },
     {
       "texte": "Je suis comptable.",
       "voix": "docteure",
-      "duree": 2.4,
       "personnages": [
         {
           "dent": "docteure",
+          "expression": "malin",
           "brasG": "bas",
           "brasD": "bas",
-          "propD": null,
-          "expression": "neutre",
-          "animations": [
-            "clignement à 1.6s"
-          ]
+          "propG": null,
+          "propD": null
         },
         {
-          "dent": "sagesse",
-          "expression": "juge",
-          "brasG": "croise",
-          "brasD": "bas"
+          "dent": "molaire",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Parfait. J'ai une question sur mes impôts.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "regard_camera",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "molaire",
+          "expression": "content"
         }
       ]
     }

@@ -3,10 +3,10 @@
   "titre": "La petite question",
   "serie": "irritant",
   "fond": "#B9C8FF",
-  "T": 9.5,
-  "version": 1791280957093,
+  "T": 28.5,
+  "version": 1791411558913,
   "video": null,
-  "planche": "F23-la-petite-question-planche.png",
+  "planche": null,
   "carrousel": [
     {
       "image": "carrousel/F23-la-petite-question-1.png",
@@ -24,7 +24,35 @@
     {
       "image": "carrousel/F23-la-petite-question-3.png",
       "cases": [
-        4
+        4,
+        5
+      ]
+    },
+    {
+      "image": "carrousel/F23-la-petite-question-4.png",
+      "cases": [
+        6,
+        7
+      ]
+    },
+    {
+      "image": "carrousel/F23-la-petite-question-5.png",
+      "cases": [
+        8,
+        9
+      ]
+    },
+    {
+      "image": "carrousel/F23-la-petite-question-6.png",
+      "cases": [
+        10,
+        11
+      ]
+    },
+    {
+      "image": "carrousel/F23-la-petite-question-7.png",
+      "cases": [
+        12
       ]
     }
   ],
@@ -74,6 +102,66 @@
     {
       "index": 3,
       "t0": 4.7,
+      "duree": 2.7,
+      "texte": "C'est pour ma dent du fond.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.4,
+      "duree": 2.3,
+      "texte": "Dix minutes plus tard.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 9.7,
+      "duree": 2.7,
+      "texte": "Et là, mon beau-frère m'a dit…",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 12.4,
       "duree": 2.3,
       "texte": "Quarante minutes plus tard.",
       "voix": null,
@@ -92,8 +180,8 @@
       ]
     },
     {
-      "index": 4,
-      "t0": 7,
+      "index": 7,
+      "t0": 14.7,
       "duree": 2.5,
       "texte": "Et pour mon autre dent ?",
       "voix": "lait",
@@ -107,6 +195,116 @@
         {
           "dent": "lait",
           "expression": "malin",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 17.2,
+      "duree": 2.3,
+      "texte": "Il faudrait prendre rendez-vous.",
+      "voix": "docteur",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 19.5,
+      "duree": 2.7,
+      "texte": "Oh non, c'est juste une question.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 22.2,
+      "duree": 2.3,
+      "texte": "Docteur, le suivant attend.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 24.5,
+      "duree": 1.9,
+      "texte": "Je finis.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 26.4,
+      "duree": 2.1,
+      "texte": "Dernière petite question.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
           "animations": []
         }
       ]

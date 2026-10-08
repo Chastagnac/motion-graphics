@@ -4,8 +4,13 @@
   "titre": "La stérilisation",
   "decor": "cabinet",
   "carrousel": [
+    1,
     2,
-    2
+    1,
+    2,
+    2,
+    1,
+    1
   ],
   "slides": [
     {
@@ -14,10 +19,11 @@
       "personnages": [
         {
           "dent": "assistante",
+          "expression": "content",
           "brasG": "hanche",
           "brasD": "bas",
-          "propD": null,
-          "expression": "content"
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "docteur",
@@ -31,15 +37,17 @@
       "personnages": [
         {
           "dent": "assistante",
+          "expression": "content",
           "brasG": "hanche",
           "brasD": "bas",
-          "propD": null,
-          "expression": "content"
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "docteur",
           "expression": "content",
-          "brasD": "pointe"
+          "brasD": "pointe",
+          "propD": null
         }
       ]
     },
@@ -49,29 +57,143 @@
       "personnages": [
         {
           "dent": "assistante",
+          "expression": "blase",
           "brasG": "bas",
           "brasD": "bas",
-          "propD": null,
-          "expression": "blase"
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "docteur",
           "expression": "content",
-          "brasD": "pointe"
+          "brasD": "pointe",
+          "propD": null
         }
       ]
     },
     {
-      "texte": "Toutes les vingt minutes.",
+      "texte": "Vingt minutes plus tard.",
       "places": 2,
       "personnages": [
         {
           "dent": "assistante",
+          "expression": "neutre",
           "brasG": "bas",
           "brasD": "bas",
-          "propD": null,
           "place": 1,
-          "expression": "regard_camera"
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Cette fois, j'ai fini.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Moi aussi !",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "expression": "choque",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasD": "pointe",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Vingt minutes plus tard.",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Ne dis rien.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "expression": "juge",
+          "brasG": "bas",
+          "brasD": "pointe",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "J'ai fini mon patient.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasD": "pointe",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "J'habite ici, maintenant.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "expression": "regard_camera",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "content"
         }
       ]
     }

@@ -1,0 +1,258 @@
+{
+  "id": "C15-le-total",
+  "serie": "IRRITANT",
+  "titre": "Le total",
+  "decor": "accueil",
+  "carrousel": [
+    1,
+    2,
+    1,
+    2,
+    2,
+    2,
+    2,
+    1
+  ],
+  "slides": [
+    {
+      "texte": "Voici votre devis. Trois pages.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Je regarde juste le total.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "propD": "bloc",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Comme tout le monde.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "blase"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "propD": "bloc",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Ah oui. Quand même.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "brasG": "bas",
+          "propD": "bloc",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "« Reste à charge », c'est quoi ?",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "expression": "juge",
+          "brasG": "bas",
+          "propD": "bloc",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "C'est vous.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "brasD": "pointe",
+          "propD": null
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "brasG": "bas",
+          "propD": "bloc",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Et « base de remboursement » ?",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "propD": "bloc",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "C'est moins que vous croyez.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "blase"
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "propD": "bloc",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Et ma mutuelle, elle paie quoi ?",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "propD": "bloc",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Page trois. Colonne de droite.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "blase"
+        },
+        {
+          "dent": "lait",
+          "expression": "panique",
+          "brasG": "bas",
+          "propD": "bloc",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Je vais réfléchir.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "propD": "bloc",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Comme tout le monde.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "blase"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "propD": "bloc",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Il a tout lu. Sauf son traitement.",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "juge"
+        }
+      ]
+    }
+  ],
+  "legende": "Vos patients lisent quoi, sur un devis ?"
+}

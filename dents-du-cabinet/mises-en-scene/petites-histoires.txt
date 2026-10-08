@@ -1,0 +1,143 @@
+// Mise en scène des « Petites histoires » : qui est dans chaque case, et dans quelle pose.
+// Le texte, lui, vit dans histoires/petites-histoires.md. Une ligne par case, dans l'ordre du texte.
+//
+//   N: personnage [expression] [options] | personnage ... ; decor=accueil places=2
+//
+// Options : g:<bras gauche> d:<bras droit> pg:<objet gauche> pd:<objet droit> (« - » = rien)
+//           j:<jambes> p:<place> calme (bras baissés, debout, mains vides)
+// Ce qui n'est pas écrit garde la pose par défaut du personnage. « decor= » vaut jusqu'au suivant.
+// Puis : node .claude/skills/dents-strip/scripts/histoire.js <histoires.md> <ce fichier>
+
+# H01
+1: collaborateur content
+2: collaborateur content | assistante neutre
+3: collaborateur content | assistante malin
+4: collaborateur panique | lait neutre calme
+5: collaborateur panique | lait regard_camera calme
+6: collaborateur triste | lait malin calme
+7: collaborateur triste | lait content calme
+8: collaborateur panique g:haussement d:haussement | assistante blase
+9: collaborateur choque g:bas | assistante blase g:pointe pg:sonde d:bas
+10: collaborateur panique g:leve | assistante blase
+11: collaborateur regard_camera g:bas | assistante blase
+12: collaborateur content | assistante neutre
+13: collaborateur triste | assistante neutre
+14: collaborateur regard_camera | assistante malin
+15: collaborateur content | assistante content | lait content calme
+16: assistante neutre | lait content calme
+17: collaborateur content | assistante content
+
+# H02
+1: lait ; decor=accueil
+2: incisive neutre | lait
+3: incisive blase | lait triste
+4: incisive content | lait triste calme j:tremble
+5: docteure content | lait ; decor=cabinet
+6: docteure neutre | lait triste
+7: docteure neutre | lait panique
+8: docteure content d:bas | lait choque calme
+9: docteure content d:bas | lait regard_camera calme
+10: docteure content pd:miroir | lait triste calme
+11: docteure content pd:miroir | lait neutre calme
+12: docteure content d:bas | lait choque calme
+13: docteure malin d:bas | lait neutre calme
+14: docteure content d:bas | lait regard_camera calme
+15: incisive neutre | lait content calme ; decor=accueil
+16: incisive regard_camera | lait content calme
+17: incisive content | lait content calme
+
+# H03
+1: canine content
+2: canine content | docteur neutre
+3: canine neutre | docteur neutre g:haussement
+4: canine panique | docteur panique | lait content calme
+5: canine panique | docteur panique
+6: canine triste | docteur panique
+7: canine triste | docteur triste
+8: docteur regard_camera | lait neutre calme
+9: docteur content | lait juge calme
+10: canine panique | docteur panique
+11: molaire juge | canine triste | docteur triste
+12: molaire juge | canine triste | docteur regard_camera
+13: molaire juge d:pointe | docteur choque
+14: molaire blase | docteur content
+15: docteur content | lait choque calme
+16: docteur malin | lait regard_camera calme
+
+# H04
+1: docteur content | lait
+2: docteur content | lait fache g:croise d:croise j:debout
+3: docteur content | lait juge g:croise d:croise j:debout
+4: docteur content | lait blase calme
+5: docteur regard_camera | lait malin g:hanche d:hanche j:debout
+6: docteur neutre pg:postit d:bas
+7: canine malin | docteur neutre pg:postit d:bas
+8: canine content | docteur blase pg:postit d:bas
+9: docteur content | lait content calme
+10: docteur neutre | lait content g:bas pd:postit j:debout
+11: docteur blase | lait malin g:bas pd:postit j:debout
+12: docteur choque | lait content g:bas pd:postit j:debout
+13: docteur content d:bas | incisive content ; decor=accueil
+
+# H05
+1: sagesse content
+2: sagesse content g:salut | docteure content
+3: sagesse content | docteure content
+4: sagesse content g:bas | docteure neutre
+5: sagesse content g:bas | docteure blase
+6: sagesse malin g:bas | docteure blase
+7: sagesse content g:bas | docteure neutre
+8: sagesse malin | docteure regard_camera
+9: sagesse neutre | docteure juge
+10: sagesse content g:bas | docteure choque
+11: docteure content d:bas | incisive neutre ; decor=accueil
+12: docteure content d:bas | incisive neutre
+13: docteure malin d:bas | incisive juge
+14: docteure content d:bas | incisive regard_camera
+
+# H06
+1: docteur choque | assistante choque
+2: docteur triste | assistante neutre
+3: docteur choque | assistante blase
+4: molaire fache | incisive blase ; decor=accueil
+5: molaire juge | incisive neutre pg:telephone
+6: molaire content | incisive content
+7: docteur neutre g:haussement d:haussement | assistante neutre d:bas ; decor=cabinet
+8: docteur choque d:bas | assistante malin d:bas
+9: docteur content pd:cafe | assistante content pd:cafe | molaire content g:bas d:bas
+10: docteur content pd:cafe | assistante content pd:cafe
+11: docteur regard_camera pd:cafe | assistante blase pd:cafe
+12: docteur choque pd:cafe | assistante neutre pd:cafe | molaire neutre g:bas d:bas
+13: docteur content pd:cafe | assistante content pd:cafe | molaire juge g:bas d:bas
+
+# H07
+1: lait choque calme
+2: docteure content | lait triste calme
+3: docteure content | lait neutre calme
+4: docteure neutre | lait panique
+5: docteure regard_camera | lait triste calme
+6: docteure malin | lait neutre calme
+7: docteure content | assistante content pg:postit d:bas
+8: docteure content pd:postit | lait content calme
+9: docteure content pd:postit | lait malin calme
+10: docteure malin pd:postit | lait content g:leve d:leve j:debout
+11: incisive neutre pg:telephone ; decor=accueil
+12: incisive content pg:telephone | docteure neutre d:bas
+13: incisive neutre pg:telephone | docteure choque d:bas
+14: incisive malin pg:telephone | docteure content d:bas
+
+# H08
+1: docteur content
+2: docteur content | canine neutre
+3: docteur regard_camera | canine blase
+4: docteur neutre
+5: docteur content g:haussement | canine juge
+6: docteur triste
+7: docteur panique | canine malin
+8: docteur panique
+9: docteur triste | canine neutre
+10: docteur choque | incisive neutre
+11: docteur content g:leve | incisive regard_camera
+12: docteur content g:salut
+13: docteur regard_camera | canine malin
+14: docteur blase ; plan=drame

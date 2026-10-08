@@ -1,0 +1,256 @@
+{
+  "id": "C10-le-post-it",
+  "serie": "IRRITANT",
+  "titre": "Le post-it",
+  "decor": "accueil",
+  "carrousel": [
+    2,
+    1,
+    3,
+    1,
+    2,
+    2,
+    2,
+    2
+  ],
+  "slides": [
+    {
+      "texte": "Un patient a appelé. C'est important.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "docteur",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Note-le, je regarde après.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasG": "salut",
+          "propG": null
+        }
+      ]
+    },
+    {
+      "texte": "Elle le note. Sur un post-it.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "propG": "postit",
+          "brasG": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Midi.",
+      "personnages": [
+        {
+          "dent": "incisive"
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Il voulait quoi, ce patient ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre"
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "C'est sur le post-it.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase"
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Lequel ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "panique"
+        },
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "brasG": "haussement",
+          "propG": null
+        }
+      ]
+    },
+    {
+      "texte": "« Rappeler labo » ?",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre"
+        },
+        {
+          "dent": "canine",
+          "expression": "content",
+          "brasG": "hanche",
+          "propD": "postit",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Non. Ça, c'est de mars.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "triste"
+        },
+        {
+          "dent": "canine",
+          "expression": "neutre",
+          "brasG": "hanche",
+          "propD": "postit",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "« Acheter du café » ?",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre"
+        },
+        {
+          "dent": "canine",
+          "expression": "content",
+          "brasG": "hanche",
+          "propD": "postit",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Ça, c'est vital. Mais non.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase"
+        },
+        {
+          "dent": "canine",
+          "expression": "regard_camera",
+          "brasG": "hanche",
+          "propD": "postit",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "18h. Le patient rappelle.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "triste",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Vous avez eu mon message ?",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "panique",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Oui. Redites-le-moi, pour être sûre.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "propD": "telephone",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Un message sur un post-it n'appartient à personne.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "propG": "postit",
+          "brasG": "tient"
+        }
+      ]
+    }
+  ],
+  "legende": "Il est où, votre post-it le plus important ?"
+}

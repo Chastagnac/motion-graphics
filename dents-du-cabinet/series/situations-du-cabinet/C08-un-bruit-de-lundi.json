@@ -1,0 +1,266 @@
+{
+  "id": "C08-un-bruit-de-lundi",
+  "serie": "VECU",
+  "titre": "Un bruit de lundi",
+  "decor": "cabinet",
+  "carrousel": [
+    1,
+    2,
+    2,
+    2,
+    1,
+    2,
+    2,
+    3
+  ],
+  "slides": [
+    {
+      "texte": "Lundi, 8h15. Le point du matin.",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "assistante",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "L'agenda est complet.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "docteur",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Parfait.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasG": "leve",
+          "propG": null
+        }
+      ]
+    },
+    {
+      "texte": "Plus trois urgences du week-end.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "juge",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "docteur",
+          "expression": "choque"
+        }
+      ]
+    },
+    {
+      "texte": "On les met où ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "blase",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "brasG": "haussement",
+          "propG": null
+        }
+      ]
+    },
+    {
+      "texte": "Entre deux.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Entre deux quoi ?",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "assistante",
+          "expression": "juge",
+          "brasG": "hanche",
+          "propG": null
+        }
+      ]
+    },
+    {
+      "texte": "Entre ton déjeuner et ta pause.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "malin",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "assistante",
+          "expression": "regard_camera"
+        }
+      ]
+    },
+    {
+      "texte": "Et le stérilisateur fait un bruit.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Un bruit comment ?",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "assistante",
+          "expression": "choque"
+        }
+      ]
+    },
+    {
+      "texte": "Un bruit de lundi.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "blase",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "assistante",
+          "expression": "regard_camera"
+        }
+      ]
+    },
+    {
+      "texte": "19h30. Tout le monde est passé.",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "content"
+        },
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "assistante",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "On l'a fait.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "neutre",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasG": "leve",
+          "propG": null
+        }
+      ]
+    },
+    {
+      "texte": "Demain, c'est complet aussi.",
+      "voix": "molaire",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "malin",
+          "propD": "bloc",
+          "brasD": "tient"
+        },
+        {
+          "dent": "docteur",
+          "expression": "regard_camera"
+        }
+      ]
+    },
+    {
+      "texte": "Agenda complet. L'imprévu, lui, n'a pas réservé.",
+      "personnages": [
+        {
+          "dent": "molaire",
+          "expression": "blase",
+          "propD": "bloc",
+          "brasD": "tient"
+        }
+      ]
+    }
+  ],
+  "legende": "Il ressemble à quoi, votre lundi matin ?"
+}

@@ -3,10 +3,10 @@
   "titre": "La pause déjeuner",
   "serie": "vecu",
   "fond": "#FFB3A7",
-  "T": 10.4,
-  "version": 1791280926660,
+  "T": 22.1,
+  "version": 1791411474024,
   "video": null,
-  "planche": "F08-la-pause-dejeuner-planche.png",
+  "planche": null,
   "carrousel": [
     {
       "image": "carrousel/F08-la-pause-dejeuner-1.png",
@@ -17,19 +17,40 @@
     {
       "image": "carrousel/F08-la-pause-dejeuner-2.png",
       "cases": [
-        2
+        2,
+        3
       ]
     },
     {
       "image": "carrousel/F08-la-pause-dejeuner-3.png",
       "cases": [
-        3
+        4,
+        5
       ]
     },
     {
       "image": "carrousel/F08-la-pause-dejeuner-4.png",
       "cases": [
-        4
+        6
+      ]
+    },
+    {
+      "image": "carrousel/F08-la-pause-dejeuner-5.png",
+      "cases": [
+        7
+      ]
+    },
+    {
+      "image": "carrousel/F08-la-pause-dejeuner-6.png",
+      "cases": [
+        8,
+        9
+      ]
+    },
+    {
+      "image": "carrousel/F08-la-pause-dejeuner-7.png",
+      "cases": [
+        10
       ]
     }
   ],
@@ -59,7 +80,7 @@
     {
       "index": 2,
       "t0": 3,
-      "duree": 2.6,
+      "duree": 2.5,
       "texte": "J'ai vingt minutes de retard.",
       "voix": "docteur",
       "decor": "cabinet",
@@ -78,9 +99,69 @@
     },
     {
       "index": 3,
-      "t0": 5.6,
-      "duree": 1.8,
-      "texte": "Donc ?",
+      "t0": 5.5,
+      "duree": 1.9,
+      "texte": "Comme hier.",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.4,
+      "duree": 2.1,
+      "texte": "Hier, c'était trente.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 9.5,
+      "duree": 1.9,
+      "texte": "On progresse.",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "malin",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 11.4,
+      "duree": 2.1,
+      "texte": "Donc, le déjeuner ?",
       "voix": "canine",
       "decor": "cabinet",
       "persos": [
@@ -97,26 +178,82 @@
       ]
     },
     {
-      "index": 4,
-      "t0": 7.4,
-      "duree": 3,
-      "texte": "Donc voilà mon déjeuner.",
+      "index": 7,
+      "t0": 13.5,
+      "duree": 2.1,
+      "texte": "Voilà mon déjeuner.",
       "voix": "docteur",
       "decor": "cabinet",
       "persos": [
         {
           "dent": "canine",
           "expression": "regard_camera",
-          "animations": [
-            "clignement à 2.2s"
-          ]
+          "animations": []
         },
         {
           "dent": "docteur",
           "expression": "blase",
-          "animations": [
-            "brasD:salut à 0.6s"
-          ]
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 15.6,
+      "duree": 2.1,
+      "texte": "C'est un café.",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 17.7,
+      "duree": 2.1,
+      "texte": "Avec du sucre.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 19.8,
+      "duree": 2.3,
+      "texte": "Un repas complet, alors.",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
         }
       ]
     }

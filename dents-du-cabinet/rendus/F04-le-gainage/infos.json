@@ -3,10 +3,10 @@
   "titre": "Le gainage",
   "serie": "vecu",
   "fond": "#FFB3A7",
-  "T": 10,
-  "version": 1791280916506,
+  "T": 23.6,
+  "version": 1791411456177,
   "video": null,
-  "planche": "F04-le-gainage-planche.png",
+  "planche": null,
   "carrousel": [
     {
       "image": "carrousel/F04-le-gainage-1.png",
@@ -17,19 +17,40 @@
     {
       "image": "carrousel/F04-le-gainage-2.png",
       "cases": [
-        2
+        2,
+        3
       ]
     },
     {
       "image": "carrousel/F04-le-gainage-3.png",
       "cases": [
-        3
+        4
       ]
     },
     {
       "image": "carrousel/F04-le-gainage-4.png",
       "cases": [
-        4
+        5,
+        6
+      ]
+    },
+    {
+      "image": "carrousel/F04-le-gainage-5.png",
+      "cases": [
+        7,
+        8
+      ]
+    },
+    {
+      "image": "carrousel/F04-le-gainage-6.png",
+      "cases": [
+        9
+      ]
+    },
+    {
+      "image": "carrousel/F04-le-gainage-7.png",
+      "cases": [
+        10
       ]
     }
   ],
@@ -59,7 +80,7 @@
     {
       "index": 2,
       "t0": 2.8,
-      "duree": 2.8,
+      "duree": 2.7,
       "texte": "Huit heures de gainage par jour.",
       "voix": "docteure",
       "decor": "cabinet",
@@ -78,7 +99,7 @@
     },
     {
       "index": 3,
-      "t0": 5.6,
+      "t0": 5.5,
       "duree": 1.8,
       "texte": "Sérieux ?",
       "voix": "collaborateur",
@@ -98,8 +119,8 @@
     },
     {
       "index": 4,
-      "t0": 7.4,
-      "duree": 2.6,
+      "t0": 7.3,
+      "duree": 2.3,
       "texte": "Penchée sur des molaires.",
       "voix": "docteure",
       "decor": "cabinet",
@@ -107,16 +128,132 @@
         {
           "dent": "collaborateur",
           "expression": "regard_camera",
-          "animations": [
-            "effet:sueur à 1.2s"
-          ]
+          "animations": []
         },
         {
           "dent": "docteure",
           "expression": "blase",
-          "animations": [
-            "clignement à 1.8s"
-          ]
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 9.6,
+      "duree": 2.1,
+      "texte": "Et le cardio ?",
+      "voix": "collaborateur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 11.7,
+      "duree": 2.7,
+      "texte": "Trois urgences dans la même heure.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "choque",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 14.4,
+      "duree": 2.1,
+      "texte": "Et les étirements ?",
+      "voix": "collaborateur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 16.5,
+      "duree": 2.3,
+      "texte": "Pour attraper le plateau.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "malin",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 18.8,
+      "duree": 2.3,
+      "texte": "Et tu récupères où ?",
+      "voix": "collaborateur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 21.1,
+      "duree": 2.5,
+      "texte": "Chez l'ostéo. Tous les jeudis.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "blase",
+          "animations": []
         }
       ]
     }

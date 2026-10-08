@@ -3,10 +3,10 @@
   "titre": "Télépathie",
   "serie": "vecu",
   "fond": "#FFB3A7",
-  "T": 9.2,
-  "version": 1791280939872,
+  "T": 25,
+  "version": 1791411505661,
   "video": null,
-  "planche": "F14-telepathie-planche.png",
+  "planche": null,
   "carrousel": [
     {
       "image": "carrousel/F14-telepathie-1.png",
@@ -20,6 +20,38 @@
       "cases": [
         3,
         4
+      ]
+    },
+    {
+      "image": "carrousel/F14-telepathie-3.png",
+      "cases": [
+        5,
+        6
+      ]
+    },
+    {
+      "image": "carrousel/F14-telepathie-4.png",
+      "cases": [
+        7
+      ]
+    },
+    {
+      "image": "carrousel/F14-telepathie-5.png",
+      "cases": [
+        8,
+        9
+      ]
+    },
+    {
+      "image": "carrousel/F14-telepathie-6.png",
+      "cases": [
+        10
+      ]
+    },
+    {
+      "image": "carrousel/F14-telepathie-7.png",
+      "cases": [
+        11
       ]
     }
   ],
@@ -69,6 +101,146 @@
     {
       "index": 3,
       "t0": 4.4,
+      "duree": 2.5,
+      "texte": "Et il faudrait aussi le…",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 6.9,
+      "duree": 1.9,
+      "texte": "Déjà prêt.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 8.8,
+      "duree": 2.1,
+      "texte": "Comment tu fais ?",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 10.9,
+      "duree": 2.7,
+      "texte": "Douze ans à côté de toi.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "malin",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 13.6,
+      "duree": 2.7,
+      "texte": "Et là, je pense à quoi ?",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "malin",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 16.3,
+      "duree": 2.1,
+      "texte": "À ton déjeuner.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 18.4,
+      "duree": 1.8,
+      "texte": "Incroyable.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 20.2,
       "duree": 2.7,
       "texte": "Et le miroir, il est où ?",
       "voix": "docteur",
@@ -87,8 +259,8 @@
       ]
     },
     {
-      "index": 4,
-      "t0": 7.1,
+      "index": 11,
+      "t0": 22.9,
       "duree": 2.1,
       "texte": "Dans ta main.",
       "voix": "assistante",

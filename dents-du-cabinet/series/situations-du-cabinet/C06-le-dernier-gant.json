@@ -1,0 +1,291 @@
+{
+  "id": "C06-le-dernier-gant",
+  "serie": "IRRITANT",
+  "titre": "Le dernier gant",
+  "decor": "cabinet",
+  "carrousel": [
+    1,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    2
+  ],
+  "slides": [
+    {
+      "texte": "Il reste une boîte de gants.",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "neutre",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Fais-moi penser à commander.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "neutre",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Je t'y fais penser. Là.",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "juge",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Ce soir, promis.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "blase",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasG": "leve",
+          "propG": null
+        }
+      ]
+    },
+    {
+      "texte": "Tu as dit ça lundi.",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "blase",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "regard_camera"
+        }
+      ]
+    },
+    {
+      "texte": "Mercredi.",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "neutre",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "Il reste six gants.",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "juge",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Ce soir, promis.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "blase",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "brasG": "leve",
+          "propG": null
+        }
+      ]
+    },
+    {
+      "texte": "Jeudi, 9h.",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "fache",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Il reste un gant. Le gauche.",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "fache",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "choque"
+        }
+      ]
+    },
+    {
+      "texte": "Je commande ! Livraison… lundi.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "juge",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "panique",
+          "propD": "telephone",
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "On a quatorze patients aujourd'hui.",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "blase",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "propD": "telephone",
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Jeudi, 9h10.",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "blase",
+          "brasG": "hanche",
+          "propD": "telephone",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Bonjour, c'est le cabinet d'en face.",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "content",
+          "brasG": "hanche",
+          "propD": "telephone",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Vous auriez une boîte de gants ?",
+      "voix": "canine",
+      "personnages": [
+        {
+          "dent": "canine",
+          "expression": "triste",
+          "brasG": "hanche",
+          "propD": "telephone",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "« Fais-moi penser » n'est pas une commande.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera"
+        }
+      ]
+    }
+  ],
+  "legende": "Quel produit tombe toujours en rupture chez vous ?"
+}

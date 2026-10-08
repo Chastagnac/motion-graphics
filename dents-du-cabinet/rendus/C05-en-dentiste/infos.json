@@ -1,0 +1,345 @@
+{
+  "id": "C05-en-dentiste",
+  "titre": "En dentiste",
+  "serie": "vecu",
+  "fond": "#FFB3A7",
+  "T": 33.6,
+  "version": 1791445339631,
+  "video": null,
+  "planche": null,
+  "carrousel": [
+    {
+      "image": "carrousel/C05-en-dentiste-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/C05-en-dentiste-2.png",
+      "cases": [
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/C05-en-dentiste-3.png",
+      "cases": [
+        4,
+        5
+      ]
+    },
+    {
+      "image": "carrousel/C05-en-dentiste-4.png",
+      "cases": [
+        6,
+        7
+      ]
+    },
+    {
+      "image": "carrousel/C05-en-dentiste-5.png",
+      "cases": [
+        8
+      ]
+    },
+    {
+      "image": "carrousel/C05-en-dentiste-6.png",
+      "cases": [
+        9,
+        10
+      ]
+    },
+    {
+      "image": "carrousel/C05-en-dentiste-7.png",
+      "cases": [
+        11,
+        12
+      ]
+    },
+    {
+      "image": "carrousel/C05-en-dentiste-8.png",
+      "cases": [
+        13,
+        14
+      ]
+    }
+  ],
+  "legende": "Qui traduit, chez vous, après l'explication du plan de traitement ?",
+  "source": "../../series/situations-du-cabinet/C05-en-dentiste.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 3.2,
+      "texte": "Je vous explique le plan de traitement.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 3.2,
+      "duree": 2.7,
+      "texte": "Inlay-core sur la 36, puis couronne.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.9,
+      "duree": 1.9,
+      "texte": "Très bien.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.8,
+      "duree": 2.3,
+      "texte": "Et un détartrage sous-gingival.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 10.1,
+      "duree": 1.8,
+      "texte": "Évidemment.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 11.9,
+      "duree": 1.9,
+      "texte": "Des questions ?",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 13.8,
+      "duree": 2.1,
+      "texte": "Aucune. C'est limpide.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 15.9,
+      "duree": 2.1,
+      "texte": "La docteure sort.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 18,
+      "duree": 2.1,
+      "texte": "J'ai rien compris.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "lait",
+          "expression": "panique",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 20.1,
+      "duree": 2.5,
+      "texte": "Personne ne comprend. Je traduis.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 22.6,
+      "duree": 3.1,
+      "texte": "On soigne la dent du fond. Trois rendez-vous.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 25.7,
+      "duree": 2.5,
+      "texte": "Pourquoi elle l'a pas dit ?",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "lait",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "t0": 28.2,
+      "duree": 2.5,
+      "texte": "Elle l'a dit. En dentiste.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "malin",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "t0": 30.7,
+      "duree": 2.9,
+      "texte": "Dire oui, ce n'est pas avoir compris.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

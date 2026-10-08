@@ -4,14 +4,19 @@
   "titre": "La première extraction",
   "decor": "cabinet",
   "carrousel": [
-    3,
+    1,
+    2,
+    2,
+    1,
+    2,
+    1,
+    2,
     1
   ],
   "slides": [
     {
       "texte": "C'est ma première extraction.",
       "voix": "collaborateur",
-      "duree": 2.8,
       "personnages": [
         {
           "dent": "collaborateur"
@@ -23,9 +28,35 @@
       ]
     },
     {
+      "texte": "Tu as révisé ?",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "collaborateur"
+        },
+        {
+          "dent": "docteure",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Toute la nuit.",
+      "voix": "collaborateur",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "triste"
+        },
+        {
+          "dent": "docteure",
+          "expression": "blase"
+        }
+      ]
+    },
+    {
       "texte": "Respire. Tout va bien se passer.",
       "voix": "docteure",
-      "duree": 2.8,
       "personnages": [
         {
           "dent": "collaborateur"
@@ -39,7 +70,6 @@
     {
       "texte": "Merci.",
       "voix": "collaborateur",
-      "duree": 1.8,
       "personnages": [
         {
           "dent": "collaborateur",
@@ -54,29 +84,137 @@
     {
       "texte": "Je parlais au patient.",
       "voix": "docteure",
-      "duree": 2.8,
       "personnages": [
         {
           "dent": "collaborateur",
-          "expression": "choque",
-          "depart": {
-            "expression": "content"
-          },
-          "animations": [
-            "expression:choque à 1.0s"
-          ]
+          "expression": "choque"
         },
         {
           "dent": "docteure",
+          "expression": "malin",
           "brasG": "hanche",
           "brasD": "pointe",
-          "propD": null,
-          "expression": "malin"
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "lait",
           "brasG": "bas",
-          "brasD": "bas"
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "C'est sa première ?",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Mais non.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Si.",
+      "voix": "collaborateur",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "triste"
+        },
+        {
+          "dent": "docteure",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "lait",
+          "expression": "panique"
+        }
+      ]
+    },
+    {
+      "texte": "Dix minutes plus tard.",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Elle est sortie !",
+      "voix": "collaborateur",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "content",
+          "brasG": "leve",
+          "propG": null
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Moi aussi, je peux sortir ?",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "collaborateur",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
         }
       ]
     }

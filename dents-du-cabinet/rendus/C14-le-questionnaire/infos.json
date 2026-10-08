@@ -1,0 +1,298 @@
+{
+  "id": "C14-le-questionnaire",
+  "titre": "Le questionnaire",
+  "serie": "irritant",
+  "fond": "#B9C8FF",
+  "T": 29.8,
+  "version": 1791445393591,
+  "video": null,
+  "planche": null,
+  "carrousel": [
+    {
+      "image": "carrousel/C14-le-questionnaire-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/C14-le-questionnaire-2.png",
+      "cases": [
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/C14-le-questionnaire-3.png",
+      "cases": [
+        4,
+        5
+      ]
+    },
+    {
+      "image": "carrousel/C14-le-questionnaire-4.png",
+      "cases": [
+        6
+      ]
+    },
+    {
+      "image": "carrousel/C14-le-questionnaire-5.png",
+      "cases": [
+        7
+      ]
+    },
+    {
+      "image": "carrousel/C14-le-questionnaire-6.png",
+      "cases": [
+        8,
+        9
+      ]
+    },
+    {
+      "image": "carrousel/C14-le-questionnaire-7.png",
+      "cases": [
+        10,
+        11
+      ]
+    },
+    {
+      "image": "carrousel/C14-le-questionnaire-8.png",
+      "cases": [
+        12
+      ]
+    }
+  ],
+  "legende": "Il dure combien de temps, votre questionnaire médical ?",
+  "source": "../../series/situations-du-cabinet/C14-le-questionnaire.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 2.8,
+      "texte": "Vous remplissez le questionnaire médical ?",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 2.8,
+      "duree": 2.3,
+      "texte": "Allergies… je crois pas.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.1,
+      "duree": 2.3,
+      "texte": "Médicaments… un petit blanc.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.4,
+      "duree": 2.3,
+      "texte": "Un petit blanc comment ?",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 9.7,
+      "duree": 2.1,
+      "texte": "Rond. Le matin.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 11.8,
+      "duree": 2.7,
+      "texte": "« Antécédents », ça veut dire avant quoi ?",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 14.5,
+      "duree": 2.7,
+      "texte": "Le docteur attend. Depuis douze minutes.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 17.2,
+      "duree": 1.8,
+      "texte": "Voilà !",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 19,
+      "duree": 2.5,
+      "texte": "Il manque la page deux.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 21.5,
+      "duree": 2.7,
+      "texte": "Il y a une page deux ?",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 24.2,
+      "duree": 2.5,
+      "texte": "Et trois. Et la signature.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "panique",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 26.7,
+      "duree": 3.1,
+      "texte": "Le rendez-vous a commencé. Dans la salle d'attente.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

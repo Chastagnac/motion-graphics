@@ -1,0 +1,329 @@
+{
+  "id": "H04-le-dessin",
+  "titre": "Le dessin",
+  "serie": "vecu",
+  "fond": "#FFB3A7",
+  "T": 31,
+  "version": 1791411588945,
+  "video": null,
+  "planche": null,
+  "carrousel": [
+    {
+      "image": "carrousel/H04-le-dessin-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/H04-le-dessin-2.png",
+      "cases": [
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/H04-le-dessin-3.png",
+      "cases": [
+        4,
+        5
+      ]
+    },
+    {
+      "image": "carrousel/H04-le-dessin-4.png",
+      "cases": [
+        6
+      ]
+    },
+    {
+      "image": "carrousel/H04-le-dessin-5.png",
+      "cases": [
+        7,
+        8
+      ]
+    },
+    {
+      "image": "carrousel/H04-le-dessin-6.png",
+      "cases": [
+        9
+      ]
+    },
+    {
+      "image": "carrousel/H04-le-dessin-7.png",
+      "cases": [
+        10,
+        11
+      ]
+    },
+    {
+      "image": "carrousel/H04-le-dessin-8.png",
+      "cases": [
+        12
+      ]
+    },
+    {
+      "image": "carrousel/H04-le-dessin-9.png",
+      "cases": [
+        13
+      ]
+    }
+  ],
+  "legende": "Le plus beau cadeau qu'un petit patient vous ait fait ?",
+  "source": "../../series/petites-histoires/H04-le-dessin.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 3,
+      "texte": "Première visite. Il a six ans.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": null,
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 3,
+      "duree": 2.1,
+      "texte": "Je veux pas.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "fache",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.1,
+      "duree": 2.7,
+      "texte": "On compte tes dents, c'est tout.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.8,
+      "duree": 2.1,
+      "texte": "Une, deux, trois…",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 9.9,
+      "duree": 2.3,
+      "texte": "Vingt. Je sais compter.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 12.2,
+      "duree": 2.7,
+      "texte": "En partant, il laisse un dessin.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 14.9,
+      "duree": 2.1,
+      "texte": "C'est toi, là ?",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "malin",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 17,
+      "duree": 2.3,
+      "texte": "Avec des cornes, oui.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "canine",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 19.3,
+      "duree": 2.3,
+      "texte": "Six mois plus tard.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 21.6,
+      "duree": 2.5,
+      "texte": "J'ai fait un autre dessin.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 24.1,
+      "duree": 2.1,
+      "texte": "Encore des cornes ?",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 26.2,
+      "duree": 2.1,
+      "texte": "Non. Une cape.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "t0": 28.3,
+      "duree": 2.7,
+      "texte": "Il est toujours accroché à l'accueil.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

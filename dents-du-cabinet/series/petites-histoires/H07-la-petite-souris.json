@@ -1,0 +1,273 @@
+{
+  "id": "H07-la-petite-souris",
+  "serie": "VECU",
+  "titre": "La petite souris",
+  "decor": "cabinet",
+  "carrousel": [
+    1,
+    2,
+    2,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1
+  ],
+  "slides": [
+    {
+      "texte": "Sa première dent vient de tomber.",
+      "personnages": [
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "La petite souris passe chez le dentiste ?",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Elle passe chez toi.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Elle sait que c'est tombé ici ?",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "expression": "panique"
+        }
+      ]
+    },
+    {
+      "texte": "Bonne question.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "On lui écrit un mot.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "malin"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "J'ai un papier.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content"
+        },
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "propG": "postit",
+          "brasD": "bas",
+          "brasG": "tient",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "« Dent tombée au cabinet. Certifié. »",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "propD": "postit",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Vous signez ?",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "propD": "postit",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Je signe et je tamponne.",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "malin",
+          "propD": "postit",
+          "brasD": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "leve",
+          "brasD": "leve",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Le lendemain, sa maman appelle.",
+      "decor": "accueil",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propG": "telephone",
+          "brasG": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Il a eu deux pièces.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "brasD": "bas",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Deux ?",
+      "voix": "docteure",
+      "decor": "accueil",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "docteure",
+          "expression": "choque",
+          "brasD": "bas",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Une pour la dent. Une pour le tampon.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "malin",
+          "propG": "telephone",
+          "brasG": "tient"
+        },
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "brasD": "bas",
+          "propD": null
+        }
+      ]
+    }
+  ],
+  "legende": "Vous aussi, vous certifiez les dents de lait ?"
+}

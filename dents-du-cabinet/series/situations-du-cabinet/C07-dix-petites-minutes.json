@@ -1,0 +1,337 @@
+{
+  "id": "C07-dix-petites-minutes",
+  "serie": "IRRITANT",
+  "titre": "Dix petites minutes",
+  "decor": "accueil",
+  "carrousel": [
+    1,
+    2,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+  ],
+  "slides": [
+    {
+      "texte": "15h. Le docteur a pris du retard.",
+      "personnages": [
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "sagesse",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Il y en a pour longtemps ?",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "sagesse",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Dix petites minutes.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "sagesse",
+          "expression": "content"
+        }
+      ]
+    },
+    {
+      "texte": "15h20.",
+      "personnages": [
+        {
+          "dent": "lait",
+          "expression": "blase",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "sagesse",
+          "expression": "blase"
+        }
+      ]
+    },
+    {
+      "texte": "Vous aviez dit dix minutes.",
+      "voix": "sagesse",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "expression": "juge",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "sagesse",
+          "expression": "juge"
+        }
+      ]
+    },
+    {
+      "texte": "Des petites. Elles passent moins vite.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase"
+        },
+        {
+          "dent": "lait",
+          "expression": "juge",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "sagesse",
+          "expression": "regard_camera"
+        }
+      ]
+    },
+    {
+      "texte": "15h40.",
+      "personnages": [
+        {
+          "dent": "lait",
+          "expression": "fache",
+          "brasG": "croise",
+          "brasD": "croise",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "sagesse",
+          "expression": "fache"
+        }
+      ]
+    },
+    {
+      "texte": "J'ai lu tous vos magazines.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "lait",
+          "expression": "blase",
+          "brasG": "croise",
+          "brasD": "croise",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "sagesse",
+          "expression": "blase"
+        }
+      ]
+    },
+    {
+      "texte": "Même celui de 2019.",
+      "voix": "sagesse",
+      "personnages": [
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "sagesse",
+          "expression": "juge"
+        }
+      ]
+    },
+    {
+      "texte": "Le docteur gère une urgence.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "expression": "juge",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "sagesse",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Moi aussi, je deviens urgente.",
+      "voix": "sagesse",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "sagesse",
+          "expression": "fache"
+        }
+      ]
+    },
+    {
+      "texte": "16h. La porte s'ouvre.",
+      "personnages": [
+        {
+          "dent": "lait",
+          "expression": "panique"
+        },
+        {
+          "dent": "sagesse",
+          "expression": "triste"
+        }
+      ]
+    },
+    {
+      "texte": "Désolé ! À qui le tour ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content"
+        },
+        {
+          "dent": "lait",
+          "expression": "panique"
+        },
+        {
+          "dent": "sagesse",
+          "expression": "triste"
+        }
+      ]
+    },
+    {
+      "texte": "À elle !",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre"
+        },
+        {
+          "dent": "lait",
+          "expression": "panique",
+          "brasG": "bas",
+          "brasD": "pointe",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "sagesse",
+          "expression": "choque"
+        }
+      ]
+    },
+    {
+      "texte": "À lui !",
+      "voix": "sagesse",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "brasG": "bas",
+          "brasD": "bas",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "sagesse",
+          "expression": "fache",
+          "brasG": "pointe",
+          "propG": null
+        }
+      ]
+    },
+    {
+      "texte": "Attendre, ça passe. Ne pas savoir combien, non.",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase"
+        }
+      ]
+    }
+  ],
+  "legende": "Elles durent combien de temps, vos « dix petites minutes » ?"
+}

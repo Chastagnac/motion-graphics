@@ -1,0 +1,345 @@
+{
+  "id": "H07-la-petite-souris",
+  "titre": "La petite souris",
+  "serie": "vecu",
+  "fond": "#FFB3A7",
+  "T": 34.2,
+  "version": 1791411608932,
+  "video": null,
+  "planche": null,
+  "carrousel": [
+    {
+      "image": "carrousel/H07-la-petite-souris-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/H07-la-petite-souris-2.png",
+      "cases": [
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/H07-la-petite-souris-3.png",
+      "cases": [
+        4,
+        5
+      ]
+    },
+    {
+      "image": "carrousel/H07-la-petite-souris-4.png",
+      "cases": [
+        6,
+        7
+      ]
+    },
+    {
+      "image": "carrousel/H07-la-petite-souris-5.png",
+      "cases": [
+        8
+      ]
+    },
+    {
+      "image": "carrousel/H07-la-petite-souris-6.png",
+      "cases": [
+        9,
+        10
+      ]
+    },
+    {
+      "image": "carrousel/H07-la-petite-souris-7.png",
+      "cases": [
+        11
+      ]
+    },
+    {
+      "image": "carrousel/H07-la-petite-souris-8.png",
+      "cases": [
+        12,
+        13
+      ]
+    },
+    {
+      "image": "carrousel/H07-la-petite-souris-9.png",
+      "cases": [
+        14
+      ]
+    }
+  ],
+  "legende": "Vous aussi, vous certifiez les dents de lait ?",
+  "source": "../../series/petites-histoires/H07-la-petite-souris.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 3,
+      "texte": "Sa première dent vient de tomber.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "lait",
+          "expression": "choque",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 3,
+      "duree": 2.9,
+      "texte": "La petite souris passe chez le dentiste ?",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.9,
+      "duree": 2.3,
+      "texte": "Elle passe chez toi.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 8.2,
+      "duree": 2.7,
+      "texte": "Elle sait que c'est tombé ici ?",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "panique",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 10.9,
+      "duree": 1.9,
+      "texte": "Bonne question.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 12.8,
+      "duree": 2.5,
+      "texte": "On lui écrit un mot.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "malin",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 15.3,
+      "duree": 2.1,
+      "texte": "J'ai un papier.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 17.4,
+      "duree": 2.5,
+      "texte": "« Dent tombée au cabinet. Certifié. »",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 19.9,
+      "duree": 1.9,
+      "texte": "Vous signez ?",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 21.8,
+      "duree": 2.5,
+      "texte": "Je signe et je tamponne.",
+      "voix": "docteure",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "malin",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 24.3,
+      "duree": 2.5,
+      "texte": "Le lendemain, sa maman appelle.",
+      "voix": null,
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 26.8,
+      "duree": 2.5,
+      "texte": "Il a eu deux pièces.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "t0": 29.3,
+      "duree": 1.8,
+      "texte": "Deux ?",
+      "voix": "docteure",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "choque",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "t0": 31.1,
+      "duree": 3.1,
+      "texte": "Une pour la dent. Une pour le tampon.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "incisive",
+          "expression": "malin",
+          "animations": []
+        },
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

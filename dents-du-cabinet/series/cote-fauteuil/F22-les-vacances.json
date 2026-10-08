@@ -6,6 +6,11 @@
   "carrousel": [
     1,
     2,
+    2,
+    1,
+    2,
+    2,
+    1,
     1
   ],
   "slides": [
@@ -15,17 +20,17 @@
       "personnages": [
         {
           "dent": "assistante",
+          "expression": "content",
           "brasG": "hanche",
           "brasD": "bas",
-          "propD": null,
-          "expression": "content"
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "docteure",
-          "brasG": "hanche",
+          "expression": "neutre",
           "brasD": "bas",
-          "propD": null,
-          "expression": "neutre"
+          "propD": null
         }
       ]
     },
@@ -35,17 +40,41 @@
       "personnages": [
         {
           "dent": "assistante",
+          "expression": "content",
           "brasG": "hanche",
           "brasD": "bas",
-          "propD": null,
-          "expression": "content"
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "docteure",
+          "expression": "choque",
           "brasG": "bas",
           "brasD": "bas",
-          "propD": null,
-          "expression": "choque"
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Sept jours, oui.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "brasG": "hanche",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        },
+        {
+          "dent": "docteure",
+          "expression": "triste",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
         }
       ]
     },
@@ -55,17 +84,19 @@
       "personnages": [
         {
           "dent": "assistante",
+          "expression": "malin",
           "brasG": "hanche",
           "brasD": "bas",
-          "propD": null,
-          "expression": "malin"
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "docteure",
+          "expression": "panique",
           "brasG": "bas",
           "brasD": "bas",
-          "propD": null,
-          "expression": "panique"
+          "propG": null,
+          "propD": null
         }
       ]
     },
@@ -75,17 +106,124 @@
       "personnages": [
         {
           "dent": "assistante",
+          "expression": "regard_camera",
           "brasG": "hanche",
           "brasD": "bas",
-          "propD": null,
-          "expression": "regard_camera"
+          "propG": null,
+          "propD": null
         },
         {
           "dent": "docteure",
+          "expression": "triste",
           "brasG": "haussement",
           "brasD": "haussement",
-          "propD": null,
-          "expression": "triste"
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Je te laisse une liste.",
+      "voix": "assistante",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "brasG": "hanche",
+          "propD": "bloc",
+          "propG": null,
+          "brasD": "tient"
+        },
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Lundi, 8h05.",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "panique",
+          "brasG": "bas",
+          "brasD": "bas",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "C'est quel tiroir, les gants ?",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "panique",
+          "brasG": "bas",
+          "propD": "telephone",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Lundi, 8h12.",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "triste",
+          "brasG": "bas",
+          "propD": "telephone",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Et le stérilisateur, il s'allume comment ?",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "panique",
+          "brasG": "bas",
+          "propD": "telephone",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Tu as lu ma liste ?",
+      "voix": "assistante",
+      "decor": "soiree",
+      "personnages": [
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "brasG": "hanche",
+          "propD": "telephone",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Elle est rangée où, la liste ?",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "docteure",
+          "expression": "triste",
+          "brasG": "haussement",
+          "brasD": "haussement",
+          "propG": null,
+          "propD": null
         }
       ]
     }

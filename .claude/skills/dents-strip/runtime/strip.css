@@ -8,9 +8,17 @@ body.preview #wrap{position:fixed;left:50%;top:50%}
 .case,.bloc{position:absolute;inset:0}
 .bulle{position:absolute;left:0;top:0;overflow:visible}
 .bulle path{fill:#fff;stroke:#141413;stroke-width:14;stroke-linejoin:round}
+.bulle path.ombre{fill:#141413}
+.recit .bulle path:not(.ombre){fill:#FFF1B8}
 .txt{position:absolute;text-align:center;font-weight:900;line-height:1.02;letter-spacing:-0.035em;text-wrap:balance}
 .mot{display:inline-block;transform-origin:50% 80%;white-space:nowrap}
 .perso{position:absolute}
+.monde{position:absolute;inset:0}
+/* plan dramatique : décor éteint, projecteur sur le visage, bandeau noir */
+.drame .decor{filter:grayscale(1) brightness(.5)}
+.nuit{position:absolute;inset:0;background:radial-gradient(ellipse 60% 50% at 50% 40%,rgba(20,20,19,0) 0,rgba(20,20,19,0) 40%,rgba(20,20,19,.8) 78%,rgba(20,20,19,.94) 100%)}
+.bande{position:absolute;left:0;right:0;background:rgba(20,20,19,.88)}
+.drame .txt{color:#FF5A45;text-transform:uppercase;letter-spacing:-0.02em}
 .perso svg{display:block;width:100%;height:100%;overflow:visible}
 
 /* planche de BD : cases en grille, plus une diapositive par case pour le carrousel */

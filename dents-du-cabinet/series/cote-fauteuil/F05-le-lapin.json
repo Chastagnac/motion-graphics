@@ -4,19 +4,32 @@
   "titre": "Le lapin",
   "decor": "accueil",
   "carrousel": [
+    1,
     2,
-    2
+    2,
+    1,
+    2,
+    1,
+    1
   ],
   "slides": [
     {
+      "texte": "14h. La salle d'attente est vide.",
+      "personnages": [
+        {
+          "dent": "incisive"
+        }
+      ]
+    },
+    {
       "texte": "Il est où, le patient de 14h ?",
       "voix": "docteur",
-      "duree": 3,
       "personnages": [
         {
           "dent": "docteur",
           "expression": "neutre",
-          "brasG": "hanche"
+          "brasG": "hanche",
+          "propG": null
         },
         {
           "dent": "incisive"
@@ -26,30 +39,75 @@
     {
       "texte": "Il a oublié.",
       "voix": "incisive",
-      "duree": 2.2,
       "personnages": [
         {
           "dent": "docteur",
           "expression": "blase",
-          "brasG": "hanche"
+          "brasG": "hanche",
+          "propG": null
+        },
+        {
+          "dent": "incisive"
+        }
+      ]
+    },
+    {
+      "texte": "On l'avait rappelé ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "brasG": "hanche",
+          "propG": null
         },
         {
           "dent": "incisive",
-          "animations": [
-            "prop:cafe:gorgee à 1.2s"
-          ]
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Trois fois. Il avait confirmé.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "brasG": "hanche",
+          "propG": null
+        },
+        {
+          "dent": "incisive",
+          "expression": "blase"
         }
       ]
     },
     {
       "texte": "Mais il veut un autre rendez-vous.",
       "voix": "incisive",
-      "duree": 2.6,
       "personnages": [
         {
           "dent": "docteur",
           "expression": "neutre",
-          "brasG": "hanche"
+          "brasG": "hanche",
+          "propG": null
+        },
+        {
+          "dent": "incisive",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Pour quand ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "brasG": "hanche",
+          "propG": null
         },
         {
           "dent": "incisive",
@@ -60,23 +118,48 @@
     {
       "texte": "En urgence.",
       "voix": "incisive",
-      "duree": 2.4,
       "personnages": [
         {
           "dent": "docteur",
           "expression": "regard_camera",
           "brasG": "hanche",
-          "depart": {
-            "expression": "neutre"
-          },
-          "animations": [
-            "expression:regard_camera à 0.9s",
-            "clignement à 1.7s"
-          ]
+          "propG": null
         },
         {
           "dent": "incisive",
           "expression": "juge"
+        }
+      ]
+    },
+    {
+      "texte": "Et il est libre quand ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "brasG": "hanche",
+          "propG": null
+        },
+        {
+          "dent": "incisive",
+          "expression": "neutre"
+        }
+      ]
+    },
+    {
+      "texte": "Pas avant le mois prochain.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "brasG": "hanche",
+          "propG": null
+        },
+        {
+          "dent": "incisive",
+          "expression": "blase"
         }
       ]
     }

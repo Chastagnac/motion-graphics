@@ -1,0 +1,423 @@
+{
+  "id": "H01-le-premier-jour",
+  "titre": "Le premier jour",
+  "serie": "vecu",
+  "fond": "#FFB3A7",
+  "T": 40.1,
+  "version": 1791411570185,
+  "video": null,
+  "planche": null,
+  "carrousel": [
+    {
+      "image": "carrousel/H01-le-premier-jour-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/H01-le-premier-jour-2.png",
+      "cases": [
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/H01-le-premier-jour-3.png",
+      "cases": [
+        4,
+        5
+      ]
+    },
+    {
+      "image": "carrousel/H01-le-premier-jour-4.png",
+      "cases": [
+        6,
+        7
+      ]
+    },
+    {
+      "image": "carrousel/H01-le-premier-jour-5.png",
+      "cases": [
+        8,
+        9
+      ]
+    },
+    {
+      "image": "carrousel/H01-le-premier-jour-6.png",
+      "cases": [
+        10,
+        11
+      ]
+    },
+    {
+      "image": "carrousel/H01-le-premier-jour-7.png",
+      "cases": [
+        12,
+        13
+      ]
+    },
+    {
+      "image": "carrousel/H01-le-premier-jour-8.png",
+      "cases": [
+        14
+      ]
+    },
+    {
+      "image": "carrousel/H01-le-premier-jour-9.png",
+      "cases": [
+        15,
+        16
+      ]
+    },
+    {
+      "image": "carrousel/H01-le-premier-jour-10.png",
+      "cases": [
+        17
+      ]
+    }
+  ],
+  "legende": "Qui vous a sauvé la mise, votre premier jour ?",
+  "source": "../../series/petites-histoires/H01-le-premier-jour.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 2.8,
+      "texte": "Lundi. Premier jour du nouveau.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 2.8,
+      "duree": 2.7,
+      "texte": "J'ai tout révisé. Je suis prêt.",
+      "voix": "collaborateur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.5,
+      "duree": 2.3,
+      "texte": "On verra à 9h.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "malin",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.8,
+      "duree": 2.1,
+      "texte": "9h. Premier patient.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "panique",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 9.9,
+      "duree": 2.7,
+      "texte": "Bonjour, je suis le docteur… euh…",
+      "voix": "collaborateur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "panique",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 12.6,
+      "duree": 2.1,
+      "texte": "Vous êtes nouveau ?",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 14.7,
+      "duree": 2.7,
+      "texte": "Ça se voit tant que ça ?",
+      "voix": "collaborateur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 17.4,
+      "duree": 2.5,
+      "texte": "Il cherche la sonde. Partout.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "panique",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 19.9,
+      "duree": 1.8,
+      "texte": "Tiens.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "choque",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 21.7,
+      "duree": 2.3,
+      "texte": "Il cherche la lumière.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "panique",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 24,
+      "duree": 2.1,
+      "texte": "Elle est allumée.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 26.1,
+      "duree": 2.5,
+      "texte": "Midi. Il n'a rien cassé.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "t0": 28.6,
+      "duree": 2.3,
+      "texte": "Sans toi, j'étais perdu.",
+      "voix": "collaborateur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "t0": 30.9,
+      "duree": 1.9,
+      "texte": "Je sais.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "malin",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "t0": 32.8,
+      "duree": 2.7,
+      "texte": "18h. Le dernier patient s'en va.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "t0": 35.5,
+      "duree": 2.5,
+      "texte": "Il est bien, le nouveau.",
+      "voix": "lait",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "assistante",
+          "expression": "neutre",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "t0": 38,
+      "duree": 2.1,
+      "texte": "Il apprend vite.",
+      "voix": "assistante",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "collaborateur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "assistante",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

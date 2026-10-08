@@ -3,89 +3,193 @@
   "serie": "IRRITANT",
   "titre": "L'avis",
   "decor": "accueil",
+  "carrousel": [
+    1,
+    2,
+    1,
+    1,
+    2,
+    2,
+    1
+  ],
   "slides": [
     {
       "texte": "On a un nouvel avis en ligne.",
       "voix": "incisive",
-      "duree": 3,
       "personnages": [
         {
           "dent": "incisive",
           "expression": "neutre",
-          "propD": "telephone"
+          "propD": "telephone",
+          "brasD": "tient"
         },
         {
           "dent": "docteure",
-          "brasG": "hanche",
+          "expression": "neutre",
           "brasD": "bas",
-          "propD": null,
-          "expression": "neutre"
+          "propD": null
         }
       ]
     },
     {
       "texte": "Celui à qui j'ai sauvé la dent ?",
       "voix": "docteure",
-      "duree": 2.8,
       "personnages": [
         {
           "dent": "incisive",
           "expression": "neutre",
-          "propD": "telephone"
+          "propD": "telephone",
+          "brasD": "tient"
         },
         {
           "dent": "docteure",
-          "brasG": "hanche",
+          "expression": "content",
           "brasD": "hanche",
-          "propD": null,
-          "expression": "content"
+          "propD": null
         }
       ]
     },
     {
-      "texte": "Oui. Une étoile.",
+      "texte": "Lui-même.",
       "voix": "incisive",
-      "duree": 2.2,
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propD": "telephone",
+          "brasD": "tient"
+        },
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "brasD": "hanche",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Trois heures de travail. Un samedi.",
+      "voix": "docteure",
       "personnages": [
         {
           "dent": "incisive",
           "expression": "blase",
-          "propD": "telephone"
+          "propD": "telephone",
+          "brasD": "tient"
         },
         {
           "dent": "docteure",
-          "brasG": "hanche",
+          "expression": "content",
           "brasD": "hanche",
-          "propD": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Une étoile.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "propD": "telephone",
+          "brasD": "tient"
+        },
+        {
+          "dent": "docteure",
           "expression": "choque",
-          "depart": {
-            "expression": "content"
-          },
-          "animations": [
-            "expression:choque à 0.9s"
-          ]
+          "brasD": "hanche",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Il dit quoi ?",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propD": "telephone",
+          "brasD": "tient"
+        },
+        {
+          "dent": "docteure",
+          "expression": "fache",
+          "brasD": "hanche",
+          "propD": null
         }
       ]
     },
     {
       "texte": "Dix minutes d'attente.",
       "voix": "incisive",
-      "duree": 2.4,
       "personnages": [
         {
           "dent": "incisive",
           "expression": "juge",
-          "propD": "telephone"
+          "propD": "telephone",
+          "brasD": "tient"
         },
         {
           "dent": "docteure",
-          "brasG": "bas",
-          "brasD": "bas",
-          "propD": null,
           "expression": "blase",
-          "animations": [
-            "clignement à 1.7s"
-          ]
+          "brasD": "bas",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Et la dent ?",
+      "voix": "docteure",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "propD": "telephone",
+          "brasD": "tient"
+        },
+        {
+          "dent": "docteure",
+          "expression": "triste",
+          "brasD": "bas",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Il n'en parle pas.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "blase",
+          "propD": "telephone",
+          "brasD": "tient"
+        },
+        {
+          "dent": "docteure",
+          "expression": "triste",
+          "brasD": "bas",
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Il parle du parking.",
+      "voix": "incisive",
+      "personnages": [
+        {
+          "dent": "incisive",
+          "expression": "juge",
+          "propD": "telephone",
+          "brasD": "tient"
+        },
+        {
+          "dent": "docteure",
+          "expression": "regard_camera",
+          "brasD": "bas",
+          "propD": null
         }
       ]
     }

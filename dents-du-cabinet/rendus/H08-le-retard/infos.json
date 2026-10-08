@@ -1,0 +1,325 @@
+{
+  "id": "H08-le-retard",
+  "titre": "Le retard",
+  "serie": "irritant",
+  "fond": "#B9C8FF",
+  "T": 34.1,
+  "version": 1791411887323,
+  "video": null,
+  "planche": null,
+  "carrousel": [
+    {
+      "image": "carrousel/H08-le-retard-1.png",
+      "cases": [
+        1
+      ]
+    },
+    {
+      "image": "carrousel/H08-le-retard-2.png",
+      "cases": [
+        2,
+        3
+      ]
+    },
+    {
+      "image": "carrousel/H08-le-retard-3.png",
+      "cases": [
+        4,
+        5
+      ]
+    },
+    {
+      "image": "carrousel/H08-le-retard-4.png",
+      "cases": [
+        6,
+        7
+      ]
+    },
+    {
+      "image": "carrousel/H08-le-retard-5.png",
+      "cases": [
+        8,
+        9
+      ]
+    },
+    {
+      "image": "carrousel/H08-le-retard-6.png",
+      "cases": [
+        10
+      ]
+    },
+    {
+      "image": "carrousel/H08-le-retard-7.png",
+      "cases": [
+        11
+      ]
+    },
+    {
+      "image": "carrousel/H08-le-retard-8.png",
+      "cases": [
+        12,
+        13
+      ]
+    },
+    {
+      "image": "carrousel/H08-le-retard-9.png",
+      "cases": [
+        14
+      ]
+    }
+  ],
+  "legende": "À quelle heure votre journée déraille, en général ?",
+  "source": "../../series/petites-histoires/H08-le-retard.json",
+  "cases": [
+    {
+      "index": 1,
+      "t0": 0,
+      "duree": 2.8,
+      "texte": "9h05. Cinq minutes de retard.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "t0": 2.8,
+      "duree": 2.3,
+      "texte": "Je rattrape au prochain.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "canine",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 5.1,
+      "duree": 2.7,
+      "texte": "Tu dis ça tous les matins.",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "canine",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 7.8,
+      "duree": 2.1,
+      "texte": "10h30. Vingt minutes.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "t0": 9.9,
+      "duree": 2.5,
+      "texte": "Une petite urgence. Ça arrive.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "canine",
+          "expression": "juge",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 12.4,
+      "duree": 2.1,
+      "texte": "Midi. Quarante minutes.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "t0": 14.5,
+      "duree": 2.5,
+      "texte": "La salle d'attente te regarde.",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "panique",
+          "animations": []
+        },
+        {
+          "dent": "canine",
+          "expression": "malin",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 17,
+      "duree": 2.1,
+      "texte": "15h. Une heure.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "panique",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 19.1,
+      "duree": 2.3,
+      "texte": "Je ne rattraperai jamais.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "animations": []
+        },
+        {
+          "dent": "canine",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 21.4,
+      "duree": 2.7,
+      "texte": "Le patient de 16h a annulé.",
+      "voix": "incisive",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "t0": 24.1,
+      "duree": 3.1,
+      "texte": "C'est le plus beau jour de ma vie.",
+      "voix": "docteur",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "regard_camera",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "t0": 27.2,
+      "duree": 2.3,
+      "texte": "18h. Pile à l'heure.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "t0": 29.5,
+      "duree": 2.5,
+      "texte": "Demain, tu repars de zéro.",
+      "voix": "canine",
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "canine",
+          "expression": "malin",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "t0": 32,
+      "duree": 2.1,
+      "texte": "Le lendemain. 9h05.",
+      "voix": null,
+      "decor": "cabinet",
+      "persos": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "animations": []
+        }
+      ]
+    }
+  ]
+}

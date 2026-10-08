@@ -5,8 +5,12 @@
   "decor": "cabinet",
   "carrousel": [
     2,
+    2,
+    2,
+    2,
     1,
-    1
+    1,
+    2
   ],
   "slides": [
     {
@@ -19,10 +23,12 @@
         },
         {
           "dent": "lait",
+          "expression": "fache",
           "brasG": "croise",
           "brasD": "croise",
           "jambes": "debout",
-          "expression": "fache"
+          "propG": null,
+          "propD": null
         }
       ]
     },
@@ -36,10 +42,12 @@
         },
         {
           "dent": "lait",
+          "expression": "fache",
           "brasG": "croise",
           "brasD": "croise",
           "jambes": "debout",
-          "expression": "fache"
+          "propG": null,
+          "propD": null
         }
       ]
     },
@@ -50,15 +58,17 @@
         {
           "dent": "docteur",
           "expression": "malin",
-          "brasG": "tient",
-          "propG": "postit"
+          "propG": "postit",
+          "brasG": "tient"
         },
         {
           "dent": "lait",
+          "expression": "juge",
           "brasG": "croise",
           "brasD": "croise",
           "jambes": "debout",
-          "expression": "juge"
+          "propG": null,
+          "propD": null
         }
       ]
     },
@@ -69,15 +79,180 @@
         {
           "dent": "docteur",
           "expression": "regard_camera",
-          "brasG": "tient",
-          "propG": "postit"
+          "propG": "postit",
+          "brasG": "tient"
         },
         {
           "dent": "lait",
+          "expression": "malin",
           "brasG": "hanche",
           "brasD": "hanche",
           "jambes": "debout",
-          "expression": "malin"
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Deux, d'accord.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "propG": "postit",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Et c'est moi qui choisis.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "propG": "postit",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Tu ouvres, maintenant ?",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "content",
+          "propG": "postit",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "juge",
+          "brasG": "croise",
+          "brasD": "croise",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Je veux d'abord voir les autocollants.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase",
+          "propG": "postit",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "brasG": "croise",
+          "brasD": "croise",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Dix minutes de négociation.",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "triste",
+          "propG": "postit",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "fache",
+          "brasG": "croise",
+          "brasD": "croise",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Trois. Et le dinosaure.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "choque",
+          "propG": "postit",
+          "brasG": "tient"
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "brasG": "hanche",
+          "brasD": "hanche",
+          "jambes": "debout",
+          "propG": null,
+          "propD": null
+        }
+      ]
+    },
+    {
+      "texte": "Marché conclu.",
+      "voix": "docteur",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "blase"
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "brasG": "bas",
+          "propD": "postit",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
+        }
+      ]
+    },
+    {
+      "texte": "Ma sœur passe après. Bon courage.",
+      "voix": "lait",
+      "personnages": [
+        {
+          "dent": "docteur",
+          "expression": "regard_camera"
+        },
+        {
+          "dent": "lait",
+          "expression": "malin",
+          "brasG": "bas",
+          "propD": "postit",
+          "jambes": "debout",
+          "propG": null,
+          "brasD": "tient"
         }
       ]
     }

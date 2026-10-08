@@ -3,10 +3,10 @@
   "titre": "Vendredi 18h55",
   "serie": "irritant",
   "fond": "#B9C8FF",
-  "T": 9.8,
-  "version": 1791280910778,
+  "T": 23,
+  "version": 1791411443704,
   "video": null,
-  "planche": "F01-vendredi-18h55-planche.png",
+  "planche": null,
   "carrousel": [
     {
       "image": "carrousel/F01-vendredi-18h55-1.png",
@@ -26,6 +26,32 @@
       "cases": [
         4
       ]
+    },
+    {
+      "image": "carrousel/F01-vendredi-18h55-4.png",
+      "cases": [
+        5,
+        6
+      ]
+    },
+    {
+      "image": "carrousel/F01-vendredi-18h55-5.png",
+      "cases": [
+        7,
+        8
+      ]
+    },
+    {
+      "image": "carrousel/F01-vendredi-18h55-6.png",
+      "cases": [
+        9
+      ]
+    },
+    {
+      "image": "carrousel/F01-vendredi-18h55-7.png",
+      "cases": [
+        10
+      ]
     }
   ],
   "legende": "Votre record d'urgence du vendredi soir ?",
@@ -42,27 +68,62 @@
         {
           "dent": "docteure",
           "expression": "content",
-          "animations": [
-            "brasG:leve à 0.9s pendant 0.3s"
-          ]
+          "animations": []
         }
       ]
     },
     {
       "index": 2,
       "t0": 2.2,
-      "duree": 2.8,
-      "texte": "J'ai mal depuis trois semaines.",
-      "voix": "lait",
+      "duree": 2.5,
+      "texte": "Bon week-end, tout le monde !",
+      "voix": "docteure",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "t0": 4.7,
+      "duree": 1.9,
+      "texte": "À lundi.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "content",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "t0": 6.6,
+      "duree": 1.8,
+      "texte": "18h56.",
+      "voix": null,
       "decor": "accueil",
       "persos": [
         {
           "dent": "docteure",
           "expression": "regard_camera",
-          "animations": [
-            "sursaut à 0.3s",
-            "expression:regard_camera à 0.3s"
-          ]
+          "animations": []
         },
         {
           "dent": "lait",
@@ -72,9 +133,29 @@
       ]
     },
     {
-      "index": 3,
-      "t0": 5,
-      "duree": 2,
+      "index": 5,
+      "t0": 8.4,
+      "duree": 2.5,
+      "texte": "J'ai mal depuis trois semaines.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": null,
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "t0": 10.9,
+      "duree": 1.9,
       "texte": "Trois semaines ?",
       "voix": "docteure",
       "decor": "accueil",
@@ -92,23 +173,81 @@
       ]
     },
     {
-      "index": 4,
-      "t0": 7,
-      "duree": 2.8,
+      "index": 7,
+      "t0": 12.8,
+      "duree": 2.3,
       "texte": "Je voulais pas déranger.",
       "voix": "lait",
       "decor": "accueil",
       "persos": [
         {
           "dent": "docteure",
-          "expression": "regard_camera",
-          "animations": [
-            "expression:regard_camera à 1.5s"
-          ]
+          "expression": "blase",
+          "animations": []
         },
         {
           "dent": "lait",
           "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "t0": 15.1,
+      "duree": 2.9,
+      "texte": "Et ce soir, ça ne dérange pas ?",
+      "voix": "docteure",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "juge",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "neutre",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "t0": 18,
+      "duree": 2.7,
+      "texte": "Ce soir, j'ai un week-end prévu.",
+      "voix": "lait",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "regard_camera",
+          "animations": []
+        },
+        {
+          "dent": "lait",
+          "expression": "content",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "t0": 20.7,
+      "duree": 2.3,
+      "texte": "Je rallume la lumière.",
+      "voix": "incisive",
+      "decor": "accueil",
+      "persos": [
+        {
+          "dent": "docteure",
+          "expression": "blase",
+          "animations": []
+        },
+        {
+          "dent": "incisive",
+          "expression": "blase",
           "animations": []
         }
       ]
